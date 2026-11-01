@@ -1,0 +1,264 @@
+# Sources for this study area. status: active | proposed | rejected | failed
+- id: EIA
+  kind: data
+  title: EIA data for balancing authority AZPS
+  added_by: eia
+  added: '2026-10-21T21:15:09'
+  status: active
+  sha: 5a4c3e1dccb5cde5
+  digested_sha: 5a4c3e1dccb5cde5
+  publisher: U.S. EIA (Form 930, Form 860M)
+  date: '2026-10-21'
+  doc_type: data
+  relevance: high
+- id: QUEUE
+  kind: data
+  title: 'APS interconnection queue: Active Queue posting 2026-10-13 and cluster study reports'
+  added_by: aps_queue
+  added: '2026-10-23T06:19:36'
+  status: active
+  sha: 9570546fef8772dd
+  digested_sha: 9570546fef8772dd
+  url: https://www.oasis.oati.com/woa/docs/AZPS/AZPSdocs/Active_Queue_20261013.pdf
+  publisher: Arizona Public Service (OASIS), extracted on this machine
+  date: '2026-10-13'
+  doc_type: data
+  relevance: high
+- id: S1
+  kind: file
+  url: https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Construction-and-Power-Line-Siting/Power-Line-Siting/2025_10-YR-Transmission-System-Plan.pdf
+  title: Arizona Public Service Company 2025 to 2034 Ten-Year Transmission System Plan
+  added_by: setup (web search)
+  added: '2026-10-21T20:49:57'
+  status: active
+  why: APS's own list of planned lines and substations filed with the ACC; the base for any transmission-project
+    carry-over.
+  digested_sha: ff228845151285b1
+  publisher: Arizona Public Service Company
+  date: 2025-01
+  doc_type: Ten-year transmission plan (A.R.S. 40-360.02 filing)
+  relevance: medium
+  path: TYP_APS_2025_TYP.pdf
+  sha: ff228845151285b1
+- id: S2
+  kind: file
+  url: https://www.wecc.org/sites/default/files/documents/progress_report/2026/APS%202026%20APR.pdf
+  title: APS 2026 Annual Progress Report for Planning Coordination
+  added_by: setup (web search)
+  added: '2026-10-21T20:49:57'
+  status: active
+  why: Newest public status of APS projects for 2026-2035, as modelled in the 2026 ten-year plan submittal.
+  digested_sha: 1639c6c5d89d5484
+  publisher: Arizona Public Service Company (to WECC Studies Subcommittee)
+  date: '2026-03-13'
+  doc_type: WECC Annual Progress Report
+  relevance: medium
+  path: TYP_APS_2026_APR.pdf
+  sha: 1639c6c5d89d5484
+- id: S3
+  kind: file
+  url: https://www.wecc.org/sites/default/files/documents/progress_report/2025/APS%202025%20APR.pdf
+  title: APS 2025 Annual Progress Report for Planning Coordination
+  added_by: setup (web search)
+  added: '2026-10-21T20:49:57'
+  status: active
+  why: 'Previous year''s project status: shows which projects moved, slipped or dropped (attrition context).'
+  digested_sha: b44d0a46d2dea58f
+  publisher: Arizona Public Service Company (to WECC Studies Subcommittee)
+  date: '2025-03-24'
+  doc_type: WECC Annual Progress Report
+  relevance: low
+  path: TYP_APS_2025_APR.pdf
+  sha: b44d0a46d2dea58f
+- id: S4
+  kind: url
+  url: https://www.aps.com/en/About/Construction-and-Power-Line-Siting/Strategic_Transmission_Expansion
+  title: Strategic Transmission Expansion (STX)
+  added_by: setup (web search)
+  added: '2026-10-21T20:49:57'
+  status: active
+  why: APS's portfolio of major transmission expansion for load growth; names the backbone projects.
+  digested_sha: url
+  publisher: Arizona Public Service Company
+  date: accessed 2026-10-21
+  doc_type: Web page
+  relevance: medium
+- id: S5
+  kind: url
+  url: https://azcc.gov/divisions/utilities/electric/BiennialXmn.pdf
+  title: ACC Biennial Transmission Assessment (overview)
+  added_by: setup (web search)
+  added: '2026-10-21T20:49:57'
+  status: proposed
+  why: How the ACC reviews utilities' ten-year plans; context for which projects the Commission has found adequate.
+  digested_sha: null
+  publisher: Arizona Corporation Commission
+  date: ''
+  doc_type: regulatory
+- id: S6
+  kind: url
+  url: https://azcc.gov/news/home/2025/02/21/powering-arizona-s-future---13th-biennial-transmission-assessment-workshop
+  title: 'ACC: 13th Biennial Transmission Assessment workshop (2025)'
+  added_by: setup (web search)
+  added: '2026-10-21T20:49:57'
+  status: proposed
+  why: 'The 13th BTA (2024-2033): ~3%/yr projected load growth and the utilities'' plan presentations.'
+  digested_sha: null
+  publisher: Arizona Corporation Commission
+  date: '2025-02-21'
+  doc_type: news
+- id: S7
+  kind: file
+  url: https://s22.q4cdn.com/464697698/files/doc_financials/2026/q2/PNW-2026-06-30-10-Q-FINAL-08-03-2026.pdf
+  title: Pinnacle West Capital Corp / APS Form 10-Q for quarter ended June 30, 2026
+  added_by: setup (web search)
+  added: '2026-10-21T20:49:57'
+  status: active
+  why: Latest disclosed load growth, large-customer (data center) demand, IRP timing and capital plan for transmission.
+  digested_sha: 80ec3f9f5c3dc18c
+  publisher: Pinnacle West Capital Corporation (SEC filing)
+  date: '2026-08-03'
+  doc_type: SEC quarterly report
+  relevance: medium
+  path: IRP_PNW_2026Q2_10-Q.pdf
+  sha: 80ec3f9f5c3dc18c
+- id: S8
+  added: '2026-10-21T21:21:16'
+  added_by: external research session (IRP)
+  kind: file
+  title: APS RPAC Meeting 9/30/2026 - Draft IRP Case Results
+  status: active
+  publisher: Arizona Public Service (APS)
+  date: '2026-09-30'
+  doc_type: stakeholder presentation (Resource Planning Advisory Council)
+  relevance: high
+  url: https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Our-Company/Doing-business-with-us/Resource-Planning-and-Management/Sept_26_RPAC_Meeting_Presentation.pdf
+  path: IRP_RPAC_2026-09_Presentation.pdf
+  sha: 94a0f88ad674cc11
+  digested_sha: 94a0f88ad674cc11
+- id: S9
+  added: '2026-10-21T21:21:16'
+  added_by: external research session (IRP)
+  kind: file
+  title: APS RPAC Meeting 7/22/2026 - Cholla conversion, 2026 IRP Base Case, Summer Preparedness, IRP filing extension
+  status: active
+  publisher: Arizona Public Service (APS)
+  date: '2026-07-22'
+  doc_type: stakeholder presentation (RPAC)
+  relevance: high
+  url: https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Our-Company/Doing-business-with-us/Resource-Planning-and-Management/July_26_RPAC_Meeting_Presentation.pdf
+  path: IRP_RPAC_2026-07_Presentation.pdf
+  sha: 06e315029f33db42
+  digested_sha: 06e315029f33db42
+- id: S10
+  added: '2026-10-21T21:21:16'
+  added_by: external research session (IRP)
+  kind: file
+  title: APS RPAC Meeting 4/15/2026 - ASRFP update, 2026 IRP market prices, RA follow-up, 2026 IRP scenarios
+  status: active
+  publisher: Arizona Public Service (APS) with E3
+  date: '2026-04-15'
+  doc_type: stakeholder presentation (RPAC)
+  relevance: high
+  url: https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Our-Company/Doing-business-with-us/Resource-Planning-and-Management/April_26_RPAC_Meeting_Presentation.pdf
+  path: IRP_RPAC_2026-04_Presentation.pdf
+  sha: 81a7a20b3b3d2634
+  digested_sha: 81a7a20b3b3d2634
+- id: S11
+  added: '2026-10-21T21:21:16'
+  added_by: external research session (IRP)
+  kind: file
+  title: APS RPAC Meeting Nov 14, 2025 - ASRFP update, Large Customer Subscription Program, 2026 IRP resource pricing,
+    2026 IRP load forecast
+  status: active
+  publisher: Arizona Public Service (APS); WRA/Energy Strategies section
+  date: '2025-11-14'
+  doc_type: stakeholder presentation (RPAC)
+  relevance: high
+  url: https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Our-Company/Doing-business-with-us/Resource-Planning-and-Management/Nov_25_RPAC_Meeting_Presentation.pdf
+  path: IRP_RPAC_2025-11_Presentation.pdf
+  sha: 81a43cc43fb209c3
+  digested_sha: 81a43cc43fb209c3
+- id: S12
+  added: '2026-10-21T21:21:16'
+  added_by: external research session (IRP)
+  kind: file
+  title: Arizona Public Service Company 2023 Integrated Resource Plan (Public)
+  status: active
+  publisher: Arizona Public Service (APS)
+  date: '2023-11-01'
+  doc_type: Integrated Resource Plan (filed with ACC under A.A.C. R14-2-703)
+  relevance: high
+  url: https://aps.com/-/media/APS/APSCOM-PDFs/About/Our-Company/Doing-business-with-us/Resource-Planning-and-Management/APS_IRP_2023_PUBLIC.pdf
+  path: IRP_APS_2023_IRP_PUBLIC.pdf
+  sha: 4a193f2c65ca137d
+  digested_sha: 4a193f2c65ca137d
+- id: S13
+  added: '2026-10-21T21:21:16'
+  added_by: external research session (IRP)
+  kind: file
+  title: APS RPAC Meeting 2/13/2026 - Resource Adequacy Update, Resource Costs follow-up (E3), 2026 IRP Timeline
+  status: active
+  publisher: Arizona Public Service (APS) with E3
+  date: '2026-02-13'
+  doc_type: stakeholder presentation (RPAC)
+  relevance: low
+  url: https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Our-Company/Doing-business-with-us/Resource-Planning-and-Management/Feb_26_RPAC_Meeting_Presentation.pdf
+  path: IRP_RPAC_2026-02_Presentation.pdf
+  sha: 608fae0dfee7d12f
+  digested_sha: 608fae0dfee7d12f
+- id: S14
+  added: '2026-10-21T21:22:56'
+  added_by: external research session (ten-year plan)
+  kind: file
+  title: Arizona Public Service Company 2026 to 2035 Ten-Year Transmission System Plan (ACC filing, with Attachments
+    B, C, E, F)
+  status: active
+  publisher: Arizona Public Service Company (filed with Arizona Corporation Commission, Docket E-99999A-25-0006)
+  date: '2026-01-30'
+  doc_type: Ten-year transmission plan (A.R.S. 40-360.02 filing)
+  relevance: high
+  url: https://docket.images.azcc.gov/E000049070.pdf?i=1769814000332
+  path: TYP_APS_2026_TYP_ACC_E000049070.pdf
+  sha: 0d8a6da020f297ef
+  digested_sha: 0d8a6da020f297ef
+- id: S15
+  added: '2026-10-21T21:23:47'
+  added_by: external research session (queue + computed from LBNL data)
+  kind: file
+  title: 'Queued Up 2026 Edition: interconnection queue data file (data through end of 2025), APS records'
+  status: active
+  publisher: Lawrence Berkeley National Laboratory (secondary compilation of APS OASIS queue postings)
+  date: 2026-05 (data as of 2025-12-31)
+  doc_type: secondary queue dataset (xlsx), project-level
+  relevance: high
+  url: https://eta-publications.lbl.gov/sites/default/files/2026-05/lbnl_ix_queue_data_file_thru2025.xlsx
+  path: Q_LBNL_queue_data_thru2025.xlsx
+  sha: 794582d3281c6a30
+  digested_sha: 794582d3281c6a30
+- id: S16
+  added: '2026-10-21T21:23:47'
+  added_by: external research session (queue + computed from LBNL data)
+  kind: file
+  title: 'Queued Up: 2026 Edition - Characteristics of Power Plants Seeking Transmission Interconnection As of the
+    End of 2025'
+  status: active
+  publisher: Lawrence Berkeley National Laboratory (secondary)
+  date: 2026-06
+  doc_type: secondary national queue report
+  relevance: low
+  url: https://eta-publications.lbl.gov/sites/default/files/2026-06/queued_up_2026_edition.pdf
+  path: Q_LBNL_QueuedUp_2026.pdf
+  sha: 3a1cd05c78af23a0
+  digested_sha: 3a1cd05c78af23a0
+- id: S17
+  kind: file
+  path: TYP_APS_2026_TYP.pdf
+  title: TYP_APS_2026_TYP
+  added_by: user
+  added: '2026-10-21T21:23:56'
+  status: rejected
+  sha: ee77b1f38fa7e815
+  digested_sha: null
+  error: 'Not a PDF: an aps.com HTML error page (109 KB) saved by a failed download. Delete the file; the real 2026-2035
+    plan is S14.'

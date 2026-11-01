@@ -1,0 +1,895 @@
+{
+ "Study_Report_APS_Redhawk_Transition_Cluster_Phase_2": {
+  "rows": [
+   [
+    "Transmission",
+    "Cholla 500 kV Bus 170 MVAr Shunt Reactor",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Jojoba-Rudd 500 kV Line (2032)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Sun Valley 500/230 kV #2 Transformer",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Outer Circle 230/69 kV & 230 kV Line to Sun Valley",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "TS24 project (Bianco)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "TS22 project (Wafer)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "New Santa Rosa 230 kV switchyard",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230 kV new line (2031)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Reddington project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Willow Lake caps",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Freedom 230/69 kV Transformer #2",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Scatterwash 230/69 kV Transformer #2 & 69kV lines",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Verde & Yavapai 230/69kV Transformers",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Saguaro-Marana project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Palo Verde Phase 3 fault duty mitigation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Pinnacle Peak fault duty mitigation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Outer Circle-Morgan 230 kV",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Jojoba-Pinal West #2 (SRP)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Rudd 500/230 kV xfmrs 5 & 6 (2027-2032)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230 kV series reactor (2027)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "CAISO Q1402 \u2013 3200 MW at Cielo Azul 500 kV (3200 MW SPV, 1920 MW BESS) CAISO NU: RAS trips Q1402 for loss of the Delaney-Cielo Azul, Colorado River-Red Bluff #1 or #2, Devers-Red Bluff #1 or #2, Valley-Devers #1 or #2, or Alberhill-Valley. APS NU: RAS trips generation back to 500 MW following loss of the Cielo Azul-Colorado River 500 kV Line.",
+    "Yes, all generation offline"
+   ],
+   [
+    "Merchant Tra",
+    "Delaney-Colorado River 500 kV (In-Service)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "North Gila-Imperial Valley 500 kV #2",
+    "No"
+   ],
+   [
+    "Merchant Tra",
+    "Sun Zia DC",
+    "No"
+   ]
+  ],
+  "contingent_local": [
+   "Sun Valley 500/230 kV",
+   "Sun Valley-Outer Circle 230 kV line",
+   "Outer Circle-Morgan 230 kV line, driven by amount of generation online at Delaney & Sun Valley",
+   "Outer Circle 230/69 kV substation"
+  ],
+  "contingent_nu": [
+   "None"
+  ],
+  "file": "Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf.json"
+ },
+ "APS_Delaney-SunValley_Transition_Cluster_Phase_2": {
+  "rows": [
+   [
+    "Transmission",
+    "Cholla 500 kV Bus 170 MVAr Shunt Reactor (In-service)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Jojoba-Rudd 500 kV Line (2032)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Sun Valley 500/230 kV #2 Transformer (2027)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Bianco (TS24) project (new Casa Grande) (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Wafer (TS22) project (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "New Santa Rosa 230 kV switchyard",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230 kV upgrade (2031)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Reddington 115 kV project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Willow Lake 230 kV caps (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Freedom 230/69 kV Transformer #2 (2027)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Scatter Wash 230/69 kV Transformer #2 & 69 kV lines (2027)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Verde & Yavapai 230/69 kV Transformers (2027-28)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Saguaro-Marana project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Palo Verde Phase 3 fault duty mitigation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Pinnacle Peak fault duty mitigation",
+    "No"
+   ],
+   [
+    "Merchant Tra",
+    "Delaney-Colorado River 500 kV (In-service)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "North Gila-Imperial Valley 500 kV #2",
+    "No"
+   ],
+   [
+    "Merchant Tra",
+    "SunZia DC",
+    "No"
+   ]
+  ],
+  "contingent_local": [
+   "Second Sun Valley 500/230 kV transformer",
+   "Sun Valley-Outer Circle 230 kV line",
+   "Outer Circle-Morgan 230 kV line, driven by amount of generation online at Delaney & Sun Valley",
+   "Outer Circle 230/69 kV substation"
+  ],
+  "contingent_nu": [
+   "None"
+  ],
+  "file": "APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf.json"
+ },
+ "APS_DLN-SNV-RW_2024_Cluster_Phase1": {
+  "rows": [
+   [
+    "Transmission",
+    "Sun Valley 500/230 kV #2 Transformer",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Bianco (TS24) project (new Casa Grande)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Wafer (TS22) project",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "New Santa Rosa 230 kV switchyard",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Scatter Wash expansion",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230 kV upgrade",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Reddington 115 kV project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Willow Lake 230 kV shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Freedom 230/69 kV Transformer #2",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Scatter Wash 230/69 kV Transformer #2 & 69 kV lines",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Verde & Yavapai 230/69 kV Transformers",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Saguaro-Marana project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Palo Verde Phase 3 fault duty mitigation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Pinnacle Peak fault duty mitigation",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Loop Hassayampa-North Gila #2 into Hoodoo Wash 500 kV",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Rudd 500/230 kV Tran #5",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "TS21 Project \u2013 Jojoba-Rudd 500 kV cut-in to TS21, Runway-Stratus 230 kV cut-in to TS21, TS21-Broadway 230 kV Line, and TS21 500/230 kV transformers and shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Sun Valley-Hassayampa Tap 230 kV 5-ohm series reactor (Q467)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "North Gila-Imperial Valley 500 kV #2",
+    "No"
+   ],
+   [
+    "Merchant Tra",
+    "Sun Zia DC",
+    "Yes"
+   ]
+  ],
+  "contingent_local": [
+   "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan",
+   "Add Rudd 500/230 kV Transformer Bank",
+   "TS21 Project \u2013 Jojoba-Rudd 500 kV cut-in to TS21, Runway-Stratus 230 kV cut-in to TS21, TS21-Broadway 230 kV Line, and TS21 500/230 kV transformers and shunt capacitors"
+  ],
+  "contingent_nu": [
+   "Sun Valley-Hassayampa Tap 230 kV 5-ohm series reactor (Q467)"
+  ],
+  "file": "APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf.json"
+ },
+ "APS_Del-Svly-Red_2024_Cluster_Phase2": {
+  "rows": [
+   [
+    "Transmission",
+    "Cholla 500 kV Bus 170 MVAr Shunt Reactor (In-Service)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Sun Valley 500/230 kV #2 Transformer (2027)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Bianco (TS24) project (new Casa Grande) (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Wafer (TS22) project (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "New Santa Rosa 230 kV switchyard",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Scatter Wash expansion",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230 kV new line (2031)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Reddington 115 kV project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Willow Lake 230 kV shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Freedom 230/69 kV Transformer #2",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Scatter Wash 230/69 kV Transformer #2 & 69 kV lines",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Verde & Yavapai 230/69 kV Transformers",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Saguaro-Marana project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Palo Verde Phase 3 fault duty mitigation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Pinnacle Peak fault duty mitigation",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Loop Hassayampa-North Gila #2 into Hoodoo Wash 500 kV",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Rudd 500/230 kV Tran #5",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "TS30 Project \u2013 Delaney-Sun Valley 500 kV cut-in to new TS30 Substation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "TS21 (Independence) Project - Jojoba - Rudd 500 kV cut-in to TS21 (Independence), Runway-Stratus 230 kV cut-in to TS21 (Independence), TS21 (Independence) - Broadway 230 kV Line, and TS21 (Independence) 500/230 kV TB's and shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Sun Valley-Hassayampa Tap 230 kV 5-ohm series reactor (Q467)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "Delaney-Colorado River 500 kV (In-Service)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "North Gila-Imperial Valley 500 kV #2",
+    "No"
+   ],
+   [
+    "Merchant Tra",
+    "Sun Zia DC",
+    "Yes"
+   ]
+  ],
+  "contingent_local": [
+   "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan",
+   "Add Rudd 500/230 kV Transformer Bank",
+   "TS21 (Independence) Project \u2013 Jojoba-Rudd 500 kV cut-in to TS21 (Independence), Runway-Stratus 230 kV cut-in to TS21 (Independence), TS21 (Independence)-Broadway 230 kV Line, and TS21 (Independence) 500/230 kV TB\u2019s and shunt capacitors"
+  ],
+  "contingent_nu": [
+   "Sun Valley-Hassayampa Tap 230 kV 5-ohm series reactor (Q467)"
+  ],
+  "file": "APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf.json"
+ },
+ "APS_Del-Svly-Red_2025_Cluster_Phase1": {
+  "rows": [
+   [
+    "Transmission",
+    "Cholla 500 kV Bus 170 MVAr Shunt Reactor (In-service)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Sun Valley 500/230 kV #2 Transformer (2027)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan (2030)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Bianco (TS24) project (new Casa Grande) (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Wafer (TS22) project (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "New Santa Rosa 230 kV switchyard",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Scatter Wash expansion",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230 kV new line #2 (2030)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230kV existing line #1 upgrade (2031)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Reddington 115 kV project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Willow Lake 230 kV shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Freedom 230/69 kV Transformer #2",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Scatter Wash 230/69 kV Transformer #2 & 69 kV lines",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Verde & Yavapai 230/69 kV Transformers",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Saguaro-Marana project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Palo Verde Phase 3 fault duty mitigation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Pinnacle Peak fault duty mitigation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Loop Hassayampa-North Gila #2 into Hoodoo Wash 500 kV",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Rudd 500/230 kV Tran #5 & #6",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "TS30 Project \u2013 Delaney-Sun Valley 500 kV cut-in to new TS30 Substation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Independence (TS21) Project \u2013 Jojoba-Rudd 500 kV cut-in to Independence (TS21), Runway-Stratus 230 kV cut-in to Independence (TS21), Independence (TS21)-Broadway 230 kV Line, and Independence (TS21) 500/230 kV transformers and 230kV shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Sun Valley-Hassayampa Tap 230 kV 5-ohm series reactor (Q467)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "Delaney-Colorado River 500 kV (In-service)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "North Gila-Imperial Valley 500 kV #2",
+    "No"
+   ],
+   [
+    "Merchant Tra",
+    "Sun Zia DC",
+    "Yes, offline"
+   ]
+  ],
+  "contingent_local": [
+   "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan",
+   "Add Rudd 500/230 kV Transformer Bank",
+   "Independence (TS21) Project \u2013 Jojoba-Rudd 500 kV cut-in to Independence (TS21), Runway-Stratus 230 kV cut-in to Independence (TS21), Independence (TS21)-Broadway 230 kV Line, and Independence (TS21) 500/230 kV transformers and 230kV shunt capacitors"
+  ],
+  "contingent_nu": [
+   "Sun Valley-Hassayampa Tap 230 kV 5-ohm series reactor (Q467) ---"
+  ],
+  "file": "APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf.json"
+ },
+ "APS_Del-Svly-Red_2025_Cluster_Phase2_": {
+  "rows": [
+   [
+    "Transmission",
+    "Sun Valley 500/230 kV #2 Transformer (2027)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan (2030)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Bianco (TS24) project (new Casa Grande) (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Wafer (TS22) project (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "New Santa Rosa 230 kV switchyard",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230 kV new line #2 (2030)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230kV existing line #1 upgrade (2031)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Reddington 115 kV project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Willow Lake 230 kV shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Freedom 230/69 kV Transformer #2",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Scatter Wash 230/69 kV Transformer #2 & 69 kV lines",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Verde & Yavapai 230/69 kV Transformers",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Saguaro-Marana project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Palo Verde Phase 3 fault duty mitigation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Pinnacle Peak fault duty mitigation",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Loop Hassayampa-North Gila #2 into Hoodoo Wash 500 kV",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Rudd 500/230 kV Tran #5 & #6",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "TS30 Project \u2013 Delaney-Sun Valley 500 kV cut-in to new TS30 Substation",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Independence (TS21) Project \u2013 Jojoba-Rudd 500 kV cut-in to Independence (TS21), Runway-Stratus 230 kV cut-in to Independence (TS21), Independence (TS21)-Broadway 230 kV Line, and Independence (TS21) 500/230 kV transformers and 230kV shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Sun Valley-Hassayampa Tap 230 kV 5-ohm series reactor (Q467)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "McMicken-Farmer Tap-Trilby Wash 69 kV Line Upgrade (Q372)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "Delaney-Colorado River 500 kV (In-service)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "North Gila-Imperial Valley 500 kV #2",
+    "No"
+   ],
+   [
+    "Merchant Tra",
+    "Sun Zia DC",
+    "Yes, offline"
+   ]
+  ],
+  "contingent_local": [],
+  "contingent_nu": [],
+  "file": "APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf.json"
+ },
+ "APS_Del-Svly-Red_2025_Cluster_Phase2A": {
+  "rows": [
+   [
+    "Transmission",
+    "Sun Valley 500/230 kV #2 Transformer (2027)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan (2030)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Bianco (TS24) project (new Casa Grande) (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Wafer (TS22) project (2028)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "New Santa Rosa 230 kV switchyard",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230 kV new line #2 (2030)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Panda-Freedom 230kV existing line #1 upgrade (2031)",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Reddington 115 kV project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Willow Lake 230 kV shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Freedom 230/69 kV Transformer #2",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Scatter Wash 230/69 kV Transformer #2 & 69 kV lines",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Verde & Yavapai 230/69 kV Transformers",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Saguaro-Marana project (AEPCO)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Palo Verde Phase 3 fault duty mitigation",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Pinnacle Peak fault duty mitigation",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Loop Hassayampa-North Gila #2 into Hoodoo Wash 500 kV",
+    "No"
+   ],
+   [
+    "Transmission",
+    "Rudd 500/230 kV Tran #5 & #6",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "TS30 Project \u2013 Delaney-Sun Valley 500 kV cut-in to new TS30 Substation",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Independence (TS21) Project \u2013 Jojoba-Rudd 500 kV cut-in to Independence (TS21), Runway-Stratus 230 kV cut-in to Independence (TS21), Independence (TS21)-Broadway 230 kV Line, and Independence (TS21) 500/230 kV transformers and 230kV shunt capacitors",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "Sun Valley-Hassayampa Tap 230 kV 5-ohm series reactor (Q467)",
+    "Yes"
+   ],
+   [
+    "Transmission",
+    "McMicken-Farmer Tap-Trilby Wash 69 kV Line Upgrade (Q372)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "Delaney-Colorado River 500 kV (In-service)",
+    "Yes"
+   ],
+   [
+    "Merchant Tra",
+    "North Gila-Imperial Valley 500 kV #2",
+    "No"
+   ],
+   [
+    "Merchant Tra",
+    "Sun Zia DC",
+    "Yes, offline"
+   ]
+  ],
+  "contingent_local": [
+   "Outer Circle (TS23) 230/69 kV Transformer & 230 kV Line to Sun Valley (2027) & 230 kV Line to Morgan",
+   "Add Rudd 500/230 kV Transformer Bank",
+   "Independence (TS21) Project \u2013 Jojoba-Rudd 500 kV cut-in to Independence (TS21), Runway-Stratus 230 kV cut-in to Independence (TS21), Independence (TS21)-Broadway 230 kV Line, and Independence (TS21) 500/230 kV transformers and 230kV shunt capacitors"
+  ],
+  "contingent_nu": [
+   "Sun Valley-Hassayampa Tap 230 kV 5-ohm series reactor (Q467)",
+   "Upgrade jumper on McMicken-Farmer Tap-Trilby Wash 69 kV Line (Phoenix Metro Cluster)(Q372)"
+  ],
+  "file": "APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf.json"
+ }
+}

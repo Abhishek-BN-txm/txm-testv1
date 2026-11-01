@@ -1,0 +1,3 @@
+MONITOR VOLTAGE LIMIT SUBSYSTEM {name} kvrange {kv_min} {kv_max}
+MONITOR BRANCHES IN SUBSYSTEM {name} kvrange {kv_min} {kv_max}
+monitor ties from subsystem {name} kvrange {kv_min} {kv_max}

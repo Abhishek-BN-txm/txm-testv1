@@ -1,0 +1,26 @@
+[
+ {
+  "q": "Q622",
+  "mw": 1000.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Cedar Mountain 500kV Substation",
+  "tech": "Combined Energy Source (Solar + Wind + Energy Storage)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/13/26",
+  "requested_isd": "12/31/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q623",
+  "mw": 1000.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "El Donado - Moonkopi 500kV",
+  "tech": "Combined Energy Source (Solar + Wind + Energy Storage)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/13/26",
+  "requested_isd": "12/31/31",
+  "confidence": "high"
+ }
+]

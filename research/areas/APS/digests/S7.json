@@ -1,0 +1,86 @@
+{
+  "title": "Pinnacle West Capital Corp / APS Form 10-Q for quarter ended June 30, 2026",
+  "publisher": "Pinnacle West Capital Corporation (SEC filing)",
+  "date": "2026-08-03",
+  "doc_type": "SEC quarterly report",
+  "summary": "Primary financial-disclosure source. States the ACC acknowledged the 2023 IRP on Oct 8, 2024 and the next IRP is due Oct 30, 2026. 2023 ASRFP procured 3,606 MW storage, 517 MW gas, 2,649 MW solar, 500 MW wind (in service 2026-2028); 2024 ASRFP extended two 600 MW gas tolls (through 2038 and 2046); 2025 ASRFP (Nov 19, 2025) seeks >=1,000 MW COD 2029-2031. Cholla 380 MW gas conversion (construction 2028, in service 2029, up to ~$440M); up to 2,000 MW new flexible gas; new third-party gas pipeline by late 2029; Palo Verde license renewal plans; Markets+ go-live late 2027/early 2028; WRAP binding 2027. Gives sales growth guidance and APS capex 2026-2028.",
+  "relevance": "medium",
+  "findings": [
+    {
+      "topic": "resource_planning",
+      "statement": "ACC acknowledged APS's 2023 IRP on Oct 8, 2024 with added requirements for the next IRP (system resource adequacy, western market impacts, planned resource needs); next IRP due Oct 30, 2026.",
+      "location": "Notes - Integrated Resource Plan, p.36-37"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "2023 ASRFP (issued Jun 30, 2023) procured 3,606 MW battery storage, 517 MW natural gas, 2,649 MW solar, 500 MW wind, in service 2026-2028. 2024 ASRFP (issued Nov 20, 2024): two existing gas tolls extended at 600 MW each through 2038 and 2046. 2025 ASRFP (issued Nov 19, 2025) seeks >=1,000 MW with COD 2029-2031.",
+      "location": "MD&A Resource Planning, p.80-81"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Cholla conversion of two units to gas (~380 MW): construction begins 2028, targeted in service 2029, cost up to ~$440M (not in capex table); APS also plans up to 2,000 MW of flexible natural gas generation; a new third-party gas pipeline (precedent agreement July 2025) expected in service by late 2029.",
+      "location": "p.37, p.77-78, p.97"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "APS is evaluating dispatchable resources including 'potential extension of coal beyond 2031'; in March 2026 it announced plans to renew Palo Verde licenses for all three units (operation from the mid-2040s to the mid-2060s); in Sept 2025 it bought ~94 MW of leased Palo Verde Unit 2 interests.",
+      "location": "p.78, p.80"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Retail sales growth guidance: 4.0-6.0% for 2026 and 5.0-7.0% average annually through 2030, with data centers and large manufacturing contributing 3.0-5.0% (2026) and 4.0-6.0%/yr through 2030; weather-normalized C&I sales up 13.6% in H1 2026.",
+      "location": "MD&A, p.~93"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Estimated APS capex 2026/2027/2028 ($M): transmission 550/695/860; distribution 765/795/750; gas and other generation 635/550/490; nuclear 170/185/215; renewables and storage 20/5/5; total 2,600/2,650/2,700.",
+      "location": "Capital Expenditures table, p.97"
+    },
+    {
+      "topic": "other",
+      "statement": "APS expects to go live in SPP Markets+ in late 2027 or early 2028 and to move to binding WRAP participation in 2027.",
+      "location": "p.80"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cholla gas conversion",
+      "type": "coal-to-gas conversion",
+      "kv": "",
+      "mw": "380",
+      "poi": "Cholla",
+      "status": "planned",
+      "date": "2029"
+    },
+    {
+      "name": "Flexible natural gas generation (program)",
+      "type": "gas",
+      "kv": "",
+      "mw": "up to 2,000",
+      "poi": "",
+      "status": "planned",
+      "date": ""
+    },
+    {
+      "name": "Third-party gas pipeline expansion",
+      "type": "gas pipeline",
+      "kv": "",
+      "mw": "",
+      "poi": "",
+      "status": "planned",
+      "date": "2029"
+    }
+  ],
+  "open_questions": [
+    "Investor-slide figures (4.5 GW committed load, multi-year capex plan, record Aug 2026 peak) not verified from a primary document."
+  ],
+  "source_id": "S7",
+  "model": "external research session (IRP)",
+  "digested_at": "2026-10-21T21:21:16",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

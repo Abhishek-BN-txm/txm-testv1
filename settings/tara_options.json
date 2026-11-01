@@ -1,0 +1,136 @@
+{
+  "_comment": "Tuned TARA option blocks, extracted verbatim from the proven RedButte contingency comm (reference repo Commfiles/7, 2026-07-15). Override per run via --opt or options_overrides; keys match ignoring whitespace.",
+  "dimension_block": {
+    "command": "lfopt misc",
+    "terminator": "0 0 0",
+    "options": {
+      "maxBuses": 40000, "maxBranches": 90000, "maxGenerators": 12000,
+      "maxLoads": 50000, "maxTransfor": 15000, "maxShunts": 10000,
+      "maxStations": 40000, "maxEnodes": 10000
+    }
+  },
+  "analysis_blocks": [
+    {
+      "name": "lfopt_solve",
+      "command": "lfopt  solve",
+      "terminator": "0 0",
+      "options": {
+        "busMismToler": 1.0, "MaxIterLF": 50, "useFlatStart": 0,
+        "ZeroImpThr": 0.0001, "lowVoltCutOffLoad": 0.7,
+        "maxVoltChangeInit": 0.2, "maxAngleChangeInit": 3.0,
+        "maxVoltChangeFinal": 0.15, "maxAngleChangeFinal": 1.0,
+        "numIterInit": 3, "MemFactor": 5, "voltTolnUser": 0.0,
+        "highVoltCutOffShunt": 1.25, "lowVoltAddQGen": 0,
+        "highVoltReduceShunt": 0, "lowVoltAddShunt": 0,
+        "lowVoltCutOffShunt": 0.7, "lowVoltCutOffQGen": 0.7,
+        "highVoltReduceQGen": 0, "highVoltCutOffQGen": 1.3,
+        "fixedQGenRelax": 0, "dfaxInjMethod": 0, "BreakerZeroImp": 1e-06,
+        "ApplyBreakerImpOverride": 0, "FastModeACCont": 0,
+        "ToleranceFastModeAC": 0.0005
+      }
+    },
+    {
+      "name": "lfopt_adj",
+      "command": "lfopt  adj",
+      "terminator": "0 0",
+      "options": {
+        "iterCheckVarLimitHotStart": 0, "iterCheckVarLimitFlat": 3,
+        "PAR_AdjEnabledLF": 1, "areaInterAdjustEnabled": 0,
+        "TAP_AdjEnabledLF": 1, "shuntAdjEnabled": 2, "DCLineAdjEnabled": 1,
+        "showParAdj": 1, "showTapAdj": 1, "showShuntAdj": 1,
+        "showAreaInterAdj": 1, "showDCLineAdj": 0,
+        "busMismTolerAreaInter": 10.0, "maxVarLimitsBusTypeChanges": 6,
+        "iterCheckVarLimitLast": 40, "maxAdjustIterVolt": 30,
+        "deacFactRTap": 1.0, "deacFactShunt": 1.0, "maxTapChange": 0.02,
+        "voltAdjTrigger": 0.005, "angleAdjTrigger": 0.2,
+        "showBusTypeChan": 0, "showMismOnFail": 2, "deOscilFactor": 0.7,
+        "areaInterAdjustEdit": 1, "fixedToSwitched": 0,
+        "inServiceSwitchedShunts": 0, "changeSwitchedShuntsMode1": 0
+      }
+    },
+    {
+      "name": "lfopt_accont",
+      "command": "lfopt  accont",
+      "terminator": "0 0",
+      "options": {
+        "PARadjACCont": 0, "TAPadjACCont": 0, "DCTAPadjACCont": 0,
+        "SWSHadjACCont": 0, "AIadjACCont": 0, "GenLoclACCont": 1,
+        "runTLCpjmEMS": 0, "lockOscShuntACCont": 0
+      }
+    },
+    {
+      "name": "opt_cont",
+      "command": "opt  cont",
+      "terminator": "0 0",
+      "options": {
+        "monBranRatingBase": 1, "monBranRatingCont": 2,
+        "monBranRatingMultBase": 100.0, "monBranRatingMultCont": 100.0,
+        "contChanCutOffMW": 5.0, "contChanCutOffPercent": 2.0,
+        "PAR_AdjEnabledContAnal": 1, "adjustRatingMVA": 0,
+        "limitTypeLine": 0, "limitTypeTran": 1, "voltMinChange": 0.005,
+        "numContMaxAlloc": 150000, "numEventsAlloc": 350000,
+        "numDispEventAlloc": 600000, "numLFgatesMaxAlloc": 100000,
+        "maxFgateBranches": 1000, "mulSecPrintMode": 0, "smartCutOff": 0,
+        "maxExcludesAlloc": 100000, "showConAnalLFLog": 0,
+        "MAXOUTAGES": 15000, "maxORAFlowResults": 2000000,
+        "ACCONTRepeatSolution": 0, "showNotMappedContEvents": 1,
+        "monBranRatingEnAdd1": 0, "monBranRatingEnAdd2": 0,
+        "monBranRatingAdd1": 3, "monBranRatingAdd2": 3,
+        "monBranRatingMultAdd1": 100.0, "monBranRatingMultAdd2": 100.0,
+        "LoadingCutOff": 0.0, "showAllHighPreSCD": 0, "N11MODE": 0,
+        "multiCoreN1": 0, "numLowestLoading": 5, "VoltLimAdder": 0.0,
+        "StudyFiles": 1, "MonConMode": 1, "MaxMonConMode": 100000,
+        "keepDuplicates": 1, "correctiveSwitchingMode": 0,
+        "lodfCutoff": 0.01, "lodfImpCutoff": 1.0, "maxFgEventTotal": 30000,
+        "maxEvPerCont": 60, "maxSPSLogic": 10000, "maxInjGroups": 500,
+        "maxSPSInterfaces": 1000, "co_mode": 0, "co_branchoutage": 1,
+        "co_genoutage": 1, "co_genterminalbus": 0, "co_loadoutage": 1,
+        "co_maxlevel": 10, "saveCOCases": 0, "COSaveDirectory": "[]",
+        "kVLayer12_Volt": 100.0, "kVLayer23_Volt": 230.0,
+        "kVLayer34_Volt": 345.0, "kVLayer45_Volt": 500.0,
+        "kVLayer1_LDCutoff": 115.0, "kVLayer2_LDCutoff": 115.0,
+        "kVLayer3_LDCutoff": 115.0, "kVLayer4_LDCutoff": 115.0,
+        "kVLayer5_LDCutoff": 115.0, "zeroRatingCutoff": 0.0001,
+        "saveN11Cases": 0, "N11SaveDirectory": "[]", "acVerifyFgate": 0,
+        "useContingencyComments": 0, "ignoreEnd2Exit": 0,
+        "nearSyskVLayer1": 5, "nearSyskVLayer2": 5, "nearSyskVLayer3": 5,
+        "nearSyskVLayer4": 5, "nearSyskVLayer5": 5,
+        "nearSyskVLayer12_Volt": 100.0, "nearSyskVLayer23_Volt": 230.0,
+        "nearSyskVLayer34_Volt": 345.0, "nearSyskVLayer45_Volt": 500.0,
+        "nearSysScrnMod": 0, "nearSyskVCutoff": 0.0,
+        "nearSysApplykVCutoffOption": 0, "nearByLayerSubSysName": "Undefined"
+      }
+    },
+    {
+      "name": "rpt_n1thermal",
+      "command": "RPTManager  N1Thermal",
+      "terminator": "0 0",
+      "options": {
+        "StudyFiles": 0, "FacilityName": 1, "FacilityNameParse": 1,
+        "Area": 1, "AreaName": 1, "Zone": 1, "ZoneName": 1, "Owner": 1,
+        "OwnerName": 1, "SeverityRank": 1, "RadialIndex": 1,
+        "FinalPcntDC": 1, "BusBaseVolt": 1, "BusContVolt": 1,
+        "BaseMWFlow": 1, "BaseMVARFlow": 1, "ContMWFlow": 1,
+        "ContMVARFlow": 1, "DetailContEvent": 0, "ExtBusName": 0,
+        "ScenIndex": 0, "SnapIndex": 0, "OutIndex": 0, "MonIndex": 0,
+        "MonClass": 0, "SoftExclude": 0, "BaseBranchdAngle": 0,
+        "ContBranchdAngle": 0, "oraBaseScenarios": 0, "oraDCFlows": 0,
+        "Cont2ContDistThermal": 0
+      }
+    },
+    {
+      "name": "rpt_n1voltage",
+      "command": "RPTManager  N1Voltage",
+      "terminator": "0 0",
+      "options": {
+        "StudyFiles": 0, "Area": 1, "AreaName": 1, "Zone": 1, "ZoneName": 1,
+        "Owner": 1, "OwnerName": 1, "BusType": 1, "Pgen": 1, "Pload": 1,
+        "Gshunt": 1, "Bshunt": 1, "Vlow": 1, "Vhigh": 1, "Vdrop": 1,
+        "Vrise": 1, "DetailContEvent": 0, "ExtBusName": 0, "NConnection": 1,
+        "SeverityVmag": 1, "SeverityVchange": 1, "RadialIndex": 1,
+        "MaxFlow": 1, "Mismatch": 0, "SoftExclude": 0,
+        "Cont2ContDistVolt": 0, "OrigCaseBase": 0
+      }
+    }
+  ]
+}

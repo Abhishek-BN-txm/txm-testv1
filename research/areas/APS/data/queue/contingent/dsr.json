@@ -1,0 +1,156 @@
+{
+ "columns": [
+  {
+   "id": "sv2",
+   "label": "Sun Valley 500/230 kV #2 transformer",
+   "isd": "2027"
+  },
+  {
+   "id": "oc",
+   "label": "Outer Circle (TS23) 230/69 kV sub + Sun Valley\u2013Outer Circle 230 kV",
+   "isd": "2027"
+  },
+  {
+   "id": "ocm",
+   "label": "Outer Circle\u2013Morgan 230 kV line",
+   "isd": "2030",
+   "note": "Reports: \"driven by amount of generation online at Delaney & Sun Valley\""
+  },
+  {
+   "id": "svr",
+   "label": "Sun Valley\u2013Hassayampa Tap 230 kV 5-ohm series reactor",
+   "isd": "",
+   "note": "APS planned project in TC Ph1; assigned to Q467 as a $3.0M NU from TC Ph2 on, then a contingent NU for later clusters"
+  },
+  {
+   "id": "rudd",
+   "label": "Rudd 500/230 kV bank #5 (#5 & #6 from 2025 Ph1)",
+   "isd": "2027\u20132032",
+   "note": "TC Ph1 notes an APS/SRP capital plan to add Rudd capacity"
+  },
+  {
+   "id": "ts21",
+   "label": "Independence (TS21): Jojoba\u2013Rudd 500 kV & Runway\u2013Stratus 230 kV cut-ins, TS21\u2013Broadway 230 kV, TS21 500/230 kV xfmrs",
+   "isd": "Jojoba\u2013Rudd shown as 2032 in TC reports"
+  },
+  {
+   "id": "q372",
+   "label": "McMicken\u2013Farmer Tap\u2013Trilby Wash 69 kV jumper (Q372 NU)",
+   "isd": ""
+  },
+  {
+   "id": "ts30",
+   "label": "TS30: Delaney\u2013Sun Valley 500 kV cut-in",
+   "isd": "",
+   "note": "Not an APS planned project: built as the POI switchyard of Q572 (2024) and then Q617 (2025); assumed in-service only from 2025 Ph2"
+  }
+ ],
+ "status": {
+  "APS_Delaney-SunValley_Transition_Cluster_Phase_1_v1-8A_20240930.pdf": {
+   "sv2": "C",
+   "oc": "C",
+   "ocm": "C",
+   "svr": "C",
+   "ts21": "X"
+  },
+  "APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf": {
+   "sv2": "C",
+   "oc": "C",
+   "ocm": "C",
+   "ts21": "X"
+  },
+  "APS_Redhawk_Transition_Cluster_Report_20240722_Phase_1.pdf": {
+   "sv2": "M",
+   "oc": "M",
+   "ts21": "X"
+  },
+  "Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf": {
+   "sv2": "C",
+   "oc": "C",
+   "ocm": "CX",
+   "rudd": "X",
+   "ts21": "X"
+  },
+  "APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf": {
+   "sv2": "M",
+   "oc": "C",
+   "ocm": "C",
+   "svr": "C",
+   "rudd": "C",
+   "ts21": "C"
+  },
+  "APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf": {
+   "sv2": "M",
+   "oc": "C",
+   "ocm": "C",
+   "svr": "C",
+   "rudd": "C",
+   "ts21": "C",
+   "ts30": "X"
+  },
+  "APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf": {
+   "sv2": "M",
+   "oc": "C",
+   "ocm": "C",
+   "svr": "C",
+   "rudd": "C",
+   "ts21": "C",
+   "ts30": "X"
+  },
+  "APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf": {
+   "sv2": "M",
+   "oc": "C",
+   "ocm": "C",
+   "svr": "C",
+   "rudd": "C",
+   "ts21": "C",
+   "q372": "C",
+   "ts30": "M"
+  },
+  "APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf": {
+   "sv2": "M",
+   "oc": "C",
+   "ocm": "C",
+   "svr": "C",
+   "rudd": "C",
+   "ts21": "C",
+   "q372": "C",
+   "ts30": "M"
+  }
+ },
+ "owners": {
+  "svr": {
+   "Q467": {
+    "text": "owns \u00b7 $3.0M NU",
+    "phases": [
+     "APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf"
+    ]
+   }
+  },
+  "q372": {
+   "Q372": {
+    "text": "owns \u00b7 $0.1M NU",
+    "phases": [
+     "serial"
+    ]
+   }
+  },
+  "ts30": {
+   "Q572": {
+    "text": "builds TS30 \u00b7 $31M",
+    "phases": [
+     "APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf"
+    ]
+   },
+   "Q617": {
+    "text": "builds TS30 (POI) \u00b7 $45\u201385M",
+    "phases": [
+     "APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf",
+     "APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf",
+     "APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf"
+    ]
+   }
+  }
+ },
+ "source": "Section 3 \"Significant Study Assumptions\" table and \u00a73.1 \"Contingent Facilities\" of each Delaney/Sun Valley/Redhawk cluster report. Redhawk TC Ph1 (Jun 2024) has no contingent-facilities section."
+}

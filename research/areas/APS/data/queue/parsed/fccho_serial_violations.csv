@@ -1,0 +1,29 @@
+file,case_season,facility,contingency,type,loading_pct_or_value,rating,mitigation_upgrade,driving_queue_ids
+2018_Cholla_Cluster_SIS_Report_v1-2.pdf,2022 HS base PST(PV)/PST(CA),Cholla 500/345 kV Tran 6,"P2 Cholla 500 kV CB 2 (Cholla-Sugarloaf, 500/345 #3)",thermal,100.9 / 106.7 (107.9 w/3rd FC xfmr; 112.9 w/SoPhx+TEP queue),750 MVA,Upgrade Cholla #6 to 1025 MVA ($16M) only if Cholla 3&4 online,Q270;Q271;Q275 (Q273 relieving)
+2018_Cholla_Cluster_SIS_Report_v1-2.pdf,2022 HS base,Cholla 500/345 kV Tran 6,P4 Sugarloaf-Cholla 500 kV w CHO CB2 stuck,thermal,100.9 / 106.7,750 MVA,same,Q270;Q271;Q275
+2018_Cholla_Cluster_SIS_Report_v1-2.pdf,2022 HS APS Cholla queue PST(PV),Strawberry Tap-Tonto 69 kV,P1 Preacher Canyon-Pinnacle Peak 345 kV (w PP xfmr),thermal,104.9 (113.4 w/ SRP queue),326 A,Op proc open Strawberry Tap-Irving 69 kV,cluster
+2018_Cholla_Cluster_SIS_Report_v1-2.pdf,2022 HS APS+SRP queue,Strawberry Tap-Tonto 69 kV,P1 Mazatzal-Pinnacle Peak 345 kV,thermal,100.9,326 A,Op proc,cluster
+2018_Cholla_Cluster_SIS_Report_v1-2.pdf,Light load PST(CA),Strawberry Tap-Tonto 69 kV,P1 Preacher Canyon-Pinnacle Peak 345 kV,thermal,106.1,326 A,Op proc,cluster
+2018_Cholla_Cluster_SIS_Report_v1-2.pdf,Light load PST(CHO),Shumway-Snowflake 69 kV,P2 Cholla 230 kV CB 4 / Cholla 345 kV bus outages,thermal,103.4,536 A,pre-existing; not attributed,none
+2018_Cholla_Cluster_SIS_Report_v1-2.pdf,Off-peak,Cholla Unit 1,P4-2 Cholla-Four Corners 345 kV w Cholla CB5 stuck,transient (angular),trip,,Switch in Cholla 230 kV shunt reactor pre-contingency (op proc),cluster
+2018_Cholla_Cluster_SIS_Report_v1-2.pdf,Dynamics,Q273 output ringing,faults near POI,transient,ringing,,Set wtgq_a Tflag=0,Q273
+2018_Cholla_Cluster_SIS_Report_v1-2.pdf,Dynamics,Q270 PV charging BESS,3ph faults near Cholla,transient,"P->0, V~1.2 pu",,P priority (PQ flag=1),Q270
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS PST(AZ)/PST(CA),Four Corners-Moenkopi 500 kV,P0,thermal,103.1 / 107.6 (131.6 w/APS queue; 135.9 w/APS+SRP),1811 A,NU A FC-Moenkopi #2 500 kV,Q318;Q319;Q320
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HW PST(AZ),Cholla-Four Corners 345 kV #1/#2,P0,thermal,104.9 / 105.7,1150 A,NU A/B/C,Q318;Q319;Q320
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS w/APS+SRP queue PST(AZ),Cholla-Mazatzal 345 kV,P0,thermal,102.7,1257 A,NU B,Q311;cluster
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS w/APS queue PST(AZ),Preacher Canyon-Q273 345 kV,P0,thermal,114.4 (121.2 w/SRP),1257 A,NU B,cluster
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS PST(NM),San Juan-Waterflow 345 kV PST #1/#2,P0,thermal,113.6 / 113.3,300 MVA,NM dispatch deemed infeasible,cluster
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS w/APS+SRP queue PST(AZ),Union Hills-Lone Peak 69 kV,P0,thermal,101.8,1004 A,"NU E (APS planned, completed)",cluster
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS PST(AZ)/(CA),system,P1 Four Corners-Moenkopi 500 kV,divergence,DIV,,NU A,Q318;Q319;Q320
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS w/APS queue PST(AZ),system,P1 Cholla-Saguaro 500 kV; Browning-Silverking 500; Cholla-Mazatzal 345; Cholla-Q273 345,divergence,DIV,,NU B/D,cluster
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS PST(NM),Four Corners-Shiprock 345 kV,P1 Four Corners-San Juan 345 kV,thermal,168.4,2008 A,NM dispatch infeasible,cluster
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS w/APS+SRP queue PST(AZ),Cocnino-Sldrtl 69 kV,P1 Verde-Coconino 230 kV (w Xfmr 3),thermal,123.6,600 A,NU set,cluster
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HS w/APS+SRP queue PST(AZ),Union Hills-Lone Peak 69 kV,P1 Pinnacle Peak 345/230 kV #4,thermal,117.4,1004 A,NU E,cluster
+"Q311,318,319,320_SIS_Report_Final_20220707.pdf",HW PST(AZ),Cholla-Four Corners 345 kV,P1 Four Corners-Cholla #1 345 kV,thermal,108.9,1520 A,NU A/B/C,Q318;Q319;Q320
+Q311_FaS_Report_FINAL_20230623.pdf,"MMA1 HS w/APS,SRP queue ABCDE PST(AZ)",Strawberry Tap-Tonto 69 kV,P1 Preacher Canyon-Pinnacle Peak 345 kV (wXfmr4),thermal,101.7,326 A,NU G (op proc),Q311
+Q311_FaS_Report_FINAL_20230623.pdf,MMA1 HW ABC PST(AZ),Cholla 500/345 kV #6,"P2 Cholla 500 kV CB2 (Cholla-Sugarloaf, 500/345-1)",thermal,100.5,750 MVA,NU H reconfigure Cholla BAAH,Q311
+Q311_FaS_Report_FINAL_20230623.pdf,"Special Study 2027 HS w/APS,SRP queue PST-AZ",Strawberry Tap-Tonto S 69 kV,P1 Preacher Canyon-Pinnacle Peak 345 kV (wXfmr4),thermal,113.5,326 A,none attributed to Q311 (pre-existing),none
+Q311_FaS_Report_FINAL_20230623.pdf,Special Study 2027 HS grid-charge,Raceway-Westwing E 230 kV,P7 Morgan-Pinnacle Peak 500 & Morgan-Raceway 230,thermal,146.0 (pre 142.0),781 A,pre-existing,none
+Q311_MMA2_Report_20250613.pdf,2028 HS,Sitgreaves 345 kV SCR,P1 Cholla-Sitgreaves 345 kV,SCR,2.7 (N-0 10.3),,PSCAD study recommended; possible restricted operation,Q311
+Q311_MMA2_Report_20250613.pdf,2028 HS,Four Corners 345 kV fault current,N-0,SC,"SLG 50,047 A",50 kA min breaker,driven by Q259/Q318-Q320 + their NU (not Q311),Q259;Q318;Q319;Q320
+Q270-Q271_SP115_MMA5_Report_v1-1_20260122.pdf,2030 HS,Q270/Q271 storage LHVRT,"nearby 3ph faults, normal clearing",transient,trip,,maximize storage LHVRT trip settings,Q270;Q271

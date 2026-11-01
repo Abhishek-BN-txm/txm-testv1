@@ -1,0 +1,80 @@
+{
+  "title": "APS RPAC Meeting 9/30/2026 - Draft IRP Case Results",
+  "publisher": "Arizona Public Service (APS)",
+  "date": "2026-09-30",
+  "doc_type": "stakeholder presentation (Resource Planning Advisory Council)",
+  "summary": "Latest public view of APS's 2026 IRP (to be filed with ACC by Oct 30, 2026). Presents draft results for 14 scenarios (Four Corners exit 2031 vs 2038, pipeline timing, gas/fuel cost, clean-resource capital cost, transmission buildout, high/low load 'AI bust', Western market benefit, pipeline delay) for 2026-2041. Base 2026 IRP case adds net nameplate 4,020 MW gas, 5,494 MW solar, 73 MW wind, 3,098 MW battery, 2,988 MW customer-based and removes 970 MW coal. Extending Four Corners to 2038 lowers NPVRR by ~$1,023.5M. APS has signed an agreement with NTEC enabling Four Corners operation beyond 2031. The 2025 ASRFP shortlisted 51 proposals. All cases rely on substantial transmission expansion.",
+  "relevance": "high",
+  "findings": [
+    {
+      "topic": "resource_planning",
+      "statement": "Draft 2026 IRP Base case (Four Corners exit 2031, pipeline 2030) net nameplate additions 2026-2041: Gas 4,020 MW, Solar 5,494 MW, Wind 73 MW, Battery 3,098 MW, Customer-based 2,988 MW, Coal -970 MW.",
+      "location": "slide 12"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Four Corners extended to 2038 case net additions 2026-2041: Gas 4,020, Solar 4,578, Wind 486, Battery 2,690, Customer-based 2,988, Coal -970 MW; NPV revenue requirement (2026-2041) ~ $1,023.5M lower than base (~$57.3B vs $56.3B).",
+      "location": "slide 12"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "APS has signed an agreement with NTEC that allows continued Four Corners operation beyond 2031; the Preferred Plan will include 'Four Corners operations beyond 2031'.",
+      "location": "slides 12, 15"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "High gas capital cost sensitivity net additions 2026-2041: Gas 3,665, Solar 4,450, Wind 486, Battery 2,877, Customer-based 2,988, Nuclear 300, Coal -970 MW.",
+      "location": "slide 13"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Low clean capital cost sensitivity net additions 2026-2041: Gas 4,020, Solar 4,741, Wind 486, Battery 2,646, Customer-based 2,988, Coal -970 MW; gas remains cost-effective.",
+      "location": "slide 14"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "All IRP cases rely on substantial transmission expansion to interconnect resources; a 'Reduced Transmission Buildout' scenario tests value at risk if transmission expansion does not materialize.",
+      "location": "slides 11, 15, 22"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "2025 ASRFP shortlisted 51 proposals across all technologies including multiple battery durations; portfolio analysis near completion.",
+      "location": "slide 7"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Large data-center load is to be served via direct pricing contracts with a custom-built portfolio so other customers do not subsidize it; a lower-load 'AI bust' case is also tested.",
+      "location": "slides 11, 20"
+    },
+    {
+      "topic": "other",
+      "statement": "Public stakeholder meeting #1 on Oct 14, 2026; #2 tentatively Nov 12, 2026; next RPAC tentatively Nov 6, 2026.",
+      "location": "slide 27"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Four Corners Power Plant (APS share)",
+      "type": "coal retirement/extension",
+      "kv": "",
+      "mw": "970",
+      "poi": "",
+      "status": "retiring (exit 2031 base; NTEC agreement enables operation to 2038)",
+      "date": "2031/2038"
+    }
+  ],
+  "open_questions": [
+    "Final Preferred Plan Four Corners exit year?",
+    "Annual (year-by-year) additions and locations/POIs of selected gas and solar capacity?",
+    "Which transmission projects are selected in the co-optimization?"
+  ],
+  "source_id": "S8",
+  "model": "external research session (IRP)",
+  "digested_at": "2026-10-21T21:21:16",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

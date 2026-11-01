@@ -1,0 +1,3563 @@
+{
+ "area": "Four Corners-Cholla",
+ "generated": "2026-10-23",
+ "source": "APS OASIS cluster study reports; Active Queue posting 2026-10-13",
+ "phases": [
+  {
+   "file": "Study_Report_APS_FcCho_Transition_Cluster_Phase_1_v1-7_20250303.pdf",
+   "label": "Transition Ph1",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-03-03",
+   "version": "1.7",
+   "projects": [
+    {
+     "q": "Q333",
+     "mw": 200.0,
+     "service": "ERIS",
+     "poi": "Cholla 230 kV",
+     "total": 3000000.0,
+     "nu": 0.0,
+     "tif": 3000000.0,
+     "isd": "36 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-03-26",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 230kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 200.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q347",
+     "mw": 350.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 99600000.0,
+     "nu": 97600000.0,
+     "tif": 2000000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-04",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 345.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 550.0,
+     "cum_nris_mw": 350.0
+    },
+    {
+     "q": "Q352",
+     "mw": 450.0,
+     "service": "NRIS",
+     "poi": "Sitgreaves 345 kV1",
+     "total": 148900000.0,
+     "nu": 147400000.0,
+     "tif": 1500000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-28",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Stigreaves 345 kV",
+     "mw_queue": 450.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 1000.0,
+     "cum_nris_mw": 800.0
+    },
+    {
+     "q": "Q387",
+     "mw": 588.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 164000000.0,
+     "nu": 162000000.0,
+     "tif": 2000000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 3000000.0,
+     "cum_mw": 1588.0,
+     "cum_nris_mw": 1388.0
+    },
+    {
+     "q": "Q402",
+     "mw": 750.0,
+     "service": "ERIS",
+     "poi": "Cholla 500 kV",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-28",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 750.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 2338.0,
+     "cum_nris_mw": 1388.0
+    },
+    {
+     "q": "Q422",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 54300000.0,
+     "nu": 54200000.0,
+     "tif": 100000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 2538.0,
+     "cum_nris_mw": 1588.0
+    },
+    {
+     "q": "Q423",
+     "mw": 125.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 33900000.0,
+     "nu": 33800000.0,
+     "tif": 100000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 125.0,
+     "station_nu": 0,
+     "cum_mw": 2663.0,
+     "cum_nris_mw": 1713.0
+    },
+    {
+     "q": "Q424",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 54300000.0,
+     "nu": 54200000.0,
+     "tif": 100000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 2863.0,
+     "cum_nris_mw": 1913.0
+    },
+    {
+     "q": "Q480",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Four Corners-Moenkopi 500 kV",
+     "total": 130900000.0,
+     "nu": 128900000.0,
+     "tif": 2000000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-09-28",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "New 500/230kV Interconnection Substation",
+     "mw_queue": 400.0,
+     "station_nu": 30000000.0,
+     "cum_mw": 3263.0,
+     "cum_nris_mw": 2313.0
+    },
+    {
+     "q": "Q497",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Sitgreaves 345 kV2",
+     "total": 103200000.0,
+     "nu": 101700000.0,
+     "tif": 1500000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-21",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla-Pinnacle peak 345 kV line",
+     "mw_queue": 300.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 3563.0,
+     "cum_nris_mw": 2613.0
+    },
+    {
+     "q": "Q528",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Four Corners-Cholla #1 345 kV",
+     "total": 241700000.0,
+     "nu": 240200000.0,
+     "tif": 1500000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Four Corners - Cha\ufffdla, 345 kV Line.",
+     "mw_queue": 500.0,
+     "station_nu": 25000000.0,
+     "cum_mw": 4063.0,
+     "cum_nris_mw": 3113.0
+    },
+    {
+     "q": "Q538",
+     "mw": 499.5,
+     "service": "NRIS",
+     "poi": "Chevelon 345 kV",
+     "total": 158800000.0,
+     "nu": 157800000.0,
+     "tif": 1000000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-09-12",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "APS Chevron 345 kV Substation",
+     "mw_queue": 499.5,
+     "station_nu": 1500000.0,
+     "cum_mw": 4562.5,
+     "cum_nris_mw": 3612.5
+    },
+    {
+     "q": "Q539",
+     "mw": 499.5,
+     "service": "NRIS",
+     "poi": "Chevelon 345 kV",
+     "total": 158800000.0,
+     "nu": 157800000.0,
+     "tif": 1000000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-09-12",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "APS Chevron 345 kV Substation",
+     "mw_queue": 499.5,
+     "station_nu": 1500000.0,
+     "cum_mw": 5062.0,
+     "cum_nris_mw": 4112.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Sitgreaves\u2013Silverking 500 kV line upgrade",
+     "cost": 358400000.0,
+     "cost_derived": false,
+     "lead": "108 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 11.9,
+       "usd": 42700000.0
+      },
+      "Q352": {
+       "pct": 10.4,
+       "usd": 37400000.0
+      },
+      "Q387": {
+       "pct": 19.9,
+       "usd": 71700000.0
+      },
+      "Q422": {
+       "pct": 6.8,
+       "usd": 24500000.0
+      },
+      "Q423": {
+       "pct": 4.2,
+       "usd": 15300000.0
+      },
+      "Q424": {
+       "pct": 6.8,
+       "usd": 24500000.0
+      },
+      "Q480": {
+       "pct": 1.0,
+       "usd": 3400000.0
+      },
+      "Q497": {
+       "pct": 6.9,
+       "usd": 24900000.0
+      },
+      "Q528": {
+       "pct": 11.6,
+       "usd": 41500000.0
+      },
+      "Q538": {
+       "pct": 10.3,
+       "usd": 37100000.0
+      },
+      "Q539": {
+       "pct": 10.3,
+       "usd": 37100000.0
+      }
+     },
+     "parts": [
+      "Upgrade Sitgreaves-Silverking 500 kV line, 120 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "New Sitgreaves\u2013Pinnacle Peak 500 kV line",
+     "cost": 358400000.0,
+     "cost_derived": false,
+     "lead": "108 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 10.3,
+       "usd": 37000000.0
+      },
+      "Q352": {
+       "pct": 12.1,
+       "usd": 43500000.0
+      },
+      "Q387": {
+       "pct": 17.3,
+       "usd": 62100000.0
+      },
+      "Q422": {
+       "pct": 5.9,
+       "usd": 21100000.0
+      },
+      "Q423": {
+       "pct": 3.7,
+       "usd": 13200000.0
+      },
+      "Q424": {
+       "pct": 5.9,
+       "usd": 21100000.0
+      },
+      "Q480": {
+       "pct": 0.9,
+       "usd": 3200000.0
+      },
+      "Q497": {
+       "pct": 8.1,
+       "usd": 29000000.0
+      },
+      "Q528": {
+       "pct": 12.1,
+       "usd": 43600000.0
+      },
+      "Q538": {
+       "pct": 12.0,
+       "usd": 43100000.0
+      },
+      "Q539": {
+       "pct": 12.0,
+       "usd": 43100000.0
+      }
+     },
+     "parts": [
+      "New Sitgreaves-Pinnacle Peak 500 kV line, 120 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "Upgrade Q480\u2013Moenkopi #1 500 kV line",
+     "cost": 107800000.0,
+     "cost_derived": false,
+     "lead": "96 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 4.1,
+       "usd": 4500000.0
+      },
+      "Q352": {
+       "pct": 5.8,
+       "usd": 6200000.0
+      },
+      "Q387": {
+       "pct": 7.0,
+       "usd": 7500000.0
+      },
+      "Q422": {
+       "pct": 2.4,
+       "usd": 2600000.0
+      },
+      "Q423": {
+       "pct": 1.5,
+       "usd": 1600000.0
+      },
+      "Q424": {
+       "pct": 2.4,
+       "usd": 2600000.0
+      },
+      "Q480": {
+       "pct": 52.7,
+       "usd": 57000000.0
+      },
+      "Q497": {
+       "pct": 3.9,
+       "usd": 4100000.0
+      },
+      "Q528": {
+       "pct": 8.6,
+       "usd": 9300000.0
+      },
+      "Q538": {
+       "pct": 5.9,
+       "usd": 6400000.0
+      },
+      "Q539": {
+       "pct": 5.9,
+       "usd": 6400000.0
+      }
+     },
+     "parts": [
+      "Upgrade Q480-Moenkopi #1 line, 36 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "Moenkopi series cap split/relocate (to Q480)",
+     "cost": 39600000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 4.1,
+       "usd": 1700000.0
+      },
+      "Q352": {
+       "pct": 5.8,
+       "usd": 2300000.0
+      },
+      "Q387": {
+       "pct": 7.0,
+       "usd": 2800000.0
+      },
+      "Q422": {
+       "pct": 2.4,
+       "usd": 900000.0
+      },
+      "Q423": {
+       "pct": 1.5,
+       "usd": 600000.0
+      },
+      "Q424": {
+       "pct": 2.4,
+       "usd": 900000.0
+      },
+      "Q480": {
+       "pct": 52.7,
+       "usd": 21100000.0
+      },
+      "Q497": {
+       "pct": 3.9,
+       "usd": 1500000.0
+      },
+      "Q528": {
+       "pct": 8.6,
+       "usd": 3400000.0
+      },
+      "Q538": {
+       "pct": 5.9,
+       "usd": 2400000.0
+      },
+      "Q539": {
+       "pct": 5.9,
+       "usd": 2400000.0
+      }
+     },
+     "parts": [
+      "Split and relocate Moenkopi series capacitor to Q480 site"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "Pinnacle Peak\u2013Lone Peak\u2013Sunnyslope 230 kV",
+     "cost": 34100000.0,
+     "cost_derived": false,
+     "lead": "60 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 8.3,
+       "usd": 2800000.0
+      },
+      "Q352": {
+       "pct": 12.1,
+       "usd": 4100000.0
+      },
+      "Q387": {
+       "pct": 13.9,
+       "usd": 4700000.0
+      },
+      "Q422": {
+       "pct": 4.7,
+       "usd": 1600000.0
+      },
+      "Q423": {
+       "pct": 3.0,
+       "usd": 1000000.0
+      },
+      "Q424": {
+       "pct": 4.7,
+       "usd": 1600000.0
+      },
+      "Q480": {
+       "pct": 1.4,
+       "usd": 500000.0
+      },
+      "Q497": {
+       "pct": 8.1,
+       "usd": 2700000.0
+      },
+      "Q528": {
+       "pct": 11.4,
+       "usd": 3900000.0
+      },
+      "Q538": {
+       "pct": 16.2,
+       "usd": 5600000.0
+      },
+      "Q539": {
+       "pct": 16.2,
+       "usd": 5600000.0
+      }
+     },
+     "parts": [
+      "Upgrade Pinnacle Peak-Lone Peak-Sunnyslope 230 kV lines, 17 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "WAPA Four Corners\u2013Shiprock 345 kV",
+     "cost": 20200000.0,
+     "cost_derived": false,
+     "lead": "96 months to construct",
+     "category": "affected system",
+     "alloc": {
+      "Q347": {
+       "pct": 5.8,
+       "usd": 1200000.0
+      },
+      "Q352": {
+       "pct": 10.2,
+       "usd": 2000000.0
+      },
+      "Q387": {
+       "pct": 9.7,
+       "usd": 1900000.0
+      },
+      "Q422": {
+       "pct": 3.3,
+       "usd": 700000.0
+      },
+      "Q423": {
+       "pct": 2.1,
+       "usd": 400000.0
+      },
+      "Q424": {
+       "pct": 3.3,
+       "usd": 700000.0
+      },
+      "Q480": {
+       "pct": 19.6,
+       "usd": 3900000.0
+      },
+      "Q497": {
+       "pct": 6.8,
+       "usd": 1400000.0
+      },
+      "Q528": {
+       "pct": 17.6,
+       "usd": 3500000.0
+      },
+      "Q538": {
+       "pct": 10.8,
+       "usd": 2200000.0
+      },
+      "Q539": {
+       "pct": 10.8,
+       "usd": 2200000.0
+      }
+     },
+     "parts": [
+      "Upgrade WAPA's Four Corners-Shiprock 345 kV line, 10 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "Tonto\u2013Irving\u2013Childs 69 kV upgrade",
+     "cost": 19800000.0,
+     "cost_derived": false,
+     "lead": "36 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 5.7,
+       "usd": 1000000.0
+      },
+      "Q352": {
+       "pct": 12.8,
+       "usd": 2600000.0
+      },
+      "Q387": {
+       "pct": 9.5,
+       "usd": 2100000.0
+      },
+      "Q422": {
+       "pct": 3.2,
+       "usd": 600000.0
+      },
+      "Q423": {
+       "pct": 2.0,
+       "usd": 400000.0
+      },
+      "Q424": {
+       "pct": 3.2,
+       "usd": 600000.0
+      },
+      "Q497": {
+       "pct": 8.6,
+       "usd": 1800000.0
+      },
+      "Q528": {
+       "pct": 11.5,
+       "usd": 2200000.0
+      },
+      "Q538": {
+       "pct": 21.7,
+       "usd": 4400000.0
+      },
+      "Q539": {
+       "pct": 21.7,
+       "usd": 4400000.0
+      }
+     },
+     "parts": [
+      "Upgrade Tonto-Irving-Childs 69 kV, 30 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 10,
+     "sharing_mw": 3712.0
+    },
+    {
+     "label": "Four Corners\u2013Moenkopi #2 loop-in to Q480",
+     "cost": 12200000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q352": {
+       "pct": 5.8,
+       "usd": 700000.0
+      },
+      "Q387": {
+       "pct": 7.0,
+       "usd": 800000.0
+      },
+      "Q422": {
+       "pct": 2.4,
+       "usd": 300000.0
+      },
+      "Q423": {
+       "pct": 1.5,
+       "usd": 200000.0
+      },
+      "Q424": {
+       "pct": 2.4,
+       "usd": 300000.0
+      },
+      "Q480": {
+       "pct": 52.7,
+       "usd": 6300000.0
+      },
+      "Q497": {
+       "pct": 3.9,
+       "usd": 500000.0
+      },
+      "Q528": {
+       "pct": 8.6,
+       "usd": 1000000.0
+      },
+      "Q538": {
+       "pct": 5.9,
+       "usd": 700000.0
+      },
+      "Q539": {
+       "pct": 5.9,
+       "usd": 700000.0
+      },
+      "Q347": {
+       "pct": 4.1,
+       "usd": 500000.0
+      }
+     },
+     "parts": [
+      "Four Corners-Moenkopi 500 kV line #2 loop into Q480 site"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "Relocate Cholla series cap to Sitgreaves",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 11.9,
+       "usd": 1200000.0
+      },
+      "Q352": {
+       "pct": 10.4,
+       "usd": 1000000.0
+      },
+      "Q387": {
+       "pct": 19.9,
+       "usd": 2000000.0
+      },
+      "Q422": {
+       "pct": 6.8,
+       "usd": 700000.0
+      },
+      "Q423": {
+       "pct": 4.2,
+       "usd": 400000.0
+      },
+      "Q424": {
+       "pct": 6.8,
+       "usd": 700000.0
+      },
+      "Q480": {
+       "pct": 1.0,
+       "usd": 100000.0
+      },
+      "Q497": {
+       "pct": 6.9,
+       "usd": 700000.0
+      },
+      "Q528": {
+       "pct": 11.6,
+       "usd": 1200000.0
+      },
+      "Q538": {
+       "pct": 10.3,
+       "usd": 1000000.0
+      },
+      "Q539": {
+       "pct": 10.3,
+       "usd": 1000000.0
+      }
+     },
+     "parts": [
+      "Relocate Cholla series capacitor to Sitgreaves"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "Add series cap Sitgreaves\u2013Pinnacle Peak",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 11.9,
+       "usd": 1200000.0
+      },
+      "Q352": {
+       "pct": 10.4,
+       "usd": 1000000.0
+      },
+      "Q387": {
+       "pct": 19.9,
+       "usd": 2000000.0
+      },
+      "Q422": {
+       "pct": 6.8,
+       "usd": 700000.0
+      },
+      "Q423": {
+       "pct": 4.2,
+       "usd": 400000.0
+      },
+      "Q424": {
+       "pct": 6.8,
+       "usd": 700000.0
+      },
+      "Q480": {
+       "pct": 1.0,
+       "usd": 100000.0
+      },
+      "Q497": {
+       "pct": 6.9,
+       "usd": 700000.0
+      },
+      "Q528": {
+       "pct": 11.6,
+       "usd": 1200000.0
+      },
+      "Q538": {
+       "pct": 10.3,
+       "usd": 1000000.0
+      },
+      "Q539": {
+       "pct": 10.3,
+       "usd": 1000000.0
+      }
+     },
+     "parts": [
+      "Add series capacitor to Sitgreaves-Pinnacle Peak 500 kV line"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "APS/SRP/WAPA 230 kV ties at Pinnacle Peak",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "60 months to construct",
+     "category": "affected system",
+     "alloc": {
+      "Q347": {
+       "pct": 8.3,
+       "usd": 800000.0
+      },
+      "Q352": {
+       "pct": 12.1,
+       "usd": 1200000.0
+      },
+      "Q387": {
+       "pct": 13.9,
+       "usd": 1400000.0
+      },
+      "Q422": {
+       "pct": 4.7,
+       "usd": 500000.0
+      },
+      "Q423": {
+       "pct": 3.0,
+       "usd": 300000.0
+      },
+      "Q424": {
+       "pct": 4.7,
+       "usd": 500000.0
+      },
+      "Q497": {
+       "pct": 8.1,
+       "usd": 800000.0
+      },
+      "Q528": {
+       "pct": 11.4,
+       "usd": 1100000.0
+      },
+      "Q538": {
+       "pct": 16.2,
+       "usd": 1600000.0
+      },
+      "Q539": {
+       "pct": 16.2,
+       "usd": 1600000.0
+      },
+      "Q480": {
+       "pct": 1.4,
+       "usd": 100000.0
+      }
+     },
+     "parts": [
+      "Upgrade APS/SRP/WAPA 230 kV ties at Pinnacle Peak"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 550.0,
+     "trigger_cum_nris_mw": 350.0,
+     "n_sharing": 11,
+     "sharing_mw": 4112.0
+    },
+    {
+     "label": "Upgrade 2 Sitgreaves\u2013Cholla 500 kV lines",
+     "cost": 90400000.0,
+     "cost_derived": false,
+     "lead": "96 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q352": {
+       "pct": 20.8,
+       "usd": 18700000.0
+      },
+      "Q480": {
+       "pct": 1.2,
+       "usd": 1100000.0
+      },
+      "Q497": {
+       "pct": 13.8,
+       "usd": 12500000.0
+      },
+      "Q528": {
+       "pct": 23.1,
+       "usd": 20800000.0
+      },
+      "Q538": {
+       "pct": 20.5,
+       "usd": 18500000.0
+      },
+      "Q539": {
+       "pct": 20.5,
+       "usd": 18500000.0
+      }
+     },
+     "parts": [
+      "Upgrade 2 Sitgreaves-Cholla 500 kV lines, 30 miles"
+     ],
+     "first_q": "Q352",
+     "trigger_cum_mw": 1000.0,
+     "trigger_cum_nris_mw": 800.0,
+     "n_sharing": 6,
+     "sharing_mw": 2649.0
+    },
+    {
+     "label": "Sitgreaves 500 kV station",
+     "cost": 61100000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q352": {
+       "pct": 20.8,
+       "usd": 12500000.0
+      },
+      "Q480": {
+       "pct": 1.2,
+       "usd": 800000.0
+      },
+      "Q497": {
+       "pct": 13.8,
+       "usd": 8300000.0
+      },
+      "Q528": {
+       "pct": 23.1,
+       "usd": 13800000.0
+      },
+      "Q538": {
+       "pct": 20.5,
+       "usd": 12300000.0
+      },
+      "Q539": {
+       "pct": 20.5,
+       "usd": 12300000.0
+      }
+     },
+     "parts": [
+      "New Sitgreaves 500 kV switchyard, two 500/345 kV transformers"
+     ],
+     "first_q": "Q352",
+     "trigger_cum_mw": 1000.0,
+     "trigger_cum_nris_mw": 800.0,
+     "n_sharing": 6,
+     "sharing_mw": 2649.0
+    },
+    {
+     "label": "Cholla\u2013Chevelon 345 kV loop into Sitgreaves",
+     "cost": 7000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q352": {
+       "pct": 60.0,
+       "usd": 4200000.0
+      },
+      "Q497": {
+       "pct": 40.0,
+       "usd": 2800000.0
+      }
+     },
+     "parts": [
+      "Cholla-Chevelon 345 kV loop into Sitgreaves"
+     ],
+     "first_q": "Q352",
+     "trigger_cum_mw": 1000.0,
+     "trigger_cum_nris_mw": 800.0,
+     "n_sharing": 2,
+     "sharing_mw": 750.0
+    },
+    {
+     "label": "Upgrade Q528\u2013Cholla 345 kV line",
+     "cost": 59600000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q480": {
+       "pct": 2.2,
+       "usd": 1300000.0
+      },
+      "Q528": {
+       "pct": 97.8,
+       "usd": 58700000.0
+      }
+     },
+     "parts": [
+      "Upgrade Q528-Cholla 345 kV line, 20 miles"
+     ],
+     "first_q": "Q480",
+     "trigger_cum_mw": 3263.0,
+     "trigger_cum_nris_mw": 2313.0,
+     "n_sharing": 2,
+     "sharing_mw": 900.0
+    },
+    {
+     "label": "Relocate Cholla series cap to Q528",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q528": {
+       "pct": 100.0,
+       "usd": 10000000.0
+      }
+     },
+     "parts": [
+      "Relocate Cholla series capacitor to Q528"
+     ],
+     "first_q": "Q528",
+     "trigger_cum_mw": 4063.0,
+     "trigger_cum_nris_mw": 3113.0,
+     "n_sharing": 1,
+     "sharing_mw": 500.0
+    },
+    {
+     "label": "Sitgreaves\u2013Mazatzal 345 kV loop into Chevelon",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q538": {
+       "pct": 50.0,
+       "usd": 20000000.0
+      },
+      "Q539": {
+       "pct": 50.0,
+       "usd": 20000000.0
+      }
+     },
+     "parts": [
+      "Sitgreaves-Mazatzal 345 kV loop into Chevelon"
+     ],
+     "first_q": "Q538",
+     "trigger_cum_mw": 4562.5,
+     "trigger_cum_nris_mw": 3612.5,
+     "n_sharing": 2,
+     "sharing_mw": 999.0
+    }
+   ]
+  },
+  {
+   "file": "Study_Report_APS_FcCho_Transition_Cluster_Phase_2_v1-4_20250902.pdf",
+   "label": "Transition Ph2",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-09-02",
+   "version": "1.4",
+   "projects": [
+    {
+     "q": "Q333",
+     "mw": 200.0,
+     "service": "ERIS",
+     "poi": "Cholla 230 kV",
+     "total": 3000000.0,
+     "nu": 0.0,
+     "tif": 3000000.0,
+     "isd": "36 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-03-26",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 230kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 200.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q347",
+     "mw": 345.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 107200000.0,
+     "nu": 105200000.0,
+     "tif": 2000000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-04",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 345.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 545.0,
+     "cum_nris_mw": 345.0
+    },
+    {
+     "q": "Q352",
+     "mw": 450.0,
+     "service": "NRIS",
+     "poi": "Sitgreaves 345 kV1",
+     "total": 201800000.0,
+     "nu": 200300000.0,
+     "tif": 1500000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "cost table shows two values: NU \"200.3 196.6\" ($M); \"Total Cost = $201,800,000 198,100,000\"; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-28",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Stigreaves 345 kV",
+     "mw_queue": 450.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 995.0,
+     "cum_nris_mw": 795.0
+    },
+    {
+     "q": "Q387",
+     "mw": 588.0,
+     "service": "ERIS",
+     "poi": "Cholla 500 kV",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 3000000.0,
+     "cum_mw": 1583.0,
+     "cum_nris_mw": 795.0
+    },
+    {
+     "q": "Q402",
+     "mw": 750.0,
+     "service": "ERIS",
+     "poi": "Cholla 500 kV",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-28",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 750.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 2333.0,
+     "cum_nris_mw": 795.0
+    },
+    {
+     "q": "Q422",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 59300000.0,
+     "nu": 59200000.0,
+     "tif": 100000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 2533.0,
+     "cum_nris_mw": 995.0
+    },
+    {
+     "q": "Q423",
+     "mw": 125.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 37200000.0,
+     "nu": 37100000.0,
+     "tif": 100000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 125.0,
+     "station_nu": 0,
+     "cum_mw": 2658.0,
+     "cum_nris_mw": 1120.0
+    },
+    {
+     "q": "Q424",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 59300000.0,
+     "nu": 59200000.0,
+     "tif": 100000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 2858.0,
+     "cum_nris_mw": 1320.0
+    },
+    {
+     "q": "Q480",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Four Corners-Moenkopi 500 kV",
+     "total": 159100000.0,
+     "nu": 157100000.0,
+     "tif": 2000000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-09-28",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "New 500/230kV Interconnection Substation",
+     "mw_queue": 400.0,
+     "station_nu": 30000000.0,
+     "cum_mw": 3258.0,
+     "cum_nris_mw": 1720.0
+    },
+    {
+     "q": "Q497",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Sitgreaves 345 kV2",
+     "total": 137500000.0,
+     "nu": 136000000.0,
+     "tif": 1500000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "cost table shows two values: NU \"136.0 133.2\" ($M); \"Total Cost = $137,500,000 134,700,000\"; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-21",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla-Pinnacle peak 345 kV line",
+     "mw_queue": 300.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 3558.0,
+     "cum_nris_mw": 2020.0
+    },
+    {
+     "q": "Q528",
+     "mw": 500.0,
+     "service": "ERIS",
+     "poi": "Four Corners-Cholla #1 345 kV",
+     "total": 26500000.0,
+     "nu": 25000000.0,
+     "tif": 1500000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Four Corners - Cha\ufffdla, 345 kV Line.",
+     "mw_queue": 500.0,
+     "station_nu": 25000000.0,
+     "cum_mw": 4058.0,
+     "cum_nris_mw": 2020.0
+    },
+    {
+     "q": "Q538",
+     "mw": 499.5,
+     "service": "NRIS",
+     "poi": "Chevelon 345 kV",
+     "total": 242100000.0,
+     "nu": 241100000.0,
+     "tif": 1000000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-09-12",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "APS Chevron 345 kV Substation",
+     "mw_queue": 499.5,
+     "station_nu": 1500000.0,
+     "cum_mw": 4557.5,
+     "cum_nris_mw": 2519.5
+    },
+    {
+     "q": "Q539",
+     "mw": 499.5,
+     "service": "NRIS",
+     "poi": "Chevelon 345 kV",
+     "total": 242100000.0,
+     "nu": 241100000.0,
+     "tif": 1000000.0,
+     "isd": "108 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-09-12",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "APS Chevron 345 kV Substation",
+     "mw_queue": 499.5,
+     "station_nu": 1500000.0,
+     "cum_mw": 5057.0,
+     "cum_nris_mw": 3019.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "New Sitgreaves\u2013Pinnacle Peak 500 kV line",
+     "cost": 360500000.0,
+     "cost_derived": false,
+     "lead": "108 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 9.4,
+       "usd": 34400000.0
+      },
+      "Q352": {
+       "pct": 16.1,
+       "usd": 57800000.0
+      },
+      "Q422": {
+       "pct": 5.5,
+       "usd": 19900000.0
+      },
+      "Q423": {
+       "pct": 3.5,
+       "usd": 12400000.0
+      },
+      "Q424": {
+       "pct": 5.5,
+       "usd": 19900000.0
+      },
+      "Q480": {
+       "pct": 0.8,
+       "usd": 2900000.0
+      },
+      "Q497": {
+       "pct": 10.6,
+       "usd": 38200000.0
+      },
+      "Q538": {
+       "pct": 24.3,
+       "usd": 87300000.0
+      },
+      "Q539": {
+       "pct": 24.3,
+       "usd": 87300000.0
+      }
+     },
+     "parts": [
+      "New Sitgreaves-Pinnacle Peak 500 kV line, 120 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "Sitgreaves\u2013Silverking 500 kV line upgrade",
+     "cost": 360200000.0,
+     "cost_derived": false,
+     "lead": "108 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 14.2,
+       "usd": 51600000.0
+      },
+      "Q352": {
+       "pct": 17.2,
+       "usd": 61800000.0
+      },
+      "Q422": {
+       "pct": 8.4,
+       "usd": 30000000.0
+      },
+      "Q423": {
+       "pct": 5.2,
+       "usd": 18800000.0
+      },
+      "Q424": {
+       "pct": 8.3,
+       "usd": 30000000.0
+      },
+      "Q480": {
+       "pct": 1.3,
+       "usd": 4700000.0
+      },
+      "Q497": {
+       "pct": 11.4,
+       "usd": 40800000.0
+      },
+      "Q538": {
+       "pct": 17.0,
+       "usd": 61200000.0
+      },
+      "Q539": {
+       "pct": 17.0,
+       "usd": 61200000.0
+      }
+     },
+     "parts": [
+      "Upgrade Sitgreaves-Silverking 500 kV line, 120 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "Upgrade Q480\u2013Moenkopi #1 500 kV line",
+     "cost": 108800000.0,
+     "cost_derived": false,
+     "lead": "96 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 4.5,
+       "usd": 4900000.0
+      },
+      "Q352": {
+       "pct": 6.5,
+       "usd": 7000000.0
+      },
+      "Q422": {
+       "pct": 2.6,
+       "usd": 2800000.0
+      },
+      "Q423": {
+       "pct": 1.6,
+       "usd": 1800000.0
+      },
+      "Q424": {
+       "pct": 2.6,
+       "usd": 2800000.0
+      },
+      "Q480": {
+       "pct": 64.3,
+       "usd": 69400000.0
+      },
+      "Q497": {
+       "pct": 4.3,
+       "usd": 4700000.0
+      },
+      "Q538": {
+       "pct": 6.7,
+       "usd": 7300000.0
+      },
+      "Q539": {
+       "pct": 6.7,
+       "usd": 7300000.0
+      }
+     },
+     "parts": [
+      "Upgrade Q480-Moenkopi #1 line, 36 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "Moenkopi series cap split/relocate (to Q480)",
+     "cost": 40900000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 4.5,
+       "usd": 1800000.0
+      },
+      "Q352": {
+       "pct": 6.5,
+       "usd": 2600000.0
+      },
+      "Q422": {
+       "pct": 2.6,
+       "usd": 1100000.0
+      },
+      "Q423": {
+       "pct": 1.6,
+       "usd": 700000.0
+      },
+      "Q424": {
+       "pct": 2.6,
+       "usd": 1100000.0
+      },
+      "Q480": {
+       "pct": 64.3,
+       "usd": 25700000.0
+      },
+      "Q497": {
+       "pct": 4.3,
+       "usd": 1700000.0
+      },
+      "Q538": {
+       "pct": 6.7,
+       "usd": 2700000.0
+      },
+      "Q539": {
+       "pct": 6.7,
+       "usd": 2700000.0
+      }
+     },
+     "parts": [
+      "Split and relocate Moenkopi series capacitor to Q480 site"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "WAPA Four Corners\u2013Shiprock 345 kV",
+     "cost": 40400000.0,
+     "cost_derived": false,
+     "lead": "96 months to construct",
+     "category": "affected system",
+     "alloc": {
+      "Q347": {
+       "pct": 5.0,
+       "usd": 2100000.0
+      },
+      "Q352": {
+       "pct": 13.7,
+       "usd": 5500000.0
+      },
+      "Q422": {
+       "pct": 2.9,
+       "usd": 1200000.0
+      },
+      "Q423": {
+       "pct": 1.8,
+       "usd": 700000.0
+      },
+      "Q424": {
+       "pct": 2.9,
+       "usd": 1200000.0
+      },
+      "Q480": {
+       "pct": 36.2,
+       "usd": 14400000.0
+      },
+      "Q497": {
+       "pct": 9.0,
+       "usd": 3600000.0
+      },
+      "Q538": {
+       "pct": 14.2,
+       "usd": 5700000.0
+      },
+      "Q539": {
+       "pct": 14.2,
+       "usd": 5700000.0
+      }
+     },
+     "parts": [
+      "Upgrade WAPA's Four Corners-Shiprock 345 kV line and PNM's Four Corners-San Juan"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "Pinnacle Peak\u2013Lone Peak\u2013Sunnyslope 230 kV",
+     "cost": 34300000.0,
+     "cost_derived": false,
+     "lead": "60 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 9.2,
+       "usd": 3200000.0
+      },
+      "Q352": {
+       "pct": 16.0,
+       "usd": 5500000.0
+      },
+      "Q422": {
+       "pct": 5.4,
+       "usd": 1800000.0
+      },
+      "Q423": {
+       "pct": 3.4,
+       "usd": 1200000.0
+      },
+      "Q424": {
+       "pct": 5.4,
+       "usd": 1800000.0
+      },
+      "Q480": {
+       "pct": 1.4,
+       "usd": 500000.0
+      },
+      "Q497": {
+       "pct": 10.6,
+       "usd": 3600000.0
+      },
+      "Q538": {
+       "pct": 24.4,
+       "usd": 8300000.0
+      },
+      "Q539": {
+       "pct": 24.4,
+       "usd": 8300000.0
+      }
+     },
+     "parts": [
+      "Upgrade Pinnacle Peak-Lone Peak-Sunnyslope 230 kV lines, 17 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "Four Corners\u2013Moenkopi #2 loop-in to Q480",
+     "cost": 11800000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 4.5,
+       "usd": 500000.0
+      },
+      "Q352": {
+       "pct": 6.5,
+       "usd": 800000.0
+      },
+      "Q422": {
+       "pct": 2.6,
+       "usd": 300000.0
+      },
+      "Q423": {
+       "pct": 1.6,
+       "usd": 200000.0
+      },
+      "Q424": {
+       "pct": 2.6,
+       "usd": 300000.0
+      },
+      "Q480": {
+       "pct": 64.3,
+       "usd": 7700000.0
+      },
+      "Q497": {
+       "pct": 4.3,
+       "usd": 500000.0
+      },
+      "Q538": {
+       "pct": 6.7,
+       "usd": 800000.0
+      },
+      "Q539": {
+       "pct": 6.7,
+       "usd": 800000.0
+      }
+     },
+     "parts": [
+      "Four Corners-Moenkopi 500 kV line #2 loop into Q480 site"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "APS/SRP/WAPA 230 kV ties at Pinnacle Peak",
+     "cost": 9800000.0,
+     "cost_derived": true,
+     "lead": "60 months to construct",
+     "category": "affected system",
+     "alloc": {
+      "Q347": {
+       "pct": 9.2,
+       "usd": 900000.0
+      },
+      "Q352": {
+       "pct": 16.0,
+       "usd": 1600000.0
+      },
+      "Q422": {
+       "pct": 5.4,
+       "usd": 500000.0
+      },
+      "Q423": {
+       "pct": 3.4,
+       "usd": 300000.0
+      },
+      "Q424": {
+       "pct": 5.4,
+       "usd": 500000.0
+      },
+      "Q480": {
+       "pct": 1.4,
+       "usd": 100000.0
+      },
+      "Q497": {
+       "pct": 10.6,
+       "usd": 1100000.0
+      },
+      "Q538": {
+       "pct": 24.4,
+       "usd": 2400000.0
+      },
+      "Q539": {
+       "pct": 24.4,
+       "usd": 2400000.0
+      }
+     },
+     "parts": [
+      "Upgrade APS/SRP/WAPA 230 kV ties at Pinnacle Peak"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "Relocate Cholla series cap to Sitgreaves",
+     "cost": 9500000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 14.2,
+       "usd": 1400000.0
+      },
+      "Q352": {
+       "pct": 17.2,
+       "usd": 1700000.0
+      },
+      "Q422": {
+       "pct": 8.4,
+       "usd": 800000.0
+      },
+      "Q423": {
+       "pct": 5.2,
+       "usd": 500000.0
+      },
+      "Q424": {
+       "pct": 8.3,
+       "usd": 800000.0
+      },
+      "Q480": {
+       "pct": 1.3,
+       "usd": 100000.0
+      },
+      "Q497": {
+       "pct": 11.4,
+       "usd": 1100000.0
+      },
+      "Q538": {
+       "pct": 17.0,
+       "usd": 1700000.0
+      },
+      "Q539": {
+       "pct": 17.0,
+       "usd": 1700000.0
+      }
+     },
+     "parts": [
+      "Relocate Cholla series capacitor to Sitgreaves"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "Add series cap Sitgreaves\u2013Pinnacle Peak",
+     "cost": 9500000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 14.2,
+       "usd": 1400000.0
+      },
+      "Q352": {
+       "pct": 17.2,
+       "usd": 1700000.0
+      },
+      "Q422": {
+       "pct": 8.4,
+       "usd": 800000.0
+      },
+      "Q423": {
+       "pct": 5.2,
+       "usd": 500000.0
+      },
+      "Q424": {
+       "pct": 8.3,
+       "usd": 800000.0
+      },
+      "Q480": {
+       "pct": 1.3,
+       "usd": 100000.0
+      },
+      "Q497": {
+       "pct": 11.4,
+       "usd": 1100000.0
+      },
+      "Q538": {
+       "pct": 17.0,
+       "usd": 1700000.0
+      },
+      "Q539": {
+       "pct": 17.0,
+       "usd": 1700000.0
+      }
+     },
+     "parts": [
+      "Add series capacitor to Sitgreaves-Pinnacle Peak 500 kV line"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 9,
+     "sharing_mw": 3019.0
+    },
+    {
+     "label": "Upgrade 2 Sitgreaves\u2013Cholla 500 kV lines",
+     "cost": 90100000.0,
+     "cost_derived": false,
+     "lead": "96 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q352": {
+       "pct": 27.0,
+       "usd": 24400000.0
+      },
+      "Q480": {
+       "pct": 1.0,
+       "usd": 900000.0
+      },
+      "Q497": {
+       "pct": 17.9,
+       "usd": 16100000.0
+      },
+      "Q538": {
+       "pct": 27.0,
+       "usd": 24300000.0
+      },
+      "Q539": {
+       "pct": 27.0,
+       "usd": 24300000.0
+      }
+     },
+     "parts": [
+      "Upgrade 2 Sitgreaves-Cholla 500 kV lines, 30 miles"
+     ],
+     "first_q": "Q352",
+     "trigger_cum_mw": 995.0,
+     "trigger_cum_nris_mw": 795.0,
+     "n_sharing": 5,
+     "sharing_mw": 2149.0
+    },
+    {
+     "label": "Sitgreaves 500 kV station",
+     "cost": 60000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q352": {
+       "pct": 27.0,
+       "usd": 16200000.0
+      },
+      "Q480": {
+       "pct": 1.0,
+       "usd": 600000.0
+      },
+      "Q497": {
+       "pct": 17.9,
+       "usd": 10700000.0
+      },
+      "Q538": {
+       "pct": 27.0,
+       "usd": 16200000.0
+      },
+      "Q539": {
+       "pct": 27.0,
+       "usd": 16200000.0
+      }
+     },
+     "parts": [
+      "New Sitgreaves 500 kV switchyard, two 500/345 kV transformers"
+     ],
+     "first_q": "Q352",
+     "trigger_cum_mw": 995.0,
+     "trigger_cum_nris_mw": 795.0,
+     "n_sharing": 5,
+     "sharing_mw": 2149.0
+    },
+    {
+     "label": "Sitgreaves\u2013Mazatzal 345 kV loop into Chevelon",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q538": {
+       "pct": 50.0,
+       "usd": 20000000.0
+      },
+      "Q539": {
+       "pct": 50.0,
+       "usd": 20000000.0
+      }
+     },
+     "parts": [
+      "Sitgreaves-Mazatzal 345 kV loop into Chevelon"
+     ],
+     "first_q": "Q538",
+     "trigger_cum_mw": 4557.5,
+     "trigger_cum_nris_mw": 2519.5,
+     "n_sharing": 2,
+     "sharing_mw": 999.0
+    }
+   ]
+  },
+  {
+   "file": "APS_FcCho_Transition_Cluster_Phase_3_v1-1_20251106.pdf",
+   "label": "Transition Ph3",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-11-06",
+   "version": "1.1",
+   "projects": [
+    {
+     "q": "Q333",
+     "mw": 200.0,
+     "service": "ERIS",
+     "poi": "Cholla 230 kV",
+     "total": 3000000.0,
+     "nu": 0.0,
+     "tif": 3000000.0,
+     "isd": "36 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-03-26",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 230kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 200.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q347",
+     "mw": 345.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 123900000.0,
+     "nu": 121900000.0,
+     "tif": 2000000.0,
+     "isd": "132 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-04",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 345.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 545.0,
+     "cum_nris_mw": 345.0
+    },
+    {
+     "q": "Q352",
+     "mw": 450.0,
+     "service": "ERIS",
+     "poi": "Sitgreaves 345 kv1",
+     "total": 11500000.0,
+     "nu": 10000000.0,
+     "tif": 1500000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-28",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Stigreaves 345 kV",
+     "mw_queue": 450.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 995.0,
+     "cum_nris_mw": 345.0
+    },
+    {
+     "q": "Q387",
+     "mw": 588.0,
+     "service": "ERIS",
+     "poi": "Cholla 500 kV",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 3000000.0,
+     "cum_mw": 1583.0,
+     "cum_nris_mw": 345.0
+    },
+    {
+     "q": "Q402",
+     "mw": 750.0,
+     "service": "ERIS",
+     "poi": "Cholla 500 kV",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-28",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 750.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 2333.0,
+     "cum_nris_mw": 345.0
+    },
+    {
+     "q": "Q422",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 70300000.0,
+     "nu": 70200000.0,
+     "tif": 100000.0,
+     "isd": "132 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 2533.0,
+     "cum_nris_mw": 545.0
+    },
+    {
+     "q": "Q423",
+     "mw": 125.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 43900000.0,
+     "nu": 43800000.0,
+     "tif": 100000.0,
+     "isd": "132 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 125.0,
+     "station_nu": 0,
+     "cum_mw": 2658.0,
+     "cum_nris_mw": 670.0
+    },
+    {
+     "q": "Q424",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 69800000.0,
+     "nu": 69700000.0,
+     "tif": 100000.0,
+     "isd": "132 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 2858.0,
+     "cum_nris_mw": 870.0
+    },
+    {
+     "q": "Q480",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Four Corners-Moenkopi 500 kV",
+     "total": 144500000.0,
+     "nu": 142500000.0,
+     "tif": 2000000.0,
+     "isd": "132 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-09-28",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "New 500/230kV Interconnection Substation",
+     "mw_queue": 400.0,
+     "station_nu": 30000000.0,
+     "cum_mw": 3258.0,
+     "cum_nris_mw": 1270.0
+    },
+    {
+     "q": "Q497",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Sitgreaves 345 kv2",
+     "total": 161100000.0,
+     "nu": 159600000.0,
+     "tif": 1500000.0,
+     "isd": "132 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-21",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla-Pinnacle peak 345 kV line",
+     "mw_queue": 300.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 3558.0,
+     "cum_nris_mw": 1570.0
+    },
+    {
+     "q": "Q528",
+     "mw": 500.0,
+     "service": "ERIS",
+     "poi": "Four Corners-Cholla #1 345 kV",
+     "total": 26500000.0,
+     "nu": 25000000.0,
+     "tif": 1500000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Four Corners - Cha\ufffdla, 345 kV Line.",
+     "mw_queue": 500.0,
+     "station_nu": 25000000.0,
+     "cum_mw": 4058.0,
+     "cum_nris_mw": 1570.0
+    },
+    {
+     "q": "Q538",
+     "mw": 499.5,
+     "service": "NRIS",
+     "poi": "Chevelon 345 kV",
+     "total": 286500000.0,
+     "nu": 285500000.0,
+     "tif": 1000000.0,
+     "isd": "132 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-09-12",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "APS Chevron 345 kV Substation",
+     "mw_queue": 499.5,
+     "station_nu": 1500000.0,
+     "cum_mw": 4557.5,
+     "cum_nris_mw": 2069.5
+    },
+    {
+     "q": "Q539",
+     "mw": 499.5,
+     "service": "NRIS",
+     "poi": "Chevelon 345 kV",
+     "total": 286500000.0,
+     "nu": 285500000.0,
+     "tif": 1000000.0,
+     "isd": "132 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-09-12",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "APS Chevron 345 kV Substation",
+     "mw_queue": 499.5,
+     "station_nu": 1500000.0,
+     "cum_mw": 5057.0,
+     "cum_nris_mw": 2569.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Sitgreaves\u2013Silverking 500 kV line upgrade",
+     "cost": 359700000.0,
+     "cost_derived": false,
+     "lead": "108 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 17.3,
+       "usd": 62900000.0
+      },
+      "Q422": {
+       "pct": 10.2,
+       "usd": 0
+      },
+      "Q423": {
+       "pct": 6.4,
+       "usd": 22900000.0
+      },
+      "Q424": {
+       "pct": 10.1,
+       "usd": 36400000.0
+      },
+      "Q480": {
+       "pct": 1.0,
+       "usd": 0
+      },
+      "Q497": {
+       "pct": 13.9,
+       "usd": 49900000.0
+      },
+      "Q538": {
+       "pct": 20.6,
+       "usd": 73900000.0
+      },
+      "Q539": {
+       "pct": 20.6,
+       "usd": 73900000.0
+      }
+     },
+     "parts": [
+      "Upgrade Sitgreaves-Silverking 500 kV line, 120 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 8,
+     "sharing_mw": 2569.0
+    },
+    {
+     "label": "New Sitgreaves\u2013Pinnacle Peak 500 kV line",
+     "cost": 359100000.0,
+     "cost_derived": true,
+     "lead": "108 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 11.1,
+       "usd": 40500000.0
+      },
+      "Q422": {
+       "pct": 6.6,
+       "usd": 1000000.0
+      },
+      "Q423": {
+       "pct": 4.1,
+       "usd": 14800000.0
+      },
+      "Q424": {
+       "pct": 6.5,
+       "usd": 23400000.0
+      },
+      "Q480": {
+       "pct": 0.6,
+       "usd": 0
+      },
+      "Q497": {
+       "pct": 12.7,
+       "usd": 45600000.0
+      },
+      "Q538": {
+       "pct": 29.2,
+       "usd": 104800000.0
+      },
+      "Q539": {
+       "pct": 29.2,
+       "usd": 104800000.0
+      }
+     },
+     "parts": [
+      "New Sitgreaves-Pinnacle Peak 500 kV line, 120 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 8,
+     "sharing_mw": 2569.0
+    },
+    {
+     "label": "Upgrade Q480\u2013Moenkopi #1 500 kV line",
+     "cost": 107300000.0,
+     "cost_derived": true,
+     "lead": "108 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 5.4,
+       "usd": 6000000.0
+      },
+      "Q422": {
+       "pct": 3.2,
+       "usd": 23700000.0
+      },
+      "Q423": {
+       "pct": 2.0,
+       "usd": 2100000.0
+      },
+      "Q424": {
+       "pct": 3.2,
+       "usd": 3400000.0
+      },
+      "Q480": {
+       "pct": 64.6,
+       "usd": 0
+      },
+      "Q497": {
+       "pct": 5.3,
+       "usd": 5700000.0
+      },
+      "Q538": {
+       "pct": 8.2,
+       "usd": 8800000.0
+      },
+      "Q539": {
+       "pct": 8.2,
+       "usd": 8800000.0
+      }
+     },
+     "parts": [
+      "Upgrade Q480-Moenkopi #1 line, 36 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 8,
+     "sharing_mw": 2569.0
+    },
+    {
+     "label": "Moenkopi series cap split/relocate (to Q480)",
+     "cost": 40200000.0,
+     "cost_derived": true,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 5.4,
+       "usd": 2200000.0
+      },
+      "Q422": {
+       "pct": 3.2,
+       "usd": 400000.0
+      },
+      "Q423": {
+       "pct": 2.0,
+       "usd": 800000.0
+      },
+      "Q424": {
+       "pct": 3.2,
+       "usd": 1300000.0
+      },
+      "Q497": {
+       "pct": 5.3,
+       "usd": 2100000.0
+      },
+      "Q538": {
+       "pct": 8.2,
+       "usd": 3300000.0
+      },
+      "Q539": {
+       "pct": 8.2,
+       "usd": 3300000.0
+      }
+     },
+     "parts": [
+      "Split and relocate Moenkopi series capacitor to Q480 site"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 7,
+     "sharing_mw": 2169.0
+    },
+    {
+     "label": "Pinnacle Peak\u2013Lone Peak\u2013Sunnyslope 230 kV",
+     "cost": 34100000.0,
+     "cost_derived": true,
+     "lead": "60 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 10.9,
+       "usd": 3700000.0
+      },
+      "Q422": {
+       "pct": 6.4,
+       "usd": 1300000.0
+      },
+      "Q423": {
+       "pct": 4.0,
+       "usd": 1400000.0
+      },
+      "Q424": {
+       "pct": 6.4,
+       "usd": 2200000.0
+      },
+      "Q480": {
+       "pct": 1.6,
+       "usd": 0
+      },
+      "Q497": {
+       "pct": 12.6,
+       "usd": 4300000.0
+      },
+      "Q538": {
+       "pct": 29.0,
+       "usd": 9900000.0
+      },
+      "Q539": {
+       "pct": 29.0,
+       "usd": 9900000.0
+      }
+     },
+     "parts": [
+      "Upgrade Pinnacle Peak-Lone Peak-Sunnyslope 230 kV lines, 17 miles"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 8,
+     "sharing_mw": 2569.0
+    },
+    {
+     "label": "Four Corners\u2013Moenkopi #2 loop-in to Q480",
+     "cost": 11900000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 5.4,
+       "usd": 700000.0
+      },
+      "Q423": {
+       "pct": 2.0,
+       "usd": 200000.0
+      },
+      "Q424": {
+       "pct": 3.2,
+       "usd": 400000.0
+      },
+      "Q497": {
+       "pct": 5.3,
+       "usd": 600000.0
+      },
+      "Q538": {
+       "pct": 8.2,
+       "usd": 1000000.0
+      },
+      "Q539": {
+       "pct": 8.2,
+       "usd": 1000000.0
+      }
+     },
+     "parts": [
+      "Four Corners-Moenkopi 500 kV line #2 loop into Q480 site"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 6,
+     "sharing_mw": 1969.0
+    },
+    {
+     "label": "Add series cap Sitgreaves\u2013Pinnacle Peak",
+     "cost": 10200000.0,
+     "cost_derived": true,
+     "lead": "108 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 17.3,
+       "usd": 1800000.0
+      },
+      "Q422": {
+       "pct": 10.2,
+       "usd": 36600000.0
+      },
+      "Q423": {
+       "pct": 6.4,
+       "usd": 600000.0
+      },
+      "Q424": {
+       "pct": 10.1,
+       "usd": 1000000.0
+      },
+      "Q497": {
+       "pct": 13.9,
+       "usd": 1400000.0
+      },
+      "Q538": {
+       "pct": 20.6,
+       "usd": 2100000.0
+      },
+      "Q539": {
+       "pct": 20.6,
+       "usd": 2100000.0
+      }
+     },
+     "parts": [
+      "Add series capacitor to Sitgreaves-Pinnacle Peak 500 kV line"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 7,
+     "sharing_mw": 2169.0
+    },
+    {
+     "label": "APS/SRP/WAPA 230 kV ties at Pinnacle Peak",
+     "cost": 10100000.0,
+     "cost_derived": true,
+     "lead": "96 months to construct",
+     "category": "affected system",
+     "alloc": {
+      "Q347": {
+       "pct": 10.9,
+       "usd": 1100000.0
+      },
+      "Q422": {
+       "pct": 6.4,
+       "usd": 3400000.0
+      },
+      "Q423": {
+       "pct": 3.4,
+       "usd": 400000.0
+      },
+      "Q424": {
+       "pct": 6.4,
+       "usd": 600000.0
+      },
+      "Q497": {
+       "pct": 12.6,
+       "usd": 1300000.0
+      },
+      "Q538": {
+       "pct": 29.0,
+       "usd": 2900000.0
+      },
+      "Q539": {
+       "pct": 29.0,
+       "usd": 2900000.0
+      }
+     },
+     "parts": [
+      "Upgrade APS/SRP/WAPA 230 kV ties at Pinnacle Peak"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 7,
+     "sharing_mw": 2169.0
+    },
+    {
+     "label": "Relocate Cholla series cap to Sitgreaves",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "96 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q347": {
+       "pct": 17.3,
+       "usd": 1800000.0
+      },
+      "Q423": {
+       "pct": 6.4,
+       "usd": 600000.0
+      },
+      "Q424": {
+       "pct": 10.1,
+       "usd": 1000000.0
+      },
+      "Q497": {
+       "pct": 13.9,
+       "usd": 1400000.0
+      },
+      "Q538": {
+       "pct": 20.6,
+       "usd": 2100000.0
+      },
+      "Q539": {
+       "pct": 20.6,
+       "usd": 2100000.0
+      }
+     },
+     "parts": [
+      "Relocate Cholla series capacitor to Sitgreaves"
+     ],
+     "first_q": "Q347",
+     "trigger_cum_mw": 545.0,
+     "trigger_cum_nris_mw": 345.0,
+     "n_sharing": 6,
+     "sharing_mw": 1969.0
+    },
+    {
+     "label": "Upgrade 2 Sitgreaves\u2013Cholla 500 kV lines",
+     "cost": 89100000.0,
+     "cost_derived": false,
+     "lead": "96 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q480": {
+       "pct": 1.5,
+       "usd": 1300000.0
+      },
+      "Q497": {
+       "pct": 24.9,
+       "usd": 22400000.0
+      },
+      "Q538": {
+       "pct": 36.8,
+       "usd": 33100000.0
+      },
+      "Q539": {
+       "pct": 36.8,
+       "usd": 33100000.0
+      }
+     },
+     "parts": [
+      "Upgrade 2 Sitgreaves-Cholla 500 kV lines, 30 miles"
+     ],
+     "first_q": "Q480",
+     "trigger_cum_mw": 3258.0,
+     "trigger_cum_nris_mw": 1270.0,
+     "n_sharing": 4,
+     "sharing_mw": 1699.0
+    },
+    {
+     "label": "Sitgreaves 500 kV station",
+     "cost": 60000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q480": {
+       "pct": 1.5,
+       "usd": 900000.0
+      },
+      "Q497": {
+       "pct": 24.9,
+       "usd": 14900000.0
+      },
+      "Q538": {
+       "pct": 36.8,
+       "usd": 22100000.0
+      },
+      "Q539": {
+       "pct": 36.8,
+       "usd": 22100000.0
+      }
+     },
+     "parts": [
+      "New Sitgreaves 500 kV switchyard, two 500/345 kV transformers"
+     ],
+     "first_q": "Q480",
+     "trigger_cum_mw": 3258.0,
+     "trigger_cum_nris_mw": 1270.0,
+     "n_sharing": 4,
+     "sharing_mw": 1699.0
+    },
+    {
+     "label": "Sitgreaves\u2013Mazatzal 345 kV loop into Chevelon",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q538": {
+       "pct": 50.0,
+       "usd": 20000000.0
+      },
+      "Q539": {
+       "pct": 50.0,
+       "usd": 20000000.0
+      }
+     },
+     "parts": [
+      "Sitgreaves-Mazatzal 345 kV loop into Chevelon"
+     ],
+     "first_q": "Q538",
+     "trigger_cum_mw": 4557.5,
+     "trigger_cum_nris_mw": 2069.5,
+     "n_sharing": 2,
+     "sharing_mw": 999.0
+    }
+   ]
+  },
+  {
+   "file": "APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf",
+   "label": "Transition Ph3a",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2026-04-23",
+   "version": "1.4",
+   "projects": [
+    {
+     "q": "Q333",
+     "mw": 200.0,
+     "service": "ERIS",
+     "poi": "Cholla 230 kV",
+     "total": 3000000.0,
+     "nu": 0.0,
+     "tif": 3000000.0,
+     "isd": "36 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-03-26",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 230kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 200.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q347",
+     "mw": 345.0,
+     "service": "ERIS",
+     "poi": "Cholla 500 kV",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-04",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 345.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 545.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q352",
+     "mw": 450.0,
+     "service": "ERIS",
+     "poi": "Sitgreaves 345 kv1",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-28",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Stigreaves 345 kV",
+     "mw_queue": 450.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 995.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q387",
+     "mw": 588.0,
+     "service": "ERIS",
+     "poi": "Cholla 500 kV",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 3000000.0,
+     "cum_mw": 1583.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q402",
+     "mw": 750.0,
+     "service": "ERIS",
+     "poi": "Cholla 500 kV",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-28",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 750.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 2333.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q422",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "12 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 2533.0,
+     "cum_nris_mw": 200.0
+    },
+    {
+     "q": "Q423",
+     "mw": 125.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "12 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 125.0,
+     "station_nu": 0,
+     "cum_mw": 2658.0,
+     "cum_nris_mw": 325.0
+    },
+    {
+     "q": "Q424",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Cholla 500 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "12 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-29",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 2858.0,
+     "cum_nris_mw": 525.0
+    },
+    {
+     "q": "Q480",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Four Corners-Moenkopi 500 kV",
+     "total": 56000000.0,
+     "nu": 54000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-09-28",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "New 500/230kV Interconnection Substation",
+     "mw_queue": 400.0,
+     "station_nu": 42000000.0,
+     "cum_mw": 3258.0,
+     "cum_nris_mw": 925.0
+    },
+    {
+     "q": "Q497",
+     "mw": 300.0,
+     "service": "ERIS",
+     "poi": "Sitgreaves 345 kv2",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-21",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla-Pinnacle peak 345 kV line",
+     "mw_queue": 300.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 3558.0,
+     "cum_nris_mw": 925.0
+    },
+    {
+     "q": "Q528",
+     "mw": 500.0,
+     "service": "ERIS",
+     "poi": "Four Corners-Cholla #1 345 kV",
+     "total": 54000000.0,
+     "nu": 52000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Four Corners - Cha\ufffdla, 345 kV Line.",
+     "mw_queue": 500.0,
+     "station_nu": 40000000.0,
+     "cum_mw": 4058.0,
+     "cum_nris_mw": 925.0
+    },
+    {
+     "q": "Q538",
+     "mw": 499.5,
+     "service": "ERIS",
+     "poi": "Chevelon 345 kV",
+     "total": 2500000.0,
+     "nu": 1500000.0,
+     "tif": 1000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-09-12",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "APS Chevron 345 kV Substation",
+     "mw_queue": 499.5,
+     "station_nu": 1500000.0,
+     "cum_mw": 4557.5,
+     "cum_nris_mw": 925.0
+    },
+    {
+     "q": "Q539",
+     "mw": 499.5,
+     "service": "ERIS",
+     "poi": "Chevelon 345 kV",
+     "total": 2500000.0,
+     "nu": 1500000.0,
+     "tif": 1000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-09-12",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "APS Chevron 345 kV Substation",
+     "mw_queue": 499.5,
+     "station_nu": 1500000.0,
+     "cum_mw": 5057.0,
+     "cum_nris_mw": 925.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Moenkopi series cap split/relocate (to Q480)",
+     "cost": 12000000.0,
+     "cost_derived": false,
+     "lead": "30 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q480": {
+       "pct": 100.0,
+       "usd": 12000000.0
+      }
+     },
+     "parts": [
+      "Relocated Moenkopi series capacitor to Q480 site"
+     ],
+     "first_q": "Q480",
+     "trigger_cum_mw": 3258.0,
+     "trigger_cum_nris_mw": 925.0,
+     "n_sharing": 1,
+     "sharing_mw": 400.0
+    },
+    {
+     "label": "Relocate Cholla series cap to Q528",
+     "cost": 12000000.0,
+     "cost_derived": false,
+     "lead": "30 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q528": {
+       "pct": 100.0,
+       "usd": 12000000.0
+      }
+     },
+     "parts": [
+      "Relocate Cholla series capacitor to Q528 site"
+     ],
+     "first_q": "Q528",
+     "trigger_cum_mw": 4058.0,
+     "trigger_cum_nris_mw": 925.0,
+     "n_sharing": 1,
+     "sharing_mw": 500.0
+    }
+   ]
+  },
+  {
+   "file": "APS_FcCho_2024_Cluster_Phase_1_Final_20260120.pdf",
+   "label": "2024 Ph1",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2026-01-20",
+   "version": "1.0",
+   "projects": [
+    {
+     "q": "Q553",
+     "mw": 340.0,
+     "service": "NRIS",
+     "poi": "Sitgreaves 345 kV",
+     "total": 27700000.0,
+     "nu": 26200000.0,
+     "tif": 1500000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2024-05-02",
+     "status": "Facilities Study",
+     "tech": "Wind",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Stigraves 345kV",
+     "mw_queue": 340.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 340.0,
+     "cum_nris_mw": 340.0
+    },
+    {
+     "q": "Q557",
+     "mw": 75.0,
+     "service": "NRIS",
+     "poi": "Zeniff 69 kV",
+     "total": 6100000.0,
+     "nu": 5300000.0,
+     "tif": 800000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2024-05-08",
+     "status": "Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Zeniff Substation",
+     "mw_queue": 72.0,
+     "station_nu": 500000.0,
+     "cum_mw": 415.0,
+     "cum_nris_mw": 415.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Pinnacle Peak 500/345 kV addition",
+     "cost": 28000000.0,
+     "cost_derived": false,
+     "lead": "48 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q553": {
+       "pct": 82.9,
+       "usd": 23200000.0
+      },
+      "Q557": {
+       "pct": 17.1,
+       "usd": 4800000.0
+      }
+     },
+     "parts": [
+      "Pinnacle Peak 500/345 kV Addition"
+     ],
+     "first_q": "Q553",
+     "trigger_cum_mw": 340.0,
+     "trigger_cum_nris_mw": 340.0,
+     "n_sharing": 2,
+     "sharing_mw": 415.0
+    }
+   ]
+  },
+  {
+   "file": "APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf",
+   "label": "2024 Ph2b",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2026-07-20",
+   "version": "1.0",
+   "projects": [
+    {
+     "q": "Q553",
+     "mw": 340.0,
+     "service": "NRIS",
+     "poi": "Sitgreaves 345 kV",
+     "total": 6800000.0,
+     "nu": 5300000.0,
+     "tif": 1500000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2024-05-02",
+     "status": "Facilities Study",
+     "tech": "Wind",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Stigraves 345kV",
+     "mw_queue": 340.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 340.0,
+     "cum_nris_mw": 340.0
+    },
+    {
+     "q": "Q557",
+     "mw": 72.0,
+     "service": "ERIS",
+     "poi": "Zeniff 69 kV",
+     "total": 1300000.0,
+     "nu": 500000.0,
+     "tif": 800000.0,
+     "isd": "12 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2024-05-08",
+     "status": "Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Zeniff Substation",
+     "mw_queue": 72.0,
+     "station_nu": 500000.0,
+     "cum_mw": 412.0,
+     "cum_nris_mw": 340.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Cholla\u2013Silverking 500 kV series cap upgrade",
+     "cost": 2300000.0,
+     "cost_derived": false,
+     "lead": "24 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q553": {
+       "pct": 100.0,
+       "usd": 2300000.0
+      }
+     },
+     "parts": [
+      "Cholla-Silverking 500 kV Series Capacitor size reduction"
+     ],
+     "first_q": "Q553",
+     "trigger_cum_mw": 340.0,
+     "trigger_cum_nris_mw": 340.0,
+     "n_sharing": 1,
+     "sharing_mw": 340.0
+    }
+   ]
+  },
+  {
+   "file": "APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf",
+   "label": "2025 Ph1",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-06-03",
+   "version": "1.6",
+   "projects": [
+    {
+     "q": "Q583",
+     "mw": 200.0,
+     "service": "ERIS",
+     "poi": "Cholla 500 kV",
+     "total": 0.0,
+     "nu": 0.0,
+     "tif": 0.0,
+     "isd": "",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2025-05-06",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Energy Storage",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cholla 500kV",
+     "mw_queue": 0.0,
+     "station_nu": 0,
+     "cum_mw": 200.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q609",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Cholla-Four Corners #1 345 kV (shared station with Q528)",
+     "total": 1155500000.0,
+     "nu": 1152600000.0,
+     "tif": 2900000.0,
+     "isd": "120 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2025-05-05",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "New substation at genie's of the double circuit 345 kV lines at the point 1494 and 1503 with the request to move existing switchyard",
+     "mw_queue": 500.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 700.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q610",
+     "mw": 250.0,
+     "service": "ERIS",
+     "poi": "Four Corners 345 kV",
+     "total": 7900000.0,
+     "nu": 5000000.0,
+     "tif": 2900000.0,
+     "isd": "60 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2025-05-07",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "APS Four Corner Substation",
+     "mw_queue": 250.0,
+     "station_nu": 5000000.0,
+     "cum_mw": 950.0,
+     "cum_nris_mw": 500.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "New Sitgreaves\u2013Pinnacle Peak 500 kV line",
+     "cost": 1000000000.0,
+     "cost_derived": false,
+     "lead": "120 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q609": {
+       "pct": 100.0,
+       "usd": 1000000000.0
+      }
+     },
+     "parts": [
+      "Sitgreaves-Pinnacle Peak #2 500 kV"
+     ],
+     "first_q": "Q609",
+     "trigger_cum_mw": 700.0,
+     "trigger_cum_nris_mw": 500.0,
+     "n_sharing": 1,
+     "sharing_mw": 500.0
+    },
+    {
+     "label": "Sitgreaves 500 kV station",
+     "cost": 150000000.0,
+     "cost_derived": false,
+     "lead": "60 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q609": {
+       "pct": 100.0,
+       "usd": 150000000.0
+      }
+     },
+     "parts": [
+      "Sitgreaves 500 kV Station Addition"
+     ],
+     "first_q": "Q609",
+     "trigger_cum_mw": 700.0,
+     "trigger_cum_nris_mw": 500.0,
+     "n_sharing": 1,
+     "sharing_mw": 500.0
+    },
+    {
+     "label": "Reduce Q609\u2013Four Corners 345 kV series comp",
+     "cost": 100000.0,
+     "cost_derived": false,
+     "lead": "12 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q609": {
+       "pct": 100.0,
+       "usd": 100000.0
+      }
+     },
+     "parts": [
+      "Reduce Q609-Four Corners 345 kV series comp."
+     ],
+     "first_q": "Q609",
+     "trigger_cum_mw": 700.0,
+     "trigger_cum_nris_mw": 500.0,
+     "n_sharing": 1,
+     "sharing_mw": 500.0
+    }
+   ]
+  }
+ ],
+ "prior": [
+  {
+   "q": "Q6",
+   "mw": 65.1,
+   "poi": "Cholla Zeniff Show Low Weston 69kV line and Cholla / Show Low Eastem 69kV line",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Wind",
+   "queue_date": "2005-04-29"
+  },
+  {
+   "q": "Q202",
+   "mw": 30.0,
+   "poi": "Conley Sub 69 kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Solar",
+   "queue_date": "2011-07-18"
+  },
+  {
+   "q": "Q230",
+   "mw": 200.0,
+   "poi": "Cholla 500kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Construction",
+   "tech": "Solar",
+   "queue_date": "2015-09-29"
+  },
+  {
+   "q": "Q270",
+   "mw": 200.0,
+   "poi": "Cholla 500 kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Construction",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2018-03-28"
+  },
+  {
+   "q": "Q271",
+   "mw": 75.0,
+   "poi": "Cholla 500kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Construction",
+   "tech": "Energy Storage",
+   "queue_date": "2018-03-28"
+  },
+  {
+   "q": "Q273",
+   "mw": 477.0,
+   "poi": "Preacher Canyon - Cholla 345kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Project with APS Project Manager (Legacy)",
+   "tech": "Wind",
+   "queue_date": "2018-03-29"
+  },
+  {
+   "q": "Q275",
+   "mw": 1000.0,
+   "poi": "Cholla 500kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Design",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2018-03-30"
+  },
+  {
+   "q": "Q311",
+   "mw": 500.0,
+   "poi": "Sitigraves substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Project with APS Project Manager",
+   "tech": "Combined Energy Source (Wind + Energy Storage)",
+   "queue_date": "2019-09-26"
+  },
+  {
+   "q": "Q318",
+   "mw": 1000.0,
+   "poi": "Four Corners 345kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Customer Initiated Suspension",
+   "tech": "Wind",
+   "queue_date": "2019-09-30"
+  },
+  {
+   "q": "Q319",
+   "mw": 1000.0,
+   "poi": "Four Corners 345kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Customer Initiated Suspension",
+   "tech": "Wind",
+   "queue_date": "2019-09-30"
+  },
+  {
+   "q": "Q320",
+   "mw": 1500.0,
+   "poi": "Four Corners 345kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Customer Initiated Suspension",
+   "tech": "Wind",
+   "queue_date": "2019-09-30"
+  },
+  {
+   "q": "SP115",
+   "mw": 0.0,
+   "poi": "Cholla 500kV",
+   "process": "Surplus",
+   "status": "Surplus Request: Complete",
+   "tech": "Solar",
+   "queue_date": "2024-05-28"
+  },
+  {
+   "q": "SP116",
+   "mw": 0.0,
+   "poi": "Cholla 500kV",
+   "process": "Surplus",
+   "status": "Surplus Request: Complete",
+   "tech": "Energy Storage",
+   "queue_date": "2024-09-20"
+  },
+  {
+   "q": "SP117",
+   "mw": 0.0,
+   "poi": "Q275",
+   "process": "Surplus",
+   "status": "Surplus Request: In Review",
+   "tech": "Energy Storage",
+   "queue_date": "2025-02-21"
+  }
+ ]
+}

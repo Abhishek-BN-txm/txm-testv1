@@ -1,0 +1,5 @@
+poi_text,poi_kv,bus,bus_name,bus_kv,confirmed_by,confirmed,note
+Cholla 500kV,500.0,14000,CHOLLA,500.0,proposed match (user-authorised 2026-10-23),2026-10-23,Proposed match approved by user 2026-10-23: CHOLLA 500 (name/kV match 1.0)
+Four Corners 345kV,345.0,14101,FOURCORN,345.0,proposed match (user-authorised 2026-10-23),2026-10-23,Proposed match approved by user 2026-10-23: FOURCORN 345
+Stigraves 345kV,345.0,14116,SITGREVS,345.0,proposed match (user-authorised 2026-10-23),2026-10-23,Proposed match approved by user 2026-10-23: SITGREVS 345
+New 500/230kV Interconnection Substation,230.0,14002,MOENKOPI,500.0,"proposed match (user-authorised 2026-10-23; kV differs: POI says 230, bus is Moenkopi 500)",2026-10-23,Proposed match approved by user 2026-10-23: Q480 taps Four Corners-Moenkopi 500 (Moenkopi-Q480 series cap in reports); connected at MOENKOPI 500 as nearest existing bus

@@ -1,0 +1,86 @@
+[
+ {
+  "q": "Q620",
+  "mw": 500.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "HANG1 500kV Cut-In",
+  "tech": "Combined Energy Source (Solar + Energy Storage)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/18/26",
+  "requested_isd": "12/1/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q621",
+  "mw": 500.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "HANG1 500kV Cut-In",
+  "tech": "Combined Energy Source (Solar + Energy Storage)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/18/26",
+  "requested_isd": "12/1/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q630",
+  "mw": 21.6,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Yuma 69kV",
+  "tech": "Diesel",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/2/26",
+  "requested_isd": "5/16/26",
+  "confidence": "high"
+ },
+ {
+  "q": "Q654",
+  "mw": 450.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Texas Hill 500kV",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/14/26",
+  "requested_isd": "4/30/29",
+  "confidence": "high"
+ },
+ {
+  "q": "Q666",
+  "mw": 300.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "North Gila 230kV",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/5/26",
+  "requested_isd": "6/1/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q673",
+  "mw": 500.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Orchard",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/15/26",
+  "requested_isd": "10/10/29",
+  "confidence": "high"
+ },
+ {
+  "q": "Q674",
+  "mw": 600.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Orchard",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/15/26",
+  "requested_isd": "10/10/29",
+  "confidence": "high"
+ }
+]

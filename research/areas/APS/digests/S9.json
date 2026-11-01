@@ -1,0 +1,174 @@
+{
+  "title": "APS RPAC Meeting 7/22/2026 - Cholla conversion, 2026 IRP Base Case, Summer Preparedness, IRP filing extension",
+  "publisher": "Arizona Public Service (APS)",
+  "date": "2026-07-22",
+  "doc_type": "stakeholder presentation (RPAC)",
+  "summary": "Covers planned gas conversion of two Cholla units (380 MW), APS's move from AURORA to PLEXOS for the 2026 IRP with a zonal topology that co-optimizes transmission expansion (discrete build-or-not projects from APS transmission planning) with generation and enforces deliverability. Reference case: Four Corners exit 2031, new gas pipeline flowing by 2030, technology-neutral candidates. Early PLEXOS result: $38.8B modeled portfolio plus $1.7B transmission investment (8 new transmission projects). Summer 2026: 8,648 MW forecast peak, 1,326 MW reserve margin; 2026 additions: 775 MW storage, 433 MW solar+storage, 318 MW solar, 500 MW wind, 90 MW gas CT. ACC extended the 2026 IRP filing deadline to Oct 30, 2026.",
+  "relevance": "high",
+  "findings": [
+    {
+      "topic": "resource_planning",
+      "statement": "APS plans to convert two Cholla units (Joseph City, AZ) from coal to natural gas, adding 380 MW dispatchable capacity; last coal burn March 2025; conversion is being compared against 2025 ASRFP bids.",
+      "location": "slides 7-8"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Early PLEXOS capacity-expansion solution selected 8 new transmission projects ($1.7B transmission investment) with a $38.8B modeled portfolio cost; transmission additions indicate material deliverability needs.",
+      "location": "slide ~22 (Early Results)"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "2026 IRP co-optimizes transmission and generation: transmission upgrades are discrete build-or-not projects from APS transmission planning, with hourly simultaneous flow limits and a requirement that each line deliver capacity during reliability hours; zonal topology includes Northern Arizona, Four Corners, Western Arizona, Maricopa County, Southeast Arizona, New Mexico and the energy market.",
+      "location": "slide 15"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Reference case assumptions: Four Corners exit 2031; new gas pipeline with gas flowing by 2030; technology-agnostic candidates (BESS 6-8 hr, CC, CT, nuclear, geothermal, pumped hydro, solar, wind, Cholla conversion, etc.); no voluntary clean energy targets; PRM/accreditation from the 2025 APS RA study (perfect capacity); E3 market prices.",
+      "location": "slide ~21"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "2026 forecast peak 8,648 MW with 1,326 MW reserve margin; summer-to-date peak 8,629 MW, with 9 days above 8,000 MW.",
+      "location": "slides 30, 33"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Summer 2026 resource additions: 775 MW energy storage (Agave 150, Beehive 250, Desert Bloom 150, Justice 150, Pluto 75); 433 MW solar+storage (Catclaw 250, Maricopa Energy Center 183); 318 MW solar (Ironwood 168, Papago Solar 150); 500 MW wind (West Camp); 90 MW gas (Sundance CT expansion).",
+      "location": "slide 32"
+    },
+    {
+      "topic": "other",
+      "statement": "On July 8, 2026 the ACC extended the 2026 IRP filing deadline to Oct 30, 2026; stakeholder comments due Feb 10, 2027; Staff assessment/proposed order Sep 13, 2027. Saguaro CEC filing planned July 24, 2026.",
+      "location": "slides 35-36, 38"
+    },
+    {
+      "topic": "other",
+      "statement": "APS system: 1.4 million customers, 5,939 miles of transmission lines, 477 substations, 34,646 sq-mi territory.",
+      "location": "slide 29"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cholla gas conversion (2 units)",
+      "type": "coal-to-gas conversion",
+      "kv": "",
+      "mw": "380",
+      "poi": "Cholla, Joseph City AZ",
+      "status": "planned",
+      "date": "2029"
+    },
+    {
+      "name": "Agave",
+      "type": "battery",
+      "kv": "",
+      "mw": "150",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "Beehive",
+      "type": "battery",
+      "kv": "",
+      "mw": "250",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "Desert Bloom",
+      "type": "battery",
+      "kv": "",
+      "mw": "150",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "Justice",
+      "type": "battery",
+      "kv": "",
+      "mw": "150",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "Pluto",
+      "type": "battery",
+      "kv": "",
+      "mw": "75",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "Catclaw",
+      "type": "solar+storage",
+      "kv": "",
+      "mw": "250",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "Maricopa Energy Center",
+      "type": "solar+storage",
+      "kv": "",
+      "mw": "183",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "Ironwood",
+      "type": "solar",
+      "kv": "",
+      "mw": "168",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "Papago Solar",
+      "type": "solar",
+      "kv": "",
+      "mw": "150",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "West Camp",
+      "type": "wind",
+      "kv": "",
+      "mw": "500",
+      "poi": "",
+      "status": "procured",
+      "date": "2026"
+    },
+    {
+      "name": "Sundance CT expansion",
+      "type": "gas CT",
+      "kv": "",
+      "mw": "90",
+      "poi": "Sundance",
+      "status": "procured",
+      "date": "2026"
+    }
+  ],
+  "open_questions": [
+    "Which 8 transmission projects did PLEXOS select and at what kV?",
+    "Where is the new gas pipeline (Transwestern expansion) delivered and its capacity?",
+    "What is the Saguaro CEC project (scope/MW)?"
+  ],
+  "source_id": "S9",
+  "model": "external research session (IRP)",
+  "digested_at": "2026-10-21T21:21:16",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

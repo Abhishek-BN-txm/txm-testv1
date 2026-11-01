@@ -1,0 +1,41 @@
+kind,name,substations,lines,cut_lines,how,place,lat,lon,unc_mi,source,note
+load,TSMC Arizona fab complex,Avery@230; Wafer,,,,,,,,,Avery is the named existing 230 kV bus; Wafer (ex-TS22) is the 2028 500/230 kV station
+load,Microsoft Goodyear data centers,Runway@230,,,city centre,"Goodyear, AZ (city centre; city spans 191 sq mi)",33.254031,-112.366472,15,"https://en.wikipedia.org/wiki/Goodyear,_Arizona",Runway is on the Microsoft site (APS)
+load,Microsoft El Mirage campus,Contrail@230,,,city centre,"El Mirage, AZ (city centre)",33.61306,-112.32444,2,"https://en.wikipedia.org/wiki/El_Mirage,_Arizona",Contrail link is inferred in the research
+load,STACK Infrastructure PHX01 Avondale,Diamond@230,,,city centre,"Avondale, AZ (city centre)",33.43361,-112.34972,4,"https://en.wikipedia.org/wiki/Avondale,_Arizona",
+load,Prime Data Centers PHX01 Avondale,,,,city centre,"Avondale, AZ (city centre)",33.43361,-112.34972,4,"https://en.wikipedia.org/wiki/Avondale,_Arizona",On-site substation; APS bus not named
+load,QTS Avondale,,,,city centre,"Avondale, AZ (city centre)",33.43361,-112.34972,4,"https://en.wikipedia.org/wiki/Avondale,_Arizona",
+load,Stream Data Centers PHXA,,,,city centre,"Goodyear, AZ (city centre; city spans 191 sq mi)",33.254031,-112.366472,15,"https://en.wikipedia.org/wiki/Goodyear,_Arizona",On-site APS substation; name not public
+load,Vantage AZ1 Goodyear,,,,city centre,"Goodyear, AZ (city centre; city spans 191 sq mi)",33.254031,-112.366472,15,"https://en.wikipedia.org/wiki/Goodyear,_Arizona",
+load,Compass Datacenters Goodyear,,,,city centre,"Goodyear, AZ (city centre; city spans 191 sq mi)",33.254031,-112.366472,15,"https://en.wikipedia.org/wiki/Goodyear,_Arizona",
+load,Aligned Data Centers PHX,,,,city centre,"Phoenix, AZ (city centre; site is in North Phoenix)",33.44833,-112.07389,20,"https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+load,Iron Mountain AZP-1/AZP-2,,,,city centre,"Phoenix, AZ (city centre)",33.44833,-112.07389,15,"https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+load,Unnamed data center served by Three Rivers,Three Rivers@230,,,city centre,"Goodyear, AZ (city centre; city spans 191 sq mi)",33.254031,-112.366472,15,"https://en.wikipedia.org/wiki/Goodyear,_Arizona",
+load,Project Baccara,,,,area centre,"Luke Air Force Base (site is north of the base; sources disagree on the exact corner)",33.535,-112.38306,4,https://en.wikipedia.org/wiki/Luke_Air_Force_Base,
+load,Arizona Land Consulting Tonopah tech campus,,,,city centre,"Tonopah, AZ (community centre)",33.49361,-112.93722,6,"https://en.wikipedia.org/wiki/Tonopah,_Arizona",
+load,Tract Buckeye data center park,,,,city centre,"Buckeye, AZ (city centre; site is in west Buckeye near Palo Verde)",33.37056,-112.59083,20,"https://en.wikipedia.org/wiki/Buckeye,_Arizona",
+load,Westpark / TS35 data center district,TS35@500,,,city centre,"Buckeye, AZ (city centre; city spans 393 sq mi)",33.37056,-112.59083,15,"https://en.wikipedia.org/wiki/Buckeye,_Arizona",
+load,Freeport-McMoRan Bagdad mine expansion,TS31@230,,,city centre,"Bagdad, AZ (community centre)",34.57722,-113.17694,2,"https://en.wikipedia.org/wiki/Bagdad,_Arizona",TS31 is new (about 1 mi E of Bagdad) and not in the grid data
+load,APS Large Customer Subscription Program,,,,,,,,,,Customers not named: not placed (Desert Sun is the generation site)
+tx,Contrail 230 kV Lines,,El Sol > Contrail > Raptor > TS39 > Sabre > Parkway,,,,,,,,
+tx,Agua Fria - Contrail 230 kV,,Agua Fria > Contrail,,,,,,,,
+tx,Diamond 230 kV Lines,Diamond; Runway,,White Tanks@230 > West Phoenix@230,,,,,,,Cut line drawn only when the grid has its route
+tx,Three Rivers 230 kV,Three Rivers,,Rudd@230 > White Tanks@230,,,,,,,Looped line drawn; Three Rivers itself is not located
+tx,Goodyear / Parkway / Broadway 230 kV Lines,Goodyear; Parkway; Broadway,,,,,,,,,
+tx,Wafer 500 kV and 230 kV Lines,Wafer; Avery@230,Raceway@230 > Wafer > Avery@230,,,,,,,,
+tx,Halo Vista substation,Halo Vista,,,,,,,,,
+tx,Morgan-Wafer 500 kV #2,,Morgan@500 > Wafer,,,,,,,,
+tx,Bagdad 230 kV Transmission Line,TS31,Mead Phoenix Project Q01 > TS31,,,,,,,,Q01 taps Mead-Perkins 500 kV near Bagdad; neither end located
+tx,Bianco 230 kV Lines,Bianco,,,,,,,,,Cut-in is 2 x 2.75 mi: drawn as the Bianco point
+tx,Helios - Milligan 230 kV,,Helios > TS-25 > Milligan,,,,,,,,
+tx,Cotton Transmission Corridor Phase 1,,Panda > Jojoba > Hazen > Freedom > Independence,,,,,,,,
+tx,Jojoba - Independence - Rudd 500 kV,,Jojoba@500 > Independence > Rudd@500,,,,,,,,
+tx,Independence 500/230 kV substation,Independence,,,,,,,,,
+tx,Runway-Stratus 230 kV cut-in to Independence,,Runway > Independence > Stratus | Independence > Broadway,,,,,,,,
+tx,Panda - Freedom 230 kV #2,,Panda > Watermelon > Hazen > Freedom,,,,,,,,Komatke (TBD) left out
+tx,Panda - Freedom 230 kV #1 Upgrade,,Panda > Freedom,,,,,,,,
+tx,Desert Sun 230 kV and 500 kV interconnections,,Desert Sun > Watermelon,,,,,,,,
+tx,Saguaro-Bianco-Independence 500 kV,,Saguaro@500 > Bianco > Independence,,,,,,,,
+tx,TS35 500/230/69/12 kV substation,TS35,,,,,,,,,
+tx,TS30 500/230 kV substation,TS30,,,,,,,,,
+tx,Sun Valley - Outer Circle 230 kV,,Sun Valley > Outer Circle | Morgan > Outer Circle,,,,,,,,

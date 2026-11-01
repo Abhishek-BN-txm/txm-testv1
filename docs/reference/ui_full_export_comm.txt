@@ -1,0 +1,34 @@
+lfreview sarea -1 0 0
+lfreview %save "C:\Data\WAPA_Cases\temp\VSCData.csv" %csv VSC 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\Dimensions.csv" %csv dimensions 0 0 
+warn %save "C:\Data\WAPA_Cases\temp\Warn_List.csv" %csv list 0 0 
+warn %save "C:\Data\WAPA_Cases\temp\Warn_Sum.csv" %csv sum 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\Subsys.csv" %csv subsys 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\InterAreaTran.csv" %csv iartrn  0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\SubstationBreakerData.csv" %csv Breaker 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\SubstationNodeTerminalData.csv" %csv NodeTerminal 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\FACTS.csv" %csv facts 0 0 
+lfreview 2term  %save "C:\Data\WAPA_Cases\temp\DCLineBusFlows.csv" %csv termflow 0 0 0 
+lfreview 2term  %save "C:\Data\WAPA_Cases\temp\DC2TFlows.csv" %csv dc2res 0 0 0 
+lfreview 2term  %save "C:\Data\WAPA_Cases\temp\DC2TData.csv" %csv dc_2T 0 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\MultiSectLn.csv" %csv MSECLN 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\ImpedCorr.csv" %csv ImpedCorr 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\PARsData.csv" %csv par 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\TransfmrData.csv" %csv tbran 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\TieDbData.csv" %csv dtie 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\TieData.csv" %csv tie 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\BranchDbData.csv" %csv dbran 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\BranchData.csv" %csv branch 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\BaseShuntAdj.csv" %csv AdjShuntBase 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\ShuntData.csv" %csv shunt 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\LoadData.csv" %csv load 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\PlantData.csv" %csv plant 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\GenData.csv" %csv gener 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\BusMism.csv" %csv mism 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\BusData.csv" %csv bus 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\OwnerList.csv" %csv owner 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\ZoneSum.csv" %csv tzone 1 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\AreaSum.csv" %csv tarea 1 0 0 
+lfreview %save "C:\Data\WAPA_Cases\temp\CaseSum.csv" %csv sum 0 0 
+lfreview sarea -1 0 0
+_excel

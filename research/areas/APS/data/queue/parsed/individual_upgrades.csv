@@ -1,0 +1,62 @@
+file,upgrade_id_name,category,description,voltage_kV,cost_$,lead_time_or_ISD,allocated_to,driver
+Q534_FaS_Final_20251106.pdf,69kV switchyard line drop and connection (TPIF),TOIF,"69kV line drop, breaker, intertie metering, isolation switch, A-frame, termination, CTs/CCVT/relays, double fiber",69,2100000,8 months,Q534:100%,
+Q534_FaS_Final_20251106.pdf,New 69kV Switchyard,station NU,"New 69kV switchyard: breakers, switches, bus, communications, foundations/conduit/grounding",69,8200000,23 months,Q534:100%,
+Q534_FaS_Final_20251106.pdf,Twin Arrows 69kV Relay Upgrade,station NU,Remote-end relay upgrade,69,200000,6 months,Q534:100%,protection
+Q534_FaS_Final_20251106.pdf,Winslow 69kV Relay Upgrade,station NU,Remote-end relay upgrade,69,200000,6 months,Q534:100%,protection
+Q519_FaS_Final_20250806.pdf,Redhawk 500kV line drop (TPIF),TOIF,"500kV line drop into switchyard, isolation switch, metering, relays, termination",500,2000000,18 months,Q519:100%,
+Q519_FaS_Final_20250806.pdf,Redhawk 500kV Switchyard Expansion,station NU,500kV switchyard expansion (bay positions 13-15 per one-line),500,2100000,24 months,Q519:100%,
+Q519_FaS_Final_20250806.pdf,ANPP Affected System Mitigation,affected system,Palo Verde (ANPP) affected system mitigation - TBD by SRP,500,,TBD by SRP,Q519,
+Q519_FaS_Final_20250806.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,Fault duty mitigation - TBD by SRP,500,,TBD by SRP,Q519,short-circuit
+Q518_FaS_Report_v1_20260213.pdf,"Desert Sands TPIF (new metering, shared gen tie)",TOIF,"New metering for grid charging, shared gen-tie",69,500000,4 months,Q518:100%,
+Q518_FaS_Report_v1_20260213.pdf,Reconductor Desert Sands-Foothills 69kV (2 mi),network NU,Reconductor 2.0 mi with 795 ACSS rated 1600 A,69,4500000,14 months,Q518:100%,thermal
+Q518_FaS_Report_v1_20260213.pdf,Reconductor Desert Sands-North Gila 69kV (10 mi per table; 7.0 mi per Sec 6.1),network NU,Reconductor with 795 ACSS rated 1600 A,69,11300000,18 months,Q518:100%,thermal
+Q518_FaS_Report_v1_20260213.pdf,Upgrade relays at Foothills 69kV,station NU,Relay upgrade,69,500000,4 months,Q518:100%,
+Q518_FaS_Report_v1_20260213.pdf,Upgrade relays at Desert Sands 69kV,station NU,Relay upgrade,69,200000,4 months,Q518:100%,
+Q518_FaS_Report_v1_20260213.pdf,Bypass North Gila series capacitors (Hoodoo Wash and Hassayampa lines),network NU,"Operational bypass, no cost",500,0,,Q518,thermal
+Q518_FaS_Report_v1_20260213.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q518,short-circuit
+Q493_FaS_Final_11-12-2025.pdf,Milligan 69kV TPIF - use of existing connection,TOIF,Use of existing Q256 connection,69,100000,12 months,Q493:100%,
+Q488_FaS_Report_V2_FINAL_20260615.pdf,Panda TPIF - overhead line to POCO and substation buildout,TOIF,Overhead line to customer POCO and substation buildout for POI connection,230,1600000,14 months,Q488:100%,
+Q488_FaS_Report_V2_FINAL_20260615.pdf,"Panda 230kV switchyard expansion (bay buildout, breakers, switches, relays/controls)",station NU,Total $11.50M; Q488 share 40%,230,4600000,36 months,"APS:33% $3,830,000; Q463:0%; Q488:40% $4,600,000; Q507:27% $1,240,000",
+Q488_FaS_Report_V2_FINAL_20260615.pdf,Rebuild Panda-Freedom 230kV line 40 mi (60%),network NU,No longer assigned to Q488 - APS capital project planned 2030 (APS 10-year plan),230,0,,Q488:0 (removed),thermal
+Q488_FaS_Report_V2_FINAL_20260615.pdf,OH Cut-In Panda(Komatke)-Freedom into Hazen (60%),network NU,Overhead line cut-in to Hazen,230,1100000,10 months,Q488:60%,
+Q488_FaS_Report_V2_FINAL_20260615.pdf,SUB Cut-In Panda(Komatke)-Freedom into Hazen (60%),network NU,Substation work for cut-in to Hazen,230,3900000,10 months,Q488:60%,
+Q488_FaS_Report_V2_FINAL_20260615.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q488,short-circuit
+Q486_FaS_Report_Final_20260523.pdf,Install 500kV line into switchyard (TPIF),TOIF,Overhead line to customer POCO and switchyard POI connection,500,4200000,12 months,Q486:100%,
+Q486_FaS_Report_Final_20260523.pdf,New 500kV switchyard development (33%),station NU,New 500kV switching station on Moenkopi-Eldorado line shared with Q348/Q401,500,26000000,48 months,"Q486:33% (shared with Q348, Q401)",
+Q486_FaS_Report_Final_20260523.pdf,Yavapai 500/230kV #1 and #2 Transformer upgrade to 600 MVA (15.8%),network NU,Upgrade both Yavapai 500/230kV xfmrs to 600 MVA,500,4200000,48 months,Q486:15.8% (NSTS Transition Cluster),thermal
+Q486_FaS_Report_Final_20260523.pdf,Moenkopi Switchyard Relay Upgrade,station NU,Relay upgrade at Moenkopi,500,400000,8 months,Q486:100%,
+Q479_FaS_Report_202602116.pdf,Perryville 69kV line drop & metering (TPIF),TOIF,Install 69kV line drop into switchyard and metering,69,1900000,10 months,Q479:100%,
+Q479_FaS_Report_202602116.pdf,Perryville 69kV bus extension,station NU,Network upgrades of interconnection switchyard (bus extension),69,500000,10 months,Q479:100%,
+Q479_FaS_Report_202602116.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q479,short-circuit
+Q466_FaS_Report_Final_20260409.pdf,"North Gila TPIF - OH line to POCO, substation buildout, relays/controls",TOIF,"Overhead line to POCO, substation buildout for POI, relays and controls",500,4500000,12 months,Q466:100%,
+Q466_FaS_Report_Final_20260409.pdf,"North Gila 500kV substation expansion (bay buildout, breakers, switches)",station NU,Substation expansion,500,4600000,48 months,Q466:100%,
+Q466_FaS_Report_Final_20260409.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q466,short-circuit
+Q465_FaS_FINAL_20260212.pdf,Trilby Wash 230kV line drop & metering (TPIF),TOIF,Install 230kV line drop into switchyard & metering,230,3100000,4 months,Q465:100%,
+Q465_FaS_FINAL_20260212.pdf,Trilby Wash 230kV switchyard additions,station NU,"Breakers, disconnect switches, bus structures, foundations, site grading, relays/controls (shown as shared NU on one-line)",230,2900000,48 months,Q465,
+Q465_FaS_FINAL_20260212.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q465,short-circuit
+Q446_FaS_FINAL_20260212.pdf,Trilby Wash 230kV line drop & metering (TPIF),TOIF,Install 230kV line drop into switchyard & metering,230,3100000,4 months,Q446:100%,
+Q446_FaS_FINAL_20260212.pdf,Trilby Wash 230kV switchyard additions,station NU,"Breakers, disconnect switches, bus structures, foundations, site grading, relays/controls (shown as shared NU on one-line)",230,2900000,48 months,Q446,
+Q446_FaS_FINAL_20260212.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q446,short-circuit
+Q409_FaS_FINAL__20260212.pdf,Trilby Wash 230kV line drop & metering (TPIF),TOIF,Install 230kV line drop into switchyard & metering,230,3100000,4 months,Q409:100%,
+Q409_FaS_FINAL__20260212.pdf,Trilby Wash 230kV switchyard additions,station NU,"Breakers, disconnect switches, bus structures, foundations, site grading, relays/controls (shown as shared NU on one-line)",230,2900000,48 months,Q409,
+Q409_FaS_FINAL__20260212.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q409,short-circuit
+Q427_FaS_Final_Report_20260218.pdf,Freedom 230kV line drop & metering (TPIF),TOIF,"OH line to POCO, switchyard POI connection, metering",230,2400000,12 months,Q427:100%,
+Q427_FaS_Final_Report_20260218.pdf,"Freedom 230kV switchyard NU (new breakers, bus structure, relays/controls)",station NU,Network Upgrades of interconnection switchyard,230,1600000,48 months,Q427:100%,
+Q427_FaS_Final_Report_20260218.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q427,short-circuit
+Q401_FaS_Final_20260731.pdf,Install 500kV line into switchyard (TPIF),TOIF,Overhead line to customer POCO and switchyard POI connection,500,4200000,12 months,Q401:100%,
+Q401_FaS_Final_20260731.pdf,New 500kV switchyard development (33%),station NU,New 500kV switching station on Moenkopi-Eldorado shared with Q348/Q401/Q486,500,26000000,48 months,Q401:33% (shared Q348/Q401/Q486),
+Q401_FaS_Final_20260731.pdf,Yavapai 500/230kV #1 and #2 Transformer upgrade to 600 MVA (25.4%),network NU,Upgrade both Yavapai 500/230kV xfmrs to 600 MVA,500,6700000,48 months,Q401:25.4% (NSTS Transition Cluster),thermal
+Q401_FaS_Final_20260731.pdf,Moenkopi Switchyard Relay Upgrade,station NU,Relay upgrade at Moenkopi,500,400000,8 months,Q401:100%,
+Q401_FaS_Final_20260731.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,Listed without cost (TBD by SRP),500,,,Q401,short-circuit
+Q348_FaS_Final_20260519.pdf,Install 500kV line into switchyard (TPIF),TOIF,Overhead line to customer POCO and switchyard POI connection,500,4200000,12 months,Q348:100%,
+Q348_FaS_Final_20260519.pdf,New 500kV switchyard development (33%),station NU,New 500kV switching station on Moenkopi-Eldorado shared with Q348/Q401/Q486,500,26000000,48 months,Q348:33% (shared Q348/Q401/Q486),
+Q348_FaS_Final_20260519.pdf,Yavapai 500/230kV #1 and #2 Transformer upgrade to 600 MVA (10.8%),network NU,Upgrade both Yavapai 500/230kV xfmrs to 600 MVA,500,2900000,48 months,Q348:10.8% (NSTS Transition Cluster),thermal
+Q348_FaS_Final_20260519.pdf,Moenkopi Switchyard Relay Upgrade,station NU,Relay upgrade at Moenkopi,500,400000,8 months,Q348:100%,
+Q348_FaS_Final_20260519.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,Listed without cost (TBD by SRP),500,,,Q348,short-circuit
+Q337_FaS_Final_20260213.pdf,Dugas 500kV line drop (TPIF),TOIF,"500kV line drop from POCO pole, custom structures, EHV materials, disconnect switch, CTs, CCVT/PTs, relays/controls",500,5500000,24 months,Q337:100%,
+Q337_FaS_Final_20260213.pdf,Dugas 500kV Switchyard Expansion,station NU,Switchyard expansion,500,6000000,50 months,Q337:100%,
+Q337_FaS_Final_20260213.pdf,Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q337,short-circuit
+Q312_FaS_Final_20260213.pdf,"Moenkopi 500kV line drop (TPIF, ~0.5 mi)",TOIF,"500kV line drop from POCO pole, custom structures, EHV materials, disconnect switch, CTs, CCVT/PTs, relays/controls",500,7800000,24 months,Q312:100%,
+Q312_FaS_Final_20260213.pdf,Moenkopi 500kV switchyard expansion (50%),station NU,"Breakers, switches, relays/controls/RTUs, bus structures",500,6000000,50 months,Q312:50%,
+Q312_FaS_Final_20260213.pdf,Moenkopi 500kV reactor relocation (50%),station NU,Reactor relocation,500,7500000,50 months,Q312:50%,
+Q312_FaS_Final_20260213.pdf,Palo Verde/Hassayampa 500kV Switchyard Fault Duty Mitigation,affected system,TBD by SRP,500,,TBD by SRP,Q312,short-circuit

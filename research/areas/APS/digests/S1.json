@@ -1,0 +1,108 @@
+{
+  "title": "Arizona Public Service Company 2025 to 2034 Ten-Year Transmission System Plan",
+  "publisher": "Arizona Public Service Company",
+  "date": "2025-01",
+  "doc_type": "Ten-year transmission plan (A.R.S. 40-360.02 filing)",
+  "summary": "Previous plan, superseded by the 2026 plan; useful as the baseline for older WECC cases and for tracking renames and date changes. Totals ~32 mi new 500kV, 578 mi 345kV rebuilds, 149 mi new 230kV, 101 mi 230kV rebuilds, 40 new transformers, 1 STATCOM, $6.24B. Project sheets for 26 projects with old names (TS21, TS22, TS33, Runway Additional), TBD table, RTAP, DG/EE study (2029 case) and planning guidelines.",
+  "relevance": "medium",
+  "findings": [
+    {
+      "topic": "transmission_plans",
+      "statement": "Totals: ~32 mi new 500kV, 1 mi new 345kV, 578 mi 345kV rebuilds, 149 mi new 230kV OH, 101 mi 230kV rebuilds, 1 mi new 230kV UG, 8 mi 230kV UG upgrades, 1 mi 115kV; 40 new transformers, 3 replacements, 4 shunt reactors, 6 series reactors, 20 shunt capacitors, 1 STATCOM; $6.24B.",
+      "location": "p. 6 Table 1"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Placed in service in 2024: Country Club-Lincoln Street 230kV UG upgrade, Rabbit Canyon Switchyard and Lines, Three Rivers 230kV Line, Serrano Solar and Storage gen-tie.",
+      "location": "p. 13"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Dates in this plan that later changed: TS22 2028 (Wafer, 2028 in 2026 plan); Jojoba-Rudd 500kV 2032; TS21 cut-in and TS21-Broadway 2032; Panda-Freedom new line 2030; Pinnacle Peak-Ocotillo 2029; Saguaro Power Campus 2029; Agua Fria-Contrail 2030; Four Corners-Pinnacle Peak 345kV rebuilds 2037.",
+      "location": "pp. 13-14, 23-48"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "TBD table also listed Komatke 230/69 substation, Morgan-Outer Circle 230, Delaney-Quartzsite 500/230, Quartzsite-Colorado River 500, TS30 500/230 substation, TS35 substation, Panda-Freedom 230 upgrade; Quartzsite-Colorado River and Komatke were removed in the 2026 plan.",
+      "location": "pp. 50-51 Table 5"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "The RTAP says Jojoba-Rudd 500kV and Panda-Freedom 230kV are the current form of the conceptual Palo Verde-Liberty and Gila Bend-Liberty Renewable Transmission Projects (Decision 72057); APS proposes no new RTPs.",
+      "location": "Attachment B (RTAP, Jan 2025)"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "DG/EE study (2029 heavy summer): backing out incremental EE/DG adds 771 MW to APS load (598 EE + 173 DG) and 215 MW to SRP (158 EE + 57 DG); no APS overloads; SRP-WAPA ties Duke-Test Track and Rudd-Liberty overloaded under some N-1 contingencies in the base case.",
+      "location": "Attachment C pp. 3, 7"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Goodyear 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Cut of Rudd-Three Rivers 230kV into Goodyear; <1 mi",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025"
+    },
+    {
+      "name": "Parkway 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Palm Valley-Trilby Wash 230kV cut into Parkway",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025"
+    },
+    {
+      "name": "Broadway 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Runway-Rudd 230kV cut into Broadway",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025"
+    },
+    {
+      "name": "Dromedary 230kV Substation and Lines",
+      "type": "substation",
+      "kv": "230",
+      "mw": "",
+      "poi": "Palm Valley-Parkway 230kV cut into Dromedary (Glendale)",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025"
+    },
+    {
+      "name": "Ironwood Solar and Storage 500kV Interconnection",
+      "type": "line",
+      "kv": "500",
+      "mw": "",
+      "poi": "Wildcat GSU -> Hoodoo Wash switchyard (on Hassayampa-North Gila 500kV)",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025"
+    },
+    {
+      "name": "West Camp Wind Gen-Tie / Sitgreaves 345kV switchyard",
+      "type": "substation",
+      "kv": "345",
+      "mw": "",
+      "poi": "Sitgreaves cut into Cholla-Mazatzal 345kV",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025"
+    }
+  ],
+  "open_questions": [
+    "2025 APR table and 2025 TYP disagree on some dates; the 2026 plan is controlling."
+  ],
+  "source_id": "S1",
+  "model": "external research session (ten-year plan)",
+  "digested_at": "2026-10-21T21:22:56",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

@@ -1,0 +1,22 @@
+id: APS
+name: Arizona Public Service (APS)
+description: 'APS balancing area and transmission footprint in Arizona (WECC case
+  area 14): queue attrition study area.'
+created: '2026-10-21T20:49:24'
+footprint:
+  areas:
+  - 14
+utilities:
+- Arizona Public Service (APS)
+keywords:
+- Arizona
+- Phoenix
+- Palo Verde
+- Hassayampa
+- APS interconnection queue
+- APS ten-year transmission plan
+- ACC Biennial Transmission Assessment
+- APS integrated resource plan
+eia_ba: AZPS
+utc_offset: -7
+eia_years: 10

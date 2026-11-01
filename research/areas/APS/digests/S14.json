@@ -1,0 +1,347 @@
+{
+  "title": "Arizona Public Service Company 2026 to 2035 Ten-Year Transmission System Plan (ACC filing, with Attachments B, C, E, F)",
+  "publisher": "Arizona Public Service Company (filed with Arizona Corporation Commission, Docket E-99999A-25-0006)",
+  "date": "2026-01-30",
+  "doc_type": "Ten-year transmission plan (A.R.S. 40-360.02 filing)",
+  "summary": "APS's current ten-year plan, filed Jan 30, 2026 (119 pp). Totals: ~72 mi new 500 kV, 1 mi new 345 kV, 578 mi 345 kV rebuilds, 190 mi new 230 kV, 146 mi 230 kV rebuilds, 34 new transformers, $6.2B. Includes 23 project sheets, Table 2 equipment by year, a TBD project table (8 new 500 kV concepts), EHV/Phoenix/Yuma maps, a DG/EE study (2030), the RTAP, a Phoenix load-pocket RMR study 2026-2035 with Phoenix-area load forecast, and planning guidelines. The Technical Study Report, Extreme Contingency Study and ratings are CEII (not filed publicly). Several substations renamed (TS21->Independence, TS22->Wafer, TS33->Helios); many dates pulled forward.",
+  "relevance": "high",
+  "findings": [
+    {
+      "topic": "transmission_plans",
+      "statement": "Plan totals: ~72 mi new 500kV OH, ~1 mi new 345kV OH, ~578 mi 345kV OH rebuilds, ~190 mi new 230kV OH, ~146 mi 230kV OH rebuilds, ~1 mi new 230kV UG, ~8 mi 230kV UG upgrades, ~1 mi 115kV rebuild; 34 new transformers, 2 replacements, 4 new series reactors, 15 new shunt capacitors, 1 shunt reactor replacement, 2 series capacitor replacements; total investment $6.2 billion (narrative says 2 new shunt reactors, Table 1 says 3).",
+      "location": "pp. 6-7, Table 1"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Placed in service in 2025: Goodyear 230kV Lines, Parkway 230kV Lines, Broadway 230kV Lines, Dromedary 230kV Lines, Ironwood Solar and Storage 500kV Interconnection, West Camp Wind Gen-Tie (Sitgreaves 345kV switchyard).",
+      "location": "p. 13"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Renames: TS33 -> Helios (Sundance-Milligan becomes Helios-Milligan); TS22 -> Wafer; TS21 -> Independence; Runway Additional 230kV Lines -> Diamond 230kV Lines (Diamond-Runway section becomes TBD); TS39 switchyard added on Contrail lines (TBD).",
+      "location": "pp. 13-14"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Date changes vs the 2025 plan: Jojoba-Rudd 500kV 2032->2031; Runway-Stratus cut-in to Independence and Independence-Broadway 2032->2030; Panda-Freedom #1 Upgrade TBD->2031; Morgan-Outer Circle 230kV TBD->2030; Pinnacle Peak-Ocotillo rebuilds 2029->2030; Saguaro Power Campus 2029->2030; Cholla-Chevelon cut-in 2028->2029; Hashknife and Contrail 2025->2026; Four Corners-Cholla-Pinnacle Peak 345kV rebuilds 2037->2038.",
+      "location": "pp. 13-14"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Removed from the plan: Quartzsite-Colorado River 500kV Line, Komatke 230/69kV Substation (TBD table), Panda 230kV series reactor, 2 Pinnacle Peak 230kV series reactors (2026), Wafer 230kV STATCOM; Runway 230/69kV transformer additions moved from 2027 to TBD.",
+      "location": "pp. 14-16, Table 3"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "New TBD projects (no CEC filed): Hassayampa-North Gila 500kV #2 cut-in to Hoodoo Wash; TS37 500kV Lines; Texas Hill 500kV Switchyard and Lines; Morgan-Wafer 500kV #2 and 230kV #2; Jojoba-Independence 500kV #2; Watermelon-Jojoba 500kV #2 and #3; Independence-Saguaro 500kV Line.",
+      "location": "p. 17; Table 5 pp. 47-48"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Table 2 equipment 2026: Contrail 230/69 x3; Rudd 500/230 x1; Stratus 230/69 x1; Verde 230/69 replacements x2; shunt capacitors at Contrail, Raptor, Sabre (x2), Stratus; Cholla 500kV shunt reactor replacement; Country Club 230kV shunt reactors x2.",
+      "location": "p. 8, Table 2"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Table 2 equipment 2027: 230/69 transformers at Avery, Broadway, Diamond (x3), Freedom, Outer Circle, Scatter Wash; Sun Valley 500/230 x1; Broadway and Diamond 230kV capacitors; Komatke 230kV series reactor; Country Club-Meadowbrook 230kV UG upgrade (3 mi).",
+      "location": "p. 8, Table 2"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Table 2 equipment 2028: 230/69 transformers at Avery, Bianco (x2), Broadway, Ocotillo, Parkway, TS31 (x2), Yavapai; Mead Phoenix Project Q01 500/230 x1; Wafer 500/230 x3; capacitors at Avery (x2), TS31, Willow Lake (x2); Meadowbrook-Sunnyslope 230kV UG upgrade (5 mi).",
+      "location": "p. 9, Table 2"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Table 2 equipment 2029-2038: North Gila 500/230 and Rudd 500/230 (2029); Pinnacle Peak 230kV series reactors x3 (2029); Hazen 230/69 x2, Helios 230/69 x1, capacitors at Hazen and Independence (x2) (2030); Independence 500/230 x2 (2031); Cholla 345kV series capacitor replacements x2 (2038).",
+      "location": "p. 9, Table 2"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Table 2 TBD equipment: 230/69 transformers at Lone Peak, Meadowbrook, Palm Valley, Raceway, Runway (x4), Sun Valley, Trilby Wash, TS17 (x2), TS25 (x2), Wafer; TS37 500/69kV transformer; Runway 230kV capacitor; Country Club-Grand Terminal 230kV UG upgrade (2 mi); Surprise-El Sol 230kV reconductor (<1 mi).",
+      "location": "p. 10, Table 2"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Plan states compliance with NERC TPL-001-5.1 P0 and P1-P7; 13th BTA Decision 81541 (Oct 23, 2025) ordered a confidential congestion/load-growth-pocket report, which APS placed in the CEII Technical Study Report.",
+      "location": "pp. 5, 12"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Phoenix area (APS+SRP) peak load 2020-2024: 13,279 / 13,115 / 13,054 / 13,551 / 13,906 MW; forecast 17,726 MW in 2030 and 19,650 MW in 2035; energy 58,007 GWh (2024) to 95,654 (2030) and 109,072 (2035); load factor rises from 48% to 61-63%.",
+      "location": "RMR Analysis Table 4, PDF p. 87 (report p. 23)"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Phoenix RMR results: 2030 SIL 11,241 MW, peak 17,726, import at peak 11,368, RMR at peak 6,358 MW, 3,102 RMR hours, 5,518 GWh, $3.9M; 2035 SIL 15,181, peak 19,650, RMR at peak 6,218, 996 hours, 2,052 GWh, $1.8M; reserves 639 / 832 MW vs 439 / 429 required; no resources needed beyond the APS/SRP ten-year plans.",
+      "location": "RMR Table ES1 (PDF p. 70) and Table 3 (PDF p. 86)"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Phoenix-area generation nameplate 8,184 MW: APS owned/purchased 2,435 MW (30%), SRP 5,750 MW (incl. 600 MW future). The Phoenix RMR study was triggered because the load forecast rose by more than 2.5%, driven largely by large loads in Maricopa County; Yuma was not triggered.",
+      "location": "RMR report pp. 5, 23; plan p. 11"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "DG/EE study (2030 heavy summer): backing out incremental EE/DG adds 802 MW to APS load (EE 590 MW; Table 3 DG 212 MW) and 282 MW to SRP (EE 206, DG 76); no new APS or SRP overloads or voltage violations.",
+      "location": "Attachment B"
+    },
+    {
+      "topic": "other",
+      "statement": "APS planning guidelines: nominal operating voltages 535/348/239/119 kV, continuous limits +/-5%, 8% maximum post-contingency voltage dip; standard new-line conductors 3x1780 ACSR Chukar or 2x2156 Bluebird (525 kV), 2x795 Tern (345 kV), 1x2156 ACSS Bluebird or 1x1272 Bittern (230 kV); new 230/69 transformers 113/150/188 MVA.",
+      "location": "Attachment F (planning guidelines)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Hashknife Energy Center TPIF",
+      "type": "line",
+      "kv": "500",
+      "mw": "",
+      "poi": "POCO -> Cholla substation (<1 mi; ~0.3 mi APS portion)",
+      "status": "CEC 187 issued; construction started 2025",
+      "date": "2026"
+    },
+    {
+      "name": "Contrail 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "El Sol - Contrail - Raptor (2026) - TS39 (TBD) - Sabre (2026) - Parkway; ~9 mi; 3000 A",
+      "status": "CEC 198 issued and amended; large-load customers",
+      "date": "2026"
+    },
+    {
+      "name": "Diamond 230kV Lines (formerly Runway Additional)",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Cut-in of White Tanks-West Phoenix 230kV -> Diamond substation (Avondale); ~2.5 mi double circuit; 3000 A",
+      "status": "CEC 209 issued; high-load customer",
+      "date": "2027"
+    },
+    {
+      "name": "Snowflake Solar TPIF",
+      "type": "line",
+      "kv": "500",
+      "mw": "",
+      "poi": "POCO pole -> Cholla substation; ~1.5 mi",
+      "status": "CEC 240-A/B granted 2/19/2025",
+      "date": "2027"
+    },
+    {
+      "name": "Sun Valley to Outer Circle 230kV Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Sun Valley -> Outer Circle (new 230/69 substation, 2027); ~17 mi on open position of Sun Valley-Morgan 500kV structures; 3000 A",
+      "status": "CEC 138 issued",
+      "date": "2027"
+    },
+    {
+      "name": "Helios to Milligan 230kV Line (formerly Sundance-Milligan; Pinal Electrical Improvement Project)",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Helios (new, cut into Sundance-Faul 230kV; 2027) - TS25 (TBD) - Milligan; ~26 mi",
+      "status": "CEC 136 and CEC 247 (10/23/2025) issued",
+      "date": "2027"
+    },
+    {
+      "name": "Bagdad 230kV Transmission Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Mead Phoenix Project Q01 substation (taps Mead-Perkins 500kV; 500/230 xfmr 2028) -> TS31 near Bagdad; ~14 mi; 3000 A",
+      "status": "CEC 238 issued 12/31/2024; high-load customer",
+      "date": "2028"
+    },
+    {
+      "name": "Bianco 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Cut-in of Santa Rosa-Desert Basin 230kV -> Bianco substation (Casa Grande); ~4 mi",
+      "status": "LSC approved CEC 257 on 1/28/2026; pending ACC",
+      "date": "2028"
+    },
+    {
+      "name": "Q264 TPIF",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "POCO -> Milligan; ~1 mi; Saguaro-Milligan rebuilt to double circuit",
+      "status": "CEC 44 amendment filed 12/9/2025",
+      "date": "2028"
+    },
+    {
+      "name": "Wafer 500kV and 230kV Lines (formerly TS22)",
+      "type": "substation",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Wafer substation cut into Morgan-Pinnacle Peak 500kV and Raceway-Avery 230kV (N Phoenix); 3 x 500/230 xfmrs in 2028",
+      "status": "CEC 131 amended; high-load customer",
+      "date": "2028"
+    },
+    {
+      "name": "Cholla-Chevelon 345kV Line Cut-In to Sitgreaves",
+      "type": "line",
+      "kv": "345",
+      "mw": "",
+      "poi": "Cholla-Chevelon 345kV in/out of Sitgreaves switchyard; <1 mi",
+      "status": "Need for CEC not determined",
+      "date": "2029"
+    },
+    {
+      "name": "North Gila-Orchard 230kV Line Circuit #2",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "North Gila -> Orchard (Yuma); ~13 mi; 3000 A; for new solar+storage at Orchard",
+      "status": "CEC 163 issued",
+      "date": "2029"
+    },
+    {
+      "name": "Pinnacle Peak to Ocotillo 230kV Line Rebuilds",
+      "type": "upgrade",
+      "kv": "230",
+      "mw": "",
+      "poi": "Pinnacle Peak - TS17 (TBD) - Cactus - Brandow (SRP) - Ward (SRP) - Ocotillo; ~25 mi per line, 4 lines",
+      "status": "No CEC (1960s lines)",
+      "date": "2030"
+    },
+    {
+      "name": "Morgan to Outer Circle 230kV Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Morgan -> Outer Circle; ~20 mi on Sun Valley-Morgan 500kV structures; 3000 A",
+      "status": "CEC 138 issued",
+      "date": "2030"
+    },
+    {
+      "name": "Agua Fria to Contrail 230kV Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Agua Fria (SRP) -> Contrail; ~10 mi; Agua Fria-El Sol 230kV also upgraded",
+      "status": "CEC application not filed",
+      "date": "2030"
+    },
+    {
+      "name": "Saguaro Power Campus Upgrades",
+      "type": "substation",
+      "kv": "230/115",
+      "mw": "",
+      "poi": "New Saguaro 230kV yard; Saguaro-Milligan re-routed; 500/115 xfmrs reconfigured to 500/230; Saguaro-San Manuel 115kV relocated",
+      "status": "CEC 44 amendment filed 12/9/2025",
+      "date": "2030"
+    },
+    {
+      "name": "Panda to Freedom 230kV New Line #2",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Panda - Watermelon (TBD) - Komatke (TBD) - Hazen (2030) - Freedom; ~40 mi; 3000 A; Cotton Transmission Corridor",
+      "status": "CEC application not filed",
+      "date": "2030"
+    },
+    {
+      "name": "Runway-Stratus 230kV Line Cut-In to Independence",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Runway-Stratus 230kV -> Independence substation (500/230, 2030); ~2 mi",
+      "status": "CEC application not filed",
+      "date": "2030"
+    },
+    {
+      "name": "Independence to Broadway 230kV Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Independence -> Broadway; ~8 mi; 3000 A",
+      "status": "CEC application not filed",
+      "date": "2030"
+    },
+    {
+      "name": "Independence 500/230kV Substation",
+      "type": "transformer",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Independence (formerly TS21), S/E of Freedom; 2 x 500/230 xfmrs",
+      "status": "Planned",
+      "date": "2031 (xfmrs); substation 2030"
+    },
+    {
+      "name": "Panda to Freedom 230kV Line #1 Upgrade",
+      "type": "upgrade",
+      "kv": "230",
+      "mw": "",
+      "poi": "Panda -> Freedom rebuild; ~40 mi; 3000 A; Panda-Hazen on future-500kV-capable structures",
+      "status": "CEC 26 amendment not filed",
+      "date": "2031"
+    },
+    {
+      "name": "Jojoba-Rudd 500kV Line",
+      "type": "line",
+      "kv": "500",
+      "mw": "",
+      "poi": "Jojoba - Independence (2030) - Rudd; ~29 mi; SRP participant; Cotton Transmission Corridor",
+      "status": "CEC application not filed; construction start 2028",
+      "date": "2031"
+    },
+    {
+      "name": "Desert Sun 230kV and 500kV Interconnections",
+      "type": "line",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Desert Sun (new, west of Gila Bend; 2030) -> Watermelon (new; cut into Panda-Freedom #2 and a Gila River-Jojoba 500kV line); ~20 mi per line, 2 x 500kV + 1 x 230kV",
+      "status": "CEC application not filed; 230kV 2030, 500kV 2031; for a potential new power plant",
+      "date": "2030/2031"
+    },
+    {
+      "name": "Four Corners to Cholla to Pinnacle Peak 345kV Line Rebuilds",
+      "type": "upgrade",
+      "kv": "345",
+      "mw": "",
+      "poi": "Four Corners - Cholla - Sitgreaves - Chevelon - Preacher Canyon - Mazatzal - Pinnacle Peak; ~289 mi x 2 lines; 3000 A; convertible to 500kV",
+      "status": "CEC application not filed; construction start 2033",
+      "date": "2038"
+    },
+    {
+      "name": "TBD lines with CEC issued",
+      "type": "line",
+      "kv": "230/500",
+      "mw": "",
+      "poi": "El Sol-Westwing 230; Palo Verde-Saguaro 500; Palm Valley-Dromedary-Parkway 230 #2; Sun Valley-Trilby Wash 230 #2; Trilby Wash-Parkway 230 #2; El Sol-Contrail-Raptor-TS39-Sabre-Parkway 230 #2; Orchard-Yucca 230; Obed Meadow TPIF; Diamond-Runway 230; Hassayampa-North Gila 500 #2 cut-in to Hoodoo Wash",
+      "status": "CEC issued",
+      "date": "TBD"
+    },
+    {
+      "name": "TBD lines with no CEC filed",
+      "type": "line",
+      "kv": "230/500",
+      "mw": "",
+      "poi": "TS35-TS11-Sun Valley 230; Sun Valley-TS10-TS11 230; Delaney-TS30-TS36-Quartzsite 500/230; TS14 230; TS17 230; TS30 500; TS32 230; TS35 500/230; TS37 500; Texas Hill 500 switchyard; Morgan-Wafer 500 #2 + 230 #2; Jojoba-Independence 500 #2; Watermelon-Jojoba 500 #2 and #3; Independence-Saguaro 500",
+      "status": "No CEC application filed",
+      "date": "TBD"
+    }
+  ],
+  "open_questions": [
+    "RMR Table ES1 gives 2035 import at peak 11,432 MW but Table 3 gives 13,432 MW (19,650 - 13,432 = 6,218 RMR at peak); ES1 likely a typo.",
+    "DG/EE executive summary says 590 MW EE + 173 MW DG for APS, but Table 3 gives 212 MW DG (590 + 212 = 802 MW).",
+    "Desert Sun / Watermelon: which generator or queue position is behind the 'potential new power plant', and its MW?",
+    "Technical Study Report (congestion and load-growth pockets), Extreme Contingency Study and System Ratings are CEII, available only under a protective agreement.",
+    "Ratings are TBD for most 500kV projects (Jojoba-Rudd, Wafer, Hashknife, Snowflake); they must be assumed when modelling these projects in TARA cases."
+  ],
+  "source_id": "S14",
+  "model": "external research session (ten-year plan)",
+  "digested_at": "2026-10-21T21:22:56",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

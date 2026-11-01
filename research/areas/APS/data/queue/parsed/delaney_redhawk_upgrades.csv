@@ -1,0 +1,70 @@
+file,upgrade_id_name,category,description,voltage_kV,cost_$,lead_time_or_ISD,allocated_to,driver
+APS_Delaney-SunValley_Transition_Cluster_Phase_1_v1-8A_20240930.pdf,Q437 TPIF Delaney,TOIF,"Metering, uses Q276 gen tie line",500,300000,12 months,Q437:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_1_v1-8A_20240930.pdf,Q467 TPIF Delaney,TOIF,Install 500 kV line drop into switchyard & metering,500,3000000,12 months,Q467:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_1_v1-8A_20240930.pdf,Q467 Delaney CB 12,station NU,Network Upgrades of interconnection switchyard (new CB position 12),500,2300000,48 months,Q467:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_1_v1-8A_20240930.pdf,Q474 TPIF Delaney,TOIF,Install 500 kV line drop into switchyard & metering,500,3000000,12 months,Q474:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_1_v1-8A_20240930.pdf,Q474 Delaney CB 16,station NU,Network Upgrades of interconnection switchyard (new CB position 16),500,2300000,48 months,Q474:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_1_v1-8A_20240930.pdf,Q475 TPIF Delaney,TOIF,"Metering, uses Q276 gen tie line",500,300000,12 months,Q475:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_1_v1-8A_20240930.pdf,PV/Hassayampa fault duty mitigation,affected system,Palo Verde/Hassayampa 500 kV switchyard fault duty mitigation,500,,TBD by SRP,all projects; TBD by SRP,short-circuit
+APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf,Q437 TPIF Delaney,TOIF,"Metering, uses Q276 gen tie line",500,300000,12 months,Q437:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf,Q467 TPIF Delaney,TOIF,Install 500 kV line drop into switchyard & metering,500,3000000,12 months,Q467:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf,Q467 Delaney CB 12,station NU,Network Upgrades of interconnection switchyard (new CB position 12),500,2300000,48 months,Q467:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf,Q474 TPIF Delaney,TOIF,Install 500 kV line drop into switchyard & metering,500,3000000,12 months,Q474:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf,Q474 Delaney CB 16,station NU,Network Upgrades of interconnection switchyard (new CB position 16),500,2300000,48 months,Q474:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf,Q475 TPIF Delaney,TOIF,"Metering, uses Q276 gen tie line",500,300000,12 months,Q475:100%,
+APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf,PV/Hassayampa fault duty mitigation,affected system,Palo Verde/Hassayampa 500 kV switchyard fault duty mitigation,500,,TBD by SRP,all projects; TBD by SRP,short-circuit
+APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf,NU #1 Sun Valley-Hassayampa Tap 5-ohm series reactor,network NU,Install 5-ohm series reactor on Sun Valley-Hassayampa Tap 230 kV Line (CAWCD/WAPA ownership); mitigates Liberty-Hassayampa Tap 230 kV overload,230,3000000,48 months,Q467:100% (only NRIS TC project),thermal
+APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf,Q567 TPIF Delaney,TOIF,Transmission Provider Interconnection Facilities (shares Q360 gen tie),500,100000,N/A,Q567:100%,
+APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf,Q572 TPIF Delaney,TOIF,Transmission Provider Interconnection Facilities,500,3000000,N/A,Q572:100%,
+APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf,Q572 Delaney switchyard expansion,station NU,Network Upgrades of switchyard expansion (new breaker),500,4000000,48 months (per exec summary),Q572:100%,
+APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf,Q572 TPIF TS30,TOIF,Transmission Provider Interconnection Facilities at new TS30,500,3000000,N/A,Q572:100%,
+APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf,Q572 new TS30 500 kV switchyard,station NU,"Network Upgrades of switchyard expansion, new TS30 (3 new CBs)",500,31000000,48 months (per exec summary),Q572:100%,
+APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf,Q550 Redhawk,TOIF,No new CBs (uprate of Q519),500,0,N/A,Q550:100%,
+APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf,Q550 Redhawk,TOIF,Transmission Provider Interconnection Facilities,500,0,N/A,Q550:100%,
+APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf,Q567 TPIF Delaney,TOIF,Transmission Provider Interconnection Facilities,500,200000,12 months,Q567:100%,
+APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf,PV/Hassayampa fault duty mitigation,affected system,Palo Verde/Hassayampa 500 kV switchyard fault duty mitigation (non-APS),500,,N/A in table,TBD by SRP,short-circuit
+APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf,PV/Hassayampa fault duty mitigation,affected system,Palo Verde/Hassayampa 500 kV switchyard fault duty mitigation (non-APS),500,,N/A in table,TBD by SRP,short-circuit
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q580 TPIF,TOIF,TPIF at Delaney 500 kV switchyard (1 new CB),500,3000000,24 months,Q580:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q580 switchyard NU,station NU,Network Upgrades of switchyard expansion/new switchyard: Delaney 500 kV switchyard (1 new CB),500,3000000,48 months,Q580:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q582 TPIF,TOIF,TPIF at New Q582 500 kV switchyard looping Palo Verde-Delaney,500,3000000,24 months,Q582:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q582 switchyard NU,station NU,Network Upgrades of switchyard expansion/new switchyard: New Q582 500 kV switchyard looping Palo Verde-Delaney,500,45000000,48 months,Q582:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q595 TPIF,TOIF,TPIF at Sun Valley 230 kV switchyard (2 new CBs),230,1500000,24 months,Q595:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q595 switchyard NU,station NU,Network Upgrades of switchyard expansion/new switchyard: Sun Valley 230 kV switchyard (2 new CBs),230,4000000,48 months,Q595:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q605 TPIF,TOIF,TPIF at Redhawk 500 kV switchyard (2 new CBs),500,3000000,24 months,Q605:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q605 switchyard NU,station NU,Network Upgrades of switchyard expansion/new switchyard: Redhawk 500 kV switchyard (2 new CBs),500,6000000,48 months,Q605:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q617 TPIF,TOIF,TPIF at New Q617 (TS30) 500 kV switchyard looping Delaney-Sun Valley,500,6000000,24 months,Q617:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,Q617 switchyard NU,station NU,Network Upgrades of switchyard expansion/new switchyard: New Q617 (TS30) 500 kV switchyard looping Delaney-Sun Valley,500,45000000,48 months,Q617:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf,PV/Hassayampa fault duty mitigation,affected system,Palo Verde/Hassayampa 500 kV switchyard fault duty mitigation (non-APS),500,,TBD by SRP,all projects; TBD by SRP,short-circuit
+APS_Redhawk_Transition_Cluster_Report_20240722_Phase_1.pdf,Q519 TPIF Redhawk,TOIF,Install 500 kV line drop into switchyard,500,1600000,18 months,Q519:100%,
+APS_Redhawk_Transition_Cluster_Report_20240722_Phase_1.pdf,Q519 Redhawk CB 13,station NU,Network Upgrades of switchyard development (new CB position 13),500,1600000,48 months,Q519:100%,
+APS_Redhawk_Transition_Cluster_Report_20240722_Phase_1.pdf,PV/Hassayampa fault duty mitigation,affected system,Palo Verde/Hassayampa 500 kV switchyard fault duty mitigation,500,,TBD by SRP,TBD by SRP,short-circuit
+Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf,Q519 TPIF Redhawk,TOIF,Install 500 kV line drop into switchyard,500,1600000,18 months,Q519:100%,
+Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf,Q519 Redhawk CB 13,station NU,Network Upgrades of switchyard development (new CB position 13),500,1600000,48 months,Q519:100%,
+Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf,PV/Hassayampa fault duty mitigation,affected system,Palo Verde/Hassayampa 500 kV switchyard fault duty mitigation,500,,TBD by SRP,TBD by SRP,short-circuit
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,SC NU #1 Redhawk-Hassayampa 15-ohm series reactors,network NU,Install 15-ohm series reactors on the Redhawk-Hassayampa #1 and #2 500 kV Lines (mitigates Redhawk 500 kV fault duty > 63 kA). Total cost not stated; allocated shares sum to $14.9M,500,,48 months (60 for Q617 line item),"Q580:14.0% $2,100,000; Q582:20.2% $3,000,000; Q595:2.2% $300,000; Q605:35.3% $5,300,000; Q617:28.3% $4,200,000",short-circuit
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q580 TPIF,TOIF,TPIF at Delaney 500 kV switchyard expansion,500,3000000,24 months,Q580:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q580 switchyard NU,station NU,Delaney 500 kV switchyard expansion,500,3000000,48 months,Q580:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q582 TPIF,TOIF,TPIF at New Q582 500 kV switchyard (loop PV-Delaney),500,3000000,24 months,Q582:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q582 switchyard NU,station NU,New Q582 500 kV switchyard (loop PV-Delaney),500,75000000,60 months,Q582:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q595 TPIF,TOIF,TPIF at Sun Valley 230 kV switchyard expansion,230,1500000,24 months,Q595:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q595 switchyard NU,station NU,Sun Valley 230 kV switchyard expansion,230,4000000,48 months,Q595:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q605 TPIF,TOIF,TPIF at Redhawk 500 kV switchyard expansion,500,3000000,24 months,Q605:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q605 switchyard NU,station NU,Redhawk 500 kV switchyard expansion,500,15000000,48 months,Q605:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q617 TPIF,TOIF,TPIF at New Q617 (TS30) 500 kV switchyard (loop Delaney-Sun Valley),500,6000000,24 months,Q617:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,Q617 switchyard NU,station NU,New Q617 (TS30) 500 kV switchyard (loop Delaney-Sun Valley),500,85000000,60 months,Q617:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf,PV/Hassayampa fault duty mitigation,affected system,Palo Verde/Hassayampa 500 kV switchyard fault duty mitigation (non-APS),500,,TBD by SRP,all projects; TBD by SRP,short-circuit
+APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf,SC NU #1 Redhawk-Hassayampa 15-ohm series reactors,network NU,Install 15-ohm series reactors on the Redhawk-Hassayampa #1 and #2 500 kV Lines (re-allocated after Q582/Q605 withdrawal). Total cost not stated; allocated shares sum to $15.0M,500,,48 months,"Q580:31.73% $4,800,000; Q595:4.81% $700,000; Q617:63.46% $9,500,000",short-circuit
+APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf,Q580 TPIF,TOIF,TPIF at Delaney 500 kV switchyard expansion,500,3000000,24 months,Q580:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf,Q580 switchyard NU,station NU,Delaney 500 kV switchyard expansion,500,3000000,48 months,Q580:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf,Q595 TPIF,TOIF,TPIF at Sun Valley 230 kV switchyard expansion,230,1500000,24 months,Q595:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf,Q595 switchyard NU,station NU,Sun Valley 230 kV switchyard expansion,230,4000000,48 months,Q595:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf,Q617 TPIF,TOIF,TPIF at New Q617 (TS30) 500 kV switchyard (loop Delaney-Sun Valley),500,6000000,24 months,Q617:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf,Q617 switchyard NU,station NU,New Q617 (TS30) 500 kV switchyard (loop Delaney-Sun Valley),500,85000000,60 months,Q617:100%,
+APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf,PV/Hassayampa fault duty mitigation,affected system,Palo Verde/Hassayampa 500 kV switchyard fault duty mitigation (non-APS),500,,TBD by SRP,all projects; TBD by SRP,short-circuit
+Q437_FaS_Report_FINAL_20260107.pdf,Q437 TPIF meter,TOIF,Meter at Delaney 500 kV; shared gen tie with Q276/Q389/Q475,500,200000,4 months,Q437:100%,
+Q467_FaS_Report_FINAL_20260402.pdf,Q467 TPIF,TOIF,Install 500 kV line drop into switchyard & metering,500,4100000,12 months,Q467:100%,
+Q467_FaS_Report_FINAL_20260402.pdf,Q467 Delaney switchyard NU,station NU,"500 kV breaker, disconnect switches, site work/grading, foundations, below grade",500,2700000,48 months,Q467:100%,
+Q467_FaS_Report_FINAL_20260402.pdf,Sun Valley-Hassayampa Tap 5-ohm series reactor,network NU,Install 5-ohm series reactor on Sun Valley-Hassayampa Tap 230 kV Line (CAWCD/WAPA ownership); mitigates Liberty-Hassayampa Tap 230 kV overload,230,1900000,12 months,Q467:100%,thermal
+Q474_FaS_Report_FINAL_20260115.pdf,Q474 TPIF,TOIF,"Line drop to POCO, jumpers, fiber, 500 kV CCVT/PT/CT, relays/controls, disconnects",500,4000000,12 months,Q474:100%,
+Q474_FaS_Report_FINAL_20260115.pdf,Q474 Delaney switchyard NU,station NU,"500 kV breaker, disconnect switches, site work, foundations, below grade",500,2700000,48 months,Q474:100%,
+Q475_FaS_Report_FINAL_20260107.pdf,Q475 TPIF meter,TOIF,Meter at Delaney 500 kV; shared gen tie with Q276/Q389/Q437,500,200000,4 months,Q475:100%,

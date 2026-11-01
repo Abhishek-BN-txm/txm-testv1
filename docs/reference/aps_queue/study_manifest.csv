@@ -1,0 +1,77 @@
+track,area,cycle,phase,action,file
+delaney_redhawk,Delaney-Sun Valley,Transition,1,PARSE,APS_Delaney-SunValley_Transition_Cluster_Phase_1_v1-8A_20240930.pdf
+delaney_redhawk,Delaney-Sun Valley,Transition,2,PARSE,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+delaney_redhawk,Del-Svly-Red,2024,1,PARSE,APS_DLN-SNV-RW_2024_Cluster_Phase1_v1-1_20251126.pdf
+delaney_redhawk,Del-Svly-Red,2024,2,PARSE,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+delaney_redhawk,Del-Svly-Red,2025,1,PARSE,APS_Del-Svly-Red_2025_Cluster_Phase1_v1-2_20260401.pdf
+delaney_redhawk,Del-Svly-Red,2025,2,SKIP,APS_Del-Svly-Red_2025_Cluster_Phase2_v1.2_20260813.pdf
+delaney_redhawk,Del-Svly-Red,2025,2,PARSE,APS_Del-Svly-Red_2025_Cluster_Phase2_v1.3_20260827.pdf
+delaney_redhawk,Del-Svly-Red,2025,2A,PARSE,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+delaney_redhawk,Redhawk,Transition,1,PARSE,APS_Redhawk_Transition_Cluster_Report_20240722_Phase_1.pdf
+delaney_redhawk,Redhawk,Transition,2,PARSE,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+north,Four Corners-Cholla,Transition,1,PARSE,Study_Report_APS_FcCho_Transition_Cluster_Phase_1_v1-7_20250303.pdf
+north,Four Corners-Cholla,Transition,2,PARSE,Study_Report_APS_FcCho_Transition_Cluster_Phase_2_v1-4_20250902.pdf
+north,Four Corners-Cholla,Transition,3,PARSE,APS_FcCho_Transition_Cluster_Phase_3_v1-1_20251106.pdf
+north,Four Corners-Cholla,Transition,3a,SKIP,APS_FcCho_Transition_Cluster_Phase_3a_v1.3_20260413.pdf
+north,Four Corners-Cholla,Transition,3a,PARSE,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+north,Four Corners-Cholla,2024,1,PARSE,APS_FcCho_2024_Cluster_Phase_1_Final_20260120.pdf
+north,Four Corners-Cholla,2024,2b,PARSE,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+north,Four Corners-Cholla,2025,1,PARSE,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+north,Northern,Transition,1,PARSE,APS_Northern_Transition_Cluster_Report_20240627_Phase1.pdf
+north,Northern,Transition,2,PARSE,APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+north,NSTS,Transition,1,PARSE,APS_NSTS_Transition_Cluster_Phase_1_v4-0_Final_20241018.pdf
+north,NSTS,Transition,2,PARSE,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+north,NSTS,2024,1,PARSE,APS_NSTS_2024_Cluster_Phase_1_v3_20251029.pdf
+north,NSTS,2024,2,PARSE,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+north,NSTS,2025,1,PARSE,APS_NSTS_2025_Cluster_Phase_1_Report_Final_20260115.pdf
+north,NSTS,2025,2,PARSE,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+south,Gila Bend,Transition,1,PARSE,APS_GilaBend_Transition_Cluster_Report-v1-5-Phase1_20241224.pdf
+south,Gila Bend,Transition,2,PARSE,APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+south,Gila Bend,2024,1,PARSE,APS_GilaBend_2024_Cluster_Phase1_Report_v1.2_20251125.pdf
+south,Gila Bend,2024,2,PARSE,APS_GilaBend_2024_Cluster_Phase2_Report_v1.4_20260316.pdf
+south,Gila Bend,2024,2b,PARSE,APS_GilaBend_2024_Cluster_Phase2b_Report_v1.2_20260508.pdf
+south,Gila Bend,2024,2C,PARSE,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+south,Gila Bend,2025,1,PARSE,APS_GilaBend_2025_Cluster_Phase1_Report_v1-3_20260211.pdf
+south,Gila Bend,2025,2,PARSE,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+south,South of Phoenix,Transition,1,PARSE,APS_SofPhx_TransitionCluster_Phase1_v1-2_(002)_20250130.pdf
+south,South of Phoenix,Transition,2,PARSE,APS_SofPhx_TransClust_Ph2_v1.5_20251028.pdf
+south,South of Phoenix,Transition,3,SKIP,APS_soPhx_TransClust_Ph3_v1.2_20260316.pdf
+south,South of Phoenix,Transition,3,PARSE,APS_soPhx_TransClust_Ph3_Revision_v2.2_20260407.pdf
+south,South of Phoenix,Transition,3a,PARSE,APS_soPhx_TCph3a_v2_20260901.pdf
+south,South of Phoenix,2024,1,PARSE,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+south,South of Phoenix,2025,1,PARSE,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+yuma_metro,Hoodoo Wash-Yuma,Transition,1,PARSE,APS_HDW-YUMA_Transition_Cluster_Phase_1_v1-5_FINAL_20241223.pdf
+yuma_metro,Hoodoo Wash-Yuma,Transition,2,PARSE,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+yuma_metro,Hoodoo Wash-Yuma,2024,1,PARSE,APS_HDW-YUMA_2024_Cluster_Phase_1_v1_20251030.pdf
+yuma_metro,Hoodoo Wash-Yuma,2024,2,SKIP,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.2_20260326.pdf
+yuma_metro,Hoodoo Wash-Yuma,2024,2,PARSE,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+yuma_metro,Hoodoo Wash-Yuma,2025,1,PARSE,APS_HDW-YUMA_2025_Cluster_Phase_1_v4_20251223.pdf
+yuma_metro,Hoodoo Wash-Yuma,2025,2,SKIP,APS_HDW-YUMA_2025_Cluster_Phase_2_v1.2_20260709.pdf
+yuma_metro,Hoodoo Wash-Yuma,2025,2,PARSE,APS_HDW-YUMA_2025_Cluster_Phase_2_v1.3_20260728.pdf
+yuma_metro,Hoodoo Wash-Yuma,2025,2A,PARSE,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+yuma_metro,Phoenix Metro,Transition,1,PARSE,APS_PhoenixMetro_Transition_Cluster_Report_20241113_Phase_1.pdf
+yuma_metro,Phoenix Metro,Transition,2,PARSE,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+yuma_metro,Phoenix Metro,2024,1,PARSE,APS_PhoenixMetro_2024_Cluster_Phase_1_v2_(1)_20251101.pdf
+yuma_metro,Phoenix Metro,2024,2,PARSE,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+yuma_metro,Phoenix Metro,2025,1,PARSE,APS_Phoenix_Metro_Area_2025_Cluster_Phase_1_v1-6_Final_20260506.pdf
+yuma_metro,Phoenix Metro,2025,2,PARSE,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q534_FaS_Final_20251106.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q519_FaS_Final_20250806.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q518_FaS_Report_v1_20260213.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q493_FaS_Final_11-12-2025.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q488_FaS_Report_V2_FINAL_20260615.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q486_FaS_Report_Final_20260523.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q479_FaS_Report_202602116.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q475_FaS_Report_FINAL_20260107.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q474_FaS_Report_FINAL_20260115.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q467_FaS_Report_FINAL_20260402.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q466_FaS_Report_Final_20260409.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q465_FaS_FINAL_20260212.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q446_FaS_FINAL_20260212.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q437_FaS_Report_FINAL_20260107.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q427_FaS_Final_Report_20260218.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q409_FaS_FINAL__20260212.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q401_FaS_Final_20260731.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q348_FaS_Final_20260519.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q337_FaS_Final_20260213.pdf
+individual,Facilities studies,individual,FaS,PARSE,Q312_FaS_Final_20260213.pdf

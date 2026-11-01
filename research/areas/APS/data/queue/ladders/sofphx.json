@@ -1,0 +1,2796 @@
+{
+ "area": "South of Phoenix",
+ "generated": "2026-10-23",
+ "source": "APS OASIS cluster study reports; Active Queue posting 2026-10-13",
+ "phases": [
+  {
+   "file": "APS_SofPhx_TransitionCluster_Phase1_v1-2_(002)_20250130.pdf",
+   "label": "Transition Ph1",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-01-30",
+   "version": "1.2",
+   "projects": [
+    {
+     "q": "Q359",
+     "mw": 315.0,
+     "service": "NRIS",
+     "poi": "Milligan-Saguaro 230 kV",
+     "total": 152800000.0,
+     "nu": 149800000.0,
+     "tif": 3000000.0,
+     "isd": "max construct 108 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2020-09-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Milligan 230kV substation",
+     "mw_queue": 315.0,
+     "station_nu": 16000000.0,
+     "cum_mw": 315.0,
+     "cum_nris_mw": 315.0
+    },
+    {
+     "q": "Q362",
+     "mw": 275.0,
+     "service": "NRIS",
+     "poi": "Milligan \u2013 Casa Grande 230 kV",
+     "total": 151000000.0,
+     "nu": 148000000.0,
+     "tif": 3000000.0,
+     "isd": "max construct 108 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2020-09-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy and Network Resource Interconnection Service",
+     "poi_queue": "Milligan - Casa Grande 230kV",
+     "mw_queue": 275.0,
+     "station_nu": 31000000.0,
+     "cum_mw": 590.0,
+     "cum_nris_mw": 590.0
+    },
+    {
+     "q": "Q388",
+     "mw": 323.0,
+     "service": "NRIS",
+     "poi": "Tat Momoli \u2013 Saguaro 230 kV",
+     "total": 156300000.0,
+     "nu": 153300000.0,
+     "tif": 3000000.0,
+     "isd": "max construct 108 months",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 16000000.0,
+     "cum_mw": 913.0,
+     "cum_nris_mw": 913.0
+    },
+    {
+     "q": "Q392",
+     "mw": 270.0,
+     "service": "NRIS",
+     "poi": "Tat Momoli \u2013 Saguaro 230 kV",
+     "total": 133900000.0,
+     "nu": 130900000.0,
+     "tif": 3000000.0,
+     "isd": "max construct 108 months",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 16000000.0,
+     "cum_mw": 1183.0,
+     "cum_nris_mw": 1183.0
+    },
+    {
+     "q": "Q493",
+     "mw": 2023.0,
+     "service": "NRIS",
+     "poi": "Milligan 69 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "max construct 12 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-02-13",
+     "status": "Transitional Cluster: LGIA (Executed)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Milligan",
+     "mw_queue": 100.0,
+     "station_nu": 0,
+     "cum_mw": 3206.0,
+     "cum_nris_mw": 3206.0
+    },
+    {
+     "q": "Q517",
+     "mw": 44.0,
+     "service": "NRIS",
+     "poi": "Saguaro 115 kV",
+     "total": 19000000.0,
+     "nu": 18900000.0,
+     "tif": 100000.0,
+     "isd": "max construct 108 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-03-23",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Red Rock / Saguaro",
+     "mw_queue": 0.0,
+     "station_nu": 0,
+     "cum_mw": 3250.0,
+     "cum_nris_mw": 3250.0
+    },
+    {
+     "q": "Q537",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Milligan-Saguaro 230 kV Station",
+     "total": 189000000.0,
+     "nu": 186000000.0,
+     "tif": 3000000.0,
+     "isd": "max construct 108 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-09-07",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "New substation off the Milligan to Sigma Line approximately 3",
+     "mw_queue": 400.0,
+     "station_nu": 16000000.0,
+     "cum_mw": 3650.0,
+     "cum_nris_mw": 3650.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "New Bianco-TS21 500 kV line, 60 miles",
+     "cost": 180100000.0,
+     "cost_derived": false,
+     "lead": "108 months",
+     "category": "network NU",
+     "parts": [
+      "New Bianco-TS21 500kv line, 60 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 34900000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 30400000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 35700000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 29900000.0
+      },
+      "Q517": {
+       "pct": 6.9,
+       "usd": 4900000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 44300000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "New Saguaro-Bianco 500 kV line, 50 miles",
+     "cost": 150100000.0,
+     "cost_derived": false,
+     "lead": "108 months",
+     "category": "network NU",
+     "parts": [
+      "New Saguaro-Bianco 500kv line, 50 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 29000000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 25400000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 29800000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 24900000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 4100000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 36900000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Reconductor Saguaro-TatMomoli-Santa Rosa 230 kV line, 61 miles",
+     "cost": 89900000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Saguaro-TatMomoli-Santa Rosa 230kv line, 61 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 17400000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 15200000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 17900000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 14900000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 2400000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 22100000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Bianco 500/230 kV new substation",
+     "cost": 62000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Bianco 500/230kV new substation"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 12000000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 10500000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 12300000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 10300000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 1700000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 15200000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Bianco-Milligan 230 kV line, 20 miles",
+     "cost": 50100000.0,
+     "cost_derived": false,
+     "lead": "72 months",
+     "category": "network NU",
+     "parts": [
+      "Bianco-Milligan 230kv line, 20 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 9700000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 8500000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 9900000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 8300000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 1400000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 12300000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Reconductor Milligan-Saguaro 230 kV line, 26 miles",
+     "cost": 39100000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Milligan-Saguaro 230kv line, 26 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 7600000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 6600000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 7700000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 6500000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 1100000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 9600000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Reconductor Casa Grande-Milligan 230 kV line, 20 miles",
+     "cost": 30100000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Casa Grande-Milligan 230kv line, 20 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 5800000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 5100000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 6000000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 5000000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 800000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 7400000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Upgrade WAPA\u2019s Saguaro-Oracle 115kv line, 19 miles",
+     "cost": 30100000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "Upgrade WAPA\u2019s Saguaro-Oracle 115kv line, 19 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 5800000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 5100000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 6000000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 5000000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 800000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 7400000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "New Saguaro 230 kV yard and change termination of 500/115/230 kV transformers",
+     "cost": 25100000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "New Saguaro 230kv yard and change termination of 500/115/230kv transformers"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 4800000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 4200000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 5000000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 4200000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 700000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 6200000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Saguaro termination of new line",
+     "cost": 10100000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Saguaro termination of new line"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 1900000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 1700000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 2000000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 1700000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 300000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 2500000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "TS21 termination of new line",
+     "cost": 10100000.0,
+     "cost_derived": false,
+     "lead": "72 months",
+     "category": "station NU",
+     "parts": [
+      "TS21 termination of new line"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 1900000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 1700000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 2000000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 1700000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 300000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 2500000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Upgrade WAPA\u2019s Rattlesnake-Twin Peaks 115kv line, 5 miles",
+     "cost": 7500000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "Upgrade WAPA\u2019s Rattlesnake-Twin Peaks 115kv line, 5 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 1500000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 1300000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 1500000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 1200000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 200000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 1800000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Reconductor Bianco-Desert Basin 230 kV line, 3 miles",
+     "cost": 4600000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Bianco-Desert Basin 230kv line, 3 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 900000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 800000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 900000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 800000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 100000.0
+      },
+      "Q537": {
+       "pct": 7.3,
+       "usd": 1100000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    },
+    {
+     "label": "Reconductor Casa Grande-Desert Basin 230 kV line, 2 miles",
+     "cost": 3000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Casa Grande-Desert Basin 230kv line, 2 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 19.4,
+       "usd": 600000.0
+      },
+      "Q362": {
+       "pct": 16.9,
+       "usd": 500000.0
+      },
+      "Q388": {
+       "pct": 19.9,
+       "usd": 600000.0
+      },
+      "Q392": {
+       "pct": 16.6,
+       "usd": 500000.0
+      },
+      "Q517": {
+       "pct": 2.7,
+       "usd": 100000.0
+      },
+      "Q537": {
+       "pct": 24.6,
+       "usd": 700000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 6,
+     "sharing_mw": 1627.0
+    }
+   ]
+  },
+  {
+   "file": "APS_SofPhx_TransClust_Ph2_v1.5_20251028.pdf",
+   "label": "Transition Ph2",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-10-28",
+   "version": "1.5",
+   "projects": [
+    {
+     "q": "Q359",
+     "mw": 315.0,
+     "service": "NRIS",
+     "poi": "Milligan-Saguaro 230 kV (shared POI with Q537)",
+     "total": 188800000.0,
+     "nu": 185800000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 936 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2020-09-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Milligan 230kV substation",
+     "mw_queue": 315.0,
+     "station_nu": 16000000.0,
+     "cum_mw": 315.0,
+     "cum_nris_mw": 315.0
+    },
+    {
+     "q": "Q362",
+     "mw": 275.0,
+     "service": "NRIS",
+     "poi": "Milligan \u2013 Casa Grande 230 kV",
+     "total": 182200000.0,
+     "nu": 179200000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 942 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2020-09-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy and Network Resource Interconnection Service",
+     "poi_queue": "Milligan - Casa Grande 230kV",
+     "mw_queue": 275.0,
+     "station_nu": 31000000.0,
+     "cum_mw": 590.0,
+     "cum_nris_mw": 590.0
+    },
+    {
+     "q": "Q388",
+     "mw": 323.0,
+     "service": "ERIS",
+     "poi": "Tat Momoli \u2013 Saguaro 230 kV (shared POI with Q392)",
+     "total": 19000000.0,
+     "nu": 16000000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 72 months",
+     "notes": "Changed NRIS->ERIS between Ph1 and Ph2; later withdrew (per Ph3 v2.2)",
+     "in_active_queue": false,
+     "station_nu": 16000000.0,
+     "cum_mw": 913.0,
+     "cum_nris_mw": 590.0
+    },
+    {
+     "q": "Q392",
+     "mw": 270.0,
+     "service": "NRIS",
+     "poi": "Tat Momoli \u2013 Saguaro 230 kV (shared POI with Q388)",
+     "total": 164900000.0,
+     "nu": 161900000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 942 months",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 16000000.0,
+     "cum_mw": 1183.0,
+     "cum_nris_mw": 860.0
+    },
+    {
+     "q": "Q493",
+     "mw": 2023.0,
+     "service": "NRIS",
+     "poi": "Milligan 69 kV (Adds grid-charging to Q256)",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 12 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-02-13",
+     "status": "Transitional Cluster: LGIA (Executed)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Milligan",
+     "mw_queue": 100.0,
+     "station_nu": 0,
+     "cum_mw": 3206.0,
+     "cum_nris_mw": 2883.0
+    },
+    {
+     "q": "Q517",
+     "mw": 44.0,
+     "service": "NRIS",
+     "poi": "Saguaro 115 kV (Adds to Q228, Red Rock Solar)",
+     "total": 23800000.0,
+     "nu": 23700000.0,
+     "tif": 100000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 882 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-03-23",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Red Rock / Saguaro",
+     "mw_queue": 0.0,
+     "station_nu": 0,
+     "cum_mw": 3250.0,
+     "cum_nris_mw": 2927.0
+    },
+    {
+     "q": "Q537",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Milligan-Saguaro 230 kV Station (shared POI with Q359)",
+     "total": 234900000.0,
+     "nu": 231900000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 913 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-09-07",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "New substation off the Milligan to Sigma Line approximately 3",
+     "mw_queue": 400.0,
+     "station_nu": 16000000.0,
+     "cum_mw": 3650.0,
+     "cum_nris_mw": 3327.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "New Bianco-TS21 500 kV line, 60 miles",
+     "cost": 180100000.0,
+     "cost_derived": false,
+     "lead": "108 months",
+     "category": "network NU",
+     "parts": [
+      "New Bianco-TS21 500kV line, 60 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 43500000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 38000000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 37300000.0
+      },
+      "Q517": {
+       "pct": 6.9,
+       "usd": 6100000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 55200000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "New Saguaro-Bianco 500 kV line, 50 miles",
+     "cost": 150000000.0,
+     "cost_derived": false,
+     "lead": "108 months",
+     "category": "network NU",
+     "parts": [
+      "New Saguaro-Bianco 500kV line, 50 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 36200000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 31600000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 31100000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 5100000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 46000000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Reconductor Saguaro-TatMomoli-Santa Rosa 230 kV line, 61 miles",
+     "cost": 89900000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Saguaro-TatMomoli-Santa Rosa 230kV line, 61 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 21700000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 19000000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 18600000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 3000000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 27600000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Bianco 500/230 kV new substation, 230 kV capacitors",
+     "cost": 67900000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Bianco 500/230kV new substation, 230kV capacitors"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 16400000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 14300000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 14100000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 2300000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 20800000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Bianco-Milligan 230 kV line, 20 miles",
+     "cost": 50000000.0,
+     "cost_derived": false,
+     "lead": "72 months",
+     "category": "network NU",
+     "parts": [
+      "Bianco-Milligan 230kV line, 20 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 12100000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 10500000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 10400000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 1700000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 15300000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Reconductor Milligan-Saguaro 230 kV line, 26 miles",
+     "cost": 39000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Milligan-Saguaro 230kV line, 26 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 9400000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 8200000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 8100000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 1300000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 12000000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Reconductor Casa Grande-Milligan 230 kV line, 20 miles",
+     "cost": 29900000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Casa Grande-Milligan 230kV line, 20 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 7200000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 6300000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 6200000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 1000000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 9200000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Upgrade WAPA\u2019s Saguaro-Oracle 115kv line, 19 miles",
+     "cost": 29900000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "Upgrade WAPA\u2019s Saguaro-Oracle 115kv line, 19 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 7200000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 6300000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 6200000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 1000000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 9200000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "New Saguaro 230 kV yard, 230 kV capacitors, and change termination of 500/115/230 kV trans",
+     "cost": 27900000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "New Saguaro 230kV yard, 230kV capacitors, and change termination of 500/115/230kV transformers"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 6700000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 5900000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 5800000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 900000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 8600000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Saguaro termination of new line",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Saguaro termination of new line"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 2400000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 2100000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 2100000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 300000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 3100000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "TS21 termination of new line",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "72 months",
+     "category": "station NU",
+     "parts": [
+      "TS21 termination of new line"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 2400000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 2100000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 2100000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 300000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 3100000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Upgrade WAPA\u2019s Rattlesnake-Twin Peaks 115kv line, 5 miles",
+     "cost": 7600000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "Upgrade WAPA\u2019s Rattlesnake-Twin Peaks 115kv line, 5 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 1800000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 1600000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 1600000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 300000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 2300000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Reconductor Bianco-Desert Basin 230 kV line, 3 miles",
+     "cost": 4500000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Bianco-Desert Basin 230kV line, 3 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 1100000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 900000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 900000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 200000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 1400000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Reconductor Bianco-Asarco tap 69kv line, 5 miles",
+     "cost": 3900000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Bianco-Asarco tap 69kv line, 5 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 1000000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 800000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 800000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 100000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 1200000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    },
+    {
+     "label": "Reconductor Casa Grande-Desert Basin 230 kV line, 2 miles",
+     "cost": 2900000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Casa Grande-Desert Basin 230kV line, 2 miles"
+     ],
+     "alloc": {
+      "Q359": {
+       "pct": 24.2,
+       "usd": 700000.0
+      },
+      "Q362": {
+       "pct": 21.1,
+       "usd": 600000.0
+      },
+      "Q392": {
+       "pct": 20.7,
+       "usd": 600000.0
+      },
+      "Q517": {
+       "pct": 3.4,
+       "usd": 100000.0
+      },
+      "Q537": {
+       "pct": 30.7,
+       "usd": 900000.0
+      }
+     },
+     "first_q": "Q359",
+     "trigger_cum_mw": 315.0,
+     "trigger_cum_nris_mw": 315.0,
+     "n_sharing": 5,
+     "sharing_mw": 1304.0
+    }
+   ]
+  },
+  {
+   "file": "APS_soPhx_TransClust_Ph3_Revision_v2.2_20260407.pdf",
+   "label": "Transition Ph3",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2026-04-07",
+   "version": "2.2",
+   "projects": [
+    {
+     "q": "Q359",
+     "mw": 315.0,
+     "service": "ERIS",
+     "poi": "Milligan 230 kV",
+     "total": 6000000.0,
+     "nu": 3000000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 48 months",
+     "notes": "Changed NRIS->ERIS; POI moved to Milligan 230 kV bus",
+     "in_active_queue": true,
+     "queue_date": "2020-09-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Milligan 230kV substation",
+     "mw_queue": 315.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 315.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q362",
+     "mw": 275.0,
+     "service": "NRIS",
+     "poi": "Milligan \u2013 Casa Grande 230 kV",
+     "total": 120600000.0,
+     "nu": 117600000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2020-09-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy and Network Resource Interconnection Service",
+     "poi_queue": "Milligan - Casa Grande 230kV",
+     "mw_queue": 275.0,
+     "station_nu": 31000000.0,
+     "cum_mw": 590.0,
+     "cum_nris_mw": 275.0
+    },
+    {
+     "q": "Q392",
+     "mw": 270.0,
+     "service": "NRIS",
+     "poi": "Tat Momoli \u2013 Saguaro 230 kV (previously shared POI with Q388)",
+     "total": 119300000.0,
+     "nu": 116300000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 48 months",
+     "notes": "Withdrew July 2026 (per Ph3a)",
+     "in_active_queue": false,
+     "station_nu": 31000000.0,
+     "cum_mw": 860.0,
+     "cum_nris_mw": 545.0
+    },
+    {
+     "q": "Q493",
+     "mw": 2023.0,
+     "service": "NRIS",
+     "poi": "Milligan 69 kV (Adds grid-charging to Q256)",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 12 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-02-13",
+     "status": "Transitional Cluster: LGIA (Executed)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Milligan",
+     "mw_queue": 100.0,
+     "station_nu": 0,
+     "cum_mw": 2883.0,
+     "cum_nris_mw": 2568.0
+    },
+    {
+     "q": "Q517",
+     "mw": 44.0,
+     "service": "NRIS",
+     "poi": "Saguaro 115 kV (Adds to Q228, Red Rock Solar)",
+     "total": 13800000.0,
+     "nu": 13700000.0,
+     "tif": 100000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-03-23",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Red Rock / Saguaro",
+     "mw_queue": 0.0,
+     "station_nu": 0,
+     "cum_mw": 2927.0,
+     "cum_nris_mw": 2612.0
+    },
+    {
+     "q": "Q537",
+     "mw": 400.0,
+     "service": "ERIS",
+     "poi": "Milligan-Saguaro 230 kV Station",
+     "total": 34000000.0,
+     "nu": 31000000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2034 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 48 months",
+     "notes": "Changed NRIS->ERIS",
+     "in_active_queue": true,
+     "queue_date": "2023-09-07",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "New substation off the Milligan to Sigma Line approximately 3",
+     "mw_queue": 400.0,
+     "station_nu": 31000000.0,
+     "cum_mw": 3327.0,
+     "cum_nris_mw": 2612.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Reconductor Milligan-Saguaro 230 kV line, 26 miles",
+     "cost": 39000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Milligan-Saguaro 230kv line, 26 miles"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 46.7,
+       "usd": 18200000.0
+      },
+      "Q392": {
+       "pct": 45.8,
+       "usd": 17900000.0
+      },
+      "Q517": {
+       "pct": 7.5,
+       "usd": 2900000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 3,
+     "sharing_mw": 589.0
+    },
+    {
+     "label": "Upgrade WAPA\u2019s Saguaro-Oracle 115kv line, 19 miles",
+     "cost": 30000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "Upgrade WAPA\u2019s Saguaro-Oracle 115kv line, 19 miles"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 46.7,
+       "usd": 14000000.0
+      },
+      "Q392": {
+       "pct": 45.8,
+       "usd": 13800000.0
+      },
+      "Q517": {
+       "pct": 7.5,
+       "usd": 2200000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 3,
+     "sharing_mw": 589.0
+    },
+    {
+     "label": "New Saguaro 230 kV yard, 230 kV capacitors and change termination of 500/115/230 kV transf",
+     "cost": 28100000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "New Saguaro 230kv yard, 230kV capacitors and change termination of 500/115/230kv transformers"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 46.7,
+       "usd": 13100000.0
+      },
+      "Q392": {
+       "pct": 45.8,
+       "usd": 12900000.0
+      },
+      "Q517": {
+       "pct": 7.5,
+       "usd": 2100000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 3,
+     "sharing_mw": 589.0
+    },
+    {
+     "label": "Reconductor Q388Q392 SWST-Tat Momoli-Santa Rosa 230 kV line, 40 miles",
+     "cost": 28000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Q388Q392 SWST-Tat Momoli-Santa Rosa 230kv line, 40 miles"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 46.7,
+       "usd": 28000000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 1,
+     "sharing_mw": 275.0
+    },
+    {
+     "label": "Reconductor Casa Grande-Q362 SWST 230 kV line, 12 miles",
+     "cost": 18000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Casa Grande-Q362 SWST 230kv line, 12 miles"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 46.7,
+       "usd": 8400000.0
+      },
+      "Q392": {
+       "pct": 45.8,
+       "usd": 8300000.0
+      },
+      "Q517": {
+       "pct": 7.5,
+       "usd": 1300000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 3,
+     "sharing_mw": 589.0
+    },
+    {
+     "label": "Bianco 230 kV capacitors",
+     "cost": 6000000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "station NU",
+     "parts": [
+      "Bianco 230kV capacitors"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 46.7,
+       "usd": 2800000.0
+      },
+      "Q392": {
+       "pct": 45.8,
+       "usd": 2800000.0
+      },
+      "Q517": {
+       "pct": 7.5,
+       "usd": 400000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 3,
+     "sharing_mw": 589.0
+    },
+    {
+     "label": "Reconductor Bianco-Desert Basin 230 kV line, 3 miles",
+     "cost": 4500000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Bianco-Desert Basin 230kv line, 3 miles"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 46.7,
+       "usd": 2100000.0
+      },
+      "Q392": {
+       "pct": 45.8,
+       "usd": 2100000.0
+      },
+      "Q517": {
+       "pct": 7.5,
+       "usd": 300000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 3,
+     "sharing_mw": 589.0
+    },
+    {
+     "label": "Reconductor Santa Rosa-TatMomoli-Q388Q392 SWST 230 kV line, 40 miles",
+     "cost": 32000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Santa Rosa-TatMomoli-Q388Q392 SWST 230kv line, 40 miles"
+     ],
+     "alloc": {
+      "Q392": {
+       "pct": 45.8,
+       "usd": 27500000.0
+      },
+      "Q517": {
+       "pct": 7.5,
+       "usd": 4500000.0
+      }
+     },
+     "first_q": "Q392",
+     "trigger_cum_mw": 860.0,
+     "trigger_cum_nris_mw": 545.0,
+     "n_sharing": 2,
+     "sharing_mw": 314.0
+    }
+   ]
+  },
+  {
+   "file": "APS_soPhx_TCph3a_v2_20260901.pdf",
+   "label": "Transition Ph3a",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2026-09-01",
+   "version": "1.2 (title page; filename v2)",
+   "projects": [
+    {
+     "q": "Q359",
+     "mw": 315.0,
+     "service": "ERIS",
+     "poi": "Milligan 230 kV",
+     "total": 6000000.0,
+     "nu": 3000000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2035 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 48 months",
+     "notes": "ERIS; congestion dispatch 12% HS / 13% HW",
+     "in_active_queue": true,
+     "queue_date": "2020-09-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Milligan 230kV substation",
+     "mw_queue": 315.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 315.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q362",
+     "mw": 275.0,
+     "service": "NRIS",
+     "poi": "Milligan \u2013 Casa Grande 230 kV",
+     "total": 111200000.0,
+     "nu": 108200000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2035 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2020-09-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy and Network Resource Interconnection Service",
+     "poi_queue": "Milligan - Casa Grande 230kV",
+     "mw_queue": 275.0,
+     "station_nu": 40000000.0,
+     "cum_mw": 590.0,
+     "cum_nris_mw": 275.0
+    },
+    {
+     "q": "Q493",
+     "mw": 2023.0,
+     "service": "NRIS",
+     "poi": "Milligan 69 kV (Adds grid-charging to Q256)",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Earliest NRIS ISD 2035 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 12 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-02-13",
+     "status": "Transitional Cluster: LGIA (Executed)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Milligan",
+     "mw_queue": 100.0,
+     "station_nu": 0,
+     "cum_mw": 2613.0,
+     "cum_nris_mw": 2298.0
+    },
+    {
+     "q": "Q517",
+     "mw": 44.0,
+     "service": "NRIS",
+     "poi": "Saguaro 115 kV (Adds to Q228, Red Rock Solar)",
+     "total": 1400000.0,
+     "nu": 1300000.0,
+     "tif": 100000.0,
+     "isd": "Earliest NRIS ISD 2035 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2023-03-23",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Red Rock / Saguaro",
+     "mw_queue": 0.0,
+     "station_nu": 0,
+     "cum_mw": 2657.0,
+     "cum_nris_mw": 2342.0
+    },
+    {
+     "q": "Q537",
+     "mw": 400.0,
+     "service": "ERIS",
+     "poi": "Milligan-Saguaro 230 kV Station",
+     "total": 43000000.0,
+     "nu": 40000000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest NRIS ISD 2035 (system NUs up to 9 yrs); direct interconnection 12-48 months; max construct 108 months",
+     "notes": "ERIS; congestion dispatch 12% HS / 13% HW; PV and BESS must run together for PF",
+     "in_active_queue": true,
+     "queue_date": "2023-09-07",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "New substation off the Milligan to Sigma Line approximately 3",
+     "mw_queue": 400.0,
+     "station_nu": 40000000.0,
+     "cum_mw": 3057.0,
+     "cum_nris_mw": 2342.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Reconductor Milligan-Saguaro 230 kV line, 25 miles",
+     "cost": 38000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Milligan-Saguaro 230kv line, 25 miles"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 100.0,
+       "usd": 38000000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 1,
+     "sharing_mw": 275.0
+    },
+    {
+     "label": "Reconductor Casa Grande-Q362 SWST 230 kV line, 12 miles",
+     "cost": 18000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Casa Grande-Q362 SWST 230kv line, 12 miles"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 100.0,
+       "usd": 18000000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 1,
+     "sharing_mw": 275.0
+    },
+    {
+     "label": "Two Bianco 230 kV capacitors 1@ 126.9 MVAr and 1 @ 84.6 MVAr",
+     "cost": 6000000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "station NU",
+     "parts": [
+      "Two Bianco 230 kV capacitors 1@ 126.9 MVAr and 1 @ 84.6 MVAr"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 86.2,
+       "usd": 5200000.0
+      },
+      "Q517": {
+       "pct": 13.8,
+       "usd": 800000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 2,
+     "sharing_mw": 319.0
+    },
+    {
+     "label": "Reconductor Bianco-Desert Basin 230 kV line, 3 miles",
+     "cost": 4500000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor Bianco-Desert Basin 230kv line, 3 miles"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 97.6,
+       "usd": 4400000.0
+      },
+      "Q517": {
+       "pct": 2.4,
+       "usd": 100000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 2,
+     "sharing_mw": 319.0
+    },
+    {
+     "label": "One new 126.9 MVAr capacitor (add to new Saguaro 230 kV switchyard)",
+     "cost": 3000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "One new 126.9 MVAr capacitor (add to new Saguaro 230 kV switchyard)"
+     ],
+     "alloc": {
+      "Q362": {
+       "pct": 86.2,
+       "usd": 2600000.0
+      },
+      "Q517": {
+       "pct": 13.8,
+       "usd": 400000.0
+      }
+     },
+     "first_q": "Q362",
+     "trigger_cum_mw": 590.0,
+     "trigger_cum_nris_mw": 275.0,
+     "n_sharing": 2,
+     "sharing_mw": 319.0
+    }
+   ]
+  },
+  {
+   "file": "APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf",
+   "label": "2024 Ph1",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2026-06-16",
+   "version": "1.2",
+   "projects": [
+    {
+     "q": "Q548",
+     "mw": 145.0,
+     "service": "NRIS",
+     "poi": "San Manuel 115 kV",
+     "total": 7500000.0,
+     "nu": 5100000.0,
+     "tif": 2400000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-04-04",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "San Manuel 115 kV",
+     "mw_queue": 145.0,
+     "station_nu": 3400000.0,
+     "cum_mw": 145.0,
+     "cum_nris_mw": 145.0
+    },
+    {
+     "q": "Q554",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Bianco 230 kV",
+     "total": 23200000.0,
+     "nu": 20800000.0,
+     "tif": 2400000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-02",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Bianco 230 kV",
+     "mw_queue": 200.0,
+     "station_nu": 18000000.0,
+     "cum_mw": 345.0,
+     "cum_nris_mw": 345.0
+    },
+    {
+     "q": "Q555",
+     "mw": 96.0,
+     "service": "NRIS",
+     "poi": "Thornton 69 kV (Adds grid charging to Q254)",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Can meet requested COD.; max construct 12 months",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 0,
+     "cum_mw": 441.0,
+     "cum_nris_mw": 441.0
+    },
+    {
+     "q": "Q562",
+     "mw": 130.0,
+     "service": "NRIS",
+     "poi": "Milligan 230 kV (Adds grid charging to Q264)",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Can meet requested COD.; max construct 12 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Milligan 230 kV",
+     "mw_queue": 0.0,
+     "station_nu": 0,
+     "cum_mw": 571.0,
+     "cum_nris_mw": 571.0
+    },
+    {
+     "q": "Q563",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Saguaro-Cholla (Silver King) 500 kV Line (via new switching station)",
+     "total": 49500000.0,
+     "nu": 45100000.0,
+     "tif": 4400000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-10",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Saguaro - Cholla 500kV",
+     "mw_queue": 500.0,
+     "station_nu": 45000000.0,
+     "cum_mw": 1071.0,
+     "cum_nris_mw": 1071.0
+    },
+    {
+     "q": "Q569",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Milligan 230 kV (shares gen-tie with Q295)",
+     "total": 2400000.0,
+     "nu": 1200000.0,
+     "tif": 1200000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-14",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Milligan 230 kV",
+     "mw_queue": 250.0,
+     "station_nu": 0,
+     "cum_mw": 1321.0,
+     "cum_nris_mw": 1321.0
+    },
+    {
+     "q": "Q573",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Milligan West (TS32) 230 kV",
+     "total": 6200000.0,
+     "nu": 3800000.0,
+     "tif": 2400000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-15",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Milligan West (TS32)",
+     "mw_queue": 200.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 1521.0,
+     "cum_nris_mw": 1521.0
+    },
+    {
+     "q": "Q575",
+     "mw": 213.75,
+     "service": "NRIS",
+     "poi": "Saguaro 230 kV (Adds grid charging to Q239)",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Cannot meet requested COD.; max construct 12 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-15",
+     "status": "Phase 2 Cluster Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Saguaro 230 kV",
+     "mw_queue": 0.0,
+     "station_nu": 0,
+     "cum_mw": 1734.75,
+     "cum_nris_mw": 1734.75
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Rebuild/reconductor Santa Rosa \u2013 Bianco 230 kV Line, 13 miles",
+     "cost": 5400000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "network NU",
+     "parts": [
+      "Rebuild/reconductor Santa Rosa \u2013 Bianco 230kV Line, 13 miles"
+     ],
+     "alloc": {
+      "Q548": {
+       "pct": 6.6,
+       "usd": 300000.0
+      },
+      "Q554": {
+       "pct": 66.6,
+       "usd": 2700000.0
+      },
+      "Q563": {
+       "pct": 1.4,
+       "usd": 100000.0
+      },
+      "Q569": {
+       "pct": 26.9,
+       "usd": 1100000.0
+      },
+      "Q573": {
+       "pct": 30.9,
+       "usd": 1200000.0
+      }
+     },
+     "first_q": "Q548",
+     "trigger_cum_mw": 145.0,
+     "trigger_cum_nris_mw": 145.0,
+     "n_sharing": 5,
+     "sharing_mw": 1295.0
+    },
+    {
+     "label": "Rebuild/reconductor San Manuel- Reddington 115 kV Line, 0.1 miles",
+     "cost": 1700000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Rebuild/reconductor San Manuel- Reddington 115 kV Line, 0.1 miles"
+     ],
+     "alloc": {
+      "Q548": {
+       "pct": 72.0,
+       "usd": 1400000.0
+      },
+      "Q554": {
+       "pct": 0.3,
+       "usd": 100000.0
+      },
+      "Q569": {
+       "pct": 0.8,
+       "usd": 100000.0
+      },
+      "Q573": {
+       "pct": 0.7,
+       "usd": 100000.0
+      }
+     },
+     "first_q": "Q548",
+     "trigger_cum_mw": 145.0,
+     "trigger_cum_nris_mw": 145.0,
+     "n_sharing": 4,
+     "sharing_mw": 795.0
+    }
+   ]
+  },
+  {
+   "file": "APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf",
+   "label": "2025 Ph1",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-10-12",
+   "version": "1.3",
+   "projects": [
+    {
+     "q": "Q578",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Santa Rosa 230 kV",
+     "total": 243500000.0,
+     "nu": 240500000.0,
+     "tif": 3000000.0,
+     "isd": "Cannot meet requested in-service date, Network Upgrades required. Minimum Q3 2036.; max construct 120 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-04-23",
+     "status": "Phase 1 Cluster Study Report Meeting",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Santa Rosa 230kV",
+     "mw_queue": 300.0,
+     "station_nu": 20000000.0,
+     "cum_mw": 300.0,
+     "cum_nris_mw": 300.0
+    },
+    {
+     "q": "Q579",
+     "mw": 100.0,
+     "service": "NRIS",
+     "poi": "Santa Rosa 230 kV",
+     "total": 96500000.0,
+     "nu": 93500000.0,
+     "tif": 3000000.0,
+     "isd": "Cannot meet requested in-service date, Network Upgrades required. Minimum Q3 2036.; max construct 120 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-04-23",
+     "status": "Phase 1 Cluster Study Report Meeting",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Santa Rosa 230kV",
+     "mw_queue": 100.0,
+     "station_nu": 20000000.0,
+     "cum_mw": 400.0,
+     "cum_nris_mw": 400.0
+    },
+    {
+     "q": "Q584",
+     "mw": 350.0,
+     "service": "ERIS",
+     "poi": "Bianco 230 kV",
+     "total": 17000000.0,
+     "nu": 14000000.0,
+     "tif": 3000000.0,
+     "isd": "Cannot meet requested in-service date, interconnection Network Upgrades have a long lead time. Minimum Q1 2030.; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-02",
+     "status": "Phase 1 Cluster Study Report Meeting",
+     "tech": "Energy Storage",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "230 kV Bianco Substation",
+     "mw_queue": 350.0,
+     "station_nu": 14000000.0,
+     "cum_mw": 750.0,
+     "cum_nris_mw": 400.0
+    },
+    {
+     "q": "Q587",
+     "mw": 150.0,
+     "service": "ERIS",
+     "poi": "TS32 (Milligan West) 230 kV",
+     "total": 8000000.0,
+     "nu": 5000000.0,
+     "tif": 3000000.0,
+     "isd": "Can meet requested in-service date.; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-01",
+     "status": "Phase 1 Cluster Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Milligan Substation",
+     "mw_queue": 150.0,
+     "station_nu": 5000000.0,
+     "cum_mw": 900.0,
+     "cum_nris_mw": 400.0
+    },
+    {
+     "q": "Q588",
+     "mw": 130.0,
+     "service": "NRIS",
+     "poi": "Bianco 230 kV",
+     "total": 81100000.0,
+     "nu": 78100000.0,
+     "tif": 3000000.0,
+     "isd": "Cannot meet requested in-service date, Network Upgrades required. Minimum Q3 2036.; max construct 120 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-01",
+     "status": "Phase 1 Cluster Study Report Meeting",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Bianco Substation",
+     "mw_queue": 130.0,
+     "station_nu": 14000000.0,
+     "cum_mw": 1030.0,
+     "cum_nris_mw": 530.0
+    },
+    {
+     "q": "Q589",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Bianco 230 kV",
+     "total": 213100000.0,
+     "nu": 210100000.0,
+     "tif": 3000000.0,
+     "isd": "Cannot meet requested in-service date, Network Upgrades required. Minimum Q3 2036.; max construct 120 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-06",
+     "status": "Phase 1 Cluster Study Report Meeting",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Planned Bianco 230 kV substation",
+     "mw_queue": 400.0,
+     "station_nu": 14000000.0,
+     "cum_mw": 1430.0,
+     "cum_nris_mw": 930.0
+    },
+    {
+     "q": "Q594",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Santa Rosa 230 kV",
+     "total": 208200000.0,
+     "nu": 205200000.0,
+     "tif": 3000000.0,
+     "isd": "Cannot meet requested in-service date, Network Upgrades required. Minimum Q3 2036.; max construct 120 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-05",
+     "status": "Phase 1 Cluster Study Report Meeting",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Santa Rosa Substation 230kV",
+     "mw_queue": 250.0,
+     "station_nu": 20000000.0,
+     "cum_mw": 1680.0,
+     "cum_nris_mw": 1180.0
+    },
+    {
+     "q": "Q604",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Santa Rosa-Tat Momoli 230 kV Line (via new Sw Sta)",
+     "total": 287400000.0,
+     "nu": 284400000.0,
+     "tif": 3000000.0,
+     "isd": "Cannot meet requested in-service date, Network Upgrades required. Minimum Q3 2036.; max construct 120 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-07",
+     "status": "Phase 1 Cluster Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "New substation on the Santa Rosa - Tar Monolith 230kV line",
+     "mw_queue": 200.0,
+     "station_nu": 30000000.0,
+     "cum_mw": 1880.0,
+     "cum_nris_mw": 1380.0
+    },
+    {
+     "q": "Q608",
+     "mw": 55.0,
+     "service": "NRIS",
+     "poi": "Milligan-Helios (TS33) 230 kV Line (via new Sw Sta)",
+     "total": 44300000.0,
+     "nu": 41300000.0,
+     "tif": 3000000.0,
+     "isd": "Cannot meet requested in-service date, Network Upgrades required. Minimum Q3 2036.; max construct 120 months",
+     "notes": "Withdrew 2026-09-10; to be reflected in Ph2",
+     "in_active_queue": false,
+     "station_nu": 30000000.0,
+     "cum_mw": 1935.0,
+     "cum_nris_mw": 1435.0
+    },
+    {
+     "q": "Q618",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Saguaro-Tat Momoli 230 kV Line (via new Sw Sta)",
+     "total": 295200000.0,
+     "nu": 292200000.0,
+     "tif": 3000000.0,
+     "isd": "Cannot meet requested in-service date, Network Upgrades required. Minimum Q3 2036.; max construct 120 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-13",
+     "status": "Phase 1 Cluster Study Report Meeting",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Tat Monoli - Sagaro 230 kV",
+     "mw_queue": 250.0,
+     "station_nu": 30000000.0,
+     "cum_mw": 2185.0,
+     "cum_nris_mw": 1685.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Construct Saguaro-Bianco-Independence 500 kV Line, including 2-600 MVA 500/230 kV Transfor",
+     "cost": 967000000.0,
+     "cost_derived": false,
+     "lead": "120 months",
+     "category": "station NU",
+     "parts": [
+      "NU 7: Construct Saguaro-Bianco-Independence 500 kV Line, including 2-600 MVA 500/230 kV Transformers at Bianco"
+     ],
+     "alloc": {
+      "Q578": {
+       "pct": 22.5,
+       "usd": 217600000.0
+      },
+      "Q579": {
+       "pct": 7.5,
+       "usd": 72500000.0
+      },
+      "Q588": {
+       "pct": 6.5,
+       "usd": 62900000.0
+      },
+      "Q589": {
+       "pct": 19.9,
+       "usd": 192400000.0
+      },
+      "Q594": {
+       "pct": 18.9,
+       "usd": 182800000.0
+      },
+      "Q604": {
+       "pct": 13.1,
+       "usd": 126700000.0
+      },
+      "Q608": {
+       "pct": 1.1,
+       "usd": 10600000.0
+      },
+      "Q618": {
+       "pct": 10.5,
+       "usd": 101500000.0
+      }
+     },
+     "first_q": "Q578",
+     "trigger_cum_mw": 300.0,
+     "trigger_cum_nris_mw": 300.0,
+     "n_sharing": 8,
+     "sharing_mw": 1685.0
+    },
+    {
+     "label": "Re-terminate Saguaro 500/115 kV",
+     "cost": 6000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "NU 3: Re-terminate Saguaro 500/115 kV"
+     ],
+     "alloc": {
+      "Q578": {
+       "pct": 8.5,
+       "usd": 500000.0
+      },
+      "Q579": {
+       "pct": 2.9,
+       "usd": 200000.0
+      },
+      "Q588": {
+       "pct": 5.8,
+       "usd": 300000.0
+      },
+      "Q589": {
+       "pct": 17.9,
+       "usd": 1100000.0
+      },
+      "Q594": {
+       "pct": 6.4,
+       "usd": 400000.0
+      },
+      "Q604": {
+       "pct": 12.8,
+       "usd": 800000.0
+      },
+      "Q608": {
+       "pct": 6.7,
+       "usd": 400000.0
+      },
+      "Q618": {
+       "pct": 39.0,
+       "usd": 2300000.0
+      }
+     },
+     "first_q": "Q578",
+     "trigger_cum_mw": 300.0,
+     "trigger_cum_nris_mw": 300.0,
+     "n_sharing": 8,
+     "sharing_mw": 1685.0
+    },
+    {
+     "label": "Add 5-ohm series reactor to Ocotillo-Kyrene 230 kV Line",
+     "cost": 6000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "NU 5: Add 5-ohm series reactor to Ocotillo-Kyrene 230 kV Line"
+     ],
+     "alloc": {
+      "Q578": {
+       "pct": 18.3,
+       "usd": 1100000.0
+      },
+      "Q579": {
+       "pct": 6.1,
+       "usd": 400000.0
+      },
+      "Q588": {
+       "pct": 7.7,
+       "usd": 500000.0
+      },
+      "Q589": {
+       "pct": 23.7,
+       "usd": 1400000.0
+      },
+      "Q594": {
+       "pct": 15.4,
+       "usd": 900000.0
+      },
+      "Q604": {
+       "pct": 11.9,
+       "usd": 700000.0
+      },
+      "Q608": {
+       "pct": 2.9,
+       "usd": 200000.0
+      },
+      "Q618": {
+       "pct": 14.0,
+       "usd": 800000.0
+      }
+     },
+     "first_q": "Q578",
+     "trigger_cum_mw": 300.0,
+     "trigger_cum_nris_mw": 300.0,
+     "n_sharing": 8,
+     "sharing_mw": 1685.0
+    },
+    {
+     "label": "Add 5-ohm series reactor to Santa Rosa-Knox 230 kV Line",
+     "cost": 5900000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "NU 6: Add 5-ohm series reactor to Santa Rosa-Knox 230 kV Line"
+     ],
+     "alloc": {
+      "Q578": {
+       "pct": 22.1,
+       "usd": 1300000.0
+      },
+      "Q579": {
+       "pct": 7.4,
+       "usd": 400000.0
+      },
+      "Q588": {
+       "pct": 6.6,
+       "usd": 400000.0
+      },
+      "Q589": {
+       "pct": 20.3,
+       "usd": 1200000.0
+      },
+      "Q594": {
+       "pct": 18.5,
+       "usd": 1100000.0
+      },
+      "Q604": {
+       "pct": 13.0,
+       "usd": 800000.0
+      },
+      "Q608": {
+       "pct": 1.3,
+       "usd": 100000.0
+      },
+      "Q618": {
+       "pct": 10.8,
+       "usd": 600000.0
+      }
+     },
+     "first_q": "Q578",
+     "trigger_cum_mw": 300.0,
+     "trigger_cum_nris_mw": 300.0,
+     "n_sharing": 8,
+     "sharing_mw": 1685.0
+    },
+    {
+     "label": "Rebuild Saguaro-Q618 230 kV Line (25.2 miles)",
+     "cost": 201600000.0,
+     "cost_derived": false,
+     "lead": "72 months",
+     "category": "network NU",
+     "parts": [
+      "NU 2: Rebuild Saguaro-Q618 230 kV Line (25.2 miles)"
+     ],
+     "alloc": {
+      "Q604": {
+       "pct": 44.1,
+       "usd": 88900000.0
+      },
+      "Q618": {
+       "pct": 55.9,
+       "usd": 112700000.0
+      }
+     },
+     "first_q": "Q604",
+     "trigger_cum_mw": 1880.0,
+     "trigger_cum_nris_mw": 1380.0,
+     "n_sharing": 2,
+     "sharing_mw": 450.0
+    },
+    {
+     "label": "Rebuild Santa Rosa-Q604 230 kV Line (10.1 miles)",
+     "cost": 80800000.0,
+     "cost_derived": false,
+     "lead": "60 months",
+     "category": "network NU",
+     "parts": [
+      "NU 1: Rebuild Santa Rosa-Q604 230 kV Line (10.1 miles)"
+     ],
+     "alloc": {
+      "Q604": {
+       "pct": 45.2,
+       "usd": 36500000.0
+      },
+      "Q618": {
+       "pct": 54.8,
+       "usd": 44300000.0
+      }
+     },
+     "first_q": "Q604",
+     "trigger_cum_mw": 1880.0,
+     "trigger_cum_nris_mw": 1380.0,
+     "n_sharing": 2,
+     "sharing_mw": 450.0
+    }
+   ]
+  }
+ ],
+ "prior": [
+  {
+   "q": "Q228",
+   "mw": 44.3,
+   "poi": "Saquaro 115kV Substation",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Solar",
+   "queue_date": "2015-09-09"
+  },
+  {
+   "q": "Q239",
+   "mw": 213.75,
+   "poi": "Saguaro Substation 230kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Project with APS Project Manager (Legacy)",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2016-03-30"
+  },
+  {
+   "q": "Q256",
+   "mw": 100.0,
+   "poi": "Milligan 69kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Project with APS Project Manager",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2017-05-18"
+  },
+  {
+   "q": "Q264",
+   "mw": 130.0,
+   "poi": "Milligan Substation 230kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Customer Initiated Suspension",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2017-09-29"
+  },
+  {
+   "q": "Q295",
+   "mw": 250.0,
+   "poi": "Milligan 230kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Design",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2019-03-27"
+  },
+  {
+   "q": "SPI02",
+   "mw": 43.9,
+   "poi": "Saugaro 115kV (Q228)",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2011-06-11"
+  },
+  {
+   "q": "SP106",
+   "mw": 213.75,
+   "poi": "Saguaro 230kV",
+   "process": "Surplus",
+   "status": "Surplus Request: Complete",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2023-01-27"
+  },
+  {
+   "q": "SP112",
+   "mw": 0.0,
+   "poi": "Milligan 230 kV",
+   "process": "Surplus",
+   "status": "Surplus Request: Complete",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2024-02-06"
+  }
+ ]
+}

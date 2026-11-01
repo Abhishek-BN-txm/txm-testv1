@@ -1,0 +1,222 @@
+{
+ "columns": [
+  {
+   "id": "ts21",
+   "label": "Independence (TS21) 500/230 kV substation: Jojoba\u2013Rudd 500 kV and Runway\u2013Stratus 230 kV cut-ins (+ TS21\u2013Broadway 230 kV)",
+   "isd": "2032",
+   "note": "\u00a71 Contingent Facilities / local transmission additions in TC Ph1, TC Ph2, 2024 Ph1 and 2025 Ph1 (\"TS21 project ... planned for 2032\": new 500/230 kV sub, Jojoba\u2013Rudd 500 kV and Runway\u2013Stratus 230 kV looped in, new TS21\u2013Broadway 230 kV line). 2024 Ph2b, Ph2C and 2025 Ph2 list it as items 3\u20134 of the six Contingent Facilities (500 kV and 230 kV substations; no Broadway line named). 2024 Ph2 Table 3 TP rows only (no contingent section) -> M. TC Ph1 Table 2.1 has no TS21 row but \u00a71 lists it -> C. 2025 Ph1 Table 3 also has \"TS21 (Independence) project: Yes\"."
+  },
+  {
+   "id": "jr500",
+   "label": "Jojoba\u2013Rudd 500 kV line",
+   "isd": "",
+   "note": "Table 2.1/Table 3 Transmission Planning Projects row \"Jojoba-Rudd 500kv: Yes\" in TC Ph1, TC Ph2, 2024 Ph1 and 2025 Ph1; not on any contingent list on its own (it appears there only as the line TS21 cuts into). Row dropped from the 2024 Ph2 / Ph2b / Ph2C / 2025 Ph2 tables, which list the TS21 cut-in instead."
+  },
+  {
+   "id": "pf1",
+   "label": "Existing Panda\u2013Freedom #1 230 kV line upgrade / rebuild (3098 A \u2192 4000 A)",
+   "isd": "2031 (TC Ph1)",
+   "note": "TC Ph1 \u00a71 local additions: \"upgrade of Panda \u2013 Freedom 230 kV line to 3098 Amps ... planned for 2031\" (Table 2.1 \"Panda-Freedom upgrade: Yes\"). In TC Ph2 the 3012 A upgrade of the existing line is the Transition Cluster's own directly attributable NU, so it is not marked there. 2024 Ph1 and 2025 Ph1: Associated NU \"Rebuild (existing) Panda-Freedom 230kv line\". 2024 Ph2: Table 3 NU row \"Rebuild existing Panda-Freedom 230kv line and cut into Hazen\" (M). 2024 Ph2b, Ph2C, 2025 Ph2: Contingent Facility #6 \"Upgrade of Panda \u2013 Freedom lines to/for 4000 A\" (Table 3: \"all Panda \u2013 Freedom lines\")."
+  },
+  {
+   "id": "pf2",
+   "label": "New Panda\u2013Freedom #2 230 kV line, parallel to existing (~3000 A / 1200 MVA)",
+   "isd": "",
+   "note": "TC Ph2 \u00a71 local additions: \"Build a new 230 kV line from Panda to Freedom (parallel to the existing one) ... 3012 A (1200 MVA)\" (\u00a74 lists it as contingent facility 1). 2024 Ph1 and 2025 Ph1 local additions: second/new Panda\u2013Freedom 230 kV line rated 3000 A (1195 MVA). 2024 Ph2 Table 3 TP row \"New Panda \u2013 Hazen - Freedom 230kV line\" (M). 2024 Ph2b/Ph2C/2025 Ph2 have no separate item; their Contingent Facility #6 upgrades \"Panda \u2013 Freedom lines\" (plural; Table 3 \"all Panda \u2013 Freedom lines\") to 4000 A, read as covering both lines. Not in TC Ph1 (which used a Panda\u2013TS21 230 kV NU instead)."
+  },
+  {
+   "id": "hazen",
+   "label": "Hazen 230(/69) kV substation cut into Panda\u2013Freedom 230 kV",
+   "isd": "",
+   "note": "TC Ph2 \u00a71: \"New Hazen 230/69 kV substation cut into new Panda-Freedom 230 kV line\". 2024 Ph1: Associated NU \"Cut Panda-Freedom 230kv line into Hazen\". 2025 Ph1: Associated NU (rebuilt line cut into Hazen) and local addition incl. new Hazen 230/69 kV sub. 2024 Ph2: Table 3 rows only (M). 2024 Ph2b/Ph2C/2025 Ph2: Contingent Facility #2 \"Hazen 230kV Substation: Hazen cutting in between Panda and Freedom\"."
+  },
+  {
+   "id": "pandabh",
+   "label": "Panda 230 kV switchyard expansion (ring bus \u2192 breaker-and-a-half)",
+   "isd": "",
+   "note": "This is the Transition Cluster's own directly attributable NU in TC Ph1/Ph2 (not marked there). 2024 Ph1: Associated NU of queue-ahead projects \"Expand Panda 230kv switchyard\". 2024 Ph2: Table 3 NU row \"Panda 230kV switchyard expansion\" (M). 2024 Ph2b/Ph2C/2025 Ph2: Contingent Facility #1 \"Panda 230kV switchyard expansion from ring bus to breaker and half configuration\". Not in the 2025 Ph1 lists."
+  },
+  {
+   "id": "q288rb",
+   "label": "Panda 230 kV ring bus expansion (Q288 NU)",
+   "isd": "",
+   "note": "TC Ph2 \u00a71 Contingent Facilities, Associated Network Upgrades: \"Panda ring bus expansion\" (serial Q288 NU; TC Ph1 lists \"None\")."
+  },
+  {
+   "id": "lfup",
+   "label": "Liberty\u2013Freedom 230 kV line upgrade to 2810 A (1120 MVA)",
+   "isd": "2030 (TC Ph2 \u00a77)",
+   "note": "TC Ph2 \u00a71 local addition (2810 A / 1120 MVA); TC Ph2 \u00a74 and \u00a77 say 3012 A (1200 MVA), \u00a77 \"planned for 2030\". 2024 Ph1 and 2025 Ph1 local additions (2810 A). 2024 Ph2 Table 3 TP row (M). Absent from 2024 Ph2b/Ph2C. 2025 Ph2 Table 3 TP row \"Upgrading Liberty-Freedom 230kV line for 2810 A rating: Yes\" but not one of its six Contingent Facilities (M)."
+  },
+  {
+   "id": "lrsr",
+   "label": "Liberty\u2013Rudd 230 kV series reactor (SRP planned project; \"turn on Liberty series reactor\")",
+   "isd": "",
+   "note": "2024 Ph1 and 2025 Ph1 local additions: \"Series reactor on Liberty-Rudd 230kV line (SRP Planned Project)\". 2024 Ph2b/Ph2C/2025 Ph2: Contingent Facility #5 \"Turn on Liberty series reactor on Liberty-Rudd line\". 2024 Ph2 Table 3 instead has \"Turn on Liberty Shunt Cap\" (separate column)."
+  },
+  {
+   "id": "frx2",
+   "label": "Second Freedom 230/69 kV transformer (187 MVA)",
+   "isd": "",
+   "note": "2024 Ph1 and 2025 Ph1 local additions; 2024 Ph1 and 2024 Ph2 Table 3 TP row \"Second Freedom 230/69kV transformer: Yes\" (2024 Ph2 = M). Not in 2024 Ph2b/Ph2C/2025 Ph2."
+  },
+  {
+   "id": "wp69",
+   "label": "Local 69 kV expansion around West Park 69 kV",
+   "isd": "",
+   "note": "\u00a71 local additions in TC Ph1, TC Ph2, 2024 Ph1 and 2025 Ph1. Not in later lists."
+  },
+  {
+   "id": "rb69",
+   "label": "Robins Butte\u2013Komatke and Robins Butte\u2013Buckeye 69 kV rebuild to 1600 A (191 MVA)",
+   "isd": "",
+   "note": "\u00a71 local additions in TC Ph2 (also \u00a74 contingent facility 4), 2024 Ph1 and 2025 Ph1."
+  },
+  {
+   "id": "pfsr",
+   "label": "Series reactor on existing Panda\u2013Freedom 230 kV line",
+   "isd": "",
+   "note": "2024 Ph1 \u00a71 local additions only."
+  },
+  {
+   "id": "kmsr",
+   "label": "Komatke 230 kV series reactor",
+   "isd": "",
+   "note": "2024 Ph2 Table 3 Transmission Planning Projects row only (\"Komatke 230kV series reactor: Yes\"); 2024 Ph2 has no contingent-facilities section, so M."
+  },
+  {
+   "id": "libcap",
+   "label": "Liberty shunt capacitor switched on",
+   "isd": "",
+   "note": "2024 Ph2 Table 3 TP row \"Turn on Liberty Shunt Cap: Yes\" only (M)."
+  },
+  {
+   "id": "wmjj",
+   "label": "Watermelon 500/230 kV substation + Watermelon\u2013Jojoba 500 kV line (2024 Cluster NU)",
+   "isd": "",
+   "note": "2025 Ph1 \u00a71 Associated Network Upgrades: \"Build a new Watermelon 500/230kv substation with two transformers\" and \"Build a new Watermelon - Jojoba 500kv line\" (= 2024 Ph1/Ph2b directly attributable NUs). 2025 Ph2 Table 3 instead carries the 2024 Ph2C version: \"Addition of 2 New 500/230kV Transformers at Watermelon substation (1500 MVA each)\" (M) with no Watermelon\u2013Jojoba line, and 2025 Ph2's own NU is \"a second Jojoba-Watermelon 500kV line\"."
+  },
+  {
+   "id": "jgr",
+   "label": "Jojoba\u2013Gila River 500 kV lines #1 & #2 upgrade to 3880 A (2024 Cluster NU)",
+   "isd": "",
+   "note": "2025 Ph2 Table 3 NU row \"Upgrade of Jojoba-Gila River 500kV lines for 3880 A: Yes\" (M) \u2014 the 2024 Ph2C directly attributable NU that replaced the Watermelon\u2013Jojoba 500 kV line."
+  },
+  {
+   "id": "lf2",
+   "label": "New Liberty\u2013Freedom 230 kV line / Liberty\u2013Freedom\u2013Buckeye 230 kV re-termination (queue-ahead NU)",
+   "isd": "",
+   "note": "2024 Ph2 Table 3 NU row \"Re-terminate the Liberty-Buckeye line to make Freedom-Buckeye\" (M). 2025 Ph1 \u00a71 Associated NU \"Build a new Freedom - Liberty 230kv line\". 2025 Ph2 Table 3 NU rows \"Construction of a new Liberty-Freedom 230kV line\" and \"Liberty-Freedom-Buckeye 230kV network upgrade\" (M)."
+  },
+  {
+   "id": "pima",
+   "label": "Pima\u2013Freedom 69 kV line (2024 Cluster NU)",
+   "isd": "",
+   "note": "2025 Ph1 \u00a71 Associated NU \"Construction of new Pima - Freedom 69kV line\"; 2025 Ph2 Table 3 NU row (M)."
+  },
+  {
+   "id": "sunzia",
+   "label": "SunZia DC (merchant)",
+   "isd": "",
+   "note": "Table 2.1/3 Merchant Transmission \"Sun Zia DC\": \"Yes\" in 2024 Ph2 and 2025 Ph1; \"No\" in TC Ph1, TC Ph2, 2024 Ph1, 2024 Ph2b, 2024 Ph2C and 2025 Ph2."
+  }
+ ],
+ "status": {
+  "APS_GilaBend_Transition_Cluster_Report-v1-5-Phase1_20241224.pdf": {
+   "ts21": "C",
+   "jr500": "M",
+   "pf1": "C",
+   "wp69": "C",
+   "sunzia": "X"
+  },
+  "APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf": {
+   "ts21": "C",
+   "jr500": "M",
+   "pf2": "C",
+   "hazen": "C",
+   "q288rb": "C",
+   "lfup": "C",
+   "wp69": "C",
+   "rb69": "C",
+   "sunzia": "X"
+  },
+  "APS_GilaBend_2024_Cluster_Phase1_Report_v1.2_20251125.pdf": {
+   "ts21": "C",
+   "jr500": "M",
+   "pf1": "C",
+   "pf2": "C",
+   "hazen": "C",
+   "pandabh": "C",
+   "lfup": "C",
+   "lrsr": "C",
+   "frx2": "C",
+   "wp69": "C",
+   "rb69": "C",
+   "pfsr": "C",
+   "sunzia": "X"
+  },
+  "APS_GilaBend_2024_Cluster_Phase2_Report_v1.4_20260316.pdf": {
+   "ts21": "M",
+   "pf1": "M",
+   "pf2": "M",
+   "hazen": "M",
+   "pandabh": "M",
+   "lfup": "M",
+   "frx2": "M",
+   "kmsr": "M",
+   "libcap": "M",
+   "lf2": "M",
+   "sunzia": "M"
+  },
+  "APS_GilaBend_2024_Cluster_Phase2b_Report_v1.2_20260508.pdf": {
+   "ts21": "C",
+   "pf1": "C",
+   "pf2": "C",
+   "hazen": "C",
+   "pandabh": "C",
+   "lrsr": "C",
+   "sunzia": "X"
+  },
+  "APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf": {
+   "ts21": "C",
+   "pf1": "C",
+   "pf2": "C",
+   "hazen": "C",
+   "pandabh": "C",
+   "lrsr": "C",
+   "sunzia": "X"
+  },
+  "APS_GilaBend_2025_Cluster_Phase1_Report_v1-3_20260211.pdf": {
+   "ts21": "C",
+   "jr500": "M",
+   "pf1": "C",
+   "pf2": "C",
+   "hazen": "C",
+   "lfup": "C",
+   "lrsr": "C",
+   "frx2": "C",
+   "wp69": "C",
+   "rb69": "C",
+   "wmjj": "C",
+   "lf2": "C",
+   "pima": "C",
+   "sunzia": "M"
+  },
+  "APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf": {
+   "ts21": "C",
+   "pf1": "C",
+   "pf2": "C",
+   "hazen": "C",
+   "pandabh": "C",
+   "lfup": "M",
+   "lrsr": "C",
+   "wmjj": "M",
+   "jgr": "M",
+   "lf2": "M",
+   "pima": "M",
+   "sunzia": "X"
+  }
+ },
+ "owners": {},
+ "source": "\u00a71 \"Contingent Facilities\" / \"Contingent Facility Upgrade\" / \"Contingent Facilities/Local Transmission Additions\" (queue-ahead projects, associated NUs, local transmission additions) and the Significant Study Assumptions table (Table 2.1 in the Transition reports, Table 3 in the 2024/2025 reports) of each Gila Bend cluster report. 2024 Ph2 (Mar 2026) has no contingent-facilities section, so everything it models is M. 2024 Ph2b, Ph2C and 2025 Ph2 carry the same six-item list (Panda breaker-and-a-half, Hazen cut-in, TS21 500 kV, TS21 230 kV, Liberty\u2013Rudd series reactor, Panda\u2013Freedom lines to 4000 A). Queue-ahead generation (Q288, Q346, then Q357/Q427/Q463/Q488/Q507, then the 2024 cluster Q558/Q559/Q561/Q574 and Phoenix Q585/Q606) is also listed as contingent but is shown on the ladder rows, not as columns. Retirements (not facilities): every table assumes Cholla Units 1\u20134 retired, San Juan 1 & 4 not retired and Four Corners 4 & 5 not retired; \u00a71 local generation retirements read \"None\" in TC Ph1/Ph2. Other table rows tracked elsewhere or outside Gila Bend: Cholla 500 kV shunt reactor (FCCHO file), Sun Valley 500/230 kV #2, Outer Circle, TS24/Bianco (Yes in TC/2024 Ph1, No in 2025 Ph1), Scatter Wash (DSR/Phoenix), Delaney\u2013Colorado River 500 kV (Yes in all), Santa Rosa 230 kV, North Gila\u2013Imperial Valley #2, Pinnacle Peak series reactors, Rio Sol 500 kV (all No)."
+}

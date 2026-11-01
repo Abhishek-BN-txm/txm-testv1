@@ -1,0 +1,11 @@
+{
+  "_comment": "Study-area research agent (task 29). Model and effort are the main cost levers: effort low|medium|high|xhigh|max. Prices are USD per million tokens, for the cost shown in the log.",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "synth_effort": "high",
+  "max_tokens": 32000,
+  "web_search_max_uses": 12,
+  "max_pdf_mb": 30,
+  "fallbacks": true,
+  "price_per_mtok": {"input": 4.0, "output": 20.0, "cache_read": 0.20}
+}

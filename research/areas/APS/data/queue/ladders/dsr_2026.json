@@ -1,0 +1,98 @@
+[
+ {
+  "q": "Q636",
+  "mw": 627.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "TS30 500kV",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/28/26",
+  "requested_isd": "12/31/32",
+  "confidence": "high"
+ },
+ {
+  "q": "Q648",
+  "mw": 500.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Sun Valley 500kV Substation",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/1/26",
+  "requested_isd": "12/1/30",
+  "confidence": "high"
+ },
+ {
+  "q": "Q652",
+  "mw": 1000.0,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "TS30 500 kV Substation",
+  "tech": "Combined Energy Source (Solar + Energy Storage + Natural Gas)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/29/26",
+  "requested_isd": "12/6/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q653",
+  "mw": 1000.0,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "TS30 500 kV Substation",
+  "tech": "Combined Energy Source (Solar + Energy Storage + Natural Gas)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/28/26",
+  "requested_isd": "12/6/30",
+  "confidence": "high"
+ },
+ {
+  "q": "Q655",
+  "mw": 1000.0,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "Proposed TS30",
+  "tech": "Combined Energy Source (Solar + Energy Storage + Natural Gas)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/8/26",
+  "requested_isd": "12/6/32",
+  "confidence": "high"
+ },
+ {
+  "q": "Q658",
+  "mw": 400.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "TS30 500kV Substation",
+  "tech": "Combined Energy Source (Solar + Energy Storage)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/13/26",
+  "requested_isd": "12/1/29",
+  "confidence": "high"
+ },
+ {
+  "q": "Q664",
+  "mw": 500.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Delaney 500kV Substation (Q580 Gen-Tie)",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/12/26",
+  "requested_isd": "4/19/32",
+  "confidence": "high"
+ },
+ {
+  "q": "Q670",
+  "mw": 150.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Delaney 500 kV",
+  "tech": "Solar",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/15/26",
+  "requested_isd": "5/15/29",
+  "confidence": "high"
+ }
+]

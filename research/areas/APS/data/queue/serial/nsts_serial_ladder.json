@@ -1,0 +1,64 @@
+{
+ "label": "Pre-cluster (serial)",
+ "cycle": "Serial",
+ "date": "FaS 2021-02-22",
+ "file": "Q313_SIS_Report_v1-6_20200714.pdf; Q313_FaS_Final_20210222_.pdf",
+ "projects": [
+  {
+   "q": "Q313",
+   "mw": 95,
+   "service": "NRIS",
+   "poi": "New 69 kV switchyard on Lonesome Valley\u2013Yavapai 69 kV",
+   "station_nu": 6800000,
+   "station_status": "new 3-breaker 69 kV ring bus, control house, communications",
+   "total": 7400000,
+   "status": "Project with APS Project Manager",
+   "latest": "FaS 2021-02-22",
+   "note": "PV + BESS. FaS COD June 2023."
+  }
+ ],
+ "upgrades": [
+  {
+   "label": "Rebuild Dugas\u2013Cordes Tap\u2013Poland\u2013Dewey 69 kV (28 mi)",
+   "cost": 28000000,
+   "cost_note": "Q313 SIS 2020 (upper end of its $4.8M\u2013$33.8M range); not carried in the 2021 FaS",
+   "alloc": {
+    "Q313": {
+     "pct": 100,
+     "usd": 28000000,
+     "status": "removed"
+    }
+   }
+  },
+  {
+   "label": "Rebuild Willow Lake\u2013Wellfield\u2013Lonesome Valley 69 kV (0.2 mi)",
+   "cost": 1000000,
+   "cost_note": "Q313 SIS 2020; FaS: no longer required, APS rebuilt the line (Jan 2021)",
+   "alloc": {
+    "Q313": {
+     "pct": 100,
+     "usd": 1000000,
+     "status": "removed"
+    }
+   }
+  },
+  {
+   "label": "Willow Lake line: one switch upgrade + clearance check",
+   "cost": 100000,
+   "cost_note": "Q313 FaS 2021 residual from the APS rebuild",
+   "alloc": {
+    "Q313": {
+     "pct": 100,
+     "usd": 100000,
+     "status": "required"
+    }
+   }
+  }
+ ],
+ "notes": [
+  "Q313 is the only serial project in NSTS. Its SIS found up to $29M of 69 kV rebuilds. By the Facilities Study, APS had rebuilt the Willow Lake line itself and the Dugas\u2013Poland\u2013Dewey rebuild was gone, leaving the $6.8M POI switchyard and a $0.1M switch fix.",
+  "In-service NSTS projects (Q113, Q196, SP107) have no open network upgrades in the posted reports."
+ ],
+ "view_note": "Q313 (95 MW PV + BESS) is the only serial project in NSTS. Its 2020 SIS showed up to $29M of 69 kV rebuilds. The 2021 Facilities Study dropped them, leaving a $6.8M new switchyard and a $0.1M switch fix.",
+ "full_note": "NSTS carries almost nothing forward from the serial queue: Q313's 69 kV rebuilds fell away before its Facilities Study, so the cluster rows hold all of the area's shared upgrades."
+}

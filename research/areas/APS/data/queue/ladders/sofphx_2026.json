@@ -1,0 +1,122 @@
+[
+ {
+  "q": "Q619",
+  "mw": 100.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "San Manuel - Sagaro 115kV Line",
+  "tech": "Combined Energy Source (Solar + Energy Storage)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/2/26",
+  "requested_isd": "12/31/28",
+  "confidence": "high"
+ },
+ {
+  "q": "Q625",
+  "mw": 628.3,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "Saguaro 500kV",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/10/26",
+  "requested_isd": "4/7/33",
+  "confidence": "high"
+ },
+ {
+  "q": "Q632",
+  "mw": 695.4,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "Saguaro 500kV",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/10/26",
+  "requested_isd": "12/31/30",
+  "confidence": "high"
+ },
+ {
+  "q": "Q633",
+  "mw": 576.73,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "APS Saguaro Substation",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/2/26",
+  "requested_isd": "9/1/32",
+  "confidence": "high"
+ },
+ {
+  "q": "Q641",
+  "mw": 320.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "230kV Sagaro Substation",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/4/26",
+  "requested_isd": "5/1/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q649",
+  "mw": 440.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Future TS-25 230kV Substation",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/8/26",
+  "requested_isd": "5/1/32",
+  "confidence": "high"
+ },
+ {
+  "q": "Q661",
+  "mw": 703.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Saguaro 500 kV Substation",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/12/26",
+  "requested_isd": "7/1/32",
+  "confidence": "high"
+ },
+ {
+  "q": "Q662",
+  "mw": 703.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Saguaro 500 kV Substation",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/12/26",
+  "requested_isd": "7/1/32",
+  "confidence": "high"
+ },
+ {
+  "q": "Q663",
+  "mw": 576.15,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "Helios 230kV Switchyard",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/8/26",
+  "requested_isd": "9/1/29",
+  "confidence": "high"
+ },
+ {
+  "q": "Q671",
+  "mw": 140.0,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "APS Helios Substation 230 kV",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/14/26",
+  "requested_isd": "3/1/30",
+  "confidence": "high"
+ }
+]

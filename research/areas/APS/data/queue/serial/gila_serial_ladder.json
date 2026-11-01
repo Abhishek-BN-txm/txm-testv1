@@ -1,0 +1,40 @@
+{
+ "label": "Pre-cluster (serial)",
+ "cycle": "Serial",
+ "date": "latest per project (2021-2023)",
+ "file": "Q288_FaS_Final_20211129_V2.pdf; Q288_SIS_Report_Final_v1-7_20200514.pdf (not fetched); Q346_FaS_Final_20230531.pdf; Q346_SIS_Report_Final_20221123.pdf (not fetched)",
+ "projects": [
+  {
+   "q": "Q288",
+   "mw": 200,
+   "service": "NRIS",
+   "poi": "Panda 230 kV",
+   "station_nu": 9200000,
+   "station_status": "in construction",
+   "total": 15100000,
+   "status": "In Construction",
+   "latest": "FaS 2021-11-29 (V2)",
+   "note": "Panda 230 kV ring bus expansion: 2 new breakers, one breaker relocated, Gila Bend/Solana/Freedom line positions relocated, CEC and land. TPIF $5.9M includes relocating line entrances. Gillespie–Patterson 69 kV rebuild required, at APS's cost."
+  },
+  {
+   "q": "Q346",
+   "mw": 45,
+   "service": "NRIS",
+   "poi": "Komatke 69 kV",
+   "station_nu": 460000,
+   "station_status": "required (suspended)",
+   "total": 1460000,
+   "status": "Customer Initiated Suspension",
+   "latest": "FaS 2023-05-31",
+   "note": "One 69 kV breaker position. Not attributed to any thermal, voltage, stability or short-circuit concern."
+  }
+ ],
+ "upgrades": [],
+ "notes": [
+  "No system network upgrades are allocated to the Gila Bend serial projects. Q288's Facilities Study requires a Gillespie–Patterson 69 kV rebuild but assigns it to APS, with no cost to the customer. Q346's Facilities Study finds no system reinforcements.",
+  "Both projects carry only POI station network upgrades. Palo Verde/Hassayampa fault-duty mitigation is 'TBD by SRP'.",
+  "Q357 (150 MW storage at Freedom 69 kV) is COD – pending refund and is treated as in service, not part of this block."
+ ],
+ "view_note": "Only two serial projects remain in the Gila Bend area: Q288 (200 MW at Panda 230 kV, in construction) and Q346 (45 MW at Komatke 69 kV, suspended). Neither carries shared system upgrades. Q288's $9.2M Panda ring-bus expansion is the largest station upgrade, and the Gillespie–Patterson 69 kV rebuild it triggered is at APS's cost.",
+ "full_note": "The serial block adds just 245 MW and no shared upgrades. Shared Gila Bend upgrades first appear in the Transition and later cluster studies shown below."
+}

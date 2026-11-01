@@ -1,0 +1,172 @@
+{
+ "area": "Northern (69 kV Flagstaff/Winslow)",
+ "generated": "2026-10-23",
+ "source": "APS OASIS cluster study reports; Active Queue posting 2026-10-13",
+ "phases": [
+  {
+   "file": "APS_Northern_Transition_Cluster_Report_20240627_Phase1.pdf",
+   "label": "Transition Ph1",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2024-06-25",
+   "version": "1.4",
+   "projects": [
+    {
+     "q": "Q444",
+     "mw": 60.0,
+     "service": "NRIS+ERIS",
+     "poi": "Winslow \u2013 Blue Ridge 69 kV",
+     "total": 6000000.0,
+     "nu": 5500000.0,
+     "tif": 500000.0,
+     "isd": "30 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-03-24",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy and Network Resource Interconnection Service",
+     "poi_queue": "New (to be constructed) 60kV switchyard South of Hwy 99 and 04 miles East of Hwy 87 Winslow, AZ",
+     "mw_queue": 60.0,
+     "station_nu": 0,
+     "cum_mw": 60.0,
+     "cum_nris_mw": 60.0
+    },
+    {
+     "q": "Q524",
+     "mw": 30.0,
+     "service": "NRIS",
+     "poi": "Cataract Creek 69 kV",
+     "total": 6000000.0,
+     "nu": 5500000.0,
+     "tif": 500000.0,
+     "isd": "30 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 0,
+     "cum_mw": 90.0,
+     "cum_nris_mw": 90.0
+    },
+    {
+     "q": "Q534",
+     "mw": 60.0,
+     "service": "NRIS",
+     "poi": "Twin Arrows - Sunshine 69 kV",
+     "total": 6000000.0,
+     "nu": 5500000.0,
+     "tif": 500000.0,
+     "isd": "30 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-30",
+     "status": "Project with APS Project Manager",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Twin Arows - Sunshine 69 kV Line",
+     "mw_queue": 60.0,
+     "station_nu": 0,
+     "cum_mw": 150.0,
+     "cum_nris_mw": 150.0
+    }
+   ],
+   "upgrades": []
+  },
+  {
+   "file": "APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf",
+   "label": "Transition Ph2",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-05-08",
+   "version": "1.4",
+   "projects": [
+    {
+     "q": "Q444",
+     "mw": 60.0,
+     "service": "NRIS+ERIS",
+     "poi": "Winslow \u2013 Blue Ridge 69 kV",
+     "total": 10300000.0,
+     "nu": 9800000.0,
+     "tif": 500000.0,
+     "isd": "30 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-03-24",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy and Network Resource Interconnection Service",
+     "poi_queue": "New (to be constructed) 60kV switchyard South of Hwy 99 and 04 miles East of Hwy 87 Winslow, AZ",
+     "mw_queue": 60.0,
+     "station_nu": 0,
+     "cum_mw": 60.0,
+     "cum_nris_mw": 60.0
+    },
+    {
+     "q": "Q524",
+     "mw": 30.0,
+     "service": "NRIS",
+     "poi": "Cataract Creek 69 kV",
+     "total": 5500000.0,
+     "nu": 5000000.0,
+     "tif": 500000.0,
+     "isd": "30 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 0,
+     "cum_mw": 90.0,
+     "cum_nris_mw": 90.0
+    },
+    {
+     "q": "Q534",
+     "mw": 60.0,
+     "service": "NRIS",
+     "poi": "Twin Arrows - Sunshine 69 kV",
+     "total": 10300000.0,
+     "nu": 9800000.0,
+     "tif": 500000.0,
+     "isd": "30 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2023-03-30",
+     "status": "Project with APS Project Manager",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Twin Arows - Sunshine 69 kV Line",
+     "mw_queue": 60.0,
+     "station_nu": 0,
+     "cum_mw": 150.0,
+     "cum_nris_mw": 150.0
+    }
+   ],
+   "upgrades": []
+  }
+ ],
+ "prior": [
+  {
+   "q": "Q162",
+   "mw": 19.0,
+   "poi": "Granite Creek Substation",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Solar",
+   "queue_date": "2010-08-04"
+  },
+  {
+   "q": "Q315",
+   "mw": 50.0,
+   "poi": "Woody Mountain 69kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Construction",
+   "tech": "Energy Storage",
+   "queue_date": "2019-09-27"
+  },
+  {
+   "q": "Q395",
+   "mw": 19.0,
+   "poi": "Granite Creek Substation",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2021-09-15"
+  }
+ ]
+}

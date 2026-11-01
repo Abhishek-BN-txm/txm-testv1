@@ -1,0 +1,2164 @@
+{
+ "area": "Gila Bend",
+ "generated": "2026-10-23",
+ "source": "APS OASIS cluster study reports; Active Queue posting 2026-10-13",
+ "phases": [
+  {
+   "file": "APS_GilaBend_Transition_Cluster_Report-v1-5-Phase1_20241224.pdf",
+   "label": "Transition Ph1",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2024-12-24",
+   "version": "1.5",
+   "projects": [
+    {
+     "q": "Q463",
+     "mw": 150.0,
+     "service": "ERIS",
+     "poi": "Solana / Panda 230 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Earliest est. ISD Q1 2032 (72-mo NU lead time); requested ISDs of all projects cannot be met",
+     "notes": "ERIS; 0% share of NUs; PV/Hassayampa fault duty TBD by SRP",
+     "in_active_queue": true,
+     "queue_date": "2022-03-29",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Panda 230kV",
+     "mw_queue": 150.0,
+     "station_nu": 0,
+     "cum_mw": 150.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q488",
+     "mw": 600.0,
+     "service": "NRIS+ERIS",
+     "poi": "Panda 230 kV",
+     "total": 63400000.0,
+     "nu": 62600000.0,
+     "tif": 800000.0,
+     "isd": "Earliest est. ISD Q1 2032 (72-mo NU lead time); requested ISDs of all projects cannot be met",
+     "notes": "NU: Panda swyd 80% $32.0M, Panda-TS21 line 60% $30.0M, RAS 60% $0.6M; fault duty TBD by SRP",
+     "in_active_queue": true,
+     "queue_date": "2022-09-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "APS PANDA SUBSTATION 230kV",
+     "mw_queue": 600.0,
+     "station_nu": 0,
+     "cum_mw": 750.0,
+     "cum_nris_mw": 600.0
+    },
+    {
+     "q": "Q507",
+     "mw": 400.0,
+     "service": "NRIS+ERIS",
+     "poi": "Panda - Freedom 230 kV (new Komatke 230 kV switchyard)",
+     "total": 49200000.0,
+     "nu": 48400000.0,
+     "tif": 800000.0,
+     "isd": "Earliest est. ISD Q1 2032 (72-mo NU lead time); requested ISDs of all projects cannot be met",
+     "notes": "NU: new Komatke 230 kV swyd $20.0M, Panda-TS21 line 40% $20.0M, Panda swyd 20% $8.0M, RAS $0.4M (34.8%/40%); fault duty TBD by SRP",
+     "in_active_queue": true,
+     "queue_date": "2023-03-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "No existing substitution",
+     "mw_queue": 400.0,
+     "station_nu": 20000000.0,
+     "cum_mw": 1150.0,
+     "cum_nris_mw": 1000.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "New Panda-TS21 230 kV line",
+     "cost": 50000000.0,
+     "cost_derived": false,
+     "lead": "72 months",
+     "category": "network NU",
+     "parts": [
+      "New ~38.5-39 mi 230 kV line Panda to TS21, min 3098 A"
+     ],
+     "alloc": {
+      "Q488": {
+       "pct": 60.0,
+       "usd": 30000000.0
+      },
+      "Q507": {
+       "pct": 40.0,
+       "usd": 20000000.0
+      }
+     },
+     "first_q": "Q488",
+     "trigger_cum_mw": 750.0,
+     "trigger_cum_nris_mw": 600.0,
+     "n_sharing": 2,
+     "sharing_mw": 1000.0
+    },
+    {
+     "label": "Panda 230 kV breaker-and-a-half conversion",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Convert Panda 230 kV to breaker-and-a-half; no common breaker between 500/230 kV xfmr and new Panda-TS21 line"
+     ],
+     "alloc": {
+      "Q488": {
+       "pct": 80.0,
+       "usd": 32000000.0
+      },
+      "Q507": {
+       "pct": 20.0,
+       "usd": 8000000.0
+      }
+     },
+     "first_q": "Q488",
+     "trigger_cum_mw": 750.0,
+     "trigger_cum_nris_mw": 600.0,
+     "n_sharing": 2,
+     "sharing_mw": 1000.0
+    },
+    {
+     "label": "New RAS for P7 outages",
+     "cost": 1000000.0,
+     "cost_derived": false,
+     "lead": "15 months",
+     "category": "network NU",
+     "parts": [
+      "RAS curtailing cluster for double outage Panda-TS21 + Panda-Q507 POI or Q507 POI-Freedom 230 kV; Panda injection <=835 MW (745 MW curtailment)"
+     ],
+     "alloc": {
+      "Q488": {
+       "pct": 60.0,
+       "usd": 600000.0
+      },
+      "Q507": {
+       "pct": 34.8,
+       "usd": 400000.0
+      }
+     },
+     "first_q": "Q488",
+     "trigger_cum_mw": 750.0,
+     "trigger_cum_nris_mw": 600.0,
+     "n_sharing": 2,
+     "sharing_mw": 1000.0
+    }
+   ]
+  },
+  {
+   "file": "APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf",
+   "label": "Transition Ph2",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-10-28",
+   "version": "1.4",
+   "projects": [
+    {
+     "q": "Q463",
+     "mw": 150.0,
+     "service": "ERIS",
+     "poi": "Solana / Panda 230 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Earliest est. ISD Q1 2031 (72-mo NU lead time); Q488/Q507 requested ISDs cannot be met",
+     "notes": "ERIS; 0% share of NUs; PF 0.7288 at GSU HS (stated as meeting req.); fault duty TBD by SRP",
+     "in_active_queue": true,
+     "queue_date": "2022-03-29",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Panda 230kV",
+     "mw_queue": 150.0,
+     "station_nu": 0,
+     "cum_mw": 150.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q488",
+     "mw": 600.0,
+     "service": "NRIS+ERIS",
+     "poi": "Panda 230 kV",
+     "total": 78800000.0,
+     "nu": 78000000.0,
+     "tif": 800000.0,
+     "isd": "Earliest est. ISD Q1 2031 (72-mo NU lead time); Q488/Q507 requested ISDs cannot be met",
+     "notes": "NU: Panda swyd 60% $24.0M, Panda-Freedom rebuild 60% $48.0M, Hazen cut-in 60% $6.0M; cluster charging capped 550 MW",
+     "in_active_queue": true,
+     "queue_date": "2022-09-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "APS PANDA SUBSTATION 230kV",
+     "mw_queue": 600.0,
+     "station_nu": 0,
+     "cum_mw": 750.0,
+     "cum_nris_mw": 600.0
+    },
+    {
+     "q": "Q507",
+     "mw": 400.0,
+     "service": "NRIS+ERIS",
+     "poi": "Panda - Freedom 230 kV (new Komatke 230 kV switchyard)",
+     "total": 72800000.0,
+     "nu": 72000000.0,
+     "tif": 800000.0,
+     "isd": "Earliest est. ISD Q1 2031 (72-mo NU lead time); Q488/Q507 requested ISDs cannot be met",
+     "notes": "NU: new 230 kV swyd $20.0M, Panda swyd 40% $16.0M, Panda-Freedom rebuild 40% $32.0M, Hazen cut-in 40% $4.0M; cluster charging capped 550 MW",
+     "in_active_queue": true,
+     "queue_date": "2023-03-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "No existing substitution",
+     "mw_queue": 400.0,
+     "station_nu": 20000000.0,
+     "cum_mw": 1150.0,
+     "cum_nris_mw": 1000.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Rebuild Panda-Freedom 230 kV line #1",
+     "cost": 80000000.0,
+     "cost_derived": false,
+     "lead": "72 months",
+     "category": "network NU",
+     "parts": [
+      "Rebuild existing ~40 mi Panda-Freedom 230 kV to 3012 A (1200 MVA); Table 5.2 labels Q488 share as New Panda-TS21 line"
+     ],
+     "alloc": {
+      "Q488": {
+       "pct": 60.0,
+       "usd": 48000000.0
+      },
+      "Q507": {
+       "pct": 40.0,
+       "usd": 32000000.0
+      }
+     },
+     "first_q": "Q488",
+     "trigger_cum_mw": 750.0,
+     "trigger_cum_nris_mw": 600.0,
+     "n_sharing": 2,
+     "sharing_mw": 1000.0
+    },
+    {
+     "label": "Panda 230 kV breaker-and-a-half conversion",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Convert Panda 230 kV to breaker-and-a-half; no common breaker between 500/230 kV xfmr and new 230 kV line to TS21 (Panda ring bus expansion)"
+     ],
+     "alloc": {
+      "Q488": {
+       "pct": 60.0,
+       "usd": 24000000.0
+      },
+      "Q507": {
+       "pct": 40.0,
+       "usd": 16000000.0
+      }
+     },
+     "first_q": "Q488",
+     "trigger_cum_mw": 750.0,
+     "trigger_cum_nris_mw": 600.0,
+     "n_sharing": 2,
+     "sharing_mw": 1000.0
+    },
+    {
+     "label": "Cut Panda-Freedom into Hazen",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "network NU",
+     "parts": [
+      "Cut Panda-Freedom 230 kV into new Hazen 230/69 kV substation"
+     ],
+     "alloc": {
+      "Q488": {
+       "pct": 60.0,
+       "usd": 6000000.0
+      },
+      "Q507": {
+       "pct": 40.0,
+       "usd": 4000000.0
+      }
+     },
+     "first_q": "Q488",
+     "trigger_cum_mw": 750.0,
+     "trigger_cum_nris_mw": 600.0,
+     "n_sharing": 2,
+     "sharing_mw": 1000.0
+    }
+   ]
+  },
+  {
+   "file": "APS_GilaBend_2024_Cluster_Phase1_Report_v1.2_20251125.pdf",
+   "label": "2024 Ph1",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2025-11-25",
+   "version": "1.2",
+   "projects": [
+    {
+     "q": "Q558",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 30000000.0,
+     "nu": 29600000.0,
+     "tif": 400000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Solar",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+     "mw_queue": 250.0,
+     "station_nu": 0,
+     "cum_mw": 250.0,
+     "cum_nris_mw": 250.0
+    },
+    {
+     "q": "Q559",
+     "mw": 80.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 11200000.0,
+     "nu": 10800000.0,
+     "tif": 400000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Solar",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+     "mw_queue": 80.0,
+     "station_nu": 0,
+     "cum_mw": 330.0,
+     "cum_nris_mw": 330.0
+    },
+    {
+     "q": "Q561",
+     "mw": 600.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 70900000.0,
+     "nu": 70100000.0,
+     "tif": 800000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Panda 230kV Substation",
+     "mw_queue": 600.0,
+     "station_nu": 0,
+     "cum_mw": 930.0,
+     "cum_nris_mw": 930.0
+    },
+    {
+     "q": "Q574",
+     "mw": 220.0,
+     "service": "NRIS",
+     "poi": "Buckeye 69kV",
+     "total": 9500000.0,
+     "nu": 8500000.0,
+     "tif": 1000000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-15",
+     "status": "Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Buckeye 69kV",
+     "mw_queue": 220.0,
+     "station_nu": 0.0,
+     "cum_mw": 1150.0,
+     "cum_nris_mw": 1150.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "New Watermelon 500/230 kV substation, 3 500 kV line terminations, 4 230 kV line terminatio",
+     "cost": 50100000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "New Watermelon 500/230kv substation, 3 500kv line terminations, 4 230kv line terminations & 3 xfmrs"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 25.1,
+       "usd": 12600000.0
+      },
+      "Q559": {
+       "pct": 8.0,
+       "usd": 4000000.0
+      },
+      "Q561": {
+       "pct": 60.3,
+       "usd": 30200000.0
+      },
+      "Q574": {
+       "pct": 6.5,
+       "usd": 3300000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New Watermelon-Jojoba 500 kV line, 20 miles",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "60 months",
+     "category": "network NU",
+     "parts": [
+      "New Watermelon-Jojoba 500kv line, 20 miles"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 26.5,
+       "usd": 10600000.0
+      },
+      "Q559": {
+       "pct": 8.5,
+       "usd": 3400000.0
+      },
+      "Q561": {
+       "pct": 63.5,
+       "usd": 25400000.0
+      },
+      "Q574": {
+       "pct": 1.5,
+       "usd": 600000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Upgrade Estrellita-Willis 69kv, 9 miles",
+     "cost": 9000000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Upgrade Estrellita-Willis 69kv, 9 miles"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 15.9,
+       "usd": 1400000.0
+      },
+      "Q559": {
+       "pct": 5.1,
+       "usd": 500000.0
+      },
+      "Q561": {
+       "pct": 38.3,
+       "usd": 3400000.0
+      },
+      "Q574": {
+       "pct": 40.7,
+       "usd": 3700000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Network Upgrades of Panda switchyard",
+     "cost": 8000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Network Upgrades of Panda switchyard"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 25.0,
+       "usd": 2000000.0
+      },
+      "Q559": {
+       "pct": 25.0,
+       "usd": 2000000.0
+      },
+      "Q561": {
+       "pct": 50.0,
+       "usd": 4000000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 3,
+     "sharing_mw": 930.0
+    },
+    {
+     "label": "New Jojoba 500 kV line termination (non-APS facility)",
+     "cost": 7000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "New Jojoba 500kv line termination (non-APS facility)"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 26.5,
+       "usd": 1900000.0
+      },
+      "Q559": {
+       "pct": 8.5,
+       "usd": 600000.0
+      },
+      "Q561": {
+       "pct": 63.5,
+       "usd": 4400000.0
+      },
+      "Q574": {
+       "pct": 1.5,
+       "usd": 100000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New Freedom-Liberty 230 kV line, .5 miles & Freedom termination",
+     "cost": 3000000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "station NU",
+     "parts": [
+      "New Freedom-Liberty 230kv line, .5 miles & Freedom termination"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.3,
+       "usd": 700000.0
+      },
+      "Q559": {
+       "pct": 7.1,
+       "usd": 200000.0
+      },
+      "Q561": {
+       "pct": 53.5,
+       "usd": 1600000.0
+      },
+      "Q574": {
+       "pct": 17.1,
+       "usd": 500000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New Liberty 230 kV termination (non-APS facility)",
+     "cost": 1900000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "New Liberty 230kv termination (non-APS facility)"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.3,
+       "usd": 400000.0
+      },
+      "Q559": {
+       "pct": 7.1,
+       "usd": 100000.0
+      },
+      "Q561": {
+       "pct": 53.5,
+       "usd": 1100000.0
+      },
+      "Q574": {
+       "pct": 17.1,
+       "usd": 300000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    }
+   ]
+  },
+  {
+   "file": "APS_GilaBend_2024_Cluster_Phase2_Report_v1.4_20260316.pdf",
+   "label": "2024 Ph2",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2026-03-16",
+   "version": "1.4",
+   "projects": [
+    {
+     "q": "Q558",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 24700000.0,
+     "nu": 24300000.0,
+     "tif": 400000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Solar",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+     "mw_queue": 250.0,
+     "station_nu": 0,
+     "cum_mw": 250.0,
+     "cum_nris_mw": 250.0
+    },
+    {
+     "q": "Q559",
+     "mw": 80.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 9500000.0,
+     "nu": 9100000.0,
+     "tif": 400000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Solar",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+     "mw_queue": 80.0,
+     "station_nu": 0,
+     "cum_mw": 330.0,
+     "cum_nris_mw": 330.0
+    },
+    {
+     "q": "Q561",
+     "mw": 600.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 57900000.0,
+     "nu": 57100000.0,
+     "tif": 800000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Panda 230kV Substation",
+     "mw_queue": 600.0,
+     "station_nu": 0,
+     "cum_mw": 930.0,
+     "cum_nris_mw": 930.0
+    },
+    {
+     "q": "Q574",
+     "mw": 220.0,
+     "service": "NRIS",
+     "poi": "Buckeye 69kV",
+     "total": 8500000.0,
+     "nu": 7500000.0,
+     "tif": 1000000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-15",
+     "status": "Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Buckeye 69kV",
+     "mw_queue": 220.0,
+     "station_nu": 0.0,
+     "cum_mw": 1150.0,
+     "cum_nris_mw": 1150.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "New Watermelon-Jojoba 500 kV line, 20 miles",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "60 months",
+     "category": "network NU",
+     "parts": [
+      "New Watermelon-Jojoba 500kv line, 20 miles"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 26.5,
+       "usd": 10600000.0
+      },
+      "Q559": {
+       "pct": 8.5,
+       "usd": 3400000.0
+      },
+      "Q561": {
+       "pct": 63.5,
+       "usd": 25400000.0
+      },
+      "Q574": {
+       "pct": 1.5,
+       "usd": 600000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Watermelon 500/230 kV Expansion: 3-500 kV terminations, 2-230 kV terminations, 1 xfmr",
+     "cost": 25000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Watermelon 500/230kv Expansion: 3-500kv terminations, 2-230kv terminations, 1 xfmr"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 25.1,
+       "usd": 6300000.0
+      },
+      "Q559": {
+       "pct": 8.0,
+       "usd": 2000000.0
+      },
+      "Q561": {
+       "pct": 60.3,
+       "usd": 15100000.0
+      },
+      "Q574": {
+       "pct": 6.5,
+       "usd": 1600000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New TS21 (Independence) - Freedom 230 kV line, 4 miles & Freedom & Independence terminatio",
+     "cost": 9000000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "station NU",
+     "parts": [
+      "New TS21 (Independence) - Freedom 230kv line, 4 miles & Freedom & Independence terminations"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.3,
+       "usd": 2100000.0
+      },
+      "Q559": {
+       "pct": 7.1,
+       "usd": 600000.0
+      },
+      "Q561": {
+       "pct": 53.5,
+       "usd": 4800000.0
+      },
+      "Q574": {
+       "pct": 17.1,
+       "usd": 1500000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Upgrade Freedom-Pima 69kv, 9 miles",
+     "cost": 9000000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Upgrade Freedom-Pima 69kv, 9 miles"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 15.9,
+       "usd": 1400000.0
+      },
+      "Q559": {
+       "pct": 5.1,
+       "usd": 500000.0
+      },
+      "Q561": {
+       "pct": 38.3,
+       "usd": 3400000.0
+      },
+      "Q574": {
+       "pct": 40.7,
+       "usd": 3700000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Network Upgrades of Panda switchyard",
+     "cost": 8000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Network Upgrades of Panda switchyard"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 25.0,
+       "usd": 2000000.0
+      },
+      "Q559": {
+       "pct": 25.0,
+       "usd": 2000000.0
+      },
+      "Q561": {
+       "pct": 50.0,
+       "usd": 4000000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 3,
+     "sharing_mw": 930.0
+    },
+    {
+     "label": "New Jojoba 500 kV line termination (non-APS facility)",
+     "cost": 7000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "New Jojoba 500kv line termination (non-APS facility)"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 26.5,
+       "usd": 1900000.0
+      },
+      "Q559": {
+       "pct": 8.5,
+       "usd": 600000.0
+      },
+      "Q561": {
+       "pct": 63.5,
+       "usd": 4400000.0
+      },
+      "Q574": {
+       "pct": 1.5,
+       "usd": 100000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    }
+   ]
+  },
+  {
+   "file": "APS_GilaBend_2024_Cluster_Phase2b_Report_v1.2_20260508.pdf",
+   "label": "2024 Ph2b",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2026-05-08",
+   "version": "1.2",
+   "projects": [
+    {
+     "q": "Q558",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 32300000.0,
+     "nu": 29900000.0,
+     "tif": 2400000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "Grid charging restricted to 0 MW",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Solar",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+     "mw_queue": 250.0,
+     "station_nu": 0,
+     "cum_mw": 250.0,
+     "cum_nris_mw": 250.0
+    },
+    {
+     "q": "Q559",
+     "mw": 80.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 14000000.0,
+     "nu": 11600000.0,
+     "tif": 2400000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "Grid charging restricted to 0 MW",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Solar",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+     "mw_queue": 80.0,
+     "station_nu": 0,
+     "cum_mw": 330.0,
+     "cum_nris_mw": 330.0
+    },
+    {
+     "q": "Q561",
+     "mw": 600.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 71200000.0,
+     "nu": 68800000.0,
+     "tif": 2400000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Panda 230kV Substation",
+     "mw_queue": 600.0,
+     "station_nu": 0,
+     "cum_mw": 930.0,
+     "cum_nris_mw": 930.0
+    },
+    {
+     "q": "Q574",
+     "mw": 220.0,
+     "service": "NRIS",
+     "poi": "Buckeye 69kV",
+     "total": 10700000.0,
+     "nu": 9700000.0,
+     "tif": 1000000.0,
+     "isd": "Network upgrades required. Cannot meet proposed COD.; max construct 60 months",
+     "notes": "Grid charging restricted to 140 MW HS (63.6%), 220 MW HW",
+     "in_active_queue": true,
+     "queue_date": "2024-05-15",
+     "status": "Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Buckeye 69kV",
+     "mw_queue": 220.0,
+     "station_nu": 0.0,
+     "cum_mw": 1150.0,
+     "cum_nris_mw": 1150.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "New Watermelon 500/230 kV substation, 3 500 kV line terminations, 4 230 kV line terminatio",
+     "cost": 50000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "New Watermelon 500/230kv substation, 3 500kv line terminations, 4 230kv line terminations & 2 xfmrs"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 24.0,
+       "usd": 12000000.0
+      },
+      "Q559": {
+       "pct": 8.0,
+       "usd": 4000000.0
+      },
+      "Q561": {
+       "pct": 59.0,
+       "usd": 29500000.0
+      },
+      "Q574": {
+       "pct": 9.0,
+       "usd": 4500000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New Watermelon-Jojoba 500 kV line, 20 miles",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "60 months",
+     "category": "network NU",
+     "parts": [
+      "New Watermelon-Jojoba 500kv line, 20 miles"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 26.0,
+       "usd": 10400000.0
+      },
+      "Q559": {
+       "pct": 8.0,
+       "usd": 3200000.0
+      },
+      "Q561": {
+       "pct": 63.0,
+       "usd": 25200000.0
+      },
+      "Q574": {
+       "pct": 3.0,
+       "usd": 1200000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Network Upgrades of Panda switchyard",
+     "cost": 9000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Network Upgrades of Panda switchyard"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 33.0,
+       "usd": 3000000.0
+      },
+      "Q559": {
+       "pct": 33.0,
+       "usd": 3000000.0
+      },
+      "Q561": {
+       "pct": 33.0,
+       "usd": 3000000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 3,
+     "sharing_mw": 930.0
+    },
+    {
+     "label": "New Pima-Freedom 69kv line",
+     "cost": 9000000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "New Pima-Freedom 69kv line"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 18.0,
+       "usd": 1600000.0
+      },
+      "Q559": {
+       "pct": 6.0,
+       "usd": 500000.0
+      },
+      "Q561": {
+       "pct": 44.0,
+       "usd": 4000000.0
+      },
+      "Q574": {
+       "pct": 32.0,
+       "usd": 2900000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New Jojoba 500 kV line termination (non-APS facility)",
+     "cost": 7000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "New Jojoba 500kv line termination (non-APS facility)"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 26.0,
+       "usd": 1800000.0
+      },
+      "Q559": {
+       "pct": 8.0,
+       "usd": 600000.0
+      },
+      "Q561": {
+       "pct": 63.0,
+       "usd": 4400000.0
+      },
+      "Q574": {
+       "pct": 3.0,
+       "usd": 200000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New Liberty 230 kV termination (non-APS facility)",
+     "cost": 2000000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "New Liberty 230kv termination (non-APS facility)"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.0,
+       "usd": 400000.0
+      },
+      "Q559": {
+       "pct": 7.0,
+       "usd": 100000.0
+      },
+      "Q561": {
+       "pct": 53.0,
+       "usd": 1100000.0
+      },
+      "Q574": {
+       "pct": 18.0,
+       "usd": 400000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "OH new double circuit 230 kV structures, cut-in of the existing Liberty \u2013 Buckeye 230 kV l",
+     "cost": 1200000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "station NU",
+     "parts": [
+      "OH new double circuit 230kV structures, cut-in of the existing Liberty \u2013 Buckeye 230kV line into Freedom 230kv switchyard (~\u00bd mile)"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.0,
+       "usd": 280000.0
+      },
+      "Q559": {
+       "pct": 7.0,
+       "usd": 80000.0
+      },
+      "Q561": {
+       "pct": 53.0,
+       "usd": 640000.0
+      },
+      "Q574": {
+       "pct": 18.0,
+       "usd": 200000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New (2) Freedom 230 kV terminations",
+     "cost": 1200000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "New (2) Freedom 230kV terminations"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.0,
+       "usd": 280000.0
+      },
+      "Q559": {
+       "pct": 7.0,
+       "usd": 80000.0
+      },
+      "Q561": {
+       "pct": 53.0,
+       "usd": 640000.0
+      },
+      "Q574": {
+       "pct": 18.0,
+       "usd": 200000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Upgrade of Freedom \u2013 Liberty 230 kV line part of the existing Liberty \u2013 Buckeye line that ",
+     "cost": 600000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "station NU",
+     "parts": [
+      "Upgrade of Freedom \u2013 Liberty 230kV line part of the existing Liberty \u2013 Buckeye line that is cut into Freedom 230kv switchyard (~\u00bd mile). Reconductoring (~\u00bd mile) plus some Liberty work"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.0,
+       "usd": 140000.0
+      },
+      "Q559": {
+       "pct": 7.0,
+       "usd": 40000.0
+      },
+      "Q561": {
+       "pct": 53.0,
+       "usd": 320000.0
+      },
+      "Q574": {
+       "pct": 18.0,
+       "usd": 100000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    }
+   ]
+  },
+  {
+   "file": "APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf",
+   "label": "2024 Ph2C",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2026-06-24",
+   "version": "1.1",
+   "projects": [
+    {
+     "q": "Q558",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 19900000.0,
+     "nu": 17500000.0,
+     "tif": 2400000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD.; max construct 48 months",
+     "notes": "Grid charging restricted to 0 MW",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Solar",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+     "mw_queue": 250.0,
+     "station_nu": 0,
+     "cum_mw": 250.0,
+     "cum_nris_mw": 250.0
+    },
+    {
+     "q": "Q559",
+     "mw": 80.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 10100000.0,
+     "nu": 7700000.0,
+     "tif": 2400000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD.; max construct 48 months",
+     "notes": "Grid charging restricted to 0 MW",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Solar",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+     "mw_queue": 80.0,
+     "station_nu": 0,
+     "cum_mw": 330.0,
+     "cum_nris_mw": 330.0
+    },
+    {
+     "q": "Q561",
+     "mw": 600.0,
+     "service": "NRIS",
+     "poi": "Panda 230kV",
+     "total": 41200000.0,
+     "nu": 38800000.0,
+     "tif": 2400000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD.; max construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Panda 230kV Substation",
+     "mw_queue": 600.0,
+     "station_nu": 0,
+     "cum_mw": 930.0,
+     "cum_nris_mw": 930.0
+    },
+    {
+     "q": "Q574",
+     "mw": 220.0,
+     "service": "NRIS",
+     "poi": "Buckeye 69kV",
+     "total": 10000000.0,
+     "nu": 8000000.0,
+     "tif": 2000000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD.; max construct 48 months",
+     "notes": "Grid charging restricted to 140 MW HS (63.6%), 220 MW HW",
+     "in_active_queue": true,
+     "queue_date": "2024-05-15",
+     "status": "Facilities Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Buckeye 69kV",
+     "mw_queue": 220.0,
+     "station_nu": 0.0,
+     "cum_mw": 1150.0,
+     "cum_nris_mw": 1150.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "New Watermelon 500/230 kV substation, (2) 500 kV line terminations, (2) 230 kV line termin",
+     "cost": 45100000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "New Watermelon 500/230kv substation, (2) 500kv line terminations, (2) 230kv line terminations & (2) xfmrs"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 24.0,
+       "usd": 10800000.0
+      },
+      "Q559": {
+       "pct": 8.0,
+       "usd": 3600000.0
+      },
+      "Q561": {
+       "pct": 59.0,
+       "usd": 26600000.0
+      },
+      "Q574": {
+       "pct": 9.0,
+       "usd": 4100000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Network Upgrades of Panda switchyard",
+     "cost": 9000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Network Upgrades of Panda switchyard"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 33.0,
+       "usd": 3000000.0
+      },
+      "Q559": {
+       "pct": 33.0,
+       "usd": 3000000.0
+      },
+      "Q561": {
+       "pct": 33.0,
+       "usd": 3000000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 3,
+     "sharing_mw": 930.0
+    },
+    {
+     "label": "New Pima-Freedom 69kv line",
+     "cost": 9000000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "New Pima-Freedom 69kv line"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 18.0,
+       "usd": 1600000.0
+      },
+      "Q559": {
+       "pct": 6.0,
+       "usd": 500000.0
+      },
+      "Q561": {
+       "pct": 44.0,
+       "usd": 4000000.0
+      },
+      "Q574": {
+       "pct": 32.0,
+       "usd": 2900000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Upgrade Jojoba \u2013 Gila River 500 kV lines #1 and #2",
+     "cost": 3900000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Upgrade Jojoba \u2013 Gila River 500kV lines #1 and #2"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 26.0,
+       "usd": 1000000.0
+      },
+      "Q559": {
+       "pct": 8.0,
+       "usd": 300000.0
+      },
+      "Q561": {
+       "pct": 63.0,
+       "usd": 2500000.0
+      },
+      "Q574": {
+       "pct": 3.0,
+       "usd": 100000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New Liberty 230 kV termination (non-APS facility)",
+     "cost": 2000000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "affected system (affected system)",
+     "parts": [
+      "New Liberty 230kv termination (non-APS facility)"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.0,
+       "usd": 400000.0
+      },
+      "Q559": {
+       "pct": 7.0,
+       "usd": 100000.0
+      },
+      "Q561": {
+       "pct": 53.0,
+       "usd": 1100000.0
+      },
+      "Q574": {
+       "pct": 18.0,
+       "usd": 400000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "OH new double circuit 230 kV structures, cut-in of the existing Liberty \u2013 Buckeye 230 kV l",
+     "cost": 1200000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "station NU",
+     "parts": [
+      "OH new double circuit 230kV structures, cut-in of the existing Liberty \u2013 Buckeye 230kV line into Freedom 230kv switchyard (~\u00bd mile)"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.0,
+       "usd": 280000.0
+      },
+      "Q559": {
+       "pct": 7.0,
+       "usd": 80000.0
+      },
+      "Q561": {
+       "pct": 53.0,
+       "usd": 640000.0
+      },
+      "Q574": {
+       "pct": 18.0,
+       "usd": 200000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "New (2) Freedom 230 kV terminations",
+     "cost": 1200000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "New (2) Freedom 230kV terminations"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.0,
+       "usd": 280000.0
+      },
+      "Q559": {
+       "pct": 7.0,
+       "usd": 80000.0
+      },
+      "Q561": {
+       "pct": 53.0,
+       "usd": 640000.0
+      },
+      "Q574": {
+       "pct": 18.0,
+       "usd": 200000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    },
+    {
+     "label": "Upgrade of Freedom \u2013 Liberty 230 kV line part of the existing Liberty \u2013 Buckeye line that ",
+     "cost": 600000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "station NU",
+     "parts": [
+      "Upgrade of Freedom \u2013 Liberty 230kV line part of the existing Liberty \u2013 Buckeye line that is cut into Freedom 230kv switchyard (~\u00bd mile). Reconductoring (~\u00bd mile) plus some Liberty work"
+     ],
+     "alloc": {
+      "Q558": {
+       "pct": 22.0,
+       "usd": 140000.0
+      },
+      "Q559": {
+       "pct": 7.0,
+       "usd": 40000.0
+      },
+      "Q561": {
+       "pct": 53.0,
+       "usd": 320000.0
+      },
+      "Q574": {
+       "pct": 18.0,
+       "usd": 100000.0
+      }
+     },
+     "first_q": "Q558",
+     "trigger_cum_mw": 250.0,
+     "trigger_cum_nris_mw": 250.0,
+     "n_sharing": 4,
+     "sharing_mw": 1150.0
+    }
+   ]
+  },
+  {
+   "file": "APS_GilaBend_2025_Cluster_Phase1_Report_v1-3_20260211.pdf",
+   "label": "2025 Ph1",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-02-11",
+   "version": "1.2 (title page; filename v1-3)",
+   "projects": [
+    {
+     "q": "Q581",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Hazen 230kV",
+     "total": 55800000.0,
+     "nu": 54300000.0,
+     "tif": 1500000.0,
+     "isd": "Network Upgrades required. Probably cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-01",
+     "status": "Continued Site Control &amp; Updated Deposit",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Hazen 230kV",
+     "mw_queue": 400.0,
+     "station_nu": 2000000.0,
+     "cum_mw": 400.0,
+     "cum_nris_mw": 400.0
+    },
+    {
+     "q": "Q592",
+     "mw": 50.0,
+     "service": "NRIS",
+     "poi": "Paloma 69kV",
+     "total": 6800000.0,
+     "nu": 5800000.0,
+     "tif": 1000000.0,
+     "isd": "Network Upgrades required. Probably cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Continued Site Control &amp; Updated Deposit",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Paloma 69 kV or Gila Bond - Paloma 69 kV line",
+     "mw_queue": 50.0,
+     "station_nu": 4000000.0,
+     "cum_mw": 450.0,
+     "cum_nris_mw": 450.0
+    },
+    {
+     "q": "Q616",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Komatke 230kV",
+     "total": 66400000.0,
+     "nu": 64900000.0,
+     "tif": 1500000.0,
+     "isd": "Network Upgrades required. Probably cannot meet proposed COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-14",
+     "status": "Continued Site Control &amp; Updated Deposit",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Komalake 230kV Substation",
+     "mw_queue": 500.0,
+     "station_nu": 12000000.0,
+     "cum_mw": 950.0,
+     "cum_nris_mw": 950.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Second Freedom-Stratus 230 kV Line",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "60 months",
+     "category": "network NU",
+     "parts": [
+      "Second Freedom-Stratus 230kV Line"
+     ],
+     "alloc": {
+      "Q581": {
+       "pct": 50.0,
+       "usd": 20000000.0
+      },
+      "Q592": {
+       "pct": 2.0,
+       "usd": 800000.0
+      },
+      "Q616": {
+       "pct": 48.0,
+       "usd": 19200000.0
+      }
+     },
+     "first_q": "Q581",
+     "trigger_cum_mw": 400.0,
+     "trigger_cum_nris_mw": 400.0,
+     "n_sharing": 3,
+     "sharing_mw": 950.0
+    },
+    {
+     "label": "New Sun Valley-Buckeye-Hazen 230 kV Line",
+     "cost": 40000000.0,
+     "cost_derived": false,
+     "lead": "60 months",
+     "category": "network NU",
+     "parts": [
+      "New Sun Valley-Buckeye-Hazen 230kv Line"
+     ],
+     "alloc": {
+      "Q581": {
+       "pct": 51.0,
+       "usd": 20400000.0
+      },
+      "Q616": {
+       "pct": 49.0,
+       "usd": 19600000.0
+      }
+     },
+     "first_q": "Q581",
+     "trigger_cum_mw": 400.0,
+     "trigger_cum_nris_mw": 400.0,
+     "n_sharing": 2,
+     "sharing_mw": 900.0
+    },
+    {
+     "label": "New 500/230 kV Transformer from Jojoba 500 kV-Komatke 230 kV switchyard",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "60 months",
+     "category": "station NU",
+     "parts": [
+      "New 500/230kV Transformer from Jojoba 500kV-Komatke 230kV switchyard"
+     ],
+     "alloc": {
+      "Q581": {
+       "pct": 50.0,
+       "usd": 5000000.0
+      },
+      "Q592": {
+       "pct": 2.0,
+       "usd": 200000.0
+      },
+      "Q616": {
+       "pct": 48.0,
+       "usd": 4800000.0
+      }
+     },
+     "first_q": "Q581",
+     "trigger_cum_mw": 400.0,
+     "trigger_cum_nris_mw": 400.0,
+     "n_sharing": 3,
+     "sharing_mw": 950.0
+    },
+    {
+     "label": "New Watermelon 500/230 kV transformer",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "New Watermelon 500/230kV transformer"
+     ],
+     "alloc": {
+      "Q581": {
+       "pct": 34.0,
+       "usd": 3400000.0
+      },
+      "Q592": {
+       "pct": 7.0,
+       "usd": 700000.0
+      },
+      "Q616": {
+       "pct": 59.0,
+       "usd": 5900000.0
+      }
+     },
+     "first_q": "Q581",
+     "trigger_cum_mw": 400.0,
+     "trigger_cum_nris_mw": 400.0,
+     "n_sharing": 3,
+     "sharing_mw": 950.0
+    },
+    {
+     "label": "New 16-ohm Series Reactor on Hazen-Freedom 230 kV Lines",
+     "cost": 7000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "New 16-ohm Series Reactor on Hazen-Freedom 230kV Lines"
+     ],
+     "alloc": {
+      "Q581": {
+       "pct": 50.0,
+       "usd": 3500000.0
+      },
+      "Q592": {
+       "pct": 1.0,
+       "usd": 100000.0
+      },
+      "Q616": {
+       "pct": 49.0,
+       "usd": 3400000.0
+      }
+     },
+     "first_q": "Q581",
+     "trigger_cum_mw": 400.0,
+     "trigger_cum_nris_mw": 400.0,
+     "n_sharing": 3,
+     "sharing_mw": 950.0
+    }
+   ]
+  },
+  {
+   "file": "APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf",
+   "label": "2025 Ph2",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-09-17",
+   "version": "1.4",
+   "projects": [
+    {
+     "q": "Q581",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Hazen 230kV Switchyard",
+     "total": 118600000.0,
+     "nu": 115600000.0,
+     "tif": 3000000.0,
+     "isd": "Network Upgrades required. Can meet requested COD.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-01",
+     "status": "Continued Site Control &amp; Updated Deposit",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Hazen 230kV",
+     "mw_queue": 400.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 400.0,
+     "cum_nris_mw": 400.0
+    },
+    {
+     "q": "Q592",
+     "mw": 50.0,
+     "service": "NRIS",
+     "poi": "New Paloma 69kV Switchyard",
+     "total": 9400000.0,
+     "nu": 8400000.0,
+     "tif": 1000000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD. Minimum Q3 2031.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Continued Site Control &amp; Updated Deposit",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Paloma 69 kV or Gila Bond - Paloma 69 kV line",
+     "mw_queue": 50.0,
+     "station_nu": 4000000.0,
+     "cum_mw": 450.0,
+     "cum_nris_mw": 450.0
+    },
+    {
+     "q": "Q616",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "New Komatke 230kV Switchyard",
+     "total": 140500000.0,
+     "nu": 139000000.0,
+     "tif": 1500000.0,
+     "isd": "Network Upgrades required. Cannot meet proposed COD. Minimum Q3 2031.; max construct 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-14",
+     "status": "Continued Site Control &amp; Updated Deposit",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Komalake 230kV Substation",
+     "mw_queue": 500.0,
+     "station_nu": 30000000.0,
+     "cum_mw": 950.0,
+     "cum_nris_mw": 950.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Second Jojoba - Watermelon 500 kV line (20 miles)",
+     "cost": 180000000.0,
+     "cost_derived": false,
+     "lead": "60 months",
+     "category": "network NU",
+     "parts": [
+      "Second Jojoba - Watermelon 500kV line (20 miles)"
+     ],
+     "alloc": {
+      "Q581": {
+       "pct": 50.0,
+       "usd": 90000000.0
+      },
+      "Q592": {
+       "pct": 2.0,
+       "usd": 3600000.0
+      },
+      "Q616": {
+       "pct": 48.0,
+       "usd": 86400000.0
+      }
+     },
+     "first_q": "Q581",
+     "trigger_cum_mw": 400.0,
+     "trigger_cum_nris_mw": 400.0,
+     "n_sharing": 3,
+     "sharing_mw": 950.0
+    },
+    {
+     "label": "Independence-Freedom 230 kV (3 miles) + Independence-Dromedary 230 kV lines (9 miles)",
+     "cost": 23900000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Independence-Freedom 230kV (3 miles) + Independence-Dromedary 230kV lines (9 miles)"
+     ],
+     "alloc": {
+      "Q581": {
+       "pct": 51.0,
+       "usd": 12200000.0
+      },
+      "Q592": {
+       "pct": 1.0,
+       "usd": 200000.0
+      },
+      "Q616": {
+       "pct": 48.0,
+       "usd": 11500000.0
+      }
+     },
+     "first_q": "Q581",
+     "trigger_cum_mw": 400.0,
+     "trigger_cum_nris_mw": 400.0,
+     "n_sharing": 3,
+     "sharing_mw": 950.0
+    },
+    {
+     "label": "Upgrade Independence-Runway 230 kV line to 3806 A (8 miles)",
+     "cost": 16100000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Upgrade Independence-Runway 230kV line to 3806 A (8 miles)"
+     ],
+     "alloc": {
+      "Q581": {
+       "pct": 46.0,
+       "usd": 7400000.0
+      },
+      "Q592": {
+       "pct": 3.0,
+       "usd": 500000.0
+      },
+      "Q616": {
+       "pct": 51.0,
+       "usd": 8200000.0
+      }
+     },
+     "first_q": "Q581",
+     "trigger_cum_mw": 400.0,
+     "trigger_cum_nris_mw": 400.0,
+     "n_sharing": 3,
+     "sharing_mw": 950.0
+    },
+    {
+     "label": "(2) 2-Ohm series reactor on both Liberty-Freedom 230 kV lines",
+     "cost": 6000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "(2) 2-Ohm series reactor on both Liberty-Freedom 230kV lines"
+     ],
+     "alloc": {
+      "Q581": {
+       "pct": 50.0,
+       "usd": 3000000.0
+      },
+      "Q592": {
+       "pct": 2.0,
+       "usd": 100000.0
+      },
+      "Q616": {
+       "pct": 48.0,
+       "usd": 2900000.0
+      }
+     },
+     "first_q": "Q581",
+     "trigger_cum_mw": 400.0,
+     "trigger_cum_nris_mw": 400.0,
+     "n_sharing": 3,
+     "sharing_mw": 950.0
+    }
+   ]
+  }
+ ],
+ "prior": [
+  {
+   "q": "Q20",
+   "mw": 2334.0,
+   "poi": "Gila River 500kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Natural Gas",
+   "queue_date": "2005-09-30"
+  },
+  {
+   "q": "Q44",
+   "mw": 280.0,
+   "poi": "Panda 230kV Switchyard",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Solar",
+   "queue_date": "2008-02-19"
+  },
+  {
+   "q": "Q77",
+   "mw": 5.0,
+   "poi": "Gila Bend-Ajo 69 kV line",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Solar",
+   "queue_date": "2009-10-16"
+  },
+  {
+   "q": "Q288",
+   "mw": 200.0,
+   "poi": "Panda 230kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Construction",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2018-09-28"
+  },
+  {
+   "q": "Q300",
+   "mw": 17.0,
+   "poi": "Cotton Center 12kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2019-03-29"
+  },
+  {
+   "q": "Q305",
+   "mw": 17.0,
+   "poi": "Cotton Center 12kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2019-03-29"
+  },
+  {
+   "q": "Q306",
+   "mw": 18.0,
+   "poi": "Gila Bend 12kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2015-04-24"
+  },
+  {
+   "q": "Q307",
+   "mw": 18.0,
+   "poi": "Gila Bend 12kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2019-04-24"
+  },
+  {
+   "q": "Q346",
+   "mw": 45.0,
+   "poi": "Komatke 69kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Customer Initiated Suspension",
+   "tech": "Solar",
+   "queue_date": "2020-04-30"
+  },
+  {
+   "q": "Q357",
+   "mw": 150.0,
+   "poi": "Freedom 69kV",
+   "process": "In service",
+   "status": "COD - Pending Refund",
+   "tech": "Energy Storage",
+   "queue_date": "2020-09-30"
+  }
+ ]
+}

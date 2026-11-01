@@ -1,0 +1,862 @@
+{
+ "area": "NSTS (Navajo South)",
+ "generated": "2026-10-23",
+ "source": "APS OASIS cluster study reports; Active Queue posting 2026-10-13",
+ "phases": [
+  {
+   "file": "APS_NSTS_Transition_Cluster_Phase_1_v4-0_Final_20241018.pdf",
+   "label": "Transition Ph1",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2024-10-18",
+   "version": "4.0",
+   "projects": [
+    {
+     "q": "Q274",
+     "mw": 1000.0,
+     "service": "NRIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 15600000.0,
+     "nu": 13600000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2018-03-30",
+     "status": "Transitional Cluster: LGIA (Executed)",
+     "tech": "Solar",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cedar Mountain - Moonkopi 500 kV line",
+     "mw_queue": 1000.0,
+     "station_nu": 8300000.0,
+     "cum_mw": 1000.0,
+     "cum_nris_mw": 1000.0
+    },
+    {
+     "q": "Q312",
+     "mw": 500.0,
+     "service": "ERIS",
+     "poi": "Moenkopi 500 kV",
+     "total": 9300000.0,
+     "nu": 7300000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2019-09-23",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Solar",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Moonkopi 500kV Substation",
+     "mw_queue": 500.0,
+     "station_nu": 4900000.0,
+     "cum_mw": 1500.0,
+     "cum_nris_mw": 1000.0
+    },
+    {
+     "q": "Q317",
+     "mw": 750.0,
+     "service": "ERIS",
+     "poi": "Moenkopi 500 kV",
+     "total": 9300000.0,
+     "nu": 7300000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2019-09-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Moonkopi 500kV Substation",
+     "mw_queue": 750.0,
+     "station_nu": 4900000.0,
+     "cum_mw": 2250.0,
+     "cum_nris_mw": 1000.0
+    },
+    {
+     "q": "Q335",
+     "mw": 360.0,
+     "service": "ERIS",
+     "poi": "Yavapai 500 kV",
+     "total": 14000000.0,
+     "nu": 12000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 0,
+     "cum_mw": 2610.0,
+     "cum_nris_mw": 1000.0
+    },
+    {
+     "q": "Q337",
+     "mw": 450.0,
+     "service": "NRIS",
+     "poi": "Dugas 500 kV",
+     "total": 4900000.0,
+     "nu": 2900000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-03-27",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Dugas 500kV Substation",
+     "mw_queue": 450.0,
+     "station_nu": 0,
+     "cum_mw": 3060.0,
+     "cum_nris_mw": 1450.0
+    },
+    {
+     "q": "Q348",
+     "mw": 300.0,
+     "service": "NRIS+ERIS",
+     "poi": "Moenkopi-Eldorado 500 kV",
+     "total": 15400000.0,
+     "nu": 13400000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-22",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Wind + Energy Storage)",
+     "service_req": "Energy and Network Resource Interconnection Service",
+     "poi_queue": "Moonkopi El Dorado 500kV Line",
+     "mw_queue": 300.0,
+     "station_nu": 12000000.0,
+     "cum_mw": 3360.0,
+     "cum_nris_mw": 1750.0
+    },
+    {
+     "q": "Q370",
+     "mw": 309.7,
+     "service": "NRIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 6900000.0,
+     "nu": 5900000.0,
+     "tif": 1000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-03-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Moonkopi-Cedar Mtn 500 kV",
+     "mw_queue": 309.7,
+     "station_nu": 4200000.0,
+     "cum_mw": 3669.7,
+     "cum_nris_mw": 2059.7
+    },
+    {
+     "q": "Q393",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 12900000.0,
+     "nu": 10900000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-03-31",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cedar Mountain-Moonkopi 500 kV line",
+     "mw_queue": 500.0,
+     "station_nu": 8300000.0,
+     "cum_mw": 4169.7,
+     "cum_nris_mw": 2559.7
+    },
+    {
+     "q": "Q401",
+     "mw": 700.0,
+     "service": "NRIS",
+     "poi": "Moenkopi-Eldorado 500 kV",
+     "total": 17100000.0,
+     "nu": 15100000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-27",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Moonkopi - El Dorado 500 kV line",
+     "mw_queue": 700.0,
+     "station_nu": 12000000.0,
+     "cum_mw": 4869.7,
+     "cum_nris_mw": 3259.7
+    },
+    {
+     "q": "Q458",
+     "mw": 242.25,
+     "service": "NRIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 6500000.0,
+     "nu": 5500000.0,
+     "tif": 1000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-03-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cedar Mountain-Moonkopi 500 kV Line",
+     "mw_queue": 242.25,
+     "station_nu": 4200000.0,
+     "cum_mw": 5111.95,
+     "cum_nris_mw": 3501.95
+    },
+    {
+     "q": "Q486",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Moenkopi-Eldorado 500 kV",
+     "total": 25600000.0,
+     "nu": 23600000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-09-29",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Line tap on the El Dava - Moonkopi 500 kV",
+     "mw_queue": 400.0,
+     "station_nu": 21800000.0,
+     "cum_mw": 5511.95,
+     "cum_nris_mw": 3901.95
+    },
+    {
+     "q": "Q525",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Moenkopi-Eldorado 500 kV",
+     "total": 25400000.0,
+     "nu": 23400000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 21800000.0,
+     "cum_mw": 5811.95,
+     "cum_nris_mw": 4201.95
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Upgrade Eldorado series caps in Moenkopi line",
+     "cost": 10100000.0,
+     "cost_derived": false,
+     "lead": "24 months to construct",
+     "category": "affected system",
+     "alloc": {
+      "Q274": {
+       "pct": 18.6,
+       "usd": 1900000.0
+      },
+      "Q337": {
+       "pct": 4.5,
+       "usd": 400000.0
+      },
+      "Q348": {
+       "pct": 9.5,
+       "usd": 1000000.0
+      },
+      "Q370": {
+       "pct": 5.8,
+       "usd": 600000.0
+      },
+      "Q393": {
+       "pct": 9.3,
+       "usd": 900000.0
+      },
+      "Q401": {
+       "pct": 22.2,
+       "usd": 2200000.0
+      },
+      "Q458": {
+       "pct": 4.5,
+       "usd": 500000.0
+      },
+      "Q486": {
+       "pct": 11.5,
+       "usd": 1200000.0
+      },
+      "Q525": {
+       "pct": 14.0,
+       "usd": 1400000.0
+      }
+     },
+     "parts": [
+      "Upgrade Eldorado series caps in Moenkopi line"
+     ],
+     "first_q": "Q274",
+     "trigger_cum_mw": 1000.0,
+     "trigger_cum_nris_mw": 1000.0,
+     "n_sharing": 9,
+     "sharing_mw": 4201.95
+    },
+    {
+     "label": "Replace Yavapai 500/230 kV xfmrs with 600 MVA units",
+     "cost": 9100000.0,
+     "cost_derived": false,
+     "lead": "36 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q274": {
+       "pct": 37.6,
+       "usd": 3400000.0
+      },
+      "Q348": {
+       "pct": 4.3,
+       "usd": 400000.0
+      },
+      "Q370": {
+       "pct": 11.7,
+       "usd": 1100000.0
+      },
+      "Q393": {
+       "pct": 18.8,
+       "usd": 1700000.0
+      },
+      "Q401": {
+       "pct": 10.0,
+       "usd": 900000.0
+      },
+      "Q458": {
+       "pct": 9.1,
+       "usd": 800000.0
+      },
+      "Q486": {
+       "pct": 6.3,
+       "usd": 600000.0
+      },
+      "Q525": {
+       "pct": 2.2,
+       "usd": 200000.0
+      }
+     },
+     "parts": [
+      "Replace Yavapai 500/230 kV xfmrs with 600 MVA units"
+     ],
+     "first_q": "Q274",
+     "trigger_cum_mw": 1000.0,
+     "trigger_cum_nris_mw": 1000.0,
+     "n_sharing": 8,
+     "sharing_mw": 3751.95
+    },
+    {
+     "label": "Network Upgrades of reactor relocation",
+     "cost": 4800000.0,
+     "cost_derived": false,
+     "lead": "36 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q312": {
+       "pct": 50.0,
+       "usd": 2400000.0
+      },
+      "Q317": {
+       "pct": 50.0,
+       "usd": 2400000.0
+      }
+     },
+     "parts": [
+      "Network Upgrades of reactor relocation"
+     ],
+     "first_q": "Q312",
+     "trigger_cum_mw": 1500.0,
+     "trigger_cum_nris_mw": 1000.0,
+     "n_sharing": 2,
+     "sharing_mw": 1250.0
+    }
+   ]
+  },
+  {
+   "file": "Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf",
+   "label": "Transition Ph2",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-05-01",
+   "version": "1.5",
+   "projects": [
+    {
+     "q": "Q274",
+     "mw": 1000.0,
+     "service": "ERIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 10300000.0,
+     "nu": 8300000.0,
+     "tif": 2000000.0,
+     "isd": "24 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2018-03-30",
+     "status": "Transitional Cluster: LGIA (Executed)",
+     "tech": "Solar",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cedar Mountain - Moonkopi 500 kV line",
+     "mw_queue": 1000.0,
+     "station_nu": 8300000.0,
+     "cum_mw": 1000.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q312",
+     "mw": 500.0,
+     "service": "ERIS",
+     "poi": "Moenkopi 500 kV",
+     "total": 9300000.0,
+     "nu": 7300000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2019-09-23",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Solar",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Moonkopi 500kV Substation",
+     "mw_queue": 500.0,
+     "station_nu": 4900000.0,
+     "cum_mw": 1500.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q317",
+     "mw": 750.0,
+     "service": "ERIS",
+     "poi": "Moenkopi 500 kV",
+     "total": 9300000.0,
+     "nu": 7300000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2019-09-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Moonkopi 500kV Substation",
+     "mw_queue": 750.0,
+     "station_nu": 4900000.0,
+     "cum_mw": 2250.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q335",
+     "mw": 360.0,
+     "service": "ERIS",
+     "poi": "Yavapai 500 kV",
+     "total": 14000000.0,
+     "nu": 12000000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 0,
+     "cum_mw": 2610.0,
+     "cum_nris_mw": 0
+    },
+    {
+     "q": "Q337",
+     "mw": 450.0,
+     "service": "NRIS",
+     "poi": "Dugas 500 kV",
+     "total": 4500000.0,
+     "nu": 2500000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-03-27",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Dugas 500kV Substation",
+     "mw_queue": 450.0,
+     "station_nu": 0,
+     "cum_mw": 3060.0,
+     "cum_nris_mw": 450.0
+    },
+    {
+     "q": "Q348",
+     "mw": 300.0,
+     "service": "NRIS+ERIS",
+     "poi": "Moenkopi-Eldorado 500 kV",
+     "total": 15100000.0,
+     "nu": 13100000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2020-09-22",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Wind + Energy Storage)",
+     "service_req": "Energy and Network Resource Interconnection Service",
+     "poi_queue": "Moonkopi El Dorado 500kV Line",
+     "mw_queue": 300.0,
+     "station_nu": 12000000.0,
+     "cum_mw": 3360.0,
+     "cum_nris_mw": 750.0
+    },
+    {
+     "q": "Q370",
+     "mw": 309.7,
+     "service": "ERIS",
+     "poi": "Rabbit Canyon 500 kV (shared gen tie with Q458)",
+     "total": 5200000.0,
+     "nu": 4200000.0,
+     "tif": 1000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-03-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Moonkopi-Cedar Mtn 500 kV",
+     "mw_queue": 309.7,
+     "station_nu": 4200000.0,
+     "cum_mw": 3669.7,
+     "cum_nris_mw": 750.0
+    },
+    {
+     "q": "Q393",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 15100000.0,
+     "nu": 13100000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-03-31",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cedar Mountain-Moonkopi 500 kV line",
+     "mw_queue": 500.0,
+     "station_nu": 8300000.0,
+     "cum_mw": 4169.7,
+     "cum_nris_mw": 1250.0
+    },
+    {
+     "q": "Q401",
+     "mw": 700.0,
+     "service": "NRIS",
+     "poi": "Moenkopi-Eldorado 500 kV",
+     "total": 16500000.0,
+     "nu": 14500000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2021-09-27",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Moonkopi - El Dorado 500 kV line",
+     "mw_queue": 700.0,
+     "station_nu": 12000000.0,
+     "cum_mw": 4869.7,
+     "cum_nris_mw": 1950.0
+    },
+    {
+     "q": "Q458",
+     "mw": 242.25,
+     "service": "ERIS",
+     "poi": "Rabbit Canyon 500 kV (shared gen tie with Q370)",
+     "total": 5200000.0,
+     "nu": 4200000.0,
+     "tif": 1000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-03-30",
+     "status": "Transitional Cluster: Phase 4 Facilities Study",
+     "tech": "Wind",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Cedar Mountain-Moonkopi 500 kV Line",
+     "mw_queue": 242.25,
+     "station_nu": 4200000.0,
+     "cum_mw": 5111.95,
+     "cum_nris_mw": 1950.0
+    },
+    {
+     "q": "Q486",
+     "mw": 400.0,
+     "service": "NRIS",
+     "poi": "Moenkopi-Eldorado 500 kV",
+     "total": 25400000.0,
+     "nu": 23400000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": true,
+     "queue_date": "2022-09-29",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Line tap on the El Dava - Moonkopi 500 kV",
+     "mw_queue": 400.0,
+     "station_nu": 21800000.0,
+     "cum_mw": 5511.95,
+     "cum_nris_mw": 2350.0
+    },
+    {
+     "q": "Q525",
+     "mw": 300.0,
+     "service": "ERIS",
+     "poi": "Moenkopi-Eldorado 500 kV",
+     "total": 23800000.0,
+     "nu": 21800000.0,
+     "tif": 2000000.0,
+     "isd": "48 months to construct (max line item)",
+     "notes": "ERIS - no system NU allocation; PV/HH fault duty mitigation TBD by SRP (not included)",
+     "in_active_queue": false,
+     "station_nu": 21800000.0,
+     "cum_mw": 5811.95,
+     "cum_nris_mw": 2350.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Network Upgrades of reactor relocation",
+     "cost": 4800000.0,
+     "cost_derived": false,
+     "lead": "36 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q312": {
+       "pct": 50.0,
+       "usd": 2400000.0
+      },
+      "Q317": {
+       "pct": 50.0,
+       "usd": 2400000.0
+      }
+     },
+     "parts": [
+      "Network Upgrades of reactor relocation"
+     ],
+     "first_q": "Q312",
+     "trigger_cum_mw": 1500.0,
+     "trigger_cum_nris_mw": 0,
+     "n_sharing": 2,
+     "sharing_mw": 1250.0
+    },
+    {
+     "label": "Replace Yavapai 500/230 kV xfmrs with 600 MVA units",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "36 months to construct",
+     "category": "network NU",
+     "alloc": {
+      "Q348": {
+       "pct": 10.8,
+       "usd": 1100000.0
+      },
+      "Q393": {
+       "pct": 48.0,
+       "usd": 4800000.0
+      },
+      "Q401": {
+       "pct": 25.4,
+       "usd": 2500000.0
+      },
+      "Q486": {
+       "pct": 15.8,
+       "usd": 1600000.0
+      }
+     },
+     "parts": [
+      "Replace Yavapai 500/230 kV xfmrs with 600 MVA units"
+     ],
+     "first_q": "Q348",
+     "trigger_cum_mw": 3360.0,
+     "trigger_cum_nris_mw": 750.0,
+     "n_sharing": 4,
+     "sharing_mw": 1900.0
+    }
+   ]
+  },
+  {
+   "file": "APS_NSTS_2024_Cluster_Phase_1_v3_20251029.pdf",
+   "label": "2024 Ph1",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2025-10-29",
+   "version": "3.0",
+   "projects": [
+    {
+     "q": "Q565",
+     "mw": 161.0,
+     "service": "NRIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 0.0,
+     "nu": 0.0,
+     "tif": 0.0,
+     "isd": "",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-13",
+     "status": "Facilities Study",
+     "tech": "Wind",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cedar Mountain-Mossilogy 500 kV line",
+     "mw_queue": 161.0,
+     "station_nu": 0,
+     "cum_mw": 161.0,
+     "cum_nris_mw": 161.0
+    }
+   ],
+   "upgrades": []
+  },
+  {
+   "file": "APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf",
+   "label": "2024 Ph2",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2026-02-27",
+   "version": "1.0",
+   "projects": [
+    {
+     "q": "Q565",
+     "mw": 161.0,
+     "service": "NRIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 0.0,
+     "nu": 0.0,
+     "tif": 0.0,
+     "isd": "",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-13",
+     "status": "Facilities Study",
+     "tech": "Wind",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Cedar Mountain-Mossilogy 500 kV line",
+     "mw_queue": 161.0,
+     "station_nu": 0,
+     "cum_mw": 161.0,
+     "cum_nris_mw": 161.0
+    }
+   ],
+   "upgrades": []
+  },
+  {
+   "file": "APS_NSTS_2025_Cluster_Phase_1_Report_Final_20260115.pdf",
+   "label": "2025 Ph1",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-01-15",
+   "version": "1.0",
+   "projects": [
+    {
+     "q": "Q612",
+     "mw": 161.0,
+     "service": "NRIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-14",
+     "status": "Final Analysis for Sub-Cluster Ro-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Babbitt Ranch Wind Farm Q196 34.5kV Collector",
+     "mw_queue": 161.0,
+     "station_nu": 0,
+     "cum_mw": 161.0,
+     "cum_nris_mw": 161.0
+    }
+   ],
+   "upgrades": []
+  },
+  {
+   "file": "APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf",
+   "label": "2025 Ph2",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-06-11",
+   "version": "1.3",
+   "projects": [
+    {
+     "q": "Q612",
+     "mw": 161.0,
+     "service": "NRIS",
+     "poi": "Rabbit Canyon 500 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "",
+     "notes": "cost table labels project as Q1612 (typo)",
+     "in_active_queue": true,
+     "queue_date": "2025-05-14",
+     "status": "Final Analysis for Sub-Cluster Ro-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Babbitt Ranch Wind Farm Q196 34.5kV Collector",
+     "mw_queue": 161.0,
+     "station_nu": 0,
+     "cum_mw": 161.0,
+     "cum_nris_mw": 161.0
+    }
+   ],
+   "upgrades": []
+  }
+ ],
+ "prior": [
+  {
+   "q": "Q113",
+   "mw": 101.0,
+   "poi": "Moenkopi - Yavapai 500 kV line (Colar ML)",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Wind",
+   "queue_date": "2010-03-22"
+  },
+  {
+   "q": "Q196",
+   "mw": 161.0,
+   "poi": "500 kV Moonlori-Colar Mountain line",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Combined Energy Source (Solar + Wind)",
+   "queue_date": "2011-05-05"
+  },
+  {
+   "q": "Q313",
+   "mw": 95.0,
+   "poi": "Lonecome Valley 69kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Project with APS Project Manager",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2019-09-25"
+  },
+  {
+   "q": "SP107",
+   "mw": 161.0,
+   "poi": "Cedar Mountain-Mosekopi 500 kV line",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Wind",
+   "queue_date": "2023-05-18"
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+  "title": "Arizona Public Service Company 2023 Integrated Resource Plan (Public)",
+  "publisher": "Arizona Public Service (APS)",
+  "date": "2023-11-01",
+  "doc_type": "Integrated Resource Plan (filed with ACC under A.A.C. R14-2-703)",
+  "summary": "APS's most recent filed IRP (30 MB, ~525 pp.), covering 2023-2038. The Preferred Plan adds nearly 8,000 MW in the 2023-2027 Action Plan window and more than double that over 15 years: hydrogen-capable gas CTs, New Mexico wind via repurposed Four Corners transmission, >2 GW batteries (cap 3 GW through 2027), Cholla retirement by April 2025, Four Corners exit 2031. Peak demand grows from 8,184 MW (2023) to 13,119 MW (2038); energy grows 23,689 GWh led by data centers (12,997 GWh). Lists 2023-2032 Ten-Year Plan transmission projects. ACC acknowledged the plan Oct 8, 2024 (per the 10-Q).",
+  "relevance": "high",
+  "findings": [
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Preferred Plan L&R table: APS peak demand 8,184 MW (2023), 9,525 (2026), 10,020 (2027), 11,127 (2030), 11,398 (2031), 12,386 (2035), 13,119 MW (2038); total load requirement with reserves 9,385 MW (2023) to 14,823 MW (2038).",
+      "location": "Attachment F.1(a)(9), p.247 (PDF p.258); F.9(b)(1) p.288"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Base peak growth ~2.4%/yr after DSM/DER, ~3,400 MW (230 MW/yr) over 15 years; low case 0.9%/yr (~1,200 MW).",
+      "location": "Ch.2, p.19"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Energy growth 2023-2038 total 23,689 GWh: new data centers 12,997, large industrial 5,843, EVs 3,406, C&I 785, residential 657 GWh; data centers add ~1,550 MW peak, large industrial ~690 MW.",
+      "location": "Table 2-1, Ch.2 pp.19-20"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Preferred Plan future resources (accredited MW at peak) 2027 / 2031 / 2038: natural gas 201 / 1,302 / 3,034 (CT 199/1,302/1,587; CC 0/0/1,446 from 2035); wind 270 / 494 / 789; PVS (PV+BESS) 1,885 / 1,958 / 2,156; energy storage 644 / 923 / 1,174; microgrid 544 / 742 / 767; total future resources 3,584 / 5,602 / 8,155.",
+      "location": "Attachment F.1(a)(9), p.247"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Existing coal accredited 1,347 MW (2023) drops to 970 (2025, Cholla retired) and 828 (2026-2030), then 0 from 2031 (Four Corners exit); existing natural gas falls from 5,832 MW (2023) to 2,875 MW (2038) as tolling agreements expire.",
+      "location": "Attachment F.1(a)(9), p.247"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Existing resources ~13,397 MW nameplate: nuclear 1,146 (Palo Verde), coal 1,357 (Four Corners 970, Cholla 387), natural gas 5,216, storage 300, renewables 1,448, customer-based 3,888.",
+      "location": "Table 2-3/2-4, p.26-27"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Preferred Plan replaces Four Corners in 2031 with wind firmed by gas using the existing Four Corners transmission path; nearly 8,000 MW of new resources in the 2023-2027 Action Plan, with more than 2 GW batteries and a 3 GW battery cap through 2027; 2023 ASRFP sought >=1,000 MW (700 MW renewable).",
+      "location": "Executive Summary pp.5-11; Ch.5 p.81; Ch.6 pp.85-86"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "2023-2032 Ten-Year Plan: ~29 mi new 500 kV, 1 mi new 345 kV, 54 mi new 230 kV, 11.5 mi underground 230 kV, 40 mi 230 kV rebuilds, 3 mi 115 kV upgrades, 27 new transformers; projects include Panda-Freedom 230 kV rebuild (2025-2027), Jojoba-Rudd 500 kV (2025-2028), Sun Valley-TS23 230 kV (2026-2027).",
+      "location": "Ch.3 p.49, Table 3-1"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Transmission contracts for New Mexico resources on non-APS systems are not expected available until 2031; new company-owned transmission investments not forecast in service until 2036.",
+      "location": "Ch.5 p.75"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cholla Power Plant (APS units)",
+      "type": "coal retirement",
+      "kv": "",
+      "mw": "387",
+      "poi": "Cholla",
+      "status": "retiring",
+      "date": "2025"
+    },
+    {
+      "name": "Four Corners Power Plant (APS share)",
+      "type": "coal retirement",
+      "kv": "",
+      "mw": "970",
+      "poi": "Four Corners",
+      "status": "retiring",
+      "date": "2031"
+    },
+    {
+      "name": "Panda-Freedom 230kV Line Rebuild",
+      "type": "transmission",
+      "kv": "230",
+      "mw": "",
+      "poi": "",
+      "status": "planned",
+      "date": "2027"
+    },
+    {
+      "name": "Jojoba-Rudd 500kV Line",
+      "type": "transmission",
+      "kv": "500",
+      "mw": "",
+      "poi": "",
+      "status": "planned",
+      "date": "2028"
+    },
+    {
+      "name": "Sun Valley-TS23 230kV Line",
+      "type": "transmission",
+      "kv": "230",
+      "mw": "",
+      "poi": "",
+      "status": "planned",
+      "date": "2027"
+    }
+  ],
+  "open_questions": [
+    "Table 3-1 text extraction is jumbled; confirm purpose/date assignments of the three projects on PDF p.58.",
+    "Nameplate MW by year for the Preferred Plan is only shown as charts (Fig ES-1, 5-17); tables give accredited MW at peak."
+  ],
+  "source_id": "S12",
+  "model": "external research session (IRP)",
+  "digested_at": "2026-10-21T21:21:16",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

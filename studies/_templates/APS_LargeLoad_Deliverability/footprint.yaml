@@ -1,0 +1,57 @@
+# Footprint for APS_LargeLoad_Deliverability (task: deliverability from the
+# physical sink-path hubs to committed / under-construction large loads).
+# Case: 30HS_22-G7_pre.epc (basecase run 71). Buses checked against run 71
+# BusData on 2026-10-22. N-1 on the AZ footprint (same study area and base
+# AZ.sub/.con/.mon as YUMA_Studyv5).
+#
+# Sources: hub substations where the cluster areas' generation enters the
+# Phoenix load pocket (APS queue data,
+# sinks_by_area.csv). TrLim runs by-bus on the sending side, so every hub bus
+# gets its own limit to each sink in one run.
+# Sinks: one single-bus subsystem per committed load's serving substation.
+# Single bus on purpose: none of these buses has a generator, and with one
+# bus there is only one way to place the withdrawal.
+study_area:
+  name: AZLL
+  areas: [14, 15, 16, 17, 19, 21, 24]
+sub_areas:
+  APS:
+    areas: [14]
+  SRP:
+    areas: [15]
+sources:
+  HUBS:
+    buses:
+    - 14016   # PNPKAPS 500   Pinnacle Peak (APS)
+    - 19062   # PINPK 230     Pinnacle Peak (WAPA)
+    - 15211   # PINPKSRP 230  Pinnacle Peak (SRP)
+    - 14005   # WESTWING 500
+    - 14231   # WESTWNGS 230
+    - 14259   # WESTWNGN 230
+    - 15061   # RUDD 500
+    - 15230   # RUDD 230
+    - 15011   # KYRENE 500
+    - 15207   # KYR-EAST 230
+    - 15210   # KYR-WEST 230
+    - 15051   # BROWNING 500
+    - 15222   # BROWNING 230
+    - 14258   # FREEDOM 230
+    - 15219   # KNOX 230
+    - 19052   # LIBERTY 230
+    - 19055   # LONE BUT 230
+    - 15224   # ABEL 230
+sinks:
+  LL_TSMC:          # TSMC fab complex, North Phoenix - Avery 230 (TSMC 1/2 tap Avery N/S)
+    buses: [14253]  # AVERY N 230 (tied to AVERY S, X=0.0003)
+  LL_MSFT_GDY:      # Microsoft Goodyear (West US 3) - Runway 230 on site
+    buses: [14237]  # RUNWAY S 230
+  LL_AVONDALE:      # STACK PHX01 (Diamond 230, named); Prime PHX01 and Stream PHXA assumed here (serving bus not public)
+    buses: [14268]  # DIAMNDAZ 230 - already in the 2030 case
+  LL_MSFT_ELM:      # Microsoft El Mirage PHX-81/82 - Contrail 230 (inferred, not confirmed)
+    buses: [14251]  # CONTRAIL 230
+  LL_BAGDAD:        # Freeport Bagdad expansion - TS31 230 / Mead Phoenix Q01 not in case; nearest existing bus
+    buses: [14351]  # BAGDAD 115
+  CAISO_24_30:      # export test: hubs -> SOCALIF (area 24) + PG AND E (area 30); their generators absorb the transfer
+    areas: [24, 30]
+# N-1 and monitoring come from the base AZ.con / AZ.mon (Eagle Eye N-1 basis, subsystem AZ).
+base: {sub: base/AZ.sub, con: base/AZ.con, mon: base/AZ.mon}

@@ -1,0 +1,86 @@
+[
+ {
+  "q": "Q629",
+  "mw": 1255.0,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "Watermelon 500kV Substation",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/10/26",
+  "requested_isd": "12/31/31",
+  "confidence": "low"
+ },
+ {
+  "q": "Q631",
+  "mw": 1266.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "County Line 500kV",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/1/26",
+  "requested_isd": "12/31/32",
+  "confidence": "low"
+ },
+ {
+  "q": "Q638",
+  "mw": 628.0,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "Watermelon 500kV Substation",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/10/26",
+  "requested_isd": "4/7/33",
+  "confidence": "low"
+ },
+ {
+  "q": "Q640",
+  "mw": 500.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Watermelon 230kV Substation",
+  "tech": "Combined Energy Source (Solar + Energy Storage)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/5/26",
+  "requested_isd": "12/21/30",
+  "confidence": "low"
+ },
+ {
+  "q": "Q646",
+  "mw": 200.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Freedom Valley 230kV",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/5/26",
+  "requested_isd": "6/1/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q647",
+  "mw": 300.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Haem 230kV",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/5/26",
+  "requested_isd": "6/1/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q668",
+  "mw": 290.0,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "Hazon 230kV Substation",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/7/26",
+  "requested_isd": "6/1/32",
+  "confidence": "high"
+ }
+]

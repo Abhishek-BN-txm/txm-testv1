@@ -1,0 +1,199 @@
+{
+ "label": "Pre-cluster (serial)",
+ "cycle": "Serial",
+ "date": "latest per project (2016-2025)",
+ "file": "05-20-16_Q225_FaS_FINAL.pdf; Q225_MMA2_Report_v1-4_20240214.pdf; Q227_FaS_FINAL_20170215.pdf; Q227_MMA2_Report_v1-2_20230822.pdf; 2016-17_Palo_Verde_Area_Cluster_SIS_Report_Q246,Q247,Q248,Q252_v1-4_FINAL_2_2_18.pdf; Q252_FaS_FINAL_20181009.pdf; Q252_MMA3_Report_v1-3_20251118.pdf; Q297_FaS_Report_Final_20210427.pdf; Q310-Q332_SIS_Report_v1-5_20210113.pdf; Q310_FaS_Final_20230515.pdf; Q332_FaS_Report_Final_20210813.pdf; Q332_MMA1_Report_v1-1_20241121.pdf; Q350_FaS_Report_Final_20220513.pdf",
+ "projects": [
+  {
+   "q": "Q225",
+   "mw": 200,
+   "service": "ERIS",
+   "poi": "Hoodoo Wash 500 kV",
+   "station_nu": 1052111,
+   "station_status": "required (plus $1.6M deferred breaker-and-a-half conversion)",
+   "total": 4110937,
+   "status": "Pending LGIA Amended & Filed",
+   "latest": "MMA2 2024-02-14 (costs: FaS 2016-05-20)",
+   "note": "ERIS; no system upgrades. FaS also lists $1.6M of deferred 500 kV breaker/switch work for a future breaker-and-a-half layout. Shares its 500 kV gen-tie with Q332."
+  },
+  {
+   "q": "Q227",
+   "mw": 500,
+   "service": "NRIS",
+   "poi": "Hoodoo Wash 500 kV",
+   "station_nu": 6400000,
+   "station_status": "required",
+   "total": 8000000,
+   "status": "Pending LGIA Amended & Filed",
+   "latest": "MMA2 2023-08-22 (costs: FaS 2017-02-15)",
+   "note": "No system reinforcements. FaS notes APS holds only 168 MW of transfer capability out of Hoodoo Wash in each direction; delivery beyond that needs service from the SDG&E/IID co-owners."
+  },
+  {
+   "q": "Q246",
+   "mw": 20,
+   "service": "ERIS",
+   "poi": "Hoodoo Wash 500 kV (existing Agua Caliente/Q43 connection)",
+   "station_nu": 0,
+   "station_status": "none",
+   "total": 0,
+   "status": "Draft LGIA",
+   "latest": "2016-17 Palo Verde Area Cluster SIS v1.4 (2018-02-02)",
+   "note": "20 MW solar uprate of Agua Caliente (Q43, 290 to 310 MW) through the existing connection; $0 interconnection cost."
+  },
+  {
+   "q": "Q252",
+   "mw": 250,
+   "service": "NRIS",
+   "poi": "Hoodoo Wash 500 kV",
+   "station_nu": 3400000,
+   "station_status": "built",
+   "total": 4900000,
+   "status": "Customer Test Energy",
+   "latest": "MMA3 2025-11-18 (costs: FaS 2018-10-09)",
+   "note": "No system reinforcements. MMA3 approved 180 MW PV + 250 MW BESS, PV energized first."
+  },
+  {
+   "q": "Q297",
+   "mw": 90.1,
+   "service": "NRIS",
+   "poi": "Marine Air Base 69 kV",
+   "station_nu": 700000,
+   "station_status": "required",
+   "total": 2200000,
+   "status": "In Design",
+   "latest": "FaS 2021-04-27",
+   "note": "BESS. The two 69 kV network upgrades are tied to grid charging; customer chose not to reconductor South O'Neill-MAB 69 kV, so charging is capped at 80 MW peak / 90 MW light load."
+  },
+  {
+   "q": "Q310",
+   "mw": 450,
+   "service": "NRIS",
+   "poi": "Hoodoo Wash 500 kV",
+   "station_nu": 3300000,
+   "station_status": "required",
+   "total": 9800000,
+   "status": "Draft LGIA",
+   "latest": "FaS 2023-05-08",
+   "note": "Energy + Network Resource. 2021 SIS: $3.3M switchyard expansion + $4.8M Hassayampa-N.Gila cut-in (100% Q310) + $1.4M TPIF = $9.5M. The 2023 FaS restates network upgrades as a single $6.0M line and TPIF as $3.8M ($9.8M total) without itemizing the cut-in."
+  },
+  {
+   "q": "Q332",
+   "mw": 350,
+   "service": "NRIS",
+   "poi": "Hoodoo Wash 500 kV (shared Q225 gen-tie)",
+   "station_nu": 0,
+   "station_status": "none",
+   "total": 300000,
+   "status": "In Construction",
+   "latest": "MMA1 2024-11-20 (costs: FaS 2021-08-13)",
+   "note": "No network upgrades of its own. Its NRIS relies on the Hassayampa-N.Gila cut-in, which is assigned 100% to Q310; the cost shifts to Q332 if Q310 converts to ERIS or Q332 builds first."
+  },
+  {
+   "q": "Q350",
+   "mw": 300,
+   "service": "NRIS",
+   "poi": "Orchard 230 kV",
+   "station_nu": 4900000,
+   "station_status": "in construction",
+   "total": 54900000,
+   "status": "In Construction",
+   "latest": "FaS 2022-05-13",
+   "note": "Energy + Network Resource. Carries all four Yuma 230/161/69 kV system upgrades; Q252 MMA3 (Nov 2025) still lists them as queue-driven by Q350. Grid charging limited unless the Yucca PST is reset off-peak."
+  }
+ ],
+ "upgrades": [
+  {
+   "label": "Loop Hassayampa\u2013N.Gila 500 kV line into Hoodoo Wash",
+   "cost_note": "Q310-Q332 SIS 2021 Table 1: $4.8M, 100% Q310 (needed for Q310 NRIS; Q332 0% unless Q310 goes ERIS). 2023 Q310 FaS does not itemize it.",
+   "cost": 4800000,
+   "alloc": {
+    "Q310": {
+     "pct": 100,
+     "usd": 4800000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "N.Gila substation expansion + 2nd 500/230 kV transformer",
+   "cost_note": "Q350 FaS 2022: $29.3M",
+   "cost": 29300000,
+   "alloc": {
+    "Q350": {
+     "pct": 100,
+     "usd": 29300000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "New 2nd Orchard\u2013N.Gila 230 kV line (13 mi)",
+   "cost_note": "Q350 FaS 2022: $6.9M",
+   "cost": 6900000,
+   "alloc": {
+    "Q350": {
+     "pct": 100,
+     "usd": 6900000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "WAPA Gila 161/69 kV #1 and #2 transformer replacements",
+   "cost_note": "Q350 FaS 2022: $8.6M APS estimate of a WAPA upgrade; subject to WAPA affected-system study",
+   "cost": 8600000,
+   "alloc": {
+    "Q350": {
+     "pct": 100,
+     "usd": 8600000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "Yucca 69 kV phase-shifting transformer (175 MVA)",
+   "cost_note": "Q350 FaS 2022: $4.4M",
+   "cost": 4400000,
+   "alloc": {
+    "Q350": {
+     "pct": 100,
+     "usd": 4400000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "Reconductor South O'Neill\u2013Waldrip 69 kV line",
+   "cost_note": "Q297 FaS 2021: $0.9M (grid-charging upgrade)",
+   "cost": 900000,
+   "alloc": {
+    "Q297": {
+     "pct": 100,
+     "usd": 900000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "Reconfigure Orchard 69 kV line terminations",
+   "cost_note": "Q297 FaS 2021: $0.2M (grid-charging upgrade)",
+   "cost": 200000,
+   "alloc": {
+    "Q297": {
+     "pct": 100,
+     "usd": 200000,
+     "status": "required"
+    }
+   }
+  }
+ ],
+ "notes": [
+  "Serial-process studies assign each system upgrade to the project that triggers it; every upgrade here is 100% to a single project.",
+  "Hoodoo Wash 500 kV is jointly owned by APS, SDG&E and IID; network-upgrade repayment is shared among the three co-owners.",
+  "Costs are from each project's Facilities Study (Q310's cut-in from its 2021 SIS); later MMAs reviewed inverter and configuration changes only and did not reprice upgrades.",
+  "Palo Verde/Hassayampa fault-duty mitigation is 'TBD by SRP' in every report and is not included.",
+  "In-service projects (Q17, Q43, Q205, Q213, Q236/272, Q302, Q303, SPI01) carry no open network upgrades; the latest Q236/272 MMA2 (Nov 2024) lists none."
+ ],
+ "view_note": "Eight serial projects (2,160 MW) sit ahead of the Hoodoo Wash\u2013Yuma cluster. The six at Hoodoo Wash 500 kV need only switchyard work, except Q310's $4.8M loop-in of the Hassayampa\u2013N.Gila 500 kV line, which Q332's NRIS also depends on. All real system upgrades sit at Yuma: Q350 at Orchard 230 kV carries $49.2M of upgrades (a second N.Gila 500/230 kV transformer, a second Orchard\u2013N.Gila 230 kV line, a Yucca phase shifter and WAPA Gila transformer replacements), and Q297 carries $1.1M of 69 kV work for grid charging.",
+ "full_note": "The serial block puts about $55M of system upgrades ahead of the cluster, almost all of it Q350's Yuma 230/69 kV package, which later reports treat as base-case. Cluster projects at Hoodoo Wash and North Gila are studied on top of these serial upgrades and the Hassayampa\u2013N.Gila loop-in, so their own triggers start above the 2,160 MW of serial capacity."
+}

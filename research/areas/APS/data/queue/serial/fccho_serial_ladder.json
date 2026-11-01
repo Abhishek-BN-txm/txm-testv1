@@ -1,0 +1,39 @@
+{
+ "label": "Pre-cluster (serial)",
+ "cycle": "Serial",
+ "date": "latest per project (2020-2026)",
+ "file": "2018_Cholla_Cluster_SIS_Report_v1-2.pdf; Q230_FaS_FINAL_20170313.pdf; Q230_(SP116)_MMA4_Report_20241112.pdf; Q270_FaS_Revised_Final_9-21-20.pdf; Q271_FaS_Final_20200910.pdf; Q270-Q271_SP115_MMA5_Report_v1-1_20260122.pdf; Q273_FaS_Final_20200728.pdf; Q275_FaS_MMA_Final_20211222.pdf; Q311,318,319,320_SIS_Report_Final_20220707.pdf; Q311_FaS_Report_FINAL_20230623.pdf; Q311_MMA2_Report_20250613.pdf; Q318_FAS_Final_20230929.pdf; Q319_FAS_Final_20230929.pdf; Q320_FAS_Final_20230929.pdf",
+ "projects": [
+  {"q":"Q230","mw":200,"service":"NRIS","poi":"Cholla 500 kV","station_nu":1200000,"station_status":"in construction","total":5500000,"status":"In Construction","latest":"MMA4 (SP116) 2024-11-12","note":"SP116 adds 200 MW BESS behind Q230; POI output capped at 200 MW, no grid charging."},
+  {"q":"Q270","mw":200,"service":"NRIS","poi":"Cholla 500 kV","station_nu":2800000,"station_status":"in construction (shared switchyard, Q230 responsible)","total":7850000,"status":"In Construction","latest":"MMA5 (SP115) 2026-01-22","note":""},
+  {"q":"Q271","mw":75,"service":"NRIS","poi":"Cholla 500 kV","station_nu":2800000,"station_status":"in construction (shared switchyard, Q230 responsible)","total":6250000,"status":"In Construction","latest":"MMA5 (SP115) 2026-01-22","note":""},
+  {"q":"Q273","mw":477,"service":"NRIS","poi":"Chevelon 345 kV (Cholla–Preacher Canyon cut-in)","station_nu":21500000,"station_status":"built","total":23700000,"status":"Project with APS Project Manager (Legacy)","latest":"FaS 2020-07-28","note":"Chevelon 345 kV ring bus and cut-in built."},
+  {"q":"Q275","mw":1000,"service":"NRIS","poi":"Cholla 500 kV","station_nu":4600000,"station_status":"still required","total":9400000,"status":"In Design","latest":"FaS/MMA 2021-12-22","note":"No system network upgrades; Cholla #6 transformer replacement dropped."},
+  {"q":"Q311","mw":500,"service":"NRIS","poi":"Sitgreaves 345 kV (new switchyard on Cholla–Mazatzal)","station_nu":24500000,"station_status":"built","total":27400000,"status":"Project with APS Project Manager","latest":"MMA2 2025-06-13","note":"Sitgreaves 345 kV switchyard built for Q311. Its $159.2M share of corridor upgrades is deferred until Q318–Q320 start construction. Post-contingency SCR 2.7."},
+  {"q":"Q318","mw":1000,"service":"NRIS","poi":"Four Corners 345 kV","station_nu":21000000,"station_status":"required (suspended)","total":419700000,"status":"Customer Initiated Suspension","latest":"FaS 2023-09-29","note":"Backfeed 6/20/2032, COD 12/31/2032."},
+  {"q":"Q319","mw":1000,"service":"NRIS","poi":"Four Corners 345 kV","station_nu":21000000,"station_status":"required (suspended)","total":419700000,"status":"Customer Initiated Suspension","latest":"FaS 2023-09-29","note":"Backfeed 6/20/2032, COD 12/31/2032."},
+  {"q":"Q320","mw":1500,"service":"NRIS","poi":"Four Corners 345 kV","station_nu":21800000,"station_status":"required (suspended)","total":613200000,"status":"Customer Initiated Suspension","latest":"FaS 2023-09-29","note":"Backfeed 6/20/2032, COD 12/31/2032."}
+ ],
+ "upgrades": [
+  {"label":"New Four Corners–Moenkopi #2 500 kV line (200 mi) incl. reactors, series caps, Moenkopi additions","cost_note":"SIS 2022: $563.0M line + $225.0M ROW/NEPA + $16.6M Moenkopi reactor/series cap + $6.2M FC reactor + $3.8M Moenkopi additions","cost":814600000,
+   "alloc":{"Q311":{"pct":4.94,"usd":47700000,"status":"deferred"},"Q318":{"pct":27.16,"usd":268700000,"status":"required"},"Q319":{"pct":27.16,"usd":268700000,"status":"required"},"Q320":{"pct":40.74,"usd":403100000,"status":"required"}}},
+  {"label":"New Cholla–Pinnacle Peak 500 kV line (150 mi) incl. line reactors","cost_note":"SIS 2022: $645.0M line + $383.0M ROW/NEPA + $13.0M reactors","cost":1041000000,
+   "alloc":{"Q311":{"pct":27.94,"usd":106100000,"status":"deferred"},"Q318":{"pct":20.59,"usd":78200000,"status":"required"},"Q319":{"pct":20.59,"usd":78200000,"status":"required"},"Q320":{"pct":30.88,"usd":117300000,"status":"required"}}},
+  {"label":"Four Corners 500 kV switchyard and #3 500/345 kV transformer","cost_note":"SIS 2022 NU C $33.6M + FaS NU H new FC 500 kV switchyard","cost":33600000,
+   "alloc":{"Q311":{"pct":4.94,"usd":3100000,"status":"deferred"},"Q318":{"pct":27.16,"usd":25500000,"status":"required"},"Q319":{"pct":27.16,"usd":25500000,"status":"required"},"Q320":{"pct":40.74,"usd":38300000,"status":"required"}}},
+  {"label":"Silverking: new 500 kV switchyard, loop Cholla–Saguaro, 3 breakers","cost_note":"SIS 2022 NU D $28.2M + $11.2M","cost":39400000,
+   "alloc":{"Q311":{"pct":27.94,"usd":1000000,"status":"deferred"},"Q318":{"pct":20.59,"usd":10200000,"status":"required"},"Q319":{"pct":20.59,"usd":10200000,"status":"required"},"Q320":{"pct":30.88,"usd":12400000,"status":"required"}}},
+  {"label":"Cholla 500 kV additions and breaker-and-a-half reconfiguration","cost_note":"SIS 2022 NU B Cholla additions $5.3M + NU H $4.9M","cost":10200000,
+   "alloc":{"Q311":{"pct":27.94,"usd":1300000,"status":"deferred"},"Q318":{"pct":20.59,"usd":6500000,"status":"required"},"Q319":{"pct":20.59,"usd":6500000,"status":"required"},"Q320":{"pct":30.88,"usd":9600000,"status":"required"}}},
+  {"label":"Pinnacle Peak 500 kV additions and 230 kV bus tie","cost_note":"SIS 2022 NU B $7.2M + NU F $4.9M","cost":12100000,
+   "alloc":{"Q318":{"pct":20.59,"usd":2200000,"status":"required"},"Q319":{"pct":20.59,"usd":2200000,"status":"required"},"Q320":{"pct":30.88,"usd":3300000,"status":"required"}}},
+  {"label":"Cholla #6 500/345 kV transformer replacement","cost_note":"2018 Cholla Cluster SIS; dropped once Cholla 3 and 4 retirement assumed","cost":15900000,
+   "alloc":{"Q270":{"pct":15.7,"usd":2500000,"status":"removed"},"Q271":{"pct":5.9,"usd":900000,"status":"removed"},"Q275":{"pct":78.4,"usd":12500000,"status":"removed"}}}
+ ],
+ "notes": [
+  "Serial-process studies assign upgrades in queue order; percentages are the shares stated in the 2022 Q311/Q318/Q319/Q320 SIS and 2018 Cholla Cluster SIS.",
+  "Q318–Q320 dollar figures are from their 2023 Facilities Studies, which updated the SIS costs; Q311's are the deferred amounts in its 2023 FaS, unchanged in MMA2 (2025).",
+  "The Q318/Q319/Q320 FaS show $262.0M / $262.0M / $393.0M for the Four Corners–Moenkopi #2 line itself; Moenkopi switchyard additions ($6.7M / $6.7M / $10.1M) are folded into that column here.",
+  "Union Hills–Lone Peak 69 kV rebuild (SIS NU E) became an APS planned project and is complete; not shown."
+ ]
+}

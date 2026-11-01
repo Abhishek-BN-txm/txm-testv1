@@ -1,0 +1,30 @@
+# APS Four Corners-Cholla -- generation SINK definitions stated in APS cluster study reports
+# Source: research/areas/APS/data/queue/sinks/sinks_by_study.csv (one row per report, verbatim quotes)
+# Selectors resolve against run 71 (30HS_22-G7_pre). The selector grammar cannot carry MW weights:
+# per-area participation % (from the report table) is in sink_participation.csv and in the comments below.
+# CURRENT cycle: 2025 -> ['FCCHO_2025_SINK']
+sinks:
+
+  # FCCHO_TC_SINK [older cycle]: latest Transition report = APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf (2026-04-23), 3.2 Generation Dispatch (p. 10)
+  # "All queue generation added to the case was offset proportionally according to load within AZ and bordering states. The AZ share of generation reduction was applied outside the study region."
+  # Method: scale generation pro rata by Pgen in each area, MW split across AZ + bordering-state areas by load ratio; AZ share taken outside the study region
+  # Report split (HS%/HW%): 10:2.7/3.5, 18:6.5/4.8, 21:1.2/0.8, 22:4.6/4.2, 24:28.2/20.8, 26:6.1/5.4, 30:26.9/33.7, 65:9.8/11.4, 73:4.0/6.8, 14:10.1/8.7
+  # AZ area(s) [14]: report takes the AZ share "outside the study region" -- add an exclude (e.g. near: {bus: <POI>, hops: N}) per study.
+  FCCHO_TC_SINK:
+    areas: [10, 14, 18, 21, 22, 24, 26, 30, 65, 73]
+
+  # FCCHO_2024_SINK [older cycle]: latest 2024 report = APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf (2026-07-20), 3.1.2 Generation Dispatch (p. 9)
+  # "All queue generation added to the case wase offset proportionally according to load within AZ and bordering states. The AZ share of generation reduction will be selectively applied outside the study region."
+  # Method: scale generation pro rata by Pgen in each area, MW split across AZ + bordering-state areas by load ratio; AZ share taken outside the study region
+  # Report split (HS%/HW%): 10:2.7, 18:6.7, 21:1.1, 22:4.4, 24:27.5, 26:6.5, 30:27.0, 65:10.0, 73:5.3, 14:8.9
+  # AZ area(s) [14]: report takes the AZ share "outside the study region" -- add an exclude (e.g. near: {bus: <POI>, hops: N}) per study.
+  FCCHO_2024_SINK:
+    areas: [10, 14, 18, 21, 22, 24, 26, 30, 65, 73]
+
+  # FCCHO_2025_SINK [CURRENT]: latest 2025 report = APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf (2026-06-03), 3.2 Generation Dispatch (p. 9)
+  # "All queue generation added to the case wase offset proportionally according to load within AZ and bordering states. The AZ share of generation reduction will be selectively applied outside the study region."
+  # Method: scale generation pro rata by Pgen in each area, MW split across AZ + bordering-state areas by load ratio; AZ share taken outside the study region
+  # Report split (HS%/HW%): 10:2.7, 18:6.7, 21:1.1, 22:4.4, 24:27.5, 26:6.5, 30:27.0, 65:10.0, 73:5.3, 14:8.9
+  # AZ area(s) [14]: report takes the AZ share "outside the study region" -- add an exclude (e.g. near: {bus: <POI>, hops: N}) per study.
+  FCCHO_2025_SINK:
+    areas: [10, 14, 18, 21, 22, 24, 26, 30, 65, 73]

@@ -1,0 +1,26 @@
+{
+  "title": "APS 2025 Annual Progress Report for Planning Coordination",
+  "publisher": "Arizona Public Service Company (to WECC Studies Subcommittee)",
+  "date": "2025-03-24",
+  "doc_type": "WECC Annual Progress Report",
+  "summary": "APS's 2025 report to WECC (2025-2034): waiver requests for Goodyear 230kV, Snowflake Solar TPIF, Q264 TPIF, Cholla-Chevelon cut-in to Sitgreaves, Saguaro Power Campus Upgrades, North Gila-Orchard 230kV #2, Agua Fria-Contrail 230kV, plus 23 previously waived projects with 2025-plan dates. Superseded by the 2026 plan and APR; useful mainly for matching 2025-vintage WECC cases.",
+  "relevance": "low",
+  "findings": [
+    {
+      "topic": "transmission_plans",
+      "statement": "Lists Three Rivers 230kV, Serrano gen-tie and Rabbit Canyon 500kV switchyard and lines as placed in service in 2024; dates for TS22 (2028), Jojoba-Rudd (2032), TS21 cut-in and TS21-Broadway (2032) and the 345kV rebuilds (2037) were later changed in the 2026 APR.",
+      "location": "pp. 1-3"
+    }
+  ],
+  "projects": [],
+  "open_questions": [],
+  "source_id": "S3",
+  "model": "external research session (ten-year plan)",
+  "digested_at": "2026-10-21T21:22:56",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

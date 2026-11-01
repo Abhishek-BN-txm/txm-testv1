@@ -1,0 +1,38 @@
+# APS Delaney-Sun Valley-Redhawk -- generation SINK definitions stated in APS cluster study reports
+# Source: research/areas/APS/data/queue/sinks/sinks_by_study.csv (one row per report, verbatim quotes)
+# Selectors resolve against run 71 (30HS_22-G7_pre). The selector grammar cannot carry MW weights:
+# per-area participation % (from the report table) is in sink_participation.csv and in the comments below.
+# CURRENT cycle: 2025 -> ['DSR_2025_SINK']
+sinks:
+
+  # DSR_TC_DSV_SINK [older cycle]: latest Transition report = APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf (2026-03-30), 3.2 Generation Dispatch (p. 9)
+  # "All queue generation added to the case was offset proportionally according to load within AZ and bordering states. The AZ share of generation reduction was applied outside the study region."
+  # Method: scale generation pro rata by Pgen in each area, MW split across AZ + bordering-state areas by load ratio; AZ share taken outside the study region
+  # Report split (HS%/HW%): 10:2.7/3.5, 18:6.5/4.8, 21:1.2/0.8, 22:4.6/4.2, 24:28.2/20.8, 26:6.1/5.4, 30:26.9/33.7, 65:9.8/11.4, 73:4.0/6.8, 14:10.1/8.7
+  # AZ area(s) [14]: report takes the AZ share "outside the study region" -- add an exclude (e.g. near: {bus: <POI>, hops: N}) per study.
+  DSR_TC_DSV_SINK:
+    areas: [10, 14, 18, 21, 22, 24, 26, 30, 65, 73]
+
+  # DSR_TC_RH_SINK [older cycle]: latest Transition report = Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf (2025-05-20), 3.2 Generation Dispatch (p. 7)
+  # "All queue generation added to the case will be offset proportionally according to load within AZ and bordering states. The AZ share of generation reduction will be applied outside the study region."
+  # Method: scale generation pro rata by Pgen in each area, MW split across AZ + bordering-state areas by load ratio; AZ share taken outside the study region
+  # Report split (HS%/HW%): 10:2.7/3.5, 18:6.5/4.8, 21:1.2/0.8, 22:4.6/4.2, 24:28.2/20.8, 26:6.1/5.4, 30:26.9/33.7, 65:9.8/11.4, 73:3.9/6.8, 14:10.1/8.7
+  # AZ area(s) [14]: report takes the AZ share "outside the study region" -- add an exclude (e.g. near: {bus: <POI>, hops: N}) per study.
+  DSR_TC_RH_SINK:
+    areas: [10, 14, 18, 21, 22, 24, 26, 30, 65, 73]
+
+  # DSR_2024_SINK [older cycle]: latest 2024 report = APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf (2026-03-05), 3.2 Generation Dispatch (p. 8)
+  # "All queue generation added to the case was offset proportionally according to load within AZ and bordering states. The AZ share of generation reduction was selectively applied outside the study region."
+  # Method: scale generation pro rata by Pgen in each area, MW split across AZ + bordering-state areas by load ratio; AZ share taken outside the study region
+  # Report split (HS%/HW%): 10:2.7/3.5, 18:6.7/5.1, 21:1.1/0.7, 22:4.4/4.3, 24:27.4/20.4, 26:6.5/5.2, 30:27.0/33.8, 65:10.0/11.0, 73:5.3/7.4, 14:8.9/8.6
+  # AZ area(s) [14]: report takes the AZ share "outside the study region" -- add an exclude (e.g. near: {bus: <POI>, hops: N}) per study.
+  DSR_2024_SINK:
+    areas: [10, 14, 18, 21, 22, 24, 26, 30, 65, 73]
+
+  # DSR_2025_SINK [CURRENT]: latest 2025 report = APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf (2026-10-21), 3.2 Generation Dispatch (p. 9)
+  # "All queue generation added to the case was offset proportionally according to load within AZ and bordering states. The AZ share of generation reduction was selectively applied outside the study region."
+  # Method: scale generation pro rata by Pgen in each area, MW split across AZ + bordering-state areas by load ratio; AZ share taken outside the study region
+  # Report split (HS%/HW%): 10:2.7/3.5, 18:6.7/5.1, 21:1.1/0.7, 22:4.4/4.3, 24:27.4/20.4, 26:6.5/5.2, 30:27.0/33.8, 65:10.0/11.0, 73:5.3/7.4, 14:8.9/8.6
+  # AZ area(s) [14]: report takes the AZ share "outside the study region" -- add an exclude (e.g. near: {bus: <POI>, hops: N}) per study.
+  DSR_2025_SINK:
+    areas: [10, 14, 18, 21, 22, 24, 26, 30, 65, 73]

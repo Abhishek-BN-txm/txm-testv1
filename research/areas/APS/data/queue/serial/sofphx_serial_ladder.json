@@ -1,0 +1,95 @@
+{
+ "label": "Pre-cluster (serial)",
+ "cycle": "Serial",
+ "date": "latest per project (2017-2020)",
+ "file": "Q239_Revised_Final_FaS_20171120.pdf; Q256_&_Q264_SIS_report_v1.4_20191104.pdf; Q256_FaS_Final_20200407.pdf; Q264_FaS_Final_04292020.pdf; Q295_FaS_FINAL_20200917_.pdf",
+ "projects": [
+  {
+   "q": "Q239",
+   "mw": 213.75,
+   "service": "NRIS",
+   "poi": "Saguaro 230 kV",
+   "station_nu": 1680000,
+   "station_status": "required",
+   "total": 3348000,
+   "status": "Project with APS Project Manager (Legacy)",
+   "latest": "FaS 2017-11-20",
+   "note": "No system reinforcements. FaS line item shows $1.25M for the breaker position but the table total is $1.68M (total $3.348M is consistent with $1.68M)."
+  },
+  {
+   "q": "Q256",
+   "mw": 100,
+   "service": "NRIS",
+   "poi": "Milligan 69 kV",
+   "station_nu": 500000,
+   "station_status": "required",
+   "total": 4700000,
+   "status": "Project with APS Project Manager",
+   "latest": "FaS 2020-04-07",
+   "note": "Self-charging only; grid charging would need a separate study."
+  },
+  {
+   "q": "Q264",
+   "mw": 130,
+   "service": "NRIS",
+   "poi": "Milligan 230 kV",
+   "station_nu": 600000,
+   "station_status": "required (suspended)",
+   "total": 2700000,
+   "status": "Customer Initiated Suspension",
+   "latest": "FaS 2020-04-29",
+   "note": "Gen-tie crossing of an APS 230 kV line will need line modifications (not priced)."
+  },
+  {
+   "q": "Q295",
+   "mw": 250,
+   "service": "NRIS",
+   "poi": "Milligan 230 kV",
+   "station_nu": 1400000,
+   "station_status": "required",
+   "total": 9000000,
+   "status": "In Design",
+   "latest": "FaS 2020-09-22",
+   "note": "No grid charging at peak (Test Track 230/69 kV transformer limit)."
+  }
+ ],
+ "upgrades": [
+  {
+   "label": "Rebuild Eastgate\u2013Vista 69 kV line (5 mi)",
+   "cost_note": "2020 FaS: Q256 68% = $3.9M, Q264 32% = $1.6M (2019 SIS had $3.1M / $1.4M)",
+   "cost": 5500000,
+   "alloc": {
+    "Q256": {
+     "pct": 68,
+     "usd": 3900000,
+     "status": "required"
+    },
+    "Q264": {
+     "pct": 32,
+     "usd": 1600000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "Reconductor Santa Rosa\u2013Q267 switchyard (Asarco Tap) 69 kV line",
+   "cost_note": "Q295 FaS 2020: $6.7M, 100% Q295",
+   "cost": 6700000,
+   "alloc": {
+    "Q295": {
+     "pct": 100,
+     "usd": 6700000,
+     "status": "required"
+    }
+   }
+  }
+ ],
+ "notes": [
+  "Q256 and Q264 were studied together (2019 SIS v1.4) and share the Eastgate\u2013Vista 69 kV rebuild 68/32; the 2020 Facilities Studies raised the combined estimate from $4.5M to $5.5M.",
+  "Q264 is in customer-initiated suspension; if it withdraws, its 32% share of the Eastgate\u2013Vista rebuild would need to be reassigned.",
+  "Costs are from each project's Facilities Study; no later MMA re-priced these upgrades. Palo Verde/Hassayampa fault-duty mitigation is 'TBD by SRP' and not included.",
+  "In-service projects (Q228, SPI02) carry no open network upgrades."
+ ],
+ "view_note": "Four serial projects (694 MW) sit ahead of the South of Phoenix cluster, all at Saguaro or Milligan. Only two system upgrades came out of the serial process, both 69 kV: the $5.5M Eastgate\u2013Vista rebuild shared by Q256 (68%) and Q264 (32%), and Q295's $6.7M Santa Rosa\u2013Asarco Tap reconductor. Q239 at Saguaro 230 kV needed only a breaker position.",
+ "full_note": "The serial block adds only $12.2M of 69 kV upgrades around Milligan. The South of Phoenix cluster's large 230/500 kV upgrades are triggered by Transition and later cluster MW on top of the 694 MW of serial capacity."
+}

@@ -1,0 +1,1104 @@
+{
+ "area": "Hoodoo Wash-Yuma",
+ "generated": "2026-10-23",
+ "source": "APS OASIS cluster study reports; Active Queue posting 2026-10-13",
+ "phases": [
+  {
+   "file": "APS_HDW-YUMA_Transition_Cluster_Phase_1_v1-5_FINAL_20241223.pdf",
+   "label": "Transition Ph1",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2024-12-23",
+   "version": "1.5",
+   "projects": [
+    {
+     "q": "Q368",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 500 kV Line",
+     "total": 25000000.0,
+     "nu": 22000000.0,
+     "tif": 3000000.0,
+     "isd": "Time to construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2021-03-18",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "HANGII 500kV",
+     "mw_queue": 500.0,
+     "station_nu": 0,
+     "cum_mw": 500.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q425",
+     "mw": 200.0,
+     "service": "ERIS",
+     "poi": "Orchard 230 kV",
+     "total": 300000.0,
+     "nu": 0.0,
+     "tif": 300000.0,
+     "isd": "Time to construct 12 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2021-09-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Orchard 230kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 700.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q442",
+     "mw": 200.0,
+     "service": "ERIS",
+     "poi": "Hoodoo Wash-North Gila #1 500 kV Line",
+     "total": 46000000.0,
+     "nu": 43000000.0,
+     "tif": 3000000.0,
+     "isd": "Time to construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-18",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "HANGI 500kV line",
+     "mw_queue": 200.0,
+     "station_nu": 31000000.0,
+     "cum_mw": 900.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q443",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 500 kV Line",
+     "total": 25000000.0,
+     "nu": 22000000.0,
+     "tif": 3000000.0,
+     "isd": "Time to construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-18",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "HANGI 500kV line",
+     "mw_queue": 300.0,
+     "station_nu": 0,
+     "cum_mw": 1200.0,
+     "cum_nris_mw": 800.0
+    },
+    {
+     "q": "Q466",
+     "mw": 1000.0,
+     "service": "ERIS",
+     "poi": "North Gila 500 kV",
+     "total": 13000000.0,
+     "nu": 10000000.0,
+     "tif": 3000000.0,
+     "isd": "Time to construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-31",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "North Gila 500kV",
+     "mw_queue": 1000.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 2200.0,
+     "cum_nris_mw": 800.0
+    },
+    {
+     "q": "Q518",
+     "mw": 32.0,
+     "service": "NRIS",
+     "poi": "Desert Sands 69 kV",
+     "total": 12100000.0,
+     "nu": 12000000.0,
+     "tif": 100000.0,
+     "isd": "Time to construct 36 months",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 0,
+     "cum_mw": 2232.0,
+     "cum_nris_mw": 832.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Q368/Q443 new 500 kV switchyard on Hassayampa-N.Gila #2",
+     "cost": 32000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Switchyard development (50/50 shared)"
+     ],
+     "alloc": {
+      "Q368": {
+       "pct": 50.0,
+       "usd": 16000000.0
+      },
+      "Q443": {
+       "pct": 50.0,
+       "usd": 16000000.0
+      }
+     },
+     "first_q": "Q368",
+     "trigger_cum_mw": 500.0,
+     "trigger_cum_nris_mw": 500.0,
+     "n_sharing": 2,
+     "sharing_mw": 800.0
+    },
+    {
+     "label": "NU2 Series capacitor resizing and relocation (new series cap site / split bank)",
+     "cost": 24000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "New switchyards cutting into Hoodoo Wash-N.Gila and Hassayampa-N.Gila would over-compensate lines; resize banks, new site"
+     ],
+     "alloc": {
+      "Q368": {
+       "pct": 25.0,
+       "usd": 6000000.0
+      },
+      "Q443": {
+       "pct": 25.0,
+       "usd": 6000000.0
+      },
+      "Q442": {
+       "pct": 50.0,
+       "usd": 12000000.0
+      }
+     },
+     "first_q": "Q368",
+     "trigger_cum_mw": 500.0,
+     "trigger_cum_nris_mw": 500.0,
+     "n_sharing": 3,
+     "sharing_mw": 1000.0
+    },
+    {
+     "label": "NU1 Desert Sands 69 kV Reconductors",
+     "cost": 12000000.0,
+     "cost_derived": false,
+     "lead": "24-36 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor North Gila-Desert Sands (10 mi) and Desert Sands-Foothills (2 mi) 69 kV to 795 ACSS, 1600 A"
+     ],
+     "alloc": {
+      "Q518": {
+       "pct": 100.0,
+       "usd": 12000000.0
+      }
+     },
+     "first_q": "Q518",
+     "trigger_cum_mw": 2232.0,
+     "trigger_cum_nris_mw": 832.0,
+     "n_sharing": 1,
+     "sharing_mw": 32.0
+    }
+   ]
+  },
+  {
+   "file": "Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf",
+   "label": "Transition Ph2",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-08-27",
+   "version": "1.4",
+   "projects": [
+    {
+     "q": "Q368",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 500 kV Line",
+     "total": 19000000.0,
+     "nu": 16000000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest ISD Q2 2030 (requested ISDs cannot be met); construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2021-03-18",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "HANGII 500kV",
+     "mw_queue": 500.0,
+     "station_nu": 0,
+     "cum_mw": 500.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q425",
+     "mw": 200.0,
+     "service": "ERIS",
+     "poi": "Orchard 230 kV",
+     "total": 300000.0,
+     "nu": 0.0,
+     "tif": 300000.0,
+     "isd": "Earliest ISD Q2 2030 (requested ISDs cannot be met); construct 12 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2021-09-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Orchard 230kV",
+     "mw_queue": 200.0,
+     "station_nu": 0,
+     "cum_mw": 700.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q442",
+     "mw": 200.0,
+     "service": "ERIS",
+     "poi": "Hoodoo Wash-North Gila 500 kV Line",
+     "total": 34000000.0,
+     "nu": 31000000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest ISD Q2 2030 (requested ISDs cannot be met); construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-18",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "HANGI 500kV line",
+     "mw_queue": 200.0,
+     "station_nu": 31000000.0,
+     "cum_mw": 900.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q443",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 500 kV Line",
+     "total": 19000000.0,
+     "nu": 16000000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest ISD Q2 2030 (requested ISDs cannot be met); construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-18",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "HANGI 500kV line",
+     "mw_queue": 300.0,
+     "station_nu": 0,
+     "cum_mw": 1200.0,
+     "cum_nris_mw": 800.0
+    },
+    {
+     "q": "Q466",
+     "mw": 1000.0,
+     "service": "ERIS",
+     "poi": "North Gila 500 kV",
+     "total": 13000000.0,
+     "nu": 10000000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest ISD Q2 2030 (requested ISDs cannot be met); construct 48 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-31",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "North Gila 500kV",
+     "mw_queue": 1000.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 2200.0,
+     "cum_nris_mw": 800.0
+    },
+    {
+     "q": "Q518",
+     "mw": 32.0,
+     "service": "NRIS",
+     "poi": "Desert Sands 69 kV",
+     "total": 12100000.0,
+     "nu": 12000000.0,
+     "tif": 100000.0,
+     "isd": "Earliest ISD Q2 2030 (requested ISDs cannot be met); construct 36 months",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 0,
+     "cum_mw": 2232.0,
+     "cum_nris_mw": 832.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Q368/Q443 new 500 kV switchyard",
+     "cost": 32000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "station NU",
+     "parts": [
+      "Switchyard development (50/50)"
+     ],
+     "alloc": {
+      "Q368": {
+       "pct": 50.0,
+       "usd": 16000000.0
+      },
+      "Q443": {
+       "pct": 50.0,
+       "usd": 16000000.0
+      }
+     },
+     "first_q": "Q368",
+     "trigger_cum_mw": 500.0,
+     "trigger_cum_nris_mw": 500.0,
+     "n_sharing": 2,
+     "sharing_mw": 800.0
+    },
+    {
+     "label": "NU1 Desert Sands-North Gila 69 kV reconductor",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor 7.0 mi Desert Sands-North Gila 69 kV with 795 ACSS 1600 A (cost table says 10 miles)"
+     ],
+     "alloc": {
+      "Q518": {
+       "pct": 100.0,
+       "usd": 10000000.0
+      }
+     },
+     "first_q": "Q518",
+     "trigger_cum_mw": 2232.0,
+     "trigger_cum_nris_mw": 832.0,
+     "n_sharing": 1,
+     "sharing_mw": 32.0
+    },
+    {
+     "label": "NU2 Desert Sands-Foothills 69 kV reconductor",
+     "cost": 2000000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor 2.0 mi with 795 ACSS 1600 A"
+     ],
+     "alloc": {
+      "Q518": {
+       "pct": 100.0,
+       "usd": 2000000.0
+      }
+     },
+     "first_q": "Q518",
+     "trigger_cum_mw": 2232.0,
+     "trigger_cum_nris_mw": 832.0,
+     "n_sharing": 1,
+     "sharing_mw": 32.0
+    }
+   ]
+  },
+  {
+   "file": "APS_HDW-YUMA_2024_Cluster_Phase_1_v1_20251030.pdf",
+   "label": "2024 Ph1",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2025-10-30",
+   "version": "1.0",
+   "projects": [
+    {
+     "q": "Q564",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-Hoodoo Wash #2 (HANG2) 500 kV Line (new station)",
+     "total": 34000000.0,
+     "nu": 31000000.0,
+     "tif": 3000000.0,
+     "isd": "Totals row 72 months (NU 48, TPIF 24)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-10",
+     "status": "Finalize Facilities Study Report",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Hassayampa - North Gila 500kV",
+     "mw_queue": 500.0,
+     "station_nu": 31000000.0,
+     "cum_mw": 500.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q568",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "North Gila 230 kV",
+     "total": 6500000.0,
+     "nu": 6000000.0,
+     "tif": 500000.0,
+     "isd": "Totals row 60 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-14",
+     "status": "Finalize Facilities Study Report",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "North Gila 230 kV",
+     "mw_queue": 200.0,
+     "station_nu": 6000000.0,
+     "cum_mw": 700.0,
+     "cum_nris_mw": 700.0
+    },
+    {
+     "q": "Q570",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Hoodoo Wash 500 kV (via Q225 gen tie)",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "12 months",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-13",
+     "status": "Finalize Facilities Study Report",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "500kV Hoodoo Wash Substation",
+     "mw_queue": 300.0,
+     "station_nu": 0,
+     "cum_mw": 1000.0,
+     "cum_nris_mw": 1000.0
+    }
+   ],
+   "upgrades": []
+  },
+  {
+   "file": "APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf",
+   "label": "2024 Ph2",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2026-04-27",
+   "version": "1.3",
+   "projects": [
+    {
+     "q": "Q564",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 (HANG2) 500 kV Line",
+     "total": 48300000.0,
+     "nu": 45300000.0,
+     "tif": 3000000.0,
+     "isd": "Earliest Q3 2030 (req COD 12/1/2030)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-10",
+     "status": "Finalize Facilities Study Report",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Hassayampa - North Gila 500kV",
+     "mw_queue": 500.0,
+     "station_nu": 45000000.0,
+     "cum_mw": 500.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q568",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "North Gila 230 kV",
+     "total": 8900000.0,
+     "nu": 7400000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q3 2030 (req COD 6/1/2030)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-14",
+     "status": "Finalize Facilities Study Report",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "North Gila 230 kV",
+     "mw_queue": 200.0,
+     "station_nu": 6000000.0,
+     "cum_mw": 700.0,
+     "cum_nris_mw": 700.0
+    },
+    {
+     "q": "Q570",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Hoodoo Wash 500 kV",
+     "total": 500000.0,
+     "nu": 400000.0,
+     "tif": 100000.0,
+     "isd": "Earliest Q3 2028 (req COD 6/1/2028)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-13",
+     "status": "Finalize Facilities Study Report",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "500kV Hoodoo Wash Substation",
+     "mw_queue": 300.0,
+     "station_nu": 0,
+     "cum_mw": 1000.0,
+     "cum_nris_mw": 1000.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Reconductor Desert Sands-Foothills 69kv line, 1.75 miles",
+     "cost": 2100000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q564": {
+       "pct": 17.4,
+       "usd": 300000.0
+      },
+      "Q568": {
+       "pct": 65.2,
+       "usd": 1400000.0
+      },
+      "Q570": {
+       "pct": 17.5,
+       "usd": 400000.0
+      }
+     },
+     "first_q": "Q564",
+     "trigger_cum_mw": 500.0,
+     "trigger_cum_nris_mw": 500.0,
+     "n_sharing": 3,
+     "sharing_mw": 1000.0
+    }
+   ]
+  },
+  {
+   "file": "APS_HDW-YUMA_2025_Cluster_Phase_1_v4_20251223.pdf",
+   "label": "2025 Ph1",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2025-12-18",
+   "version": "1.4 (file v4)",
+   "projects": [
+    {
+     "q": "Q596",
+     "mw": 330.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 500 kV Line at Q368 Sw Sta",
+     "total": 29100000.0,
+     "nu": 26100000.0,
+     "tif": 3000000.0,
+     "isd": "Construct 48 months (Q603: 12)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Pending FaS Agreement &amp; Additional Requirements",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "North Gila, Hassayampa",
+     "mw_queue": 330.0,
+     "station_nu": 16000000.0,
+     "cum_mw": 330.0,
+     "cum_nris_mw": 330.0
+    },
+    {
+     "q": "Q597",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "North Gila 500 kV",
+     "total": 14500000.0,
+     "nu": 14200000.0,
+     "tif": 300000.0,
+     "isd": "Construct 48 months (Q603: 12)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Pending FaS Agreement &amp; Additional Requirements",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "North Gila 500kV",
+     "mw_queue": 300.0,
+     "station_nu": 4000000.0,
+     "cum_mw": 630.0,
+     "cum_nris_mw": 630.0
+    },
+    {
+     "q": "Q599",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 500 kV Line (new Q599 Sw Sta on Hassayampa-Hoodoo Wash #2)",
+     "total": 33700000.0,
+     "nu": 30700000.0,
+     "tif": 3000000.0,
+     "isd": "Construct 48 months (Q603: 12)",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 16000000.0,
+     "cum_mw": 1130.0,
+     "cum_nris_mw": 1130.0
+    },
+    {
+     "q": "Q603",
+     "mw": 500.0,
+     "service": "ERIS",
+     "poi": "Hoodoo Wash-North Gila 500 kV Line at Q442 Sw Sta",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Construct 48 months (Q603: 12)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Validate FaS Requirements",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Proposed Alisa 2 Project Substation",
+     "mw_queue": 500.0,
+     "station_nu": 0,
+     "cum_mw": 1630.0,
+     "cum_nris_mw": 1130.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "NU1 Hassayampa-Q564 500 kV reconductor/rebuild",
+     "cost": 21000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor/rebuild 7.0 mi Hassayampa-Q564 (HANG #2) 500 kV for loss of Hassayampa-Hoodoo Wash 500 kV"
+     ],
+     "alloc": {
+      "Q596": {
+       "pct": 29.0,
+       "usd": 6100000.0
+      },
+      "Q597": {
+       "pct": 22.4,
+       "usd": 4700000.0
+      },
+      "Q599": {
+       "pct": 48.6,
+       "usd": 10200000.0
+      }
+     },
+     "first_q": "Q596",
+     "trigger_cum_mw": 330.0,
+     "trigger_cum_nris_mw": 330.0,
+     "n_sharing": 3,
+     "sharing_mw": 1130.0
+    },
+    {
+     "label": "NU2 Gila-Dome Tap 161 kV reconductor",
+     "cost": 14000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Reconductor 7.6 mi with 795 ACSS 1600 A for loss of Gila-Wellton Mohawk 161 kV"
+     ],
+     "alloc": {
+      "Q596": {
+       "pct": 28.6,
+       "usd": 4000000.0
+      },
+      "Q597": {
+       "pct": 39.3,
+       "usd": 5500000.0
+      },
+      "Q599": {
+       "pct": 32.1,
+       "usd": 4500000.0
+      }
+     },
+     "first_q": "Q596",
+     "trigger_cum_mw": 330.0,
+     "trigger_cum_nris_mw": 330.0,
+     "n_sharing": 3,
+     "sharing_mw": 1130.0
+    }
+   ]
+  },
+  {
+   "file": "APS_HDW-YUMA_2025_Cluster_Phase_2_v1.3_20260728.pdf",
+   "label": "2025 Ph2",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-07-28",
+   "version": "1.3",
+   "projects": [
+    {
+     "q": "Q596",
+     "mw": 330.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 500 kV Line at Q368 Sw Sta",
+     "total": 29300000.0,
+     "nu": 26300000.0,
+     "tif": 3000000.0,
+     "isd": "Min Q2 2032 (req 8/15/2029)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Pending FaS Agreement &amp; Additional Requirements",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "North Gila, Hassayampa",
+     "mw_queue": 330.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 330.0,
+     "cum_nris_mw": 330.0
+    },
+    {
+     "q": "Q597",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "North Gila 500 kV",
+     "total": 18900000.0,
+     "nu": 15900000.0,
+     "tif": 3000000.0,
+     "isd": "Min Q2 2032 (req 8/15/2029)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Pending FaS Agreement &amp; Additional Requirements",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "North Gila 500kV",
+     "mw_queue": 300.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 630.0,
+     "cum_nris_mw": 630.0
+    },
+    {
+     "q": "Q599",
+     "mw": 500.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 500 kV Line (APS TS37)",
+     "total": 74900000.0,
+     "nu": 71900000.0,
+     "tif": 3000000.0,
+     "isd": "Min Q2 2034 (req 12/31/2031)",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 45000000.0,
+     "cum_mw": 1130.0,
+     "cum_nris_mw": 1130.0
+    },
+    {
+     "q": "Q603",
+     "mw": 500.0,
+     "service": "ERIS",
+     "poi": "Hoodoo Wash-North Gila 500 kV Line at Q442 Sw Sta",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Can meet req COD 6/1/2030 (contingent on Q442 switchyard)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Validate FaS Requirements",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Proposed Alisa 2 Project Substation",
+     "mw_queue": 500.0,
+     "station_nu": 0,
+     "cum_mw": 1630.0,
+     "cum_nris_mw": 1130.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Reconductor the Hassayampa-Q564 500 kV, 7 miles",
+     "cost": 56100000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q596": {
+       "pct": 29.0,
+       "usd": 16300000.0
+      },
+      "Q597": {
+       "pct": 23.0,
+       "usd": 12900000.0
+      },
+      "Q599": {
+       "pct": 48.0,
+       "usd": 26900000.0
+      }
+     },
+     "first_q": "Q596",
+     "trigger_cum_mw": 330.0,
+     "trigger_cum_nris_mw": 330.0,
+     "n_sharing": 3,
+     "sharing_mw": 1130.0
+    }
+   ]
+  },
+  {
+   "file": "APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf",
+   "label": "2025 Ph2A",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-09-16",
+   "version": "1.1",
+   "projects": [
+    {
+     "q": "Q596",
+     "mw": 330.0,
+     "service": "NRIS",
+     "poi": "Hassayampa-North Gila #2 500 kV Line at Q368 Sw Sta",
+     "total": 42100000.0,
+     "nu": 39100000.0,
+     "tif": 3000000.0,
+     "isd": "Min Q2 2032 (req 8/15/2029)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Pending FaS Agreement &amp; Additional Requirements",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "North Gila, Hassayampa",
+     "mw_queue": 330.0,
+     "station_nu": 10000000.0,
+     "cum_mw": 330.0,
+     "cum_nris_mw": 330.0
+    },
+    {
+     "q": "Q597",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "North Gila 500 kV",
+     "total": 32900000.0,
+     "nu": 29900000.0,
+     "tif": 3000000.0,
+     "isd": "Min Q2 2032 (req 8/15/2029)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Pending FaS Agreement &amp; Additional Requirements",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "North Gila 500kV",
+     "mw_queue": 300.0,
+     "station_nu": 3000000.0,
+     "cum_mw": 630.0,
+     "cum_nris_mw": 630.0
+    },
+    {
+     "q": "Q603",
+     "mw": 500.0,
+     "service": "ERIS",
+     "poi": "Hoodoo Wash-North Gila 500 kV Line at Q442 Sw Sta",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Can meet req COD 6/1/2030 (contingent on Q442 switchyard)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Validate FaS Requirements",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Proposed Alisa 2 Project Substation",
+     "mw_queue": 500.0,
+     "station_nu": 0,
+     "cum_mw": 1130.0,
+     "cum_nris_mw": 630.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Reconductor the Hassayampa-Q564 500 kV, 7 miles",
+     "cost": 56000000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q596": {
+       "pct": 52.0,
+       "usd": 29100000.0
+      },
+      "Q597": {
+       "pct": 48.0,
+       "usd": 26900000.0
+      }
+     },
+     "first_q": "Q596",
+     "trigger_cum_mw": 330.0,
+     "trigger_cum_nris_mw": 330.0,
+     "n_sharing": 2,
+     "sharing_mw": 630.0
+    }
+   ]
+  }
+ ],
+ "prior": [
+  {
+   "q": "Q17",
+   "mw": 100.0,
+   "poi": "Existing Yuaca 69 KVSubstation",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Natural Gas",
+   "queue_date": "2005-09-08"
+  },
+  {
+   "q": "Q43",
+   "mw": 290.0,
+   "poi": "Hoodow Wash 500 kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Solar",
+   "queue_date": "2008-02-22"
+  },
+  {
+   "q": "Q205",
+   "mw": 35.0,
+   "poi": "Desert Sands 69kV switchyard",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Solar",
+   "queue_date": "2011-09-08"
+  },
+  {
+   "q": "Q213",
+   "mw": 3.0,
+   "poi": "Desert Sands 69kV switchyard",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Solar",
+   "queue_date": "2011-09-08"
+  },
+  {
+   "q": "Q225",
+   "mw": 200.0,
+   "poi": "Hoodoo Wash 500kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Pending LGIA Amended &amp; Filed",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2014-09-25"
+  },
+  {
+   "q": "Q227",
+   "mw": 500.0,
+   "poi": "Hoodoo Wash 500kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Pending LGIA Amended &amp; Filed",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2015-08-17"
+  },
+  {
+   "q": "Q246",
+   "mw": 20.0,
+   "poi": "Hoodoo Wash",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Draft LGIA",
+   "tech": "Solar",
+   "queue_date": "2016-08-26"
+  },
+  {
+   "q": "Q252",
+   "mw": 250.0,
+   "poi": "Hoodoo Wash 500kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Customer Test Energy",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2017-03-28"
+  },
+  {
+   "q": "Q297",
+   "mw": 90.1,
+   "poi": "Marine Air Base Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Design",
+   "tech": "Energy Storage",
+   "queue_date": "2019-03-29"
+  },
+  {
+   "q": "Q302",
+   "mw": 16.0,
+   "poi": "Line 12kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2019-03-29"
+  },
+  {
+   "q": "Q303",
+   "mw": 14.0,
+   "poi": "Line 12kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2019-03-29"
+  },
+  {
+   "q": "Q310",
+   "mw": 450.0,
+   "poi": "Hoodoo Wash 500kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Draft LGIA",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2019-08-28"
+  },
+  {
+   "q": "Q332",
+   "mw": 350.0,
+   "poi": "Hoodoo Wash 500kV Switchyard (Q225 POI)",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Construction",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2020-03-24"
+  },
+  {
+   "q": "Q350",
+   "mw": 300.0,
+   "poi": "Orchard 230kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Construction",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2020-09-28"
+  },
+  {
+   "q": "SPI01",
+   "mw": 35.0,
+   "poi": "Desert Sands 69kV - Foothills Solar",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2020-12-18"
+  },
+  {
+   "q": "Q236/272",
+   "mw": 70.0,
+   "poi": "Desert Sands 69kV Switchyard",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2016-03-22"
+  }
+ ]
+}

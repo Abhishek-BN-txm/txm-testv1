@@ -1,0 +1,38 @@
+{
+  "title": "Queued Up: 2026 Edition - Characteristics of Power Plants Seeking Transmission Interconnection As of the End of 2025",
+  "publisher": "Lawrence Berkeley National Laboratory (secondary)",
+  "date": "2026-06",
+  "doc_type": "secondary national queue report",
+  "summary": "LBNL's national queue summary at end-2025; regional context for APS (non-ISO West). No APS-specific tables; APS project data is in the companion xlsx. 8,244 active requests (~2,061 GW) nationally, -10% in 2025; non-ISO West 957 active requests, 567.4 GW.",
+  "relevance": "low",
+  "findings": [
+    {
+      "topic": "interconnection_queue",
+      "statement": "Nationally 8,244 active requests (~2,061 GW) at end-2025 across 7 ISO/RTOs and 47 non-ISO balancing areas; active capacity fell 10% in 2025; over 750 GW withdrawn in 2025.",
+      "location": "Executive summary, slides 13-14"
+    },
+    {
+      "topic": "interconnection_queue",
+      "statement": "The non-ISO West (which includes APS) had 957 active requests totalling 567.4 GW at end-2025, the largest region; 69 GW active with draft or executed IAs plus 11 GW suspended.",
+      "location": "Slide 13; IA slide"
+    },
+    {
+      "topic": "other",
+      "statement": "Most active solar capacity is in the Southwestern states; the West has the most active storage and wind.",
+      "location": "Slides 19-20"
+    }
+  ],
+  "projects": [],
+  "open_questions": [
+    "APS-specific completion/timeline statistics must be computed from the xlsx to compare with West medians."
+  ],
+  "source_id": "S16",
+  "model": "external research session (queue + computed from LBNL data)",
+  "digested_at": "2026-10-21T21:23:47",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

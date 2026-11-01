@@ -1,0 +1,64 @@
+{
+ "label": "Pre-cluster (serial)",
+ "cycle": "Serial",
+ "date": "FaS 2021-05-10",
+ "file": "Q315_System_Impact_Study_Report_v1-5_final.pdf; Q315_FaS_Final_Updated_20210510.pdf",
+ "projects": [
+  {
+   "q": "Q315",
+   "mw": 50,
+   "service": "NRIS",
+   "poi": "Woody Mountain 69 kV",
+   "station_nu": 0,
+   "station_status": "TPIF only in FaS",
+   "total": 1000000,
+   "status": "In Construction",
+   "latest": "FaS 2021-05-10",
+   "note": "BESS. Grid charging overloads Coconino\u2013Woody Mountain 69 kV, solved by APS's own 2022 rebuild."
+  }
+ ],
+ "upgrades": [
+  {
+   "label": "Rebuild Summit\u2013Williams 69 kV (8 mi)",
+   "cost": 4000000,
+   "cost_note": "Q315 SIS; dropped in FaS after APS's planned 2022 Flagstaff-area 69 kV work",
+   "alloc": {
+    "Q315": {
+     "pct": 100,
+     "usd": 4000000,
+     "status": "removed"
+    }
+   }
+  },
+  {
+   "label": "Woody Mtn 69 kV: Williams line termination + three 69 kV breakers",
+   "cost": 1500000,
+   "cost_note": "Q315 SIS; not in FaS",
+   "alloc": {
+    "Q315": {
+     "pct": 100,
+     "usd": 1500000,
+     "status": "removed"
+    }
+   }
+  },
+  {
+   "label": "Rebuild Coconino\u2013Woody Mountain 69 kV (2.6 mi)",
+   "cost": 1300000,
+   "cost_note": "Q315 SIS; became APS's planned 2022 rebuild (no Q315 cost in FaS)",
+   "alloc": {
+    "Q315": {
+     "pct": 100,
+     "usd": 1300000,
+     "status": "removed"
+    }
+   }
+  }
+ ],
+ "notes": [
+  "Q315 is the only serial project in the Northern area. Its SIS priced $6.8M of network upgrades plus a charging RAS. All of it was dropped in the 2021 Facilities Study because APS's own planned 2022 Coconino\u2013Woody Mountain rebuild and Coconino\u2013Summit split covered the need. Q315's cost is $1.0M of TPIF.",
+  "In-service Northern projects (Q162, Q395 at Granite Creek) have no open network upgrades in the posted reports."
+ ],
+ "view_note": "Q315 (50 MW BESS at Woody Mountain 69 kV) is the only serial project in the Northern area. Its SIS priced $6.8M of 69 kV upgrades, but APS's own 2022 Flagstaff-area rebuild replaced them. The Facilities Study left only $1.0M of interconnection facilities.",
+ "full_note": "No serial-era network upgrades remain in the Northern area. Q315's SIS upgrades were absorbed into APS's planned 2022 69 kV work."
+}

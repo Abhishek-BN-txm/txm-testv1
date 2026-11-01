@@ -1,0 +1,245 @@
+group,area,area_name,HS_pct,HW_pct,basis,report_file
+FCCHO_TC_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_TC_SINK,18,NEVADA,6.5,4.8,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_TC_SINK,21,IID,1.2,0.8,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_TC_SINK,22,SANDIEGO,4.6,4.2,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_TC_SINK,24,SOCALIF,28.2,20.8,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_TC_SINK,26,LADWP,6.1,5.4,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_TC_SINK,30,PG AND E,26.9,33.7,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_TC_SINK,65,PACE,9.8,11.4,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_TC_SINK,73,WAPA R.M.,4.0,6.8,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_TC_SINK,14,APS,10.1,8.7,stated: report load-ratio table,APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf
+FCCHO_2024_SINK,10,NEW MEXICO,2.7,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2024_SINK,18,NEVADA,6.7,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2024_SINK,21,IID,1.1,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2024_SINK,22,SANDIEGO,4.4,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2024_SINK,24,SOCALIF,27.5,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2024_SINK,26,LADWP,6.5,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2024_SINK,30,PG AND E,27.0,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2024_SINK,65,PACE,10.0,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2024_SINK,73,WAPA R.M.,5.3,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2024_SINK,14,APS,8.9,,stated: report load-ratio table,APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf
+FCCHO_2025_SINK,10,NEW MEXICO,2.7,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+FCCHO_2025_SINK,18,NEVADA,6.7,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+FCCHO_2025_SINK,21,IID,1.1,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+FCCHO_2025_SINK,22,SANDIEGO,4.4,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+FCCHO_2025_SINK,24,SOCALIF,27.5,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+FCCHO_2025_SINK,26,LADWP,6.5,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+FCCHO_2025_SINK,30,PG AND E,27.0,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+FCCHO_2025_SINK,65,PACE,10.0,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+FCCHO_2025_SINK,73,WAPA R.M.,5.3,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+FCCHO_2025_SINK,14,APS,8.9,,stated: report load-ratio table,APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf
+PHX_TC_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_TC_SINK,18,NEVADA,6.5,4.8,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_TC_SINK,21,IID,1.2,0.8,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_TC_SINK,22,SANDIEGO,4.6,4.2,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_TC_SINK,24,SOCALIF,28.2,20.8,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_TC_SINK,26,LADWP,6.1,5.4,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_TC_SINK,30,PG AND E,26.9,33.7,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_TC_SINK,65,PACE,9.8,11.4,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_TC_SINK,73,WAPA R.M.,4.0,6.8,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_TC_SINK,14,APS,10.1,8.7,stated: report load-ratio table,APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf
+PHX_2024_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2024_SINK,18,NEVADA,6.7,5.1,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2024_SINK,21,IID,1.1,0.7,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2024_SINK,22,SANDIEGO,4.4,4.3,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2024_SINK,24,SOCALIF,27.4,20.4,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2024_SINK,26,LADWP,6.5,5.2,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2024_SINK,30,PG AND E,27.0,33.8,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2024_SINK,65,PACE,10.0,11.0,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2024_SINK,73,WAPA R.M.,5.3,7.4,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2024_SINK,14,APS,8.9,8.6,stated: report load-ratio table,APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf
+PHX_2025_SINK,10,NEW MEXICO,2.7,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+PHX_2025_SINK,18,NEVADA,6.7,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+PHX_2025_SINK,21,IID,1.1,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+PHX_2025_SINK,22,SANDIEGO,4.4,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+PHX_2025_SINK,24,SOCALIF,27.4,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+PHX_2025_SINK,26,LADWP,6.5,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+PHX_2025_SINK,30,PG AND E,27.0,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+PHX_2025_SINK,65,PACE,10.0,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+PHX_2025_SINK,73,WAPA R.M.,5.3,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+PHX_2025_SINK,14,APS,8.9,,stated: report load-ratio table,APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf
+DSR_TC_DSV_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_DSV_SINK,18,NEVADA,6.5,4.8,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_DSV_SINK,21,IID,1.2,0.8,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_DSV_SINK,22,SANDIEGO,4.6,4.2,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_DSV_SINK,24,SOCALIF,28.2,20.8,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_DSV_SINK,26,LADWP,6.1,5.4,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_DSV_SINK,30,PG AND E,26.9,33.7,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_DSV_SINK,65,PACE,9.8,11.4,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_DSV_SINK,73,WAPA R.M.,4.0,6.8,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_DSV_SINK,14,APS,10.1,8.7,stated: report load-ratio table,APS_Delaney-SunValley_Transition_Cluster_Phase_2_v1-8_20260331.pdf
+DSR_TC_RH_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_TC_RH_SINK,18,NEVADA,6.5,4.8,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_TC_RH_SINK,21,IID,1.2,0.8,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_TC_RH_SINK,22,SANDIEGO,4.6,4.2,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_TC_RH_SINK,24,SOCALIF,28.2,20.8,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_TC_RH_SINK,26,LADWP,6.1,5.4,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_TC_RH_SINK,30,PG AND E,26.9,33.7,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_TC_RH_SINK,65,PACE,9.8,11.4,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_TC_RH_SINK,73,WAPA R.M.,3.9,6.8,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_TC_RH_SINK,14,APS,10.1,8.7,stated: report load-ratio table,Study_Report_APS_Redhawk_Transition_Cluster_Phase_2_v1-3_Final_20250520.pdf
+DSR_2024_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2024_SINK,18,NEVADA,6.7,5.1,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2024_SINK,21,IID,1.1,0.7,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2024_SINK,22,SANDIEGO,4.4,4.3,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2024_SINK,24,SOCALIF,27.4,20.4,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2024_SINK,26,LADWP,6.5,5.2,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2024_SINK,30,PG AND E,27.0,33.8,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2024_SINK,65,PACE,10.0,11.0,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2024_SINK,73,WAPA R.M.,5.3,7.4,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2024_SINK,14,APS,8.9,8.6,stated: report load-ratio table,APS_Del-Svly-Red_2024_Cluster_Phase2_v1-1_20260309.pdf
+DSR_2025_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+DSR_2025_SINK,18,NEVADA,6.7,5.1,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+DSR_2025_SINK,21,IID,1.1,0.7,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+DSR_2025_SINK,22,SANDIEGO,4.4,4.3,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+DSR_2025_SINK,24,SOCALIF,27.4,20.4,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+DSR_2025_SINK,26,LADWP,6.5,5.2,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+DSR_2025_SINK,30,PG AND E,27.0,33.8,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+DSR_2025_SINK,65,PACE,10.0,11.0,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+DSR_2025_SINK,73,WAPA R.M.,5.3,7.4,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+DSR_2025_SINK,14,APS,8.9,8.6,stated: report load-ratio table,APS_Del-Svly-Red_2025_Cluster_Phase2A_v1.2_20261021.pdf
+GILA_TC_SINK,18,NEVADA,5.0,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,21,IID,0.8,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,22,SANDIEGO,2.4,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,24,SOCALIF,15.8,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,26,LADWP,4.8,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,30,PG AND E,19.6,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,40,NORTHWEST,21.9,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,50,B.C.HYDRO,6.2,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,52,FORTISBC,0.6,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,54,ALBERTA,7.7,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,60,IDAHO,3.2,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,62,MONTANA,1.6,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,63,WAPA U.W.,0.1,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,64,SIERRA,2.6,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_TC_SINK,65,PACE,7.5,,computed: run 71 LoadAct share (report states load-share rule only),APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf
+GILA_2024_SINK,10,NEW MEXICO,4,5,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,14,APS,12,11,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,15,SRP,13,11,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,16,TEP,5,5,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,17,AEPCO,1,1,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,19,WAPA L.C.,2,2,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,21,IID,1,1,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,22,SANDIEGO,4,6,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,24,SOCALIF,29,27,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,26,LADWP,9,7,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,65,PACE,14,15,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2024_SINK,73,WAPA R.M.,7,10,stated: report load-ratio table,APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf
+GILA_2025_SINK,10,NEW MEXICO,4,5,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,14,APS,12,11,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,15,SRP,13,11,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,16,TEP,5,5,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,17,AEPCO,1,1,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,19,WAPA L.C.,2,2,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,21,IID,1,1,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,22,SANDIEGO,4,6,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,24,SOCALIF,29,27,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,26,LADWP,9,7,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,65,PACE,14,15,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+GILA_2025_SINK,73,WAPA R.M.,7,10,stated: report load-ratio table,APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf
+SOFPHX_TC_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_TC_SINK,18,NEVADA,6.5,4.8,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_TC_SINK,21,IID,1.2,0.8,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_TC_SINK,22,SANDIEGO,4.6,4.2,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_TC_SINK,24,SOCALIF,28.2,20.8,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_TC_SINK,26,LADWP,6.1,5.4,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_TC_SINK,30,PG AND E,26.9,33.7,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_TC_SINK,65,PACE,9.8,11.4,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_TC_SINK,73,WAPA R.M.,4.0,6.8,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_TC_SINK,14,APS,10.1,8.7,stated: report load-ratio table,APS_soPhx_TCph3a_v2_20260901.pdf
+SOFPHX_2024_SINK,10,NEW MEXICO,2.7,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2024_SINK,18,NEVADA,6.7,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2024_SINK,21,IID,1.1,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2024_SINK,22,SANDIEGO,4.4,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2024_SINK,24,SOCALIF,27.4,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2024_SINK,26,LADWP,6.5,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2024_SINK,30,PG AND E,27.0,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2024_SINK,65,PACE,10.0,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2024_SINK,73,WAPA R.M.,5.3,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2024_SINK,14,APS,8.9,,stated: report load-ratio table,APS_South_of_Phoenix_2024_Cluster_Phase_1_v1.2_20260616.pdf
+SOFPHX_2025_SINK,10,NEW MEXICO,2.7,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+SOFPHX_2025_SINK,18,NEVADA,6.7,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+SOFPHX_2025_SINK,21,IID,1.1,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+SOFPHX_2025_SINK,22,SANDIEGO,4.4,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+SOFPHX_2025_SINK,24,SOCALIF,27.4,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+SOFPHX_2025_SINK,26,LADWP,6.5,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+SOFPHX_2025_SINK,30,PG AND E,27.0,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+SOFPHX_2025_SINK,65,PACE,10.0,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+SOFPHX_2025_SINK,73,WAPA R.M.,5.3,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+SOFPHX_2025_SINK,14,APS,8.9,,stated: report load-ratio table,APS_South_of_Phoenix_2025_Cluster_Phase_1_v1.3_20261012_.pdf
+HDW_TC_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_TC_SINK,18,NEVADA,6.5,4.8,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_TC_SINK,21,IID,1.2,0.8,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_TC_SINK,22,SANDIEGO,4.6,4.2,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_TC_SINK,24,SOCALIF,28.2,20.8,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_TC_SINK,26,LADWP,6.1,5.4,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_TC_SINK,30,PG AND E,26.9,33.7,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_TC_SINK,65,PACE,9.8,11.4,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_TC_SINK,73,WAPA R.M.,4.0,6.8,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_TC_SINK,14,APS,10.1,8.7,stated: report load-ratio table,Study_Report_APS_HDW-Yuma_Transition_Cluster_Phase_2_v1-4_20250827.pdf
+HDW_2024_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2024_SINK,18,NEVADA,6.7,5.1,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2024_SINK,21,IID,1.1,0.7,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2024_SINK,22,SANDIEGO,4.4,4.3,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2024_SINK,24,SOCALIF,27.4,20.4,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2024_SINK,26,LADWP,6.5,5.2,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2024_SINK,30,PG AND E,27.0,33.8,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2024_SINK,65,PACE,10.0,11.0,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2024_SINK,73,WAPA R.M.,5.3,7.4,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2024_SINK,14,APS,8.9,8.6,stated: report load-ratio table,APS_HDW-YUMA_2024_Cluster_Phase_2_v1.3_20260427.pdf
+HDW_2025_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+HDW_2025_SINK,18,NEVADA,6.7,5.1,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+HDW_2025_SINK,21,IID,1.1,0.7,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+HDW_2025_SINK,22,SANDIEGO,4.4,4.3,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+HDW_2025_SINK,24,SOCALIF,27.4,20.4,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+HDW_2025_SINK,26,LADWP,6.5,5.2,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+HDW_2025_SINK,30,PG AND E,27.0,33.8,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+HDW_2025_SINK,65,PACE,10.0,11.0,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+HDW_2025_SINK,73,WAPA R.M.,5.3,7.4,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+HDW_2025_SINK,14,APS,8.9,8.6,stated: report load-ratio table,APS_HDW-YUMA_2025_Cluster_Phase_2A_v1.1_20260916.pdf
+NSTS_TC_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_TC_SINK,18,NEVADA,6.5,4.8,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_TC_SINK,21,IID,1.2,0.8,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_TC_SINK,22,SANDIEGO,4.6,4.2,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_TC_SINK,24,SOCALIF,28.2,20.8,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_TC_SINK,26,LADWP,6.1,5.4,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_TC_SINK,30,PG AND E,26.9,33.7,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_TC_SINK,65,PACE,9.8,11.4,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_TC_SINK,73,WAPA R.M.,4.0,6.8,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_TC_SINK,14,APS,10.1,8.7,stated: report load-ratio table,Study_Report_APS_NSTS_Transition_Cluster_Phase_2_v1-5_Final_20250501.pdf
+NSTS_2024_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2024_SINK,18,NEVADA,6.7,5.1,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2024_SINK,21,IID,1.1,0.7,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2024_SINK,22,SANDIEGO,4.4,4.3,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2024_SINK,24,SOCALIF,27.4,20.4,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2024_SINK,26,LADWP,6.5,5.2,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2024_SINK,30,PG AND E,27.0,33.8,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2024_SINK,65,PACE,10.0,11.0,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2024_SINK,73,WAPA R.M.,5.3,7.4,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2024_SINK,14,APS,8.9,8.6,stated: report load-ratio table,APS_NSTS_2024_Cluster_Phase_2_v1_20260227.pdf
+NSTS_2025_SINK,10,NEW MEXICO,2.7,3.5,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NSTS_2025_SINK,18,NEVADA,6.7,5.1,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NSTS_2025_SINK,21,IID,1.1,0.7,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NSTS_2025_SINK,22,SANDIEGO,4.4,4.3,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NSTS_2025_SINK,24,SOCALIF,27.4,20.4,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NSTS_2025_SINK,26,LADWP,6.5,5.2,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NSTS_2025_SINK,30,PG AND E,27.0,33.8,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NSTS_2025_SINK,65,PACE,10.0,11.0,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NSTS_2025_SINK,73,WAPA R.M.,5.3,7.4,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NSTS_2025_SINK,14,APS,8.9,8.6,stated: report load-ratio table,APS_NSTS_2025_Cluster_Phase_2_v1-3_Final_20260616.pdf
+NORTH_TC_SINK,18,NEVADA,5.0,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,21,IID,0.8,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,22,SANDIEGO,2.4,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,24,SOCALIF,15.8,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,26,LADWP,4.8,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,30,PG AND E,19.6,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,40,NORTHWEST,21.9,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,50,B.C.HYDRO,6.2,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,52,FORTISBC,0.6,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,54,ALBERTA,7.7,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,60,IDAHO,3.2,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,62,MONTANA,1.6,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,63,WAPA U.W.,0.1,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,64,SIERRA,2.6,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf
+NORTH_TC_SINK,65,PACE,7.5,,computed: run 71 LoadAct share (report states load-share rule only),APS_Northern_Transition_Cluster_Report_v1-4-Phase2_Final_20250508.pdf

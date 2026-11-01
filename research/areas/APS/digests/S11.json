@@ -1,0 +1,78 @@
+{
+  "title": "APS RPAC Meeting Nov 14, 2025 - ASRFP update, Large Customer Subscription Program, 2026 IRP resource pricing, 2026 IRP load forecast",
+  "publisher": "Arizona Public Service (APS); WRA/Energy Strategies section",
+  "date": "2025-11-14",
+  "doc_type": "stakeholder presentation (RPAC)",
+  "summary": "Key public source for the 2026 IRP load forecast: energy sales grow to 59,800 GWh in 2041 (+24,100 GWh, +67%), peak to 11,700 MW in 2041, with data centers/XHLF making up 76% of growth and EVs 13%. New all-time peak 8,631 MW (Aug 7, 2025). ~19 GW uncommitted large-load queue vs ~12 GW 2035 forecast peak. First subscription offering serves up to 1.2 GW with service ramping from 2028. Desert Sun Power Plant site west of Gila Bend can host up to 2,000 MW. Also covers the 2024 ASRFP (sought 2 GW) and resource cost sources.",
+  "relevance": "high",
+  "findings": [
+    {
+      "topic": "load_and_dispatch",
+      "statement": "2026 IRP load forecast: energy sales grow to 59,800 GWh in 2041 (+24,100 GWh, 67% over the period); data centers and large industrial (XHLF) account for 76% of growth, EV charging 13%, other customer growth 11%.",
+      "location": "slide 35"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Peak demand projected at 11,700 MW in 2041; new all-time peak 8,631 MW on Aug 7, 2025; average annual growth 2026-2041: customers 1.6%, retail sales 3.5%, peak 2.0% (2023 IRP had 1.5%, 4.0%, 2.4%).",
+      "location": "slide 35"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "XHLF share of sales grows from 15% in 2026 to 40% by end of forecast; sales grow from 35,700 GWh (2026) to 59,800 GWh (2041); EVs reach ~6% of sales.",
+      "location": "slide 44"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Historical weather-normalized 2015/2020/2025: peak 7,031/7,660/8,631 MW; retail sales 27,959/28,401/34,001 GWh; customers 1,177k/1,289k/1,432k.",
+      "location": "slide 34"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Uncommitted large-load queue is nearly 19 GW, versus 2025 peak of 8.7 GW and 2035 forecast peak of 12.0 GW; queue requests are often duplicative. By 2035, 13 data centers are expected to be 77% of top-15 customer demand (2,482 MW) and 22% of system peak.",
+      "location": "slides 9-13"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "First Subscription Model offering: up to 1.2 GW of large-load service, 20-year term, service ramping 2028 to full in early 2030s, served by a diverse portfolio (gas, wind, solar, storage); ACC approval targeted Aug 2026.",
+      "location": "slides 18-20"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Desert Sun Power Plant site west of Gila Bend (announced Oct 30, 2025) can host up to 2,000 MW of flexible generation; 2024 ASRFP sought 2 GW; next ASRFP targets 2029-2031 and 2031+ resources.",
+      "location": "slides 7-8"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Desert Sun Power Plant",
+      "type": "gas (flexible generation)",
+      "kv": "",
+      "mw": "up to 2,000",
+      "poi": "west of Gila Bend, AZ (later partly relocated to Saguaro per Apr 2026 deck)",
+      "status": "planned",
+      "date": "2031"
+    },
+    {
+      "name": "Large Customer Subscription offering #1",
+      "type": "large load (data center)",
+      "kv": "",
+      "mw": "1,200",
+      "poi": "",
+      "status": "planned",
+      "date": "2028"
+    }
+  ],
+  "open_questions": [
+    "Where are the committed XHLF/data-center loads sited (substations/buses)? 4.5 GW of committed load is cited only in investor coverage.",
+    "Year-by-year peak forecast table 2026-2041."
+  ],
+  "source_id": "S11",
+  "model": "external research session (IRP)",
+  "digested_at": "2026-10-21T21:21:16",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

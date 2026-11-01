@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tara-automation"
+version = "0.1.0"
+description = "Config-driven automation around PowerGEM TARA for transmission planning studies"
+authors = [{ name = "Abhishek Thurumalla", email = "abhishek.thurumalla@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "openpyxl>=3.1",
+    "pydantic>=2.9",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"tara_automation.agents" = ["defs/*.json"]
+"tara_automation.commfile" = ["templates/*.txt"]
+"tara_automation.ingest.aps" = ["templates/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

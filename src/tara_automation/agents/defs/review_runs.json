@@ -1,0 +1,11 @@
+{
+  "name": "review_runs",
+  "description": "Reviews TARA runs: cross-references digests against warning evidence, classifies findings (REAL/ARTIFACT/ACCEPTED/CODE/UNKNOWN), writes a verdict.",
+  "recipe": "docs/workflows/review_runs.md",
+  "evidence": "runs_review",
+  "tools": ["search_artifacts"],
+  "model": "claude-sonnet-5",
+  "max_tool_turns": 8,
+  "max_tokens": 4000,
+  "output_file": "review_{mode}_{runs_joined}.md"
+}

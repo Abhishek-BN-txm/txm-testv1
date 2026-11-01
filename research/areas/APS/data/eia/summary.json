@@ -1,0 +1,1325 @@
+{
+ "ba": "AZPS",
+ "pulled_at": "2026-10-21T21:15:09",
+ "utc_offset": -7.0,
+ "bad_hours_dropped": 47,
+ "annual": [
+  {
+   "year": 2015,
+   "hours": 7,
+   "energy_gwh": 24.1,
+   "peak_mw": 3642,
+   "peak_time": "2015-12-31 19:00",
+   "min_mw": 2982,
+   "load_factor": 0.945,
+   "complete": false,
+   "net_gen_gwh": 43.1,
+   "interchange_gwh": 19.0
+  },
+  {
+   "year": 2016,
+   "hours": 8784,
+   "energy_gwh": 31352.9,
+   "peak_mw": 7418,
+   "peak_time": "2016-06-19 19:00",
+   "min_mw": 2310,
+   "load_factor": 0.481,
+   "complete": true,
+   "net_gen_gwh": 51030.5,
+   "interchange_gwh": 19657.3
+  },
+  {
+   "year": 2017,
+   "hours": 8760,
+   "energy_gwh": 30905.0,
+   "peak_mw": 7558,
+   "peak_time": "2017-06-20 18:00",
+   "min_mw": 2023,
+   "load_factor": 0.467,
+   "complete": true,
+   "net_gen_gwh": 51508.7,
+   "interchange_gwh": 20550.9,
+   "peak_growth": 0.0189,
+   "energy_growth": -0.0143
+  },
+  {
+   "year": 2018,
+   "hours": 8760,
+   "energy_gwh": 30286.3,
+   "peak_mw": 7272,
+   "peak_time": "2018-07-24 18:00",
+   "min_mw": 2105,
+   "load_factor": 0.475,
+   "complete": true,
+   "net_gen_gwh": 50664.8,
+   "interchange_gwh": 20459.6,
+   "peak_growth": -0.0378,
+   "energy_growth": -0.02
+  },
+  {
+   "year": 2019,
+   "hours": 8753,
+   "energy_gwh": 29623.8,
+   "peak_mw": 7026,
+   "peak_time": "2019-08-05 17:00",
+   "min_mw": 2018,
+   "load_factor": 0.482,
+   "complete": true,
+   "net_gen_gwh": 50332.6,
+   "interchange_gwh": 23548.5,
+   "peak_growth": -0.0338,
+   "energy_growth": -0.0219
+  },
+  {
+   "year": 2020,
+   "hours": 8783,
+   "energy_gwh": 30839.4,
+   "peak_mw": 7595,
+   "peak_time": "2020-07-30 18:00",
+   "min_mw": 1863,
+   "load_factor": 0.462,
+   "complete": true,
+   "net_gen_gwh": 18351.9,
+   "interchange_gwh": 2566.6,
+   "peak_growth": 0.081,
+   "energy_growth": 0.041
+  },
+  {
+   "year": 2021,
+   "hours": 8757,
+   "energy_gwh": 30819.8,
+   "peak_mw": 7586,
+   "peak_time": "2021-06-18 18:00",
+   "min_mw": 1963,
+   "load_factor": 0.464,
+   "complete": true,
+   "net_gen_gwh": 19393.8,
+   "interchange_gwh": -11427.9,
+   "peak_growth": -0.0012,
+   "energy_growth": -0.0006
+  },
+  {
+   "year": 2022,
+   "hours": 8755,
+   "energy_gwh": 31992.4,
+   "peak_mw": 7551,
+   "peak_time": "2022-07-11 18:00",
+   "min_mw": 1923,
+   "load_factor": 0.484,
+   "complete": true,
+   "net_gen_gwh": 21310.0,
+   "interchange_gwh": -10709.3,
+   "peak_growth": -0.0046,
+   "energy_growth": 0.038
+  },
+  {
+   "year": 2023,
+   "hours": 8751,
+   "energy_gwh": 33541.1,
+   "peak_mw": 8334,
+   "peak_time": "2023-07-15 18:00",
+   "min_mw": 1864,
+   "load_factor": 0.46,
+   "complete": true,
+   "net_gen_gwh": 20087.9,
+   "interchange_gwh": -13518.0,
+   "peak_growth": 0.1037,
+   "energy_growth": 0.0484
+  },
+  {
+   "year": 2024,
+   "hours": 8771,
+   "energy_gwh": 35913.0,
+   "peak_mw": 8207,
+   "peak_time": "2024-08-04 18:00",
+   "min_mw": 1975,
+   "load_factor": 0.499,
+   "complete": true,
+   "net_gen_gwh": 22350.7,
+   "interchange_gwh": -13649.9,
+   "peak_growth": -0.0152,
+   "energy_growth": 0.0707
+  },
+  {
+   "year": 2025,
+   "hours": 8757,
+   "energy_gwh": 38814.6,
+   "peak_mw": 8499,
+   "peak_time": "2025-08-07 18:00",
+   "min_mw": 2073,
+   "load_factor": 0.522,
+   "complete": true,
+   "net_gen_gwh": 23998.5,
+   "interchange_gwh": -14833.0,
+   "peak_growth": 0.0356,
+   "energy_growth": 0.0808
+  },
+  {
+   "year": 2026,
+   "hours": 7027,
+   "energy_gwh": 34662.7,
+   "peak_mw": 8982,
+   "peak_time": "2026-08-02 19:00",
+   "min_mw": 2504,
+   "load_factor": 0.549,
+   "complete": false,
+   "net_gen_gwh": 21729.9,
+   "interchange_gwh": -12961.3
+  }
+ ],
+ "monthly_peaks": [
+  {
+   "month": "2021-11",
+   "peak_mw": 3799
+  },
+  {
+   "month": "2021-12",
+   "peak_mw": 3966
+  },
+  {
+   "month": "2022-01",
+   "peak_mw": 4207
+  },
+  {
+   "month": "2022-02",
+   "peak_mw": 4259
+  },
+  {
+   "month": "2022-03",
+   "peak_mw": 3785
+  },
+  {
+   "month": "2022-04",
+   "peak_mw": 4351
+  },
+  {
+   "month": "2022-05",
+   "peak_mw": 5824
+  },
+  {
+   "month": "2022-06",
+   "peak_mw": 7017
+  },
+  {
+   "month": "2022-07",
+   "peak_mw": 7551
+  },
+  {
+   "month": "2022-08",
+   "peak_mw": 7173
+  },
+  {
+   "month": "2022-09",
+   "peak_mw": 7005
+  },
+  {
+   "month": "2022-10",
+   "peak_mw": 5351
+  },
+  {
+   "month": "2022-11",
+   "peak_mw": 3715
+  },
+  {
+   "month": "2022-12",
+   "peak_mw": 4495
+  },
+  {
+   "month": "2023-01",
+   "peak_mw": 4756
+  },
+  {
+   "month": "2023-02",
+   "peak_mw": 4595
+  },
+  {
+   "month": "2023-03",
+   "peak_mw": 4432
+  },
+  {
+   "month": "2023-04",
+   "peak_mw": 4978
+  },
+  {
+   "month": "2023-05",
+   "peak_mw": 5480
+  },
+  {
+   "month": "2023-06",
+   "peak_mw": 6542
+  },
+  {
+   "month": "2023-07",
+   "peak_mw": 8334
+  },
+  {
+   "month": "2023-08",
+   "peak_mw": 8200
+  },
+  {
+   "month": "2023-09",
+   "peak_mw": 7425
+  },
+  {
+   "month": "2023-10",
+   "peak_mw": 5808
+  },
+  {
+   "month": "2023-11",
+   "peak_mw": 4317
+  },
+  {
+   "month": "2023-12",
+   "peak_mw": 4566
+  },
+  {
+   "month": "2024-01",
+   "peak_mw": 5174
+  },
+  {
+   "month": "2024-02",
+   "peak_mw": 4546
+  },
+  {
+   "month": "2024-03",
+   "peak_mw": 3710
+  },
+  {
+   "month": "2024-04",
+   "peak_mw": 4922
+  },
+  {
+   "month": "2024-05",
+   "peak_mw": 5949
+  },
+  {
+   "month": "2024-06",
+   "peak_mw": 7586
+  },
+  {
+   "month": "2024-07",
+   "peak_mw": 8160
+  },
+  {
+   "month": "2024-08",
+   "peak_mw": 8207
+  },
+  {
+   "month": "2024-09",
+   "peak_mw": 7865
+  },
+  {
+   "month": "2024-10",
+   "peak_mw": 7191
+  },
+  {
+   "month": "2024-11",
+   "peak_mw": 3973
+  },
+  {
+   "month": "2024-12",
+   "peak_mw": 4317
+  },
+  {
+   "month": "2025-01",
+   "peak_mw": 5000
+  },
+  {
+   "month": "2025-02",
+   "peak_mw": 4711
+  },
+  {
+   "month": "2025-03",
+   "peak_mw": 4941
+  },
+  {
+   "month": "2025-04",
+   "peak_mw": 5083
+  },
+  {
+   "month": "2025-05",
+   "peak_mw": 6143
+  },
+  {
+   "month": "2025-06",
+   "peak_mw": 7951
+  },
+  {
+   "month": "2025-07",
+   "peak_mw": 8429
+  },
+  {
+   "month": "2025-08",
+   "peak_mw": 8499
+  },
+  {
+   "month": "2025-09",
+   "peak_mw": 7541
+  },
+  {
+   "month": "2025-10",
+   "peak_mw": 6127
+  },
+  {
+   "month": "2025-11",
+   "peak_mw": 4964
+  },
+  {
+   "month": "2025-12",
+   "peak_mw": 5116
+  },
+  {
+   "month": "2026-01",
+   "peak_mw": 5113
+  },
+  {
+   "month": "2026-02",
+   "peak_mw": 5126
+  },
+  {
+   "month": "2026-03",
+   "peak_mw": 5822
+  },
+  {
+   "month": "2026-04",
+   "peak_mw": 5466
+  },
+  {
+   "month": "2026-05",
+   "peak_mw": 6913
+  },
+  {
+   "month": "2026-06",
+   "peak_mw": 8158
+  },
+  {
+   "month": "2026-07",
+   "peak_mw": 8801
+  },
+  {
+   "month": "2026-08",
+   "peak_mw": 8982
+  },
+  {
+   "month": "2026-09",
+   "peak_mw": 8469
+  },
+  {
+   "month": "2026-10",
+   "peak_mw": 6963
+  }
+ ],
+ "fuel_names": {
+  "COL": "Coal",
+  "NG": "Natural gas",
+  "NUC": "Nuclear",
+  "OIL": "Petroleum",
+  "WAT": "Hydro",
+  "SUN": "Solar",
+  "WND": "Wind",
+  "OTH": "Other",
+  "BAT": "Battery storage",
+  "UES": "Unknown storage"
+ },
+ "fuel_mix": [
+  {
+   "year": 2018,
+   "total_gwh": 27340.4,
+   "by_fuel": {
+    "NUC": {
+     "gwh": 15234.7,
+     "share": 0.5572
+    },
+    "COL": {
+     "gwh": 6308.5,
+     "share": 0.2307
+    },
+    "NG": {
+     "gwh": 4857.4,
+     "share": 0.1777
+    },
+    "SUN": {
+     "gwh": 806.0,
+     "share": 0.0295
+    },
+    "OTH": {
+     "gwh": 133.6,
+     "share": 0.0049
+    },
+    "OIL": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WAT": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WND": {
+     "gwh": 0.0,
+     "share": 0.0
+    }
+   }
+  },
+  {
+   "year": 2019,
+   "total_gwh": 50325.3,
+   "by_fuel": {
+    "NUC": {
+     "gwh": 29223.9,
+     "share": 0.5807
+    },
+    "COL": {
+     "gwh": 9931.6,
+     "share": 0.1973
+    },
+    "NG": {
+     "gwh": 9142.2,
+     "share": 0.1817
+    },
+    "SUN": {
+     "gwh": 1761.2,
+     "share": 0.035
+    },
+    "OTH": {
+     "gwh": 266.3,
+     "share": 0.0053
+    },
+    "OIL": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WAT": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WND": {
+     "gwh": 0.0,
+     "share": 0.0
+    }
+   }
+  },
+  {
+   "year": 2020,
+   "total_gwh": 18352.8,
+   "by_fuel": {
+    "NG": {
+     "gwh": 10718.5,
+     "share": 0.584
+    },
+    "COL": {
+     "gwh": 5656.0,
+     "share": 0.3082
+    },
+    "SUN": {
+     "gwh": 1725.9,
+     "share": 0.094
+    },
+    "OTH": {
+     "gwh": 252.4,
+     "share": 0.0138
+    },
+    "OIL": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WAT": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WND": {
+     "gwh": 0.0,
+     "share": 0.0
+    }
+   }
+  },
+  {
+   "year": 2021,
+   "total_gwh": 19394.1,
+   "by_fuel": {
+    "NG": {
+     "gwh": 9686.5,
+     "share": 0.4995
+    },
+    "COL": {
+     "gwh": 7434.4,
+     "share": 0.3833
+    },
+    "SUN": {
+     "gwh": 1669.8,
+     "share": 0.0861
+    },
+    "WND": {
+     "gwh": 350.8,
+     "share": 0.0181
+    },
+    "OTH": {
+     "gwh": 252.7,
+     "share": 0.013
+    },
+    "OIL": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WAT": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "NUC": {
+     "gwh": 0.0,
+     "share": 0.0
+    }
+   }
+  },
+  {
+   "year": 2022,
+   "total_gwh": 21310.6,
+   "by_fuel": {
+    "COL": {
+     "gwh": 9564.4,
+     "share": 0.4488
+    },
+    "NG": {
+     "gwh": 8825.3,
+     "share": 0.4141
+    },
+    "SUN": {
+     "gwh": 1636.7,
+     "share": 0.0768
+    },
+    "WND": {
+     "gwh": 1036.2,
+     "share": 0.0486
+    },
+    "OTH": {
+     "gwh": 247.7,
+     "share": 0.0116
+    },
+    "OIL": {
+     "gwh": 0.3,
+     "share": 0.0
+    },
+    "NUC": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WAT": {
+     "gwh": 0.0,
+     "share": 0.0
+    }
+   }
+  },
+  {
+   "year": 2023,
+   "total_gwh": 20087.2,
+   "by_fuel": {
+    "NG": {
+     "gwh": 9242.1,
+     "share": 0.4601
+    },
+    "COL": {
+     "gwh": 7061.5,
+     "share": 0.3515
+    },
+    "SUN": {
+     "gwh": 1728.9,
+     "share": 0.0861
+    },
+    "WND": {
+     "gwh": 1691.8,
+     "share": 0.0842
+    },
+    "OTH": {
+     "gwh": 362.7,
+     "share": 0.0181
+    },
+    "OIL": {
+     "gwh": 0.1,
+     "share": 0.0
+    },
+    "NUC": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WAT": {
+     "gwh": 0.0,
+     "share": 0.0
+    }
+   }
+  },
+  {
+   "year": 2024,
+   "total_gwh": 22350.6,
+   "by_fuel": {
+    "NG": {
+     "gwh": 8905.5,
+     "share": 0.3984
+    },
+    "COL": {
+     "gwh": 7762.0,
+     "share": 0.3473
+    },
+    "SUN": {
+     "gwh": 2985.4,
+     "share": 0.1336
+    },
+    "WND": {
+     "gwh": 1936.5,
+     "share": 0.0866
+    },
+    "OTH": {
+     "gwh": 761.0,
+     "share": 0.034
+    },
+    "OIL": {
+     "gwh": 0.2,
+     "share": 0.0
+    },
+    "NUC": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WAT": {
+     "gwh": 0.0,
+     "share": 0.0
+    }
+   }
+  },
+  {
+   "year": 2025,
+   "total_gwh": 26319.8,
+   "by_fuel": {
+    "NG": {
+     "gwh": 10226.3,
+     "share": 0.3885
+    },
+    "COL": {
+     "gwh": 6676.9,
+     "share": 0.2537
+    },
+    "SUN": {
+     "gwh": 5172.4,
+     "share": 0.1965
+    },
+    "BAT": {
+     "gwh": 2063.9,
+     "share": 0.0784
+    },
+    "WND": {
+     "gwh": 1730.4,
+     "share": 0.0657
+    },
+    "OTH": {
+     "gwh": 449.9,
+     "share": 0.0171
+    },
+    "NUC": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "OIL": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WAT": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "UES": {
+     "gwh": -2320.7,
+     "share": -0.0882
+    }
+   }
+  },
+  {
+   "year": 2026,
+   "total_gwh": 24915.7,
+   "by_fuel": {
+    "NG": {
+     "gwh": 8350.4,
+     "share": 0.3351
+    },
+    "SUN": {
+     "gwh": 5631.2,
+     "share": 0.226
+    },
+    "COL": {
+     "gwh": 5455.9,
+     "share": 0.219
+    },
+    "BAT": {
+     "gwh": 2830.6,
+     "share": 0.1136
+    },
+    "WND": {
+     "gwh": 2465.6,
+     "share": 0.099
+    },
+    "OTH": {
+     "gwh": 182.0,
+     "share": 0.0073
+    },
+    "NUC": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "OIL": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "WAT": {
+     "gwh": 0.0,
+     "share": 0.0
+    },
+    "UES": {
+     "gwh": -3224.8,
+     "share": -0.1294
+    }
+   }
+  }
+ ],
+ "fuel_timezone": "Arizona",
+ "peak_days": {
+  "days": [
+   {
+    "date": "2026-08-02",
+    "peak_hour": 19,
+    "peak_mw": 8982
+   },
+   {
+    "date": "2026-08-03",
+    "peak_hour": 18,
+    "peak_mw": 8941
+   },
+   {
+    "date": "2026-08-01",
+    "peak_hour": 17,
+    "peak_mw": 8851
+   },
+   {
+    "date": "2026-07-31",
+    "peak_hour": 19,
+    "peak_mw": 8801
+   },
+   {
+    "date": "2026-08-26",
+    "peak_hour": 16,
+    "peak_mw": 8744
+   },
+   {
+    "date": "2026-08-09",
+    "peak_hour": 18,
+    "peak_mw": 8706
+   },
+   {
+    "date": "2026-07-08",
+    "peak_hour": 19,
+    "peak_mw": 8655
+   },
+   {
+    "date": "2026-07-24",
+    "peak_hour": 19,
+    "peak_mw": 8632
+   },
+   {
+    "date": "2026-08-22",
+    "peak_hour": 18,
+    "peak_mw": 8620
+   },
+   {
+    "date": "2026-08-25",
+    "peak_hour": 18,
+    "peak_mw": 8619
+   }
+  ],
+  "at_peak_mw": {
+   "BAT": 1243,
+   "COL": 859,
+   "NG": 2041,
+   "NUC": 0,
+   "OIL": 0,
+   "OTH": 30,
+   "SUN": 1469,
+   "UES": -59,
+   "WAT": 0,
+   "WND": 405
+  },
+  "hourly_profile": [
+   {
+    "hour": 0,
+    "COL": 837,
+    "NG": 1954,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 97,
+    "WND": 407,
+    "BAT": 547,
+    "UES": -65,
+    "OTH": 30
+   },
+   {
+    "hour": 1,
+    "COL": 840,
+    "NG": 1858,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 82,
+    "WND": 404,
+    "BAT": 232,
+    "UES": -67,
+    "OTH": 30
+   },
+   {
+    "hour": 2,
+    "COL": 840,
+    "NG": 1818,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 54,
+    "WND": 379,
+    "BAT": 149,
+    "UES": -113,
+    "OTH": 30
+   },
+   {
+    "hour": 3,
+    "COL": 840,
+    "NG": 1824,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 33,
+    "WND": 328,
+    "BAT": 110,
+    "UES": -118,
+    "OTH": 30
+   },
+   {
+    "hour": 4,
+    "COL": 841,
+    "NG": 1790,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 26,
+    "WND": 277,
+    "BAT": 124,
+    "UES": -162,
+    "OTH": 30
+   },
+   {
+    "hour": 5,
+    "COL": 844,
+    "NG": 1791,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 11,
+    "WND": 237,
+    "BAT": 204,
+    "UES": -145,
+    "OTH": 30
+   },
+   {
+    "hour": 6,
+    "COL": 851,
+    "NG": 1749,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 17,
+    "WND": 203,
+    "BAT": 283,
+    "UES": -230,
+    "OTH": 30
+   },
+   {
+    "hour": 7,
+    "COL": 852,
+    "NG": 1598,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 408,
+    "WND": 168,
+    "BAT": 200,
+    "UES": -652,
+    "OTH": 30
+   },
+   {
+    "hour": 8,
+    "COL": 860,
+    "NG": 1553,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 1513,
+    "WND": 123,
+    "BAT": 34,
+    "UES": -1675,
+    "OTH": 30
+   },
+   {
+    "hour": 9,
+    "COL": 861,
+    "NG": 1578,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 2208,
+    "WND": 98,
+    "BAT": 29,
+    "UES": -2351,
+    "OTH": 30
+   },
+   {
+    "hour": 10,
+    "COL": 861,
+    "NG": 1577,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 2460,
+    "WND": 81,
+    "BAT": 16,
+    "UES": -2417,
+    "OTH": 29
+   },
+   {
+    "hour": 11,
+    "COL": 861,
+    "NG": 1562,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 2502,
+    "WND": 71,
+    "BAT": 14,
+    "UES": -2012,
+    "OTH": 29
+   },
+   {
+    "hour": 12,
+    "COL": 861,
+    "NG": 1575,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 2570,
+    "WND": 72,
+    "BAT": 18,
+    "UES": -1593,
+    "OTH": 30
+   },
+   {
+    "hour": 13,
+    "COL": 862,
+    "NG": 1591,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 2555,
+    "WND": 109,
+    "BAT": 90,
+    "UES": -957,
+    "OTH": 29
+   },
+   {
+    "hour": 14,
+    "COL": 861,
+    "NG": 1657,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 2505,
+    "WND": 160,
+    "BAT": 104,
+    "UES": -432,
+    "OTH": 29
+   },
+   {
+    "hour": 15,
+    "COL": 861,
+    "NG": 1722,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 2438,
+    "WND": 216,
+    "BAT": 142,
+    "UES": -175,
+    "OTH": 29
+   },
+   {
+    "hour": 16,
+    "COL": 858,
+    "NG": 1928,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 2378,
+    "WND": 273,
+    "BAT": 377,
+    "UES": -112,
+    "OTH": 30
+   },
+   {
+    "hour": 17,
+    "COL": 858,
+    "NG": 1990,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 2241,
+    "WND": 334,
+    "BAT": 543,
+    "UES": -38,
+    "OTH": 30
+   },
+   {
+    "hour": 18,
+    "COL": 861,
+    "NG": 2022,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 1712,
+    "WND": 349,
+    "BAT": 977,
+    "UES": -27,
+    "OTH": 29
+   },
+   {
+    "hour": 19,
+    "COL": 860,
+    "NG": 2066,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 695,
+    "WND": 396,
+    "BAT": 1676,
+    "UES": -14,
+    "OTH": 30
+   },
+   {
+    "hour": 20,
+    "COL": 860,
+    "NG": 2105,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 150,
+    "WND": 340,
+    "BAT": 1969,
+    "UES": -48,
+    "OTH": 30
+   },
+   {
+    "hour": 21,
+    "COL": 860,
+    "NG": 2146,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 96,
+    "WND": 351,
+    "BAT": 1719,
+    "UES": -44,
+    "OTH": 29
+   },
+   {
+    "hour": 22,
+    "COL": 861,
+    "NG": 2160,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 90,
+    "WND": 380,
+    "BAT": 1119,
+    "UES": -41,
+    "OTH": 30
+   },
+   {
+    "hour": 23,
+    "COL": 858,
+    "NG": 2141,
+    "NUC": 0,
+    "OIL": 0,
+    "WAT": 0,
+    "SUN": 82,
+    "WND": 465,
+    "BAT": 863,
+    "UES": -35,
+    "OTH": 30
+   }
+  ]
+ },
+ "capacity": [],
+ "interchange_by_ba": [
+  {
+   "year": 2016,
+   "by_ba": {
+    "CISO": 8596.4,
+    "GRMA": -6985.9,
+    "WALC": 6630.2,
+    "SRP": 5974.6,
+    "LDWP": 5603.1,
+    "TEPC": 2935.5,
+    "WACM": -2488.4,
+    "PACE": -2334.8,
+    "PNM": 1898.7,
+    "IID": -174.9
+   }
+  },
+  {
+   "year": 2017,
+   "by_ba": {
+    "CISO": 7318.4,
+    "WALC": 7065.0,
+    "LDWP": 6052.5,
+    "SRP": 3927.9,
+    "TEPC": 3689.6,
+    "GRMA": -3416.3,
+    "WACM": -2658.2,
+    "PACE": -2640.3,
+    "PNM": 1416.8,
+    "IID": -163.5
+   }
+  },
+  {
+   "year": 2018,
+   "by_ba": {
+    "CISO": 9421.6,
+    "WALC": 7991.4,
+    "LDWP": 6406.3,
+    "TEPC": 3135.0,
+    "PACE": -2956.4,
+    "SRP": -2719.0,
+    "PNM": 1654.8,
+    "GRMA": -1330.7,
+    "WACM": -1056.2,
+    "IID": -79.7
+   }
+  },
+  {
+   "year": 2019,
+   "by_ba": {
+    "CISO": 10131.8,
+    "WALC": 8763.2,
+    "LDWP": 6037.6,
+    "TEPC": 2567.5,
+    "SRP": -2438.0,
+    "PACE": -2069.3,
+    "PNM": 1572.2,
+    "WACM": -937.4,
+    "IID": -79.4
+   }
+  },
+  {
+   "year": 2020,
+   "by_ba": {
+    "SRP": -13560.4,
+    "WALC": 7522.3,
+    "CISO": 6553.7,
+    "LDWP": 2686.5,
+    "PACE": -2255.8,
+    "TEPC": 2039.5,
+    "WACM": -1407.7,
+    "PNM": 1203.7,
+    "IID": -313.5
+   }
+  },
+  {
+   "year": 2021,
+   "by_ba": {
+    "SRP": -28336.7,
+    "WALC": 7590.5,
+    "CISO": 6238.7,
+    "LDWP": 3460.9,
+    "TEPC": 2141.8,
+    "WACM": -1620.8,
+    "PACE": -566.3,
+    "IID": -340.1,
+    "PNM": 4.5
+   }
+  },
+  {
+   "year": 2022,
+   "by_ba": {
+    "SRP": -27444.4,
+    "CISO": 7343.1,
+    "WALC": 6735.3,
+    "LDWP": 3367.8,
+    "TEPC": 1792.2,
+    "WACM": -1248.7,
+    "PNM": -730.8,
+    "IID": -267.8,
+    "PACE": -255.3
+   }
+  },
+  {
+   "year": 2023,
+   "by_ba": {
+    "SRP": -31051.6,
+    "WALC": 7120.6,
+    "CISO": 7066.1,
+    "LDWP": 3381.8,
+    "PACE": 1193.1,
+    "PNM": -1052.7,
+    "WACM": -917.4,
+    "TEPC": 884.4,
+    "IID": -107.0
+   }
+  },
+  {
+   "year": 2024,
+   "by_ba": {
+    "SRP": -32087.2,
+    "CISO": 7423.7,
+    "WALC": 6458.9,
+    "LDWP": 3704.7,
+    "PACE": 979.6,
+    "WACM": -368.9,
+    "TEPC": 364.2,
+    "PNM": -159.1,
+    "IID": 36.0
+   }
+  },
+  {
+   "year": 2025,
+   "by_ba": {
+    "SRP": -30060.7,
+    "WALC": 6472.5,
+    "CISO": 6371.9,
+    "LDWP": 2813.6,
+    "PNM": -275.0,
+    "TEPC": 239.2,
+    "PACE": -205.8,
+    "WACM": -196.9,
+    "IID": 7.2
+   }
+  },
+  {
+   "year": 2026,
+   "by_ba": {
+    "SRP": -24623.5,
+    "CISO": 5320.5,
+    "WALC": 3989.4,
+    "LDWP": 2531.1,
+    "PNM": -264.4,
+    "SWPW": 259.1,
+    "TEPC": -124.9,
+    "PACE": -34.9,
+    "WACM": 19.5,
+    "IID": -19.4
+   }
+  }
+ ],
+ "source": "EIA-930 BA workbook AZPS.xlsx",
+ "generators_period": null,
+ "capacity_total_mw": 0
+}

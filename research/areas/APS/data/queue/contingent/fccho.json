@@ -1,0 +1,152 @@
+{
+ "columns": [
+  {
+   "id": "fcm2",
+   "label": "Four Corners\u2013Moenkopi #2 500 kV line + Four Corners #3 500/345 kV transformer (Q311/Q318\u2013Q320 NU)",
+   "isd": "",
+   "note": "Table 2 row \"Q311,Q318,Q319,Q320 NU\" in every report; listed under \u00a73.1 Associated Network Upgrades from TC Ph2 on. TC Ph1 has no \u00a73.1 but its NU table (\u00a76.2, Q480 loop-in) calls the line \"the contingent facility of Four Corners-Moenkopi #2\". The package is tagged \"(completed)\" in \u00a73.1 from TC Ph2 on, but TC Ph3 still loops Q480 into \"the Four Corners-Moenkopi #2 500 kV line contingent facility\", so the tag is read as applying to the Union Hill\u2013Lone Peak rebuild."
+  },
+  {
+   "id": "chpp",
+   "label": "Cholla\u2013Pinnacle Peak 500 kV line + Silver King loop into Cholla\u2013Saguaro 500 kV (Q311/Q318\u2013Q320 NU)",
+   "isd": "",
+   "note": "Same Q311/Q318\u2013Q320 NU row as Four Corners\u2013Moenkopi #2. TC Ph1 and Ph3 \u00a76.2 Sitgreaves 500 kV Station Expansion: \"Loop the contingent facility of Cholla-Pinnacle Peak 500 kV and Cholla-Silverking 500 kV lines in\"."
+  },
+  {
+   "id": "uhlp",
+   "label": "Union Hill\u2013Lone Peak 69 kV rebuild (Q311/Q318\u2013Q320 NU)",
+   "isd": "completed (TC Ph2 on)",
+   "note": "Last item of the Q311/Q318\u2013Q320 NU row, followed by \"(completed)\" in Table 2 / \u00a73.1 from TC Ph2 on."
+  },
+  {
+   "id": "q311sw",
+   "label": "Sitgreaves 345 kV switching station (Q311 NU)",
+   "isd": "in service (2024 Ph2b, 2025 Ph1)",
+   "note": "\u00a73.1 Associated Network Upgrades in TC Ph2, Ph3, Ph3a, 2024 Ph2b, 2025 Ph1. Not a separate Table 2 row; TC Ph1 and 2024 Ph1 do not name it."
+  },
+  {
+   "id": "sgli",
+   "label": "Sitgreaves 345 kV loop-in of Cholla\u2013Chevelon 345 kV",
+   "isd": "2029",
+   "note": "TC Ph3 \u00a72: \"The Sitgreaves 345 kV Loop-In project became an APS capital project and included in the basecase assumptions rather than as a Network Upgrade\" (it was a TC NU in Ph1/Ph2; TC Ph2 \u00a73.1 local additions: None). ISD 2029 from TC Ph3a and 2024 Ph2b Table 2."
+  },
+  {
+   "id": "chrx",
+   "label": "Cholla 500 kV bus 170 MVAr shunt reactor",
+   "isd": "in service",
+   "note": "Table 2 \"Transmission Planning Projects\" (\"In-service\" from TC Ph2 on). Not in the TC Ph2/Ph3/Ph3a \u00a73.1 lists; contingent in 2024 Ph1/Ph2b by their \"all facilities listed as included\" rule; absent from 2025 Ph1 Table 2."
+  },
+  {
+   "id": "ppfd",
+   "label": "Pinnacle Peak fault duty mitigation",
+   "isd": "",
+   "note": "Table 2: \"No\" in all four Transition reports, \"Yes\" in 2024 Ph1, 2024 Ph2b and 2025 Ph1."
+  },
+  {
+   "id": "nec",
+   "label": "NEC Show Low\u2013Vernon 69 kV normally-open tie closed (operational mitigation)",
+   "isd": "",
+   "note": "Table 2: \"Yes\" in 2024 Ph1; \"Sensitivity\" in 2024 Ph2b and 2025 Ph1 (base case modeled it open, so marked X there)."
+  },
+  {
+   "id": "tcnu",
+   "label": "Transition Cluster NUs: Sitgreaves 500 kV expansion, Chevelon 345 kV loop-in, Sitgreaves\u2013Silver King upgrade, Sitgreaves\u2013Pinnacle Peak #2 500 kV, Q480 loop-in & Q480\u2013Moenkopi #1/#2 upgrade, Pinnacle Peak 230 kV bus ties & PP\u2013Lone Peak 230 kV",
+   "isd": "",
+   "note": "2024 Ph1 Table 2 only. 2024 Ph2b and 2025 Ph1 replace it with the single TC NU \"Bypass the Moenkopi-Q480 500 kV series capacitor at Moenkopi\"."
+  },
+  {
+   "id": "mkbyp",
+   "label": "Bypass Moenkopi\u2013Q480 500 kV series capacitor at Moenkopi (Transition Cluster NU)",
+   "isd": "",
+   "note": "Table 2 \"Transition Cluster NU\" row in 2024 Ph2b and 2025 Ph1."
+  },
+  {
+   "id": "c24",
+   "label": "2024 Cluster NUs: reconductor Cholla\u2013Hashknife 69 kV & Zeniff\u2013Linden 69 kV, 5% series-cap reduction on Cholla\u2013Silver King 500 kV",
+   "isd": "",
+   "note": "2025 Ph1 Table 2 row \"2024 Cluster\" and \u00a73.1 Associated Network Upgrades."
+  },
+  {
+   "id": "sunzia",
+   "label": "SunZia DC (merchant)",
+   "isd": "",
+   "note": "Table 2 Merchant Transmission: \"Yes\" only in TC Ph3a (Apr 2026); \"No\" in every other report, including the later 2024 Ph2b (Jul 2026)."
+  }
+ ],
+ "status": {
+  "Study_Report_APS_FcCho_Transition_Cluster_Phase_1_v1-7_20250303.pdf": {
+   "fcm2": "C",
+   "chpp": "C",
+   "uhlp": "M",
+   "chrx": "M",
+   "ppfd": "X",
+   "sunzia": "X"
+  },
+  "Study_Report_APS_FcCho_Transition_Cluster_Phase_2_v1-4_20250902.pdf": {
+   "fcm2": "C",
+   "chpp": "C",
+   "uhlp": "C",
+   "q311sw": "C",
+   "chrx": "M",
+   "ppfd": "X",
+   "sunzia": "X"
+  },
+  "APS_FcCho_Transition_Cluster_Phase_3_v1-1_20251106.pdf": {
+   "fcm2": "C",
+   "chpp": "C",
+   "uhlp": "C",
+   "q311sw": "C",
+   "sgli": "C",
+   "chrx": "M",
+   "ppfd": "X",
+   "sunzia": "X"
+  },
+  "APS_FcCho_Transition_Cluster_Phase_3a_v1.4_20260423.pdf": {
+   "fcm2": "C",
+   "chpp": "C",
+   "uhlp": "C",
+   "q311sw": "C",
+   "sgli": "C",
+   "chrx": "M",
+   "ppfd": "X",
+   "sunzia": "M"
+  },
+  "APS_FcCho_2024_Cluster_Phase_1_Final_20260120.pdf": {
+   "fcm2": "C",
+   "chpp": "C",
+   "uhlp": "C",
+   "sgli": "C",
+   "chrx": "C",
+   "ppfd": "C",
+   "nec": "C",
+   "tcnu": "C",
+   "sunzia": "X"
+  },
+  "APS_FcCho_2024_Cluster_Phase_2b_v1-0_Final_20260720.pdf": {
+   "fcm2": "C",
+   "chpp": "C",
+   "uhlp": "C",
+   "q311sw": "C",
+   "sgli": "C",
+   "chrx": "C",
+   "ppfd": "C",
+   "nec": "X",
+   "mkbyp": "C",
+   "sunzia": "X"
+  },
+  "APS_FcCho_2025_Cluster_Phase_1_v1-6_Final_20260603.pdf": {
+   "fcm2": "C",
+   "chpp": "C",
+   "uhlp": "C",
+   "q311sw": "C",
+   "sgli": "C",
+   "ppfd": "C",
+   "nec": "X",
+   "mkbyp": "C",
+   "c24": "C",
+   "sunzia": "X"
+  }
+ },
+ "owners": {},
+ "source": "Table 2 \"Significant Study Assumptions\" and \u00a73.1 \"Contingent Facilities\" of each Four Corners/Cholla cluster report (TC Ph1 p.6, no \u00a73.1; TC Ph2 Table 2 p.8/\u00a73.1 p.9; TC Ph3 p.7/p.8; TC Ph3a p.8/p.9; 2024 Ph1 p.5/p.6; 2024 Ph2b p.5/\u00a73.1.1 p.7; 2025 Ph1 p.6/p.8). The 2024 and 2025 reports state that all facilities listed as included in Table 2 are contingent facilities; the Transition Ph2\u20133a reports list them explicitly in \u00a73.1. Retirements (not facilities): Table 2 assumes Cholla Units 1\u20134 and San Juan 1 & 4 retired and Four Corners 4 & 5 not retired in every report; \u00a73.1 local generation retirements read \"Cholla Unit 1 and Unit 4\" in TC Ph2, Ph3 and 2025 Ph1, and \"Cholla Units 1, 2, 3 and 4\" in TC Ph3a and 2024 Ph2b. Phoenix-area planned projects in the same table (Sun Valley #2, Outer Circle, TS22/TS24, etc.) are tracked in the Delaney/Sun Valley/Redhawk file, not here."
+}

@@ -1,0 +1,77 @@
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# --- IDE / editor ---
+.idea/
+.vs/
+.vscode/
+
+# --- Machine-specific settings (keep the .example template) ---
+settings/machine.json
+
+# --- TARA engine & viewers (licensed binaries) ---
+tara.exe
+*.xlsb
+*.dll
+*.whl
+
+# --- Run outputs: keep manifests/comm/log summaries, drop heavy results ---
+runs/*/results/
+runs/*/logs/
+
+# --- Power flow cases & heavy data ---
+*.epc
+*.raw
+*.sav
+*.zip
+*.obj
+*.kml
+
+# --- Documents / binary outputs (regenerable or reference-only) ---
+*.pdf
+*.xlsx
+*.odx
+data/cache/
+# ...except reference data the application ships with
+!data/reference/Bus_Coordinates.xlsx
+!data/reference/cb_2023_us_county_20m.zip
+# ...and the task 18 engine-proof inputs (tiny; the proof is not reproducible without them)
+!docs/tasks/18_proof/*.xlsx
+
+# --- TARA run outputs (regenerable; keep code + inputs instead) ---
+TARAResults/
+Commfiles/
+logfiles/
+*_TARA_Outputs/
+%save/
+_scratch/
+
+# --- Office/OneDrive temp ---
+.~lock*
+~$*
+Thumbs.db
+_deltest
+
+# --- Study-area research: the documents stay on this machine (task 29) ---
+research/areas/*/files/
+research/areas/*/data/eia/raw/
+
+# --- APS queue pillar (task 23): report text and regenerable outputs stay local ---
+research/areas/*/data/queue/raw/
+research/areas/*/data/queue/pages/
+research/areas/*/data/queue/export/
+
+# --- Grid layers (licensed 2018 KMZ snapshot) and anything cut from them ---
+data/reference/grid/
+research/areas/*/data/grid/
+
+# --- Study data, research and run outputs stay on each machine ---
+runs/
+studies/*
+!studies/_templates/

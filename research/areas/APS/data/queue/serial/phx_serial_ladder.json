@@ -1,0 +1,223 @@
+{
+ "label": "Pre-cluster (serial)",
+ "cycle": "Serial",
+ "date": "latest per project (2019-2025)",
+ "file": "Q268_FaS_FINAL_20190130.pdf; Q268_MMA_Report_v1-0_20240521.pdf; Q280_FaS_Final_V1-2_20200708.pdf; Q289_FaS_FINAL_20200702.pdf; Q291_FaS_Report_Final_20211115.pdf; Q298_Q299_Phx_Area_Cluster_2_SIS_Final_Report_v1-1_20201211.pdf; Q299_FaS_Final_20210702.pdf; Q299_MMA_Report_v1-2_20251211.pdf; Q355_Q357_Q358_Q363_Q372_Q374_Q384_SIS_Final_20220327.pdf; Q355_Final_FAS_Report_10132022.pdf; Q355_MMA_Report_V1-2_20230612_.pdf; Q358_FaS_FINAL_2022_09_22.pdf; Q363_FaS_FINAL_2022_09_22.pdf; Q363_MMA_Report_v1-1_20250228.pdf; Q384_FaS_Final_20220914.pdf; Q394_FaS_Final_20220914_rev1.pdf",
+ "projects": [
+  {
+   "q": "Q268",
+   "mw": 75,
+   "service": "NRIS",
+   "poi": "Sarival 69 kV",
+   "station_nu": 0,
+   "station_status": "TPIF only (line drops, relocate terminations and cap bank, $1.7M)",
+   "total": 2600000,
+   "status": "Pending LGIA Amended & Filed",
+   "latest": "MMA 2024-05-21",
+   "note": "MMA (inverter change) found no new network upgrades."
+  },
+  {
+   "q": "Q280",
+   "mw": 300,
+   "service": "NRIS",
+   "poi": "Westwing 230 kV",
+   "station_nu": 2000000,
+   "station_status": "Westwing 230 kV breaker addition and 50% of new control house",
+   "total": 5200000,
+   "status": "Draft LGIA",
+   "latest": "FaS 2020-07-08",
+   "note": "Westwing 230 kV is jointly owned (APS 32.1%, SRP 36.1%, USBR 31.8%)."
+  },
+  {
+   "q": "Q289",
+   "mw": 50,
+   "service": "NRIS",
+   "poi": "El Sol 69 kV",
+   "station_nu": 0,
+   "station_status": "none",
+   "total": 52700,
+   "status": "In Construction",
+   "latest": "FaS 2020-07-02",
+   "note": "Only cost is its deferred 6.68% share of Deer Valley\u2013Yorkshire Tap."
+  },
+  {
+   "q": "Q291",
+   "mw": 200,
+   "service": "ERIS",
+   "poi": "Raceway 230 kV",
+   "station_nu": 700000,
+   "station_status": "Phase 1: one 230 kV breaker",
+   "total": 4000000,
+   "status": "In Design",
+   "latest": "FaS 2021-11-15",
+   "note": "Phase 1 $1.9M; Phase 2 deferred obligations $2.1M."
+  },
+  {
+   "q": "Q299",
+   "mw": 150,
+   "service": "NRIS",
+   "poi": "Westwing 69 kV",
+   "station_nu": 600000,
+   "station_status": "69 kV breaker and switches",
+   "total": 5300000,
+   "status": "Pending Appendix E",
+   "latest": "MMA 2025-12-11",
+   "note": "MMA (inverter change) found no new breaker exceedances; upgrades from FaS stand."
+  },
+  {
+   "q": "Q355",
+   "mw": 200,
+   "service": "NRIS",
+   "poi": "Palm Valley 230 kV",
+   "station_nu": 1000000,
+   "station_status": "Palm Valley 230 kV switchyard expansion",
+   "total": 2900000,
+   "status": "Customer Initiated Suspension",
+   "latest": "MMA 2023-06-12",
+   "note": "MMA removed the PV component (BESS only); SIS network upgrade obligations still apply."
+  },
+  {
+   "q": "Q358",
+   "mw": 100,
+   "service": "NRIS",
+   "poi": "Colter 69 kV",
+   "station_nu": 0,
+   "station_status": "none",
+   "total": 1000000,
+   "status": "In Design",
+   "latest": "FaS 2022-09-22",
+   "note": "TPIF only."
+  },
+  {
+   "q": "Q363",
+   "mw": 100,
+   "service": "NRIS",
+   "poi": "Scatter Wash 69 kV",
+   "station_nu": 500000,
+   "station_status": "Scatter Wash 69 kV switchyard expansion",
+   "total": 1000000,
+   "status": "Pending LGIA Amended & Filed",
+   "latest": "MMA 2025-02-28",
+   "note": "MMA split the project into 85 MW (under construction) and 15 MW (2027)."
+  },
+  {
+   "q": "Q384",
+   "mw": 125,
+   "service": "NRIS",
+   "poi": "Westwing 69 kV",
+   "station_nu": 750000,
+   "station_status": "Westwing 69 kV switchyard expansion",
+   "total": 1450000,
+   "status": "Cost Table and Milestone Refresh",
+   "latest": "FaS 2022-09-14",
+   "note": ""
+  },
+  {
+   "q": "Q394",
+   "mw": 5,
+   "service": "N/A",
+   "poi": "City of Phoenix WWTP (distribution)",
+   "station_nu": 0,
+   "station_status": "none",
+   "total": 887053,
+   "status": "Project with APS Project Manager (Legacy)",
+   "latest": "FaS 2022-09-14",
+   "note": "6.25 MW at the plant; service type N/A in queue; TPIF only."
+  }
+ ],
+ "upgrades": [
+  {
+   "label": "Rebuild Arrowhead\u2013Westbrook 69 kV (1.6 mi, 795 ACSS)",
+   "cost": 2200000,
+   "cost_note": "Q298/Q299 Phoenix Cluster 2 SIS $1.1M; Q299 FaS 2021 $2.2M",
+   "alloc": {
+    "Q299": {
+     "pct": 100,
+     "usd": 2200000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "Rebuild Rio Vista\u2013Westwing 69 kV (1.75 mi, 795 ACSS)",
+   "cost": 1800000,
+   "cost_note": "Q298/Q299 SIS $1.1M; Q299 FaS 2021 $1.8M",
+   "alloc": {
+    "Q299": {
+     "pct": 100,
+     "usd": 1800000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "Reconductor ~1 mi Freedom (TS4)\u2013Perryville 69 kV",
+   "cost": 900000,
+   "cost_note": "Q268 FaS 2019",
+   "alloc": {
+    "Q268": {
+     "pct": 100,
+     "usd": 900000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "Raceway 230 kV expansion + new 230/69 kV transformer",
+   "cost": 6170000.0,
+   "cost_note": "Q291 FaS: 30.77% = $1.9M (total back-calculated); required when Q278 and Q287 start construction",
+   "alloc": {
+    "Q291": {
+     "pct": 30.77,
+     "usd": 1900000,
+     "status": "deferred"
+    }
+   },
+   "cost_derived": true
+  },
+  {
+   "label": "Reconductor Deer Valley\u2013Yorkshire Tap 69 kV (0.4 mi)",
+   "cost": 789000.0,
+   "cost_note": "Shared by 6 projects (incl. in-service Q278, Q292); payable when the 5th of 6 starts construction. Total back-calculated from Q289's 6.68% = $52.7k",
+   "alloc": {
+    "Q280": {
+     "pct": 27.51,
+     "usd": 217032,
+     "status": "deferred"
+    },
+    "Q289": {
+     "pct": 6.68,
+     "usd": 52700,
+     "status": "deferred"
+    },
+    "Q291": {
+     "pct": 14.77,
+     "usd": 116524,
+     "status": "deferred"
+    }
+   },
+   "cost_derived": true
+  },
+  {
+   "label": "Liberty 230 kV terminal upgrade (Freedom\u2013Liberty, 2000 A)",
+   "cost": 2500000,
+   "cost_note": "Cluster 4 SIS 2022: Q355 52.92% ($1.3M), Q357 47.08% ($1.2M); Q355 FaS (Oct 2022): no longer required",
+   "alloc": {
+    "Q355": {
+     "pct": 52.92,
+     "usd": 1300000,
+     "status": "removed"
+    }
+   }
+  }
+ ],
+ "notes": [
+  "Serial-process studies assign upgrades in queue order. Shares are the percentages stated in each project's Facilities Study (or SIS where noted); dollar figures are FaS values.",
+  "Every Phoenix Metro serial project is battery storage except Q394. Most carry only POI switchyard work; the system upgrades are short 69 kV rebuilds.",
+  "Two shared totals are back-calculated from a stated share (marked *): Deer Valley\u2013Yorkshire Tap (~$0.79M, six projects, including in-service Q278 and Q292 whose shares aren't shown) and the Raceway 230 kV expansion (~$6.2M, mostly on in-service Q278 and withdrawn Q287).",
+  "Cluster 4 SIS also assigned a 2nd Freedom 230/69 kV transformer ($5.0M) 100% to Q357 (Freedom 69 kV, now COD/pending refund, mapped to Gila Bend). The Freedom\u2013West Park 69 kV rebuild is APS responsibility; neither is shown.",
+  "Later MMAs for Q268 (2024), Q299 (2025) and Q363 (2025) changed inverters or phasing only and added no network upgrades. MMAs for in-service Q229 and Q314 likewise added none."
+ ],
+ "view_note": "Ten serial projects (1,305 MW, almost all battery storage) sit ahead of the cluster in Phoenix Metro. Their system upgrade shares come to about $7M, all short 69 kV rebuilds and station work. Q299 alone carries $4.0M for two Westwing-area 69 kV lines; the Deer Valley\u2013Yorkshire and Raceway shares stay deferred until other projects build. Q355's Liberty 230 kV share was dropped in its Facilities Study.",
+ "full_note": "The serial queue in Phoenix Metro left little shared transmission behind: about $7M of allocated 69 kV and station work, mostly deferred or single-project. The cluster rows below carry the area's larger upgrades."
+}

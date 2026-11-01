@@ -1,0 +1,1755 @@
+{
+ "area": "Phoenix Metro",
+ "generated": "2026-10-23",
+ "source": "APS OASIS cluster study reports; Active Queue posting 2026-10-13",
+ "phases": [
+  {
+   "file": "APS_PhoenixMetro_Transition_Cluster_Report_20241113_Phase_1.pdf",
+   "label": "Transition Ph1",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2024-10-10",
+   "version": "1.6",
+   "projects": [
+    {
+     "q": "Q407",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Scatterwash 230 kV",
+     "total": 16000000.0,
+     "nu": 15100000.0,
+     "tif": 900000.0,
+     "isd": "Earliest Q4 2027 or Q4 2028",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 2000000.0,
+     "cum_mw": 200.0,
+     "cum_nris_mw": 200.0
+    },
+    {
+     "q": "Q408",
+     "mw": 88.0,
+     "service": "NRIS",
+     "poi": "Lukefield-Varney 69 kV Line",
+     "total": 16600000.0,
+     "nu": 16100000.0,
+     "tif": 500000.0,
+     "isd": "Earliest Q4 2027 or Q4 2028",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 6000000.0,
+     "cum_mw": 288.0,
+     "cum_nris_mw": 288.0
+    },
+    {
+     "q": "Q409",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Trilby Wash 230 kV",
+     "total": 6900000.0,
+     "nu": 6100000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q4 2027 or Q4 2028",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2021-09-28",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Trilly Wash 230kV",
+     "mw_queue": 200.0,
+     "station_nu": 6000000.0,
+     "cum_mw": 488.0,
+     "cum_nris_mw": 488.0
+    },
+    {
+     "q": "Q427",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Freedom 230 kV",
+     "total": 4200000.0,
+     "nu": 3400000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q4 2027 or Q4 2028",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2021-09-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Freedom 230kV Switchyard",
+     "mw_queue": 250.0,
+     "station_nu": 2000000.0,
+     "cum_mw": 738.0,
+     "cum_nris_mw": 738.0
+    },
+    {
+     "q": "Q446",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Trilby Wash 230 kV",
+     "total": 6900000.0,
+     "nu": 6100000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q4 2027 or Q4 2028",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-28",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Trilby Wash 230kV",
+     "mw_queue": 250.0,
+     "station_nu": 6000000.0,
+     "cum_mw": 988.0,
+     "cum_nris_mw": 988.0
+    },
+    {
+     "q": "Q465",
+     "mw": 300.0,
+     "service": "ERIS",
+     "poi": "Trilby Wash 230 kV",
+     "total": 6800000.0,
+     "nu": 6000000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q4 2027 or Q4 2028",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-31",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Trilby Wash 230kV",
+     "mw_queue": 300.0,
+     "station_nu": 6000000.0,
+     "cum_mw": 1288.0,
+     "cum_nris_mw": 988.0
+    },
+    {
+     "q": "Q468",
+     "mw": 1000.0,
+     "service": "NRIS+ERIS",
+     "poi": "Westwing 500 kV",
+     "total": 7700000.0,
+     "nu": 5700000.0,
+     "tif": 2000000.0,
+     "isd": "Earliest Q4 2027 or Q4 2028",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 3000000.0,
+     "cum_mw": 2288.0,
+     "cum_nris_mw": 1988.0
+    },
+    {
+     "q": "Q479",
+     "mw": 165.0,
+     "service": "NRIS",
+     "poi": "Perryville 69 kV",
+     "total": 2600000.0,
+     "nu": 1100000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2027 or Q4 2028",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-09-27",
+     "status": "Project with APS Project Manager",
+     "tech": "Energy Storage",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Perryville 69kV Substation",
+     "mw_queue": 165.0,
+     "station_nu": 500000.0,
+     "cum_mw": 2453.0,
+     "cum_nris_mw": 2153.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Add third Scatterwash 230/69kv",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q407": {
+       "pct": 92.1,
+       "usd": 9100000.0
+      },
+      "Q468": {
+       "pct": 7.9,
+       "usd": 900000.0
+      }
+     },
+     "first_q": "Q407",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 2,
+     "sharing_mw": 1200.0
+    },
+    {
+     "label": "New Pinnacle Peak APS-SRP 230 kV tie",
+     "cost": 4000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q407": {
+       "pct": 77.9,
+       "usd": 3100000.0
+      },
+      "Q468": {
+       "pct": 22.1,
+       "usd": 900000.0
+      }
+     },
+     "first_q": "Q407",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 2,
+     "sharing_mw": 1200.0
+    },
+    {
+     "label": "Pinnacle Peak-Rogers (WAPA) 230 kV upgrade to match other line",
+     "cost": 2100000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q407": {
+       "pct": 44.6,
+       "usd": 900000.0
+      },
+      "Q408": {
+       "pct": 4.3,
+       "usd": 100000.0
+      },
+      "Q409": {
+       "pct": 3.6,
+       "usd": 100000.0
+      },
+      "Q446": {
+       "pct": 4.3,
+       "usd": 100000.0
+      },
+      "Q468": {
+       "pct": 43.2,
+       "usd": 900000.0
+      }
+     },
+     "first_q": "Q407",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 5,
+     "sharing_mw": 1738.0
+    },
+    {
+     "label": "Rebuild Lukefield-Varney 69kv (4.5 miles)",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q408": {
+       "pct": 100.0,
+       "usd": 10000000.0
+      }
+     },
+     "first_q": "Q408",
+     "trigger_cum_mw": 288.0,
+     "trigger_cum_nris_mw": 288.0,
+     "n_sharing": 1,
+     "sharing_mw": 88.0
+    },
+    {
+     "label": "Freedom-Liberty 230 kV upgrade",
+     "cost": 2000000.0,
+     "cost_derived": false,
+     "lead": "24 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q427": {
+       "pct": 67.8,
+       "usd": 1400000.0
+      },
+      "Q479": {
+       "pct": 32.2,
+       "usd": 600000.0
+      }
+     },
+     "first_q": "Q427",
+     "trigger_cum_mw": 738.0,
+     "trigger_cum_nris_mw": 738.0,
+     "n_sharing": 2,
+     "sharing_mw": 415.0
+    }
+   ]
+  },
+  {
+   "file": "APS_PhoenixMetro_Transition_Cluster_Phase_2_v1-5_20251104.pdf",
+   "label": "Transition Ph2",
+   "cycle": "Transition",
+   "sub": "",
+   "date": "2025-11-04",
+   "version": "1.5",
+   "projects": [
+    {
+     "q": "Q407",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Scatter Wash 230 kV",
+     "total": 2800000.0,
+     "nu": 2000000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q1 2030 (230/500 kV); Q4 2028 (69 kV)",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 2000000.0,
+     "cum_mw": 200.0,
+     "cum_nris_mw": 200.0
+    },
+    {
+     "q": "Q408",
+     "mw": 88.0,
+     "service": "NRIS",
+     "poi": "Luke Field-Varney 69 kV Line",
+     "total": 16500000.0,
+     "nu": 16000000.0,
+     "tif": 500000.0,
+     "isd": "Earliest Q1 2030 (230/500 kV); Q4 2028 (69 kV)",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 6000000.0,
+     "cum_mw": 288.0,
+     "cum_nris_mw": 288.0
+    },
+    {
+     "q": "Q409",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Trilby Wash 230 kV",
+     "total": 6800000.0,
+     "nu": 6000000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q1 2030 (230/500 kV); Q4 2028 (69 kV)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2021-09-28",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Trilly Wash 230kV",
+     "mw_queue": 200.0,
+     "station_nu": 6000000.0,
+     "cum_mw": 488.0,
+     "cum_nris_mw": 488.0
+    },
+    {
+     "q": "Q427",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Freedom 230 kV",
+     "total": 2800000.0,
+     "nu": 2000000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q1 2030 (230/500 kV); Q4 2028 (69 kV)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2021-09-30",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Freedom 230kV Switchyard",
+     "mw_queue": 250.0,
+     "station_nu": 2000000.0,
+     "cum_mw": 738.0,
+     "cum_nris_mw": 738.0
+    },
+    {
+     "q": "Q446",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Trilby Wash 230 kV",
+     "total": 6800000.0,
+     "nu": 6000000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q1 2030 (230/500 kV); Q4 2028 (69 kV)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-28",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Trilby Wash 230kV",
+     "mw_queue": 250.0,
+     "station_nu": 6000000.0,
+     "cum_mw": 988.0,
+     "cum_nris_mw": 988.0
+    },
+    {
+     "q": "Q465",
+     "mw": 300.0,
+     "service": "ERIS",
+     "poi": "Trilby Wash 230 kV",
+     "total": 6800000.0,
+     "nu": 6000000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q1 2030 (230/500 kV); Q4 2028 (69 kV)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-03-31",
+     "status": "Transitional Cluster: LGIA (Draft)",
+     "tech": "Combined Energy Source (Solar + Energy Storage)",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Trilby Wash 230kV",
+     "mw_queue": 300.0,
+     "station_nu": 6000000.0,
+     "cum_mw": 1288.0,
+     "cum_nris_mw": 988.0
+    },
+    {
+     "q": "Q468",
+     "mw": 1000.0,
+     "service": "ERIS",
+     "poi": "Westwing 500 kV",
+     "total": 5000000.0,
+     "nu": 3000000.0,
+     "tif": 2000000.0,
+     "isd": "Earliest Q1 2030 (230/500 kV); Q4 2028 (69 kV)",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 3000000.0,
+     "cum_mw": 2288.0,
+     "cum_nris_mw": 988.0
+    },
+    {
+     "q": "Q479",
+     "mw": 165.0,
+     "service": "ERIS",
+     "poi": "Perryville 69 kV",
+     "total": 1300000.0,
+     "nu": 500000.0,
+     "tif": 800000.0,
+     "isd": "Earliest Q1 2030 (230/500 kV); Q4 2028 (69 kV)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2022-09-27",
+     "status": "Project with APS Project Manager",
+     "tech": "Energy Storage",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Perryville 69kV Substation",
+     "mw_queue": 165.0,
+     "station_nu": 500000.0,
+     "cum_mw": 2453.0,
+     "cum_nris_mw": 988.0
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Rebuild Luke Field-Varney 69kv (4.5 miles)",
+     "cost": 10000000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q408": {
+       "pct": 100.0,
+       "usd": 10000000.0
+      }
+     },
+     "first_q": "Q408",
+     "trigger_cum_mw": 288.0,
+     "trigger_cum_nris_mw": 288.0,
+     "n_sharing": 1,
+     "sharing_mw": 88.0
+    }
+   ]
+  },
+  {
+   "file": "APS_PhoenixMetro_2024_Cluster_Phase_1_v2_(1)_20251101.pdf",
+   "label": "2024 Ph1",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2025-11-01",
+   "version": "1.0 (file v2)",
+   "projects": [
+    {
+     "q": "Q549",
+     "mw": 42.12,
+     "service": "NRIS",
+     "poi": "TSMC 2 230 kV",
+     "total": 0.0,
+     "nu": 0.0,
+     "tif": 0.0,
+     "isd": "In service",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-04-11",
+     "status": "Validate FaS Requirements",
+     "tech": "Diesel",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Avery Substation",
+     "mw_queue": 42.12,
+     "station_nu": 0,
+     "cum_mw": 42.12,
+     "cum_nris_mw": 42.12
+    },
+    {
+     "q": "Q560",
+     "mw": 425.0,
+     "service": "NRIS",
+     "poi": "Stratus-Palm Valley 230 kV Line (via new switching station)",
+     "total": 26000000.0,
+     "nu": 25000000.0,
+     "tif": 1000000.0,
+     "isd": "Earliest Q4 2029",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Final Analysis for Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Stratus",
+     "mw_queue": 425.0,
+     "station_nu": 25000000.0,
+     "cum_mw": 467.12,
+     "cum_nris_mw": 467.12
+    }
+   ],
+   "upgrades": []
+  },
+  {
+   "file": "APS_Phoenix_Metro_Area_2024_Cluster_Phase_2_v1_20260401.pdf",
+   "label": "2024 Ph2",
+   "cycle": "2024",
+   "sub": "",
+   "date": "2026-04-01",
+   "version": "1.3",
+   "projects": [
+    {
+     "q": "Q549",
+     "mw": 42.12,
+     "service": "NRIS",
+     "poi": "TSMC 2 230 kV",
+     "total": 0.0,
+     "nu": 0.0,
+     "tif": 0.0,
+     "isd": "Can go in service as requested",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-04-11",
+     "status": "Validate FaS Requirements",
+     "tech": "Diesel",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Avery Substation",
+     "mw_queue": 42.12,
+     "station_nu": 0,
+     "cum_mw": 42.12,
+     "cum_nris_mw": 42.12
+    },
+    {
+     "q": "Q560",
+     "mw": 425.0,
+     "service": "NRIS",
+     "poi": "Stratus-Palm Valley 230 kV Line (via new switching station)",
+     "total": 31500000.0,
+     "nu": 30000000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q2 2031 (54-mo switchyard)",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2024-05-09",
+     "status": "Final Analysis for Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Stratus",
+     "mw_queue": 425.0,
+     "station_nu": 30000000.0,
+     "cum_mw": 467.12,
+     "cum_nris_mw": 467.12
+    }
+   ],
+   "upgrades": []
+  },
+  {
+   "file": "APS_Phoenix_Metro_Area_2025_Cluster_Phase_1_v1-6_Final_20260506.pdf",
+   "label": "2025 Ph1",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-05-06",
+   "version": "1.6",
+   "projects": [
+    {
+     "q": "Q585",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Freedom 230 kV",
+     "total": 4300000.0,
+     "nu": 2800000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-01",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Freedom Valley 230kV Substation (33.417858, 115.499852)",
+     "mw_queue": 200.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 200.0,
+     "cum_nris_mw": 200.0
+    },
+    {
+     "q": "Q586",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Westwing 230 kV",
+     "total": 4310000.0,
+     "nu": 2810000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-01",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Westwing 230kV",
+     "mw_queue": 300.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 500.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q590",
+     "mw": 180.0,
+     "service": "NRIS",
+     "poi": "Honeywell 69 kV",
+     "total": 7080000.0,
+     "nu": 5580000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-07",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Honeywell 69kV",
+     "mw_queue": 180.0,
+     "station_nu": 200000.0,
+     "cum_mw": 680.0,
+     "cum_nris_mw": 680.0
+    },
+    {
+     "q": "Q591",
+     "mw": 535.05,
+     "service": "NRIS",
+     "poi": "Baccara 230 kV",
+     "total": 13480000.0,
+     "nu": 11980000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-09",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Natural Gas",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Bacura 230kV Yard",
+     "mw_queue": 535.05,
+     "station_nu": 2500000.0,
+     "cum_mw": 1215.05,
+     "cum_nris_mw": 1215.05
+    },
+    {
+     "q": "Q593",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Parkway 230 kV",
+     "total": 7770000.0,
+     "nu": 6270000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-05",
+     "status": "Validate Site Control &amp; Updated Deposit",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Parkway Substation 230kV",
+     "mw_queue": 250.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 1465.05,
+     "cum_nris_mw": 1465.05
+    },
+    {
+     "q": "Q598",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Parkway 230 kV",
+     "total": 7760000.0,
+     "nu": 6260000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-10",
+     "status": "Validate Site Control &amp; Updated Deposit",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Parkway 230 kV Substation",
+     "mw_queue": 250.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 1715.05,
+     "cum_nris_mw": 1715.05
+    },
+    {
+     "q": "Q602",
+     "mw": 10.8,
+     "service": "NRIS",
+     "poi": "Commerce 12 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Diesel",
+     "service_req": "Analysis For Sub-Cluster Re-Study",
+     "poi_queue": "Commerce Substation",
+     "mw_queue": 10.8,
+     "station_nu": 0,
+     "cum_mw": 1725.85,
+     "cum_nris_mw": 1725.85
+    },
+    {
+     "q": "Q606",
+     "mw": 350.0,
+     "service": "NRIS",
+     "poi": "Freedom 230 kV",
+     "total": 4530000.0,
+     "nu": 3030000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-15",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Freedom 230kV Substation, BUS ID: 14258",
+     "mw_queue": 350.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 2075.85,
+     "cum_nris_mw": 2075.85
+    },
+    {
+     "q": "Q607",
+     "mw": 300.0,
+     "service": "ERIS",
+     "poi": "Trilby Wash 230 kV",
+     "total": 4000000.0,
+     "nu": 2500000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-06",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Trilby Wash 230kV",
+     "mw_queue": 300.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 2375.85,
+     "cum_nris_mw": 2075.85
+    },
+    {
+     "q": "Q611",
+     "mw": 75.0,
+     "service": "NRIS",
+     "poi": "West Phoenix 230 kV",
+     "total": 4370000.0,
+     "nu": 2870000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 2500000.0,
+     "cum_mw": 2450.85,
+     "cum_nris_mw": 2150.85
+    },
+    {
+     "q": "Q614",
+     "mw": 125.0,
+     "service": "NRIS",
+     "poi": "Three Rivers 230 kV",
+     "total": 4280000.0,
+     "nu": 2780000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 2500000.0,
+     "cum_mw": 2575.85,
+     "cum_nris_mw": 2275.85
+    },
+    {
+     "q": "Q615",
+     "mw": 330.0,
+     "service": "NRIS",
+     "poi": "Dromedary 230 kV",
+     "total": 8630000.0,
+     "nu": 7130000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2031",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 2500000.0,
+     "cum_mw": 2905.85,
+     "cum_nris_mw": 2605.85
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Raptor-Sabre 230 kV new line #2 and breakers (4.2 mi)",
+     "cost": 12410000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q585": {
+       "pct": 0.4,
+       "usd": 50000.0
+      },
+      "Q591": {
+       "pct": 42.9,
+       "usd": 5320000.0
+      },
+      "Q593": {
+       "pct": 17.4,
+       "usd": 2160000.0
+      },
+      "Q598": {
+       "pct": 17.3,
+       "usd": 2150000.0
+      },
+      "Q606": {
+       "pct": 0.6,
+       "usd": 80000.0
+      },
+      "Q615": {
+       "pct": 21.3,
+       "usd": 2650000.0
+      }
+     },
+     "first_q": "Q585",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 6,
+     "sharing_mw": 1915.05
+    },
+    {
+     "label": "Contrail-Raptor (TS34) 230 kV line #2 and breakers (0.7 mi)",
+     "cost": 5420000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q585": {
+       "pct": 0.4,
+       "usd": 20000.0
+      },
+      "Q591": {
+       "pct": 42.9,
+       "usd": 2320000.0
+      },
+      "Q593": {
+       "pct": 17.4,
+       "usd": 940000.0
+      },
+      "Q598": {
+       "pct": 17.3,
+       "usd": 940000.0
+      },
+      "Q606": {
+       "pct": 0.6,
+       "usd": 0.0
+      },
+      "Q615": {
+       "pct": 21.3,
+       "usd": 1200000.0
+      }
+     },
+     "first_q": "Q585",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 6,
+     "sharing_mw": 1915.05
+    },
+    {
+     "label": "Glendale-Agua Fria 230 kV rebuild (~2.78 mi)",
+     "cost": 4000000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q585": {
+       "pct": 5.4,
+       "usd": 200000.0
+      },
+      "Q586": {
+       "pct": 1.6,
+       "usd": 100000.0
+      },
+      "Q591": {
+       "pct": 34.5,
+       "usd": 1400000.0
+      },
+      "Q593": {
+       "pct": 13.6,
+       "usd": 500000.0
+      },
+      "Q598": {
+       "pct": 13.6,
+       "usd": 500000.0
+      },
+      "Q606": {
+       "pct": 9.3,
+       "usd": 400000.0
+      },
+      "Q611": {
+       "pct": 2.5,
+       "usd": 100000.0
+      },
+      "Q614": {
+       "pct": 5.3,
+       "usd": 200000.0
+      },
+      "Q615": {
+       "pct": 14.1,
+       "usd": 600000.0
+      }
+     },
+     "first_q": "Q585",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 9,
+     "sharing_mw": 2415.05
+    },
+    {
+     "label": "Ocotillo-Kyrene 230 kV reconductor (~2-2.78 mi)",
+     "cost": 1980000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q585": {
+       "pct": 1.5,
+       "usd": 30000.0
+      },
+      "Q586": {
+       "pct": 10.4,
+       "usd": 210000.0
+      },
+      "Q590": {
+       "pct": 18.8,
+       "usd": 380000.0
+      },
+      "Q591": {
+       "pct": 21.8,
+       "usd": 440000.0
+      },
+      "Q593": {
+       "pct": 8.7,
+       "usd": 170000.0
+      },
+      "Q598": {
+       "pct": 8.7,
+       "usd": 170000.0
+      },
+      "Q606": {
+       "pct": 2.7,
+       "usd": 50000.0
+      },
+      "Q611": {
+       "pct": 2.7,
+       "usd": 270000.0
+      },
+      "Q614": {
+       "pct": 2.7,
+       "usd": 80000.0
+      },
+      "Q615": {
+       "pct": 9.0,
+       "usd": 180000.0
+      }
+     },
+     "first_q": "Q585",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 10,
+     "sharing_mw": 2595.05
+    },
+    {
+     "label": "Honeywell-Canal 69kV line rebuild (3.5 miles)",
+     "cost": 3500000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q590": {
+       "pct": 100.0,
+       "usd": 3500000.0
+      }
+     },
+     "first_q": "Q590",
+     "trigger_cum_mw": 680.0,
+     "trigger_cum_nris_mw": 680.0,
+     "n_sharing": 1,
+     "sharing_mw": 180.0
+    },
+    {
+     "label": "Honeywell-Loma Vista 69kV line rebuild (1.5 miles)",
+     "cost": 1500000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q590": {
+       "pct": 100.0,
+       "usd": 1500000.0
+      }
+     },
+     "first_q": "Q590",
+     "trigger_cum_mw": 680.0,
+     "trigger_cum_nris_mw": 680.0,
+     "n_sharing": 1,
+     "sharing_mw": 180.0
+    }
+   ]
+  },
+  {
+   "file": "APS_PhoenixMetro_2025_Cluster_Phase_2_v1-4_Final_20260914.pdf",
+   "label": "2025 Ph2",
+   "cycle": "2025",
+   "sub": "",
+   "date": "2026-09-14",
+   "version": "1.4",
+   "projects": [
+    {
+     "q": "Q585",
+     "mw": 200.0,
+     "service": "NRIS",
+     "poi": "Freedom 230 kV",
+     "total": 5100000.0,
+     "nu": 3600000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-01",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Freedom Valley 230kV Substation (33.417858, 115.499852)",
+     "mw_queue": 200.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 200.0,
+     "cum_nris_mw": 200.0
+    },
+    {
+     "q": "Q586",
+     "mw": 300.0,
+     "service": "NRIS",
+     "poi": "Westwing 230 kV",
+     "total": 4300000.0,
+     "nu": 2800000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-01",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Westwing 230kV",
+     "mw_queue": 300.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 500.0,
+     "cum_nris_mw": 500.0
+    },
+    {
+     "q": "Q590",
+     "mw": 180.0,
+     "service": "NRIS",
+     "poi": "Honeywell 69 kV",
+     "total": 11200000.0,
+     "nu": 10200000.0,
+     "tif": 1000000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-07",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Honeywell 69kV",
+     "mw_queue": 180.0,
+     "station_nu": 200000.0,
+     "cum_mw": 680.0,
+     "cum_nris_mw": 680.0
+    },
+    {
+     "q": "Q591",
+     "mw": 535.05,
+     "service": "NRIS",
+     "poi": "Baccara 230 kV",
+     "total": 18700000.0,
+     "nu": 17200000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-09",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Natural Gas",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Bacura 230kV Yard",
+     "mw_queue": 535.05,
+     "station_nu": 2500000.0,
+     "cum_mw": 1215.05,
+     "cum_nris_mw": 1215.05
+    },
+    {
+     "q": "Q593",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Parkway 230 kV",
+     "total": 9900000.0,
+     "nu": 8400000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-05",
+     "status": "Validate Site Control &amp; Updated Deposit",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Parkway Substation 230kV",
+     "mw_queue": 250.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 1465.05,
+     "cum_nris_mw": 1465.05
+    },
+    {
+     "q": "Q598",
+     "mw": 250.0,
+     "service": "NRIS",
+     "poi": "Parkway 230 kV",
+     "total": 9600000.0,
+     "nu": 8100000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-10",
+     "status": "Validate Site Control &amp; Updated Deposit",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Parkway 230 kV Substation",
+     "mw_queue": 250.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 1715.05,
+     "cum_nris_mw": 1715.05
+    },
+    {
+     "q": "Q602",
+     "mw": 10.8,
+     "service": "NRIS",
+     "poi": "Commerce 12 kV",
+     "total": 100000.0,
+     "nu": 0.0,
+     "tif": 100000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-08",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Diesel",
+     "service_req": "Analysis For Sub-Cluster Re-Study",
+     "poi_queue": "Commerce Substation",
+     "mw_queue": 10.8,
+     "station_nu": 0,
+     "cum_mw": 1725.85,
+     "cum_nris_mw": 1725.85
+    },
+    {
+     "q": "Q606",
+     "mw": 350.0,
+     "service": "NRIS",
+     "poi": "Freedom 230 kV",
+     "total": 6000000.0,
+     "nu": 4500000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-15",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Network Resource Interconnection Service",
+     "poi_queue": "Freedom 230kV Substation, BUS ID: 14258",
+     "mw_queue": 350.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 2075.85,
+     "cum_nris_mw": 2075.85
+    },
+    {
+     "q": "Q607",
+     "mw": 300.0,
+     "service": "ERIS",
+     "poi": "Trilby Wash 230 kV",
+     "total": 4000000.0,
+     "nu": 2500000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": true,
+     "queue_date": "2025-05-06",
+     "status": "Analysis For Sub-Cluster Re-Study",
+     "tech": "Energy Storage",
+     "service_req": "Energy Resource Interconnection Service",
+     "poi_queue": "Trilby Wash 230kV",
+     "mw_queue": 300.0,
+     "station_nu": 2500000.0,
+     "cum_mw": 2375.85,
+     "cum_nris_mw": 2075.85
+    },
+    {
+     "q": "Q611",
+     "mw": 75.0,
+     "service": "NRIS",
+     "poi": "West Phoenix 230 kV",
+     "total": 4600000.0,
+     "nu": 3100000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 2500000.0,
+     "cum_mw": 2450.85,
+     "cum_nris_mw": 2150.85
+    },
+    {
+     "q": "Q614",
+     "mw": 125.0,
+     "service": "NRIS",
+     "poi": "Three Rivers 230 kV",
+     "total": 4900000.0,
+     "nu": 3400000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 2500000.0,
+     "cum_mw": 2575.85,
+     "cum_nris_mw": 2275.85
+    },
+    {
+     "q": "Q615",
+     "mw": 330.0,
+     "service": "NRIS",
+     "poi": "Dromedary 230 kV",
+     "total": 10600000.0,
+     "nu": 9100000.0,
+     "tif": 1500000.0,
+     "isd": "Earliest Q4 2030",
+     "notes": "",
+     "in_active_queue": false,
+     "station_nu": 2500000.0,
+     "cum_mw": 2905.85,
+     "cum_nris_mw": 2605.85
+    }
+   ],
+   "upgrades": [
+    {
+     "label": "Raptor-Sabre 230 kV new line #2 and breakers (4.2 mi)",
+     "cost": 12600000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q585": {
+       "pct": 0.4,
+       "usd": 100000.0
+      },
+      "Q591": {
+       "pct": 42.9,
+       "usd": 5300000.0
+      },
+      "Q593": {
+       "pct": 17.4,
+       "usd": 2200000.0
+      },
+      "Q598": {
+       "pct": 17.3,
+       "usd": 2200000.0
+      },
+      "Q606": {
+       "pct": 0.6,
+       "usd": 100000.0
+      },
+      "Q615": {
+       "pct": 21.3,
+       "usd": 2700000.0
+      }
+     },
+     "first_q": "Q585",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 6,
+     "sharing_mw": 1915.05
+    },
+    {
+     "label": "Contrail-Raptor (TS34) 230 kV line #2 and breakers (0.7 mi)",
+     "cost": 7400000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q585": {
+       "pct": 0.4,
+       "usd": 100000.0
+      },
+      "Q591": {
+       "pct": 42.9,
+       "usd": 3100000.0
+      },
+      "Q593": {
+       "pct": 17.4,
+       "usd": 1300000.0
+      },
+      "Q598": {
+       "pct": 17.3,
+       "usd": 1300000.0
+      },
+      "Q606": {
+       "pct": 0.6,
+       "usd": 100000.0
+      },
+      "Q615": {
+       "pct": 21.3,
+       "usd": 1500000.0
+      }
+     },
+     "first_q": "Q585",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 6,
+     "sharing_mw": 1915.05
+    },
+    {
+     "label": "Glendale-Grand Terminal 230 kV line reconductor (7 miles)",
+     "cost": 6000000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q585": {
+       "pct": 5.4,
+       "usd": 300000.0
+      },
+      "Q586": {
+       "pct": 1.6,
+       "usd": 100000.0
+      },
+      "Q591": {
+       "pct": 34.5,
+       "usd": 2100000.0
+      },
+      "Q593": {
+       "pct": 13.6,
+       "usd": 800000.0
+      },
+      "Q598": {
+       "pct": 13.5,
+       "usd": 800000.0
+      },
+      "Q606": {
+       "pct": 9.4,
+       "usd": 600000.0
+      },
+      "Q611": {
+       "pct": 2.6,
+       "usd": 200000.0
+      },
+      "Q614": {
+       "pct": 5.3,
+       "usd": 300000.0
+      },
+      "Q615": {
+       "pct": 14.1,
+       "usd": 800000.0
+      }
+     },
+     "first_q": "Q585",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 9,
+     "sharing_mw": 2415.05
+    },
+    {
+     "label": "Country Club-Grand Terminal 230 kV line rebuild (2.5 miles)",
+     "cost": 6000000.0,
+     "cost_derived": false,
+     "lead": "36 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q585": {
+       "pct": 5.4,
+       "usd": 300000.0
+      },
+      "Q586": {
+       "pct": 1.5,
+       "usd": 100000.0
+      },
+      "Q591": {
+       "pct": 34.5,
+       "usd": 2100000.0
+      },
+      "Q593": {
+       "pct": 13.6,
+       "usd": 800000.0
+      },
+      "Q598": {
+       "pct": 13.6,
+       "usd": 800000.0
+      },
+      "Q606": {
+       "pct": 9.5,
+       "usd": 600000.0
+      },
+      "Q611": {
+       "pct": 2.6,
+       "usd": 200000.0
+      },
+      "Q614": {
+       "pct": 5.3,
+       "usd": 300000.0
+      },
+      "Q615": {
+       "pct": 14.0,
+       "usd": 800000.0
+      }
+     },
+     "first_q": "Q585",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 9,
+     "sharing_mw": 2415.05
+    },
+    {
+     "label": "Glendale-Agua Fria 230 kV rebuild (~2.78 mi)",
+     "cost": 5700000.0,
+     "cost_derived": false,
+     "lead": "48 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q585": {
+       "pct": 5.4,
+       "usd": 300000.0
+      },
+      "Q586": {
+       "pct": 1.5,
+       "usd": 100000.0
+      },
+      "Q591": {
+       "pct": 34.5,
+       "usd": 2100000.0
+      },
+      "Q593": {
+       "pct": 13.6,
+       "usd": 800000.0
+      },
+      "Q598": {
+       "pct": 13.5,
+       "usd": 500000.0
+      },
+      "Q606": {
+       "pct": 9.4,
+       "usd": 600000.0
+      },
+      "Q611": {
+       "pct": 2.6,
+       "usd": 200000.0
+      },
+      "Q614": {
+       "pct": 5.3,
+       "usd": 300000.0
+      },
+      "Q615": {
+       "pct": 14.1,
+       "usd": 800000.0
+      }
+     },
+     "first_q": "Q585",
+     "trigger_cum_mw": 200.0,
+     "trigger_cum_nris_mw": 200.0,
+     "n_sharing": 9,
+     "sharing_mw": 2415.05
+    },
+    {
+     "label": "Honeywell-Canal 69kV line rebuild (3.5 miles)",
+     "cost": 7000000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q590": {
+       "pct": 100.0,
+       "usd": 7000000.0
+      }
+     },
+     "first_q": "Q590",
+     "trigger_cum_mw": 680.0,
+     "trigger_cum_nris_mw": 680.0,
+     "n_sharing": 1,
+     "sharing_mw": 180.0
+    },
+    {
+     "label": "Honeywell-Loma Vista 69kV line rebuild (1.5 miles)",
+     "cost": 3000000.0,
+     "cost_derived": false,
+     "lead": "30 months",
+     "category": "network NU",
+     "parts": [
+      "Sum of per-project allocated shares from cost estimate table"
+     ],
+     "alloc": {
+      "Q590": {
+       "pct": 100.0,
+       "usd": 3000000.0
+      }
+     },
+     "first_q": "Q590",
+     "trigger_cum_mw": 680.0,
+     "trigger_cum_nris_mw": 680.0,
+     "n_sharing": 1,
+     "sharing_mw": 180.0
+    }
+   ]
+  }
+ ],
+ "prior": [
+  {
+   "q": "Q35",
+   "mw": 3.0,
+   "poi": "El Sol-Lukefeld 69 kV (Mendian)",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Bioenergy",
+   "queue_date": "2007-09-18"
+  },
+  {
+   "q": "Q222",
+   "mw": 595.0,
+   "poi": "Oostillo 230kV Switchyard",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Natural Gas",
+   "queue_date": "2014-08-15"
+  },
+  {
+   "q": "Q229",
+   "mw": 50.0,
+   "poi": "El Sol 69kV Substation",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2015-09-29"
+  },
+  {
+   "q": "Q268",
+   "mw": 75.0,
+   "poi": "Sarival 69kV Sub",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Pending LGIA Amended &amp; Filed",
+   "tech": "Energy Storage",
+   "queue_date": "2018-03-29"
+  },
+  {
+   "q": "Q278",
+   "mw": 250.0,
+   "poi": "Raceway 230kV Substation",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2018-06-22"
+  },
+  {
+   "q": "Q280",
+   "mw": 300.0,
+   "poi": "Westwing 230kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Draft LGIA",
+   "tech": "Energy Storage",
+   "queue_date": "2018-09-27"
+  },
+  {
+   "q": "Q289",
+   "mw": 50.0,
+   "poi": "El Sol 69kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Construction",
+   "tech": "Energy Storage",
+   "queue_date": "2018-09-28"
+  },
+  {
+   "q": "Q291",
+   "mw": 200.0,
+   "poi": "Raceway 230kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Design",
+   "tech": "Energy Storage",
+   "queue_date": "2018-09-29"
+  },
+  {
+   "q": "Q292",
+   "mw": 200.0,
+   "poi": "Westwing 230kV Substation",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2018-09-29"
+  },
+  {
+   "q": "Q299",
+   "mw": 150.0,
+   "poi": "Westwing 69kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Pending Appendix E",
+   "tech": "Energy Storage",
+   "queue_date": "2019-03-29"
+  },
+  {
+   "q": "Q301",
+   "mw": 10.0,
+   "poi": "Gillespie 12kV",
+   "process": "In service",
+   "status": "In-Service",
+   "tech": "Energy Storage",
+   "queue_date": "2019-03-29"
+  },
+  {
+   "q": "Q314",
+   "mw": 300.0,
+   "poi": "Scatter Wash 230kV",
+   "process": "In service",
+   "status": "COD - Pending Refund",
+   "tech": "Energy Storage",
+   "queue_date": "2019-09-27"
+  },
+  {
+   "q": "Q355",
+   "mw": 200.0,
+   "poi": "Palm Valley 230kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Customer Initiated Suspension",
+   "tech": "Combined Energy Source (Solar + Energy Storage)",
+   "queue_date": "2020-09-29"
+  },
+  {
+   "q": "Q358",
+   "mw": 100.0,
+   "poi": "Colter 69kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "In Design",
+   "tech": "Energy Storage",
+   "queue_date": "2020-09-30"
+  },
+  {
+   "q": "Q363",
+   "mw": 100.0,
+   "poi": "Scatterwash 69kV",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Pending LGIA Amended &amp; Filed",
+   "tech": "Energy Storage",
+   "queue_date": "2020-09-30"
+  },
+  {
+   "q": "Q384",
+   "mw": 125.0,
+   "poi": "Westwing 69kV Substation",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Cost Table and Milestone Refesh",
+   "tech": "Energy Storage",
+   "queue_date": "2021-03-29"
+  },
+  {
+   "q": "Q394",
+   "mw": 5.0,
+   "poi": "PHX WWTP",
+   "process": "Pre-2024 (Transition or serial)",
+   "status": "Project with APS Project Manager (Legacy)",
+   "tech": "/",
+   "queue_date": "2021-03-23"
+  }
+ ]
+}

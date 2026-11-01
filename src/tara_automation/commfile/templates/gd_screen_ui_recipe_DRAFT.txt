@@ -1,0 +1,194 @@
+// DRAFT - NOT VALIDATED. Do not wire into the pipeline until a replay matches a UI run.
+// TVA GD step 1 of 2: flowgate screening (wdis) -> @@FGT@@.
+// Source: TARA batch-generated comm _comm19.txt in
+//   OneDrive Desktop\TARA_2602_005_TVAGD_RC13_SRP (SRP Cluster 26 TVA GD package, TARA 2602.0.0.5 TVAGD RC13),
+//   with only paths, case, subsystem names and a few screening parameters turned into @@-tokens.
+// Order of option blocks kept exactly as TARA wrote it (see trlim.py on why order matters).
+// The // header lines are for humans; strip them if TARA objects to leading comments.
+chdir "@@RESULTS@@"
+%trace "@@TRACE_LOG@@" %txt
+opt cont correctiveSwitchingMode @@CORR_SWITCHING@@ 0 0//Enable RAS or corrective switching screening
+lfopt adj 
+ areaInterAdjustEdit    1 //Adjust area interchange when editing generation and load. 0-no,1-ties,2-ties and external load
+0 0
+opt cont 
+ monBranRatingBase      1 //Base case   rating (1-A;2-B;3-C;4-D)
+ monBranRatingCont      2 //Contingency rating (1-A;2-B;3-C;4-D)
+ monBranRatingMultBase  100 //Base case rating multipliers
+ monBranRatingMultCont  100 //Contingency rating multipliers
+ monBranRatingEnAdd1    0 //Enable additional rating reporting 1(0-no,1-yes)
+ monBranRatingEnAdd2    0 //Enable additional rating reporting 2(0-no,1-yes)
+ contChanCutOffMW       5 //MW cutoff to ignore constraints if cont.flow doesn't changes from the base case more than
+ contChanCutOffPercent  2 //Rating %% cutoff to ignore if cont.flow changes from the base case is less than
+ MonConMode             1 //1-Regular, 2-Flowgate, 3-Voltgate,4-Both
+ PAR_AdjEnabledContAnal 1 //Phase shifter model for the base case (0-fixed angle,1-control flow)
+ adjustRatingMVA        0 //Adjust branch MW rating based on MVAR flow (DC analysis)
+ limitTypeLine          0 //Use AMP (=0) or MVA (1) limit to check lines violation in AC mode
+ limitTypeTran          1 //Use AMP (=0) or MVA (1) limit to check transformer violation in AC mode
+ voltMinChange          0.005 //Voltage change cutoff in PU to ignore voltage violations when change from the base case is smaller than
+ numContMaxAlloc        15000 //Max number of contingencies
+ maxEvPerCont           60 //Max events per contingency
+ numEventsAlloc         35000 //Max number of contingency events
+ numDispEventAlloc      60000 //Max number of generation redispatch events
+ numLFgatesMaxAlloc     10000 //Max number of flowgates
+ mulSecPrintMode        0 //Multi-section line modelling (0-ignore;1-honor)
+ MAXOUTAGES             15000 //Maximum number of outages
+ maxORAFlowResults      2000000 //Maximum number of ORA or N-1-1 results to report
+ maxFgateBranches       100 //Max Number of Mon Events per Flowgate
+ maxFgEventTotal        30000 //Total Max Number of Mon Events among all Flowgates
+ useContingencyComments 0 //Use Trailing Contingency Comments in Contingency Reporting
+0 0
+opt N-1-1 
+ consPerMonBran         5 //Number of top contingencies to show per monitored branch
+ consPerMonBus          5 //Number of top contingencies to show per monitored bus
+0 0
+opt EMS 
+ emsNamingMethod  1 //Method for naming EMS equipment (1-PJM, 2-MISO, 3-ISO-NE)
+ useAUXMonStatus  0 //Use Monitored Branch Status field in AUX file (0-No, 1-Yes)
+ reduceCaseMode   0 //Case Reduction(0-no reduction,1-basic,2-remove radial cont/out events(TBD)
+ reduceAtRuntime  0 //Keep full node-breaker model but do topology reduction at run-time for analysis performance improvement[0-No,1-Yes]
+ neOverrideFormat 0 //Format of NE Override Data (0-AUX, 1-CSV)
+0 0
+lfopt solve 
+ ApplyBreakerImpOverride 0 //Apply breaker zero impedance override?(0-no,1-yes)If disabled, breaker impedance in case will be used
+ BreakerZeroImp          0.000001 //Low impedance value in PU to use for breakers and switches
+0 0
+lfopt misc 
+ maxBuses       95000 //Maximum number of buses
+ maxBranches    190000 //Maximum number of buses (includes 2W and 3W transf)
+ maxLoads       190000 //Maximum number of loads
+ maxShunts      15000 //Maximum number of shunts
+ maxTransfor    30000 //Maximum number of 2W and 3W transformers total
+ maxGenerators  25000 //Maximum number of generators and plants
+0 0
+opt sced options 
+ maxBidPoints  10000 //Maximum number of Pnodes
+ MAXBIDBLOCKS  100000 //Maximum number of bids/cost curves
+ maxZonFactors 40000 //Maximum number of zonal factors
+0 0 0
+opt sced options 
+ CPNODEMAX      10 //Maximum number of cp nodes for MISO ASM
+ CPNODEPERBUS   10 //Maximum number of cp nodes per bus for MISO ASM
+0 0 0
+lfopt solve 
+ busMismToler        1 //Bus Mismatch tolerance
+ MaxIterLF           50 //Max N of iterations in DC LF
+ useFlatStart        0 //Use flat start during LF
+ ZeroImpThr          0.0001 //Zero impedance threshhold in PU
+ lowVoltCutOffLoad   0.8 //Scale load down if voltage becomes low
+ maxVoltChangeInit   0.2 //Max volt magnit change in PU per iteration - init stage
+ maxAngleChangeInit  3 //Max volt angle change in radians per iteration - init stage
+ maxVoltChangeFinal  0.15 //Max volt magnit change in PU per iteration - final stage
+ maxAngleChangeFinal 1 //Max volt angle change in radians per iteration - final stage
+ numIterInit         3 //Max iteration for initial stage
+ MemFactor           5 //Sparse methods fill in allocation factor
+ voltTolnUser        0 //Voltage magnitude tolerance for volt. contr. buses(if 0.00 will be computed automat.)
+ lowVoltAddQGen      0 //Add Q at generator buses with low voltage(0-no,1-yes)
+ lowVoltCutOffQGen   0.7 //Low voltage cutoff to add Qgen if voltage becomes low
+ highVoltReduceQGen  0 //Reduce Q at generator buses with high voltage below Qmin (0-no,1-yes)
+ highVoltCutOffQGen  1.3 //High Voltage cutoff to reduce Q gen for high voltage
+ fixedQGenRelax      0 //Relax Q at generators with Qmin=Qmax (0-no,1-yes)
+ lowVoltAddShunt     0 //Add Shunts at buses with low voltage(0-no,1-yes)
+ lowVoltCutOffShunt  0.7 //Low voltage cutoff to add shunts if voltage becomes low
+ highVoltReduceShunt 0 //Remove fixed Shunt with high voltage(0-no,1-yes)
+ highVoltCutOffShunt 1.25 //High Voltage cutoff to limit fixed shunts injection
+ 0 0
+lfopt adj 
+ iterCheckVarLimitHotStart  0 //Iteration to start generator VAR limit checking - hot start
+ iterCheckVarLimitFlat      3 //Iteration to start generator VAR limit checking - flat start
+ PAR_AdjEnabledLF           1 //Enable Phase Shifter Adjustment
+ areaInterAdjustEnabled     0 //Area interchange control
+ TAP_AdjEnabledLF           1 //Enable TAP adjustment
+ shuntAdjEnabled            2 //Enable shunt adjustment
+ fixedToSwitched            0 //Convert all fixed shunts to discrete mode switched shunts
+ DCLineAdjEnabled           1 //Enable DC lines adjustment
+ showParAdj                 1 //Report PAR adjustments per iteration
+ showTapAdj                 1 //Report TAP adjustments per iteration
+ showShuntAdj               1 //Report shunt adjustments per iteration
+ showAreaInterAdj           1 //Area interchange reporting level
+ busMismTolerAreaInter      5 //Bus Mismatch tolerance to start area adjustments
+ maxVarLimitsBusTypeChanges 6 //Max times voltage controlled bus can change type
+ iterCheckVarLimitLast      40 //Iteration to stop checking var limits
+ maxAdjustIterVolt          30 //Iteration to stop TAP and Shunt adjustments
+ deacFactRTap               1 //Voltage adjustment deacceleration factor
+ maxTapChange               0.02 //Max tap ratio change per iteration
+ voltAdjTrigger             0.3 //Max voltage magnitude change to activate TAP and Shunt adjustments
+ angleAdjTrigger            0.2 //Max voltage angle change (in degrees) to activate PAR and area interchange adjustments
+ showBusTypeChan            0 //Show voltage controlled buses type changes
+ deOscilFactor              0.7 //De-oscillation factor (if 1.0-not activated)
+0 0
+lfopt misc 
+ useCaseNameFullPath   0 //Use LF case name (0) only or full path as scenario name(1)
+ branNamePrefix        "/* [" //Branch Names Prefix
+ branNameSuffix        "]" //Branch Names Suffix
+ readEquipNamesFromRAW 0 //Read equipment names(bus,gen,load,branches,shunts) from RAW file?
+ reportBusAreaName     0 //Add area names to LF data reports(bus,gen,load,branches,shunts)
+ reportBusZoneName     0 //Add zone names to LF data reports(bus, gen,load,branches, shunts)
+ busNameQuotes         0 //Add single quotes around Bus Names and CKT/ID in reports(most users should not enable)
+ NoStarBusNumbers      0 //Don't print bus numbers of 3-wind star buses in mon branch reports [1=don-t print]
+0 0
+opt cont 
+ ignoreEnd2Exit        0 //Ignore END statement to exit reading sub mon con exc files (0-No,1-Yes)
+0 0
+opt screen 
+ limitFgateName40       0 //Limit flowgate name created by screening to 40 characters?
+0 0
+opt cont StudyFiles 1 0 0 0
+READ EPC @@EPC_VERSION@@ "@@CASE@@" 0 0 
+opt cont StudyFiles 1 0 0 0
+lfopt misc 
+ busOutputMode 2 0 0 //Default Bus output mode  (1-names; 2-numbers)
+solve 
+ fdec 0 0 
+read alldef 
+"@@SUB@@"
+"@@CON@@"
+@@RAS@@
+"@@MON@@"
+@@EXC@@
+ 0
+opt misc needReportHeader 0
+0 0 0
+warn %save "@@RESULTS@@\Warn_Sum_Term.csv"  %csv term 0 0
+opt misc needReportHeader 1
+0 0 0
+opt scenario
+ define "@@SCENARIO@@" ,0
+ option 
+  numScenarioRep 1 //Define Max scenarios to report
+0 0 0
+opt misc needReportHeader 1 //Report headers (0-no, 1-report headers)
+0 0 0
+opt misc needReportHeader 1 //Report headers (0-no, 1-report headers)
+0 0 0
+opt screen 
+ maxWdTest         @@MAX_WD_TEST@@ //Maximum redispatch test level (including changes in demand)
+ maxWdTestRefDn    1 //Max decrease in demand
+ maxWdTestRefUp    1 //Max increase in demand
+ maxViolPerCons     10 //Max times to report the same monitor element
+ maxWdUnits         3 //Max number of Helper plants allowed to change
+ maxWdTestStrategy  4 //MW Redispatch - Harmers to Reference
+ wdScalingFactor         @@WD_SCALING@@ //Screening rating scaling factor
+ wdPumpMode              @@WD_PUMP@@ //Allow negative Pmin unit to participate in flowgate screening
+ wdScreenProspectingMode 0 //Flowgate screening study bus non-cumulative mode?
+ wdSortWorstCon          0 //Mode for sorting worst contingencies per mon [0-MW redispatch to hit target loading, 1-Highest flow with all gens dispatched up to Max test or Dfax cutoff]
+ nearStudyScrnMode  0 //0-Run all contingencies, 1-Run contingencies located near the study buses
+ wdSaveOneDirection 0 //Save flowgate for only one direction for mon/con (Probe usage)
+ wdProbeFgates      0 //Add TARA_FORMAT statement and remove default dispatch from fgate file
+ limitFgateName40   0 //Limit flowgate name created by screening to 40 characters?
+0
+analys 
+ wdSubSysName             "@@SCREEN_SRC@@" //Subsystem with generators for screening
+ wdSubSysRefName          "@@SCREEN_REF@@" //Demand/Reference Subsystem
+ SensCutOffMode           0 //0-traditional single cutoff; 1-separate cutoffs for base and cont
+ SensCutOff               @@SCREEN_SENS_CUTOFF@@ //Redispatch Distribut. factors cutoff
+ ignoreInitViolNoImpact  0 //No, report all violations
+ ReportBasecaseViolation 1 //Report base case violations 0-no, 1-yes
+0 0
+opt analys wdSubSysName "@@SCREEN_SRC@@" wdSubSysRefName "@@SCREEN_REF@@" 0 0
+wdis 
+ run 
+ save "@@FGT@@"
+ %save "@@RESULTS@@\ViolationScreenSum.txt"  %csv list 0 0
+wdis 
+ %save "@@RESULTS@@\ScreeningDispatchDetails.csv"  %csv Participation 0 0

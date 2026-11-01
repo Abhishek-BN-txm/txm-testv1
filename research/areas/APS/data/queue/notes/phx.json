@@ -1,0 +1,6 @@
+{
+ "transition-ph1": "Phase 1 had 2.2 GW of NRIS and five small 230/69 kV upgrades ($28M). Q407 (200 MW, since withdrawn) was first on the Scatterwash third 230/69 kV transformer and the Pinnacle Peak APS\u2013SRP 230 kV tie.",
+ "transition-ph2": "After Q407 and Q408 left the active queue and Q468 and Q479 converted to ERIS, NRIS fell to 988 MW. Only the Luke Field\u2013Varney 69 kV rebuild ($10M, Q408) remained.",
+ "2025-ph2": "The 2025 cluster (2.6 GW NRIS) shares second circuits on Contrail\u2013Raptor and Sabre\u2013Baccara\u2013Raptor 230 kV plus Glendale and Grand Terminal 230 kV rebuilds, $47.7M in all. Q585 (200 MW) is the earliest-queued project on the shared lines. Q611, Q614 and Q615 are no longer in the active queue.",
+ "cluster-2026": "13 requests (3.1 GW, 2.6 GW NRIS) from the Apr\u2013May 2026 window, no results posted yet. Several POIs (Raptor, Independence, Broadway, Central) are on the 230 kV paths the 2025 cluster is already upgrading. Area assignment for these is by POI name (medium confidence)."
+}

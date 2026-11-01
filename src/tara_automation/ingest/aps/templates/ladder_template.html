@@ -1,0 +1,685 @@
+<title>__TITLE__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+/* Layout: engineering ladder sheet — summary strip, phase tabs, one wide grid (projects × upgrades) in its own scroller */
+:root{
+  --bg:#f6f7f5; --panel:#ffffff; --ink:#1c2420; --muted:#5f6b65; --rule:#d9dfdb; --rule-strong:#b8c2bc;
+  --accent:#0f6e6a; --accent-soft:#d5ebe8; --eris:#8a6d2b; --eris-soft:#f3ead3; --cell:15 110 106; --warn:#a4462f; --cont:#6b4fa0; --cont-soft:#ece6f5;
+  --off-aps_owned:#173f7a; --off-aps_ppa:#2a78d6; --off-aps_selected:#138a5f; --off-aps_likely:#b77a00; --off-other_offtaker:#6250d6; --off-none:#9aa39e;
+  --f-display:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121715; --panel:#1a211e; --ink:#e3e9e5; --muted:#98a59e; --rule:#2b3531; --rule-strong:#3d4a44;
+  --accent:#5cc2bb; --accent-soft:#18332f; --eris:#d9b46a; --eris-soft:#2e2717; --cell:92 194 187; --warn:#e58a72; --cont:#b9a3e3; --cont-soft:#2a2238; --off-aps_owned:#9cc0ff; --off-aps_ppa:#3987e5; --off-aps_selected:#2fbf8a; --off-aps_likely:#e0a530; --off-other_offtaker:#9085e9; --off-none:#5d6762; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121715; --panel:#1a211e; --ink:#e3e9e5; --muted:#98a59e; --rule:#2b3531; --rule-strong:#3d4a44;
+  --accent:#5cc2bb; --accent-soft:#18332f; --eris:#d9b46a; --eris-soft:#2e2717; --cell:92 194 187; --warn:#e58a72; --cont:#b9a3e3; --cont-soft:#2a2238; --off-aps_owned:#9cc0ff; --off-aps_ppa:#3987e5; --off-aps_selected:#2fbf8a; --off-aps_likely:#e0a530; --off-other_offtaker:#9085e9; --off-none:#5d6762; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1500px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+header{display:grid;gap:6px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(28px,4vw,40px);line-height:1.05;margin:0;text-wrap:balance}
+.lede{max-width:72ch;color:var(--muted);margin:0}
+.tabs{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:flex-end;border-bottom:1px solid var(--rule)}
+.tabgroup{display:grid;gap:4px}
+.tabgroup span{font-family:var(--f-mono);font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.tabgroup div{display:flex;gap:2px;flex-wrap:wrap}
+.tab{font:600 14px var(--f-body);color:var(--muted);background:none;border:0;border-bottom:3px solid transparent;padding:6px 10px;cursor:pointer}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+.tab:focus-visible,.toggle:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.stat{background:var(--panel);border:1px solid var(--rule);padding:10px 14px;display:grid;gap:2px}
+.stat b{font-family:var(--f-display);font-size:26px;font-weight:600;font-variant-numeric:tabular-nums}
+.stat small{color:var(--muted);font-size:13px}
+.note{background:var(--accent-soft);border-left:3px solid var(--accent);padding:10px 14px;max-width:110ch}
+.controls{display:flex;flex-wrap:wrap;gap:16px;align-items:center;color:var(--muted);font-size:14px}
+.toggle{display:inline-flex;gap:6px;align-items:center;cursor:pointer}
+.legend{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.sw{display:inline-block;width:14px;height:14px;vertical-align:-2px;margin-right:4px;border:1px solid var(--rule-strong)}
+.scroller{overflow-x:auto;background:var(--panel);border:1px solid var(--rule)}
+table{border-collapse:separate;border-spacing:0;font-variant-numeric:tabular-nums;min-width:100%}
+th,td{border-bottom:1px solid var(--rule);padding:6px 8px;white-space:nowrap}
+thead th{vertical-align:bottom;background:var(--panel);font-weight:600;text-align:left}
+.sticky{position:sticky;left:0;z-index:2;background:var(--panel)}
+th.up{width:96px;min-width:96px;max-width:96px;white-space:normal;font-family:var(--f-body);font-size:12.5px;line-height:1.25;padding:8px 6px;border-left:1px solid var(--rule)}
+th.up .uname{display:block;min-height:4.8em}
+th.up .ucost{display:block;font-family:var(--f-mono);font-size:12px;color:var(--accent);margin-top:4px}
+th.up .ucost.d::after{content:"*";color:var(--muted)}
+th.up .umeta{display:block;font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.qid{font-family:var(--f-mono);font-weight:600}
+.poi{color:var(--muted);font-size:13px;max-width:200px;overflow:hidden;text-overflow:ellipsis}
+.num{text-align:right;font-family:var(--f-mono);font-size:13px}
+.pill{display:inline-block;font:600 11px var(--f-mono);padding:1px 6px;border-radius:3px;letter-spacing:.04em}
+.pill.nr{background:var(--accent-soft);color:var(--accent)}
+.pill.er{background:var(--eris-soft);color:var(--eris)}
+.pill.prior{background:transparent;color:var(--muted);border:1px solid var(--rule-strong)}
+td.cell{border-left:1px solid var(--rule);text-align:center;font-family:var(--f-mono);font-size:12px;padding:4px 3px;min-width:96px}
+td.cell .box{display:grid;gap:0;border-radius:3px;padding:3px 2px;line-height:1.2}
+td.cell .pct{font-weight:600}
+td.cell .usd{font-size:11px;opacity:.85}
+td.cell.first .box{outline:2px solid var(--warn);outline-offset:-2px}
+tr.eris td:not(.sticky):not(.cell){color:var(--muted)}
+tr.prior td{color:var(--muted)}
+tr.section td{background:var(--bg);font:600 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:8px}
+.cum{display:grid;grid-template-columns:52px 70px;gap:6px;align-items:center}
+.bar{height:6px;background:var(--rule);position:relative;border-radius:3px;overflow:hidden}
+.bar i{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:3px}
+.bar i.all{background:var(--rule-strong)}
+td.cell.st-deferred .box{background-image:repeating-linear-gradient(135deg,transparent 0 5px,rgb(var(--cell) / .35) 5px 7px)!important;background-color:transparent!important;color:var(--ink)!important;outline:1px dashed rgb(var(--cell) / .9);outline-offset:-1px}
+td.cell.st-removed .box{color:var(--muted);text-decoration:line-through;border:1px dashed var(--rule-strong)}
+.built{font:600 10px var(--f-mono);color:var(--accent);border:1px solid var(--accent);padding:0 3px;border-radius:2px;margin-left:3px}
+th.up.serial{background:var(--eris-soft)}
+tr.unstudied td{background-image:repeating-linear-gradient(135deg,transparent 0 9px,var(--rule) 9px 10px)}
+tr.unstudied td.sticky{background:var(--panel);background-image:none}
+td.cell.unst{text-align:left;color:var(--muted);font-family:var(--f-body);font-size:12.5px;font-style:italic}
+.pill+.pill{margin-left:3px}
+.z{color:var(--muted)}
+th.up.cont{background:var(--cont-soft);border-top:3px dashed var(--cont)}
+th.up.cont .ucost{color:var(--cont)}
+td.cell.cc{background:transparent}
+.cchip{display:inline-block;font:600 11px var(--f-mono);padding:2px 6px;border-radius:3px;line-height:1.2;white-space:normal;max-width:92px}
+.cchip.C{background:var(--cont-soft);color:var(--cont);border:1px dashed var(--cont)}
+.cchip.M{color:var(--muted);border:1px solid var(--rule-strong)}
+.cchip.X{color:var(--muted)}
+.cchip.CX{background:var(--cont-soft);color:var(--cont);border:1px dashed var(--cont);opacity:.75}
+.cchip.own{background:var(--cont);color:var(--panel)}
+th.up.cont.firstcol{border-left:2px solid var(--cont)}
+tfoot td{font-family:var(--f-mono);font-size:12px;color:var(--muted);background:var(--bg)}
+.foot{color:var(--muted);font-size:13px;max-width:110ch;display:grid;gap:6px}
+.empty{padding:18px;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.tab{transition:color .15s,border-color .15s}}
+/* Map: queue POIs on the grid, linked to the selected report tab */
+.mapcard{background:var(--panel);border:1px solid var(--rule)}
+.maphead{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--rule);font-size:14px;color:var(--muted)}
+.maphead h2{font:600 20px var(--f-display);margin:0;color:var(--ink)}
+.maphead select{font:inherit;font-size:13.5px;padding:3px 6px;border:1px solid var(--rule-strong);background:var(--panel);color:var(--ink);border-radius:3px}
+.mapbody{display:grid;grid-template-columns:minmax(0,1fr) 340px}
+@media (max-width:1000px){.mapbody{grid-template-columns:minmax(0,1fr)}}
+#map{height:580px;background:#e8ebe9}
+.mapside{border-left:1px solid var(--rule);padding:12px 14px;display:grid;gap:14px;align-content:start;max-height:580px;overflow:auto;font-size:13.5px}
+@media (max-width:1000px){.mapside{border-left:0;border-top:1px solid var(--rule);max-height:none}}
+.mapside h3{font:600 16px var(--f-display);margin:0 0 4px}
+.mapside .sub{color:var(--muted);font-size:12.5px}
+.lg{display:grid;gap:2px}
+.lg button{all:unset;cursor:pointer;display:grid;grid-template-columns:14px 1fr auto;gap:8px;align-items:center;padding:2px 0;border-radius:3px}
+.lg button:focus-visible{outline:2px solid var(--accent)}
+.lg button.off{opacity:.35}
+.lg i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.lg span.n{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.kvl{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12.5px;color:var(--muted)}
+.kvl b{display:inline-block;width:20px;height:0;border-top:3px solid;vertical-align:middle;margin-right:4px}
+.mt{width:100%;border-collapse:collapse;font-size:12.5px}
+.mt td,.mt th{padding:3px 4px;border-bottom:1px solid var(--rule);white-space:normal;text-align:left;vertical-align:top}
+.mt td.r,.mt th.r{text-align:right;font-family:var(--f-mono)}
+.linkb{all:unset;cursor:pointer;color:var(--accent);font-weight:600}
+.linkb:hover{text-decoration:underline}
+.linkb:focus-visible{outline:2px solid var(--accent)}
+.how{font-size:12.5px;color:var(--muted)}
+.how b{color:var(--ink)}
+.mapnote{padding:8px 14px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--rule)}
+.mapcard.off .mapbody,.mapcard.off .mapnote{display:none}
+.mapmsg{padding:24px;color:var(--muted)}
+th.up.hl{box-shadow:inset 0 0 0 3px var(--warn)}
+td.cell.hl{box-shadow:inset 2px 0 0 var(--warn),inset -2px 0 0 var(--warn)}
+tr.hl td{background-color:var(--accent-soft)!important}
+td.qid{cursor:pointer}
+/* Offtake (contracted.csv): badge in the queue cell, coloured left rule on the row when highlighted */
+.offb{display:inline-block;font:600 10.5px var(--f-mono);letter-spacing:.04em;padding:0 5px;border-radius:3px;margin-left:5px;vertical-align:1px;color:var(--panel);background:var(--offc);border:1px solid var(--offc);text-decoration:none;cursor:help}
+a.offb,a.offb:visited,a.offb:hover{cursor:pointer;color:var(--panel);text-decoration:none}
+a.offb.low,.offb.low{background:transparent;color:var(--offc);border-style:dashed}
+.offb.med{opacity:.85}
+a.offb.ann,.offb.ann{background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--offc) 35%,transparent) 0 3px,transparent 3px 6px);color:var(--ink);border-style:solid}
+.offb.ann::after{content:" ann.";font-weight:400}
+tr.offhl td.sticky{box-shadow:inset 4px 0 0 var(--offc)}
+tr.offhl td{background-color:color-mix(in srgb,var(--offc) 7%,transparent)}
+tr.offhl td.sticky{background-color:color-mix(in srgb,var(--offc) 10%,var(--panel))}
+.offleg .offb{margin-left:0;margin-right:4px;cursor:default}
+.offinfo{border-left:3px solid var(--offc);padding:2px 0 2px 8px;margin-top:3px;font-size:12px;color:var(--muted)}
+.offinfo b{color:var(--ink)}
+.leaflet-container{font-family:var(--f-body)}
+.leaflet-tooltip{font-size:12.5px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow" id="eyebrow">APS · __AREA__ study area · network-upgrade ladder</div>
+    <h1>Which MW trigger each network upgrade</h1>
+    <p class="lede">Projects run top to bottom in queue order (APS assigns queue numbers by request date). Each column is a network upgrade from the selected study; a filled cell is that project’s cost share. The outlined cell is the earliest-queued project allocated to the upgrade, and the cumulative NRIS MW at that row is the MW sitting in the cluster when it first appears.</p>
+  </header>
+
+  <nav class="tabs" id="tabs" aria-label="Study phase"></nav>
+  <div class="summary" id="summary"></div>
+  <div class="note" id="note" hidden></div>
+
+  <div class="controls">
+    <label class="toggle"><input type="checkbox" id="showPrior"> Show pre-cluster and in-service projects in the area</label>
+    <label class="toggle"><input type="checkbox" id="showUsd" checked> Show $ in cells</label>
+    <label class="toggle" id="offToggle" hidden><input type="checkbox" id="showOff" checked> Highlight contracted (known / likely offtake)</label>
+    <label class="toggle" id="contToggle" hidden><input type="checkbox" id="showCont" checked> Show contingent planned transmission</label>
+    <span class="legend">
+      <span><span class="pill nr">NRIS</span> network resource</span>
+      <span><span class="pill er">ERIS</span> energy resource (no system NU allocation)</span>
+      <span><span class="sw" style="outline:2px solid var(--warn);outline-offset:-2px"></span>earliest-queued project on the upgrade</span>
+      <span><span class="sw" style="background-image:repeating-linear-gradient(135deg,transparent 0 3px,rgb(var(--cell) / .5) 3px 5px)"></span>deferred</span>
+      <span><span class="sw" style="border-style:dashed"></span><s>removed</s> in a later report</span>
+      <span><span class="sw" style="background:var(--eris-soft)"></span>serial-era upgrade column</span>
+      <span class="offleg" id="offLegend" hidden></span>
+      <span class="contleg" hidden><span class="cchip C">C</span> contingent facility in that report (assumed built; restudy if not)</span>
+      <span class="contleg" hidden><span class="cchip M">M</span> modeled in service, not on contingent list</span>
+      <span class="contleg" hidden><span class="cchip X">✗</span> listed, modeled out</span>
+      <span class="contleg" hidden><span class="cchip own">owns</span> project that carries / builds it</span>
+    </span>
+  </div>
+
+  <section class="mapcard" id="mapcard" aria-label="Map">
+    <div class="maphead">
+      <h2>Map</h2><span id="mapsub"></span>
+      <label>Colour by <select id="colorBy">
+        <option value="stage">Queue stage</option><option value="risk">Attrition risk</option><option value="cycle">Cycle</option>
+        <option value="tech">Technology</option><option value="service">Service</option><option value="offtake">Offtake / contract</option></select></label>
+      <label class="toggle"><input type="checkbox" id="showGrid" checked> Grid</label>
+      <label class="toggle"><input type="checkbox" id="showUps" checked> Upgrades</label>
+      <label class="toggle"><input type="checkbox" id="showApprox" checked> Not-located POIs</label>
+      <label class="toggle" style="margin-left:auto"><input type="checkbox" id="showMap" checked> Show map</label>
+    </div>
+    <div class="mapbody"><div id="map"></div><aside class="mapside" id="mapside"></aside></div>
+    <div class="mapnote" id="mapnote"></div>
+  </section>
+
+  <div class="scroller"><table id="ladder"></table></div>
+
+  <div class="foot" id="foot"></div>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const fmtM = v => v >= 1e9 ? '$' + (v/1e9).toFixed(2) + 'B' : '$' + (v/1e6).toFixed(v < 1e7 ? 1 : 1) + 'M';
+const fmtMW = v => Math.round(v).toLocaleString();
+const qn = q => parseInt(q.replace(/\D/g,'')) || 0;
+
+// Build the "current" view: latest phase per cycle stacked in queue order
+const byCycle = {};
+D.phases.forEach(p => { const k = p.cycle + '|' + (p.sub || ''); (byCycle[k] = byCycle[k] || []).push(p); });
+const latest = Object.values(byCycle).map(list => list[list.length - 1]);
+const serialPhase = D.serial ? { ...D.serial, projects: D.serial.projects.map(p => ({ ...p, in_active_queue: true })) } : null;
+const serialIds = new Set(serialPhase ? serialPhase.projects.map(p => p.q) : []);
+const views = [{ id: 'current', label: 'Current', group: 'Latest posted results', phases: latest, unstudied: true }]
+  .concat(serialPhase ? [{ id: 'full', label: 'Full ladder (serial + cluster)', group: 'Latest posted results', phases: [serialPhase, ...latest], unstudied: true },
+                         { id: 'serial', label: 'Serial queue', group: 'Pre-cluster (serial)', phases: [serialPhase] }] : [])
+  .concat(D.unstudied && D.unstudied.length ? [{ id: 'cluster-2026', label: 'Requests (unstudied)', group: '2026 Cluster', phases: [], unstudied: true }] : [])
+  .concat(D.phases.map(p => ({ id: p.label.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/-+$/,''), label: p.label.replace(/^(Transition|2024|2025) /,''), group: (p.cycle === 'Transition' ? 'Transition Cluster' : p.cycle + ' Cluster') + ' history', phases: [p] })));
+
+const tabsEl = document.getElementById('tabs');
+const groups = {};
+views.forEach(v => { (groups[v.group] = groups[v.group] || []).push(v); });
+Object.entries(groups).forEach(([g, vs]) => {
+  const wrap = document.createElement('div'); wrap.className = 'tabgroup';
+  wrap.innerHTML = `<span>${g}</span><div role="tablist"></div>`;
+  vs.forEach(v => {
+    const b = document.createElement('button'); b.className = 'tab'; b.role = 'tab'; b.id = 'tab-' + v.id;
+    b.textContent = v.label; b.title = v.phases.map(p => p.file).join('\n');
+    b.addEventListener('click', () => select(v.id)); wrap.lastElementChild.appendChild(b);
+  });
+  tabsEl.appendChild(wrap);
+});
+
+let current = 'current';
+function store(k, v){ try { localStorage.setItem(k, v) } catch(e){} }
+function load(k){ try { return localStorage.getItem(k) } catch(e){ return null } }
+const showPrior = document.getElementById('showPrior');
+const showUsd = document.getElementById('showUsd');
+showPrior.checked = load('ladder.prior') === '1';
+showUsd.checked = load('ladder.usd') !== '0';
+showPrior.addEventListener('change', () => { store('ladder.prior', showPrior.checked ? '1' : '0'); render(); });
+const showCont = document.getElementById('showCont');
+if (D.contingent) { document.getElementById('contToggle').hidden = false; document.querySelectorAll('.contleg').forEach(e => e.hidden = false); }
+showCont.checked = load('ladder.cont') !== '0';
+showCont.addEventListener('change', () => { store('ladder.cont', showCont.checked ? '1' : '0'); render(); });
+const contCode = (c, r) => {
+  if (!D.contingent || r.isPrior || r.isUnstudied) return null;
+  const o = ((D.contingent.owners || {})[c.id] || {})[r.q];
+  if (o && (!o.phases || o.phases.includes(r.phaseKey))) return { k: 'own', t: o.text };
+  const st = (D.contingent.status[r.phaseKey] || {})[c.id];
+  return st ? { k: st } : null;
+};
+const CODE_TXT = { C: 'C', M: 'M', X: '✗', CX: 'C·✗' };
+const CODE_TIP = { C: 'Contingent facility in this report: assumed built; restudy may be required if it is not', M: 'Modeled in service but not on the contingent list', X: 'Listed in the assumptions table but modeled out of service', CX: 'Named in §3.1 Contingent Facilities but modeled out in the assumptions table' };
+showUsd.addEventListener('change', () => { store('ladder.usd', showUsd.checked ? '1' : '0'); render(); });
+
+// ------------------------------------------------------------ offtake ----
+// contracted.csv (curated): class + confidence per queue number. Not in the file = no known offtake.
+const OFF = D.contracted || {}, OFFM = D.contracted_meta || {}, HAS_OFF = Object.keys(OFF).length > 0;
+const OFF_CLS = ['aps_owned', 'aps_ppa', 'aps_selected', 'aps_likely', 'other_offtaker'];
+const OFF_LBL = Object.assign({ aps_owned: 'APS-owned / BTA', aps_ppa: 'APS PPA / tolling', aps_selected: 'APS RFP selected', aps_likely: 'Likely APS (inferred)', other_offtaker: 'Other offtaker' }, OFFM.classes || {});
+const OFF_NONE = OFFM.none || 'No known offtake';
+const OFF_SHORT = { aps_owned: 'APS OWN', aps_ppa: 'APS PPA', aps_selected: 'APS RFP', aps_likely: 'APS?', other_offtaker: 'OTHER' };
+const OFF_HEX = { aps_owned: '#173f7a', aps_ppa: '#2a78d6', aps_selected: '#138a5f', aps_likely: '#e0a530', other_offtaker: '#6250d6', none: '#b3bab6' };   // map markers (light basemap)
+const showOff = document.getElementById('showOff');
+if (HAS_OFF) {
+  document.getElementById('offToggle').hidden = false;
+  const lg = document.getElementById('offLegend'); lg.hidden = false;
+  lg.innerHTML = OFF_CLS.filter(k => Object.values(OFF).some(c => c.class === k)).map(k => `<span style="--offc:var(--off-${k})"><span class="offb">${OFF_SHORT[k]}</span>${esc0(OFF_LBL[k])}</span>`).join(' ') + ' <span style="--offc:var(--muted)"><span class="offb low">low</span>dashed = low confidence</span>' + (Object.values(OFF).some(c => c.announced) ? ' <span style="--offc:var(--muted)"><span class="offb ann">&nbsp;</span>hatched = announced, not yet approved / executed</span>' : '');
+}
+showOff.checked = load('ladder.off') !== '0';
+showOff.addEventListener('change', () => { store('ladder.off', showOff.checked ? '1' : '0'); render(); });
+function esc0(s){ return String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+function offTip(c){ return [OFF_LBL[c.class] + ' · ' + c.confidence + ' confidence' + (c.announced ? ' · ANNOUNCED (not yet approved / executed)' : ''), c.project_name, c.offtaker && 'Offtaker: ' + c.offtaker, c.contract_type && 'Contract: ' + c.contract_type, c.contract_status && 'Status: ' + c.contract_status, c.evidence && 'Evidence: ' + c.evidence, c.note, c.source_url && ((c.sources || [c.source_url]).join('\n') + '\n(click to open the first)')].filter(Boolean).join('\n'); }
+function offBadge(q){
+  const c = OFF[q]; if (!c || !showOff.checked) return '';
+  const cls = 'offb' + (c.announced ? ' ann' : c.confidence === 'low' ? ' low' : c.confidence === 'medium' ? ' med' : ''), st = `--offc:var(--off-${c.class})`, t = esc0(offTip(c));
+  const u0 = (c.sources || [c.source_url]).filter(Boolean)[0];
+  return u0 ? ` <a class="${cls}" style="${st}" href="${esc0(u0)}" target="_blank" rel="noopener" title="${t}" onclick="event.stopPropagation()">${OFF_SHORT[c.class]}</a>` : ` <span class="${cls}" style="${st}" title="${t}">${OFF_SHORT[c.class]}</span>`;
+}
+const offTr = q => (OFF[q] && showOff.checked) ? ` offhl" style="--offc:var(--off-${OFF[q].class})` : '';
+function offInfo(q){
+  const c = OFF[q]; if (!c) return '';
+  return `<div class="offinfo" style="--offc:var(--off-${c.class})"><b>${esc0(OFF_LBL[c.class])}</b>${c.announced ? ' · <b>announced</b>, not yet approved' : ''} · ${esc0(c.confidence)} confidence${c.offtaker ? ' · ' + esc0(c.offtaker) : ''}${c.contract_type ? ' · ' + esc0(c.contract_type) : ''}${c.contract_status ? ' · ' + esc0(c.contract_status) : ''}${c.project_name ? '<br>' + esc0(c.project_name) : ''}${c.evidence ? '<br>' + esc0(c.evidence) : ''}${(c.sources || []).length ? '<br>' + c.sources.map((u, i) => `<a href="${esc0(u)}" target="_blank" rel="noopener">source${c.sources.length > 1 ? ' ' + (i + 1) : ''}</a>`).join(' · ') : ''}</div>`;
+}
+
+function select(id){ current = id; render(); }
+
+function render(){
+  const view = views.find(v => v.id === current);
+  document.querySelectorAll('.tab').forEach(b => b.setAttribute('aria-selected', b.id === 'tab-' + current));
+  // rows
+  let rows = [];
+  view.phases.forEach(p => p.projects.forEach(r => rows.push({ ...r, cycle: p.cycle, phase: p.label, phaseKey: p.cycle === 'Serial' ? 'serial' : p.file })));
+  if (view.unstudied && D.unstudied) D.unstudied.forEach(u => rows.push({ ...u, cycle: '2026', isUnstudied: true, in_active_queue: true, total: 0, station_nu: 0 }));
+  rows.sort((a,b) => qn(a.q) - qn(b.q));
+  const conts = (D.contingent && showCont.checked) ? D.contingent.columns.filter(c => rows.some(r => contCode(c, r))) : [];
+  const NC = 8 + conts.length;
+  const hasSerial = view.phases.some(p => p.cycle === 'Serial');
+  const prior = showPrior.checked ? D.prior.filter(p => !(hasSerial && serialIds.has(p.q))).map(p => ({ ...p, isPrior: true })) : [];
+  // upgrades: union across phases in view, keep per-phase allocations
+  const ups = [];
+  view.phases.forEach(p => p.upgrades.forEach(u => ups.push({ ...u, cycle: p.cycle })));
+  const firstIdx = u => { const i = rows.findIndex(r => u.alloc[r.q] && u.alloc[r.q].pct > 0); return i < 0 ? 999 : i; };
+  ups.sort((a,b) => firstIdx(a) - firstIdx(b) || b.cost - a.cost);
+  // cumulative MW in view order (prior rows first, they are ahead in the queue)
+  let cum = 0, cumN = 0;
+  const all = [...prior, ...rows];
+  all.forEach(r => { cum += r.mw || 0; if (!r.isPrior && (r.service||'').startsWith('NR')) cumN += r.mw || 0; r._cum = cum; r._cumN = cumN; });
+  const maxCum = cum || 1;
+  // summary
+  const nr = rows.filter(r => r.service.startsWith('NR'));
+  const totalNU = ups.reduce((s,u) => s + (u.cost||0), 0);
+  const totalStation = rows.reduce((s,r) => s + (r.station_nu||0), 0);
+  document.getElementById('summary').innerHTML = [
+    [rows.filter(r=>!r.isUnstudied).length + (rows.some(r=>r.isUnstudied) ? ' + ' + rows.filter(r=>r.isUnstudied).length : ''), rows.some(r=>r.isUnstudied) ? 'studied + unstudied 2026 requests' : 'cluster projects in view'],
+    [fmtMW(rows.reduce((s,r)=>s+r.mw,0)) + ' MW', 'studied capacity'],
+    [fmtMW(nr.reduce((s,r)=>s+r.mw,0)) + ' MW', 'NRIS (carries system upgrades)'],
+    [ups.length, 'shared network upgrades'],
+    [fmtM(totalNU), 'network upgrade cost'],
+    [fmtM(totalStation), 'POI station network upgrades'],
+    ...(HAS_OFF ? (() => { const h = rows.filter(r => OFF[r.q]); return [[fmtMW(h.reduce((s,r)=>s+(r.mw||0),0)) + ' MW', `known / likely offtake (${h.length} of ${rows.length} requests)`]]; })() : [])
+  ].map(([b,s]) => `<div class="stat"><b>${b}</b><small>${s}</small></div>`).join('');
+  const note = document.getElementById('note');
+  const autoCurrent = 'Current view stacks the latest posted report for each cycle: ' + latest.map(p => p.label + ' (' + p.date + ')').join(', ') + '.';
+  const notes = Object.assign({ current: autoCurrent }, D.notes || {});
+  note.hidden = !notes[current]; note.textContent = notes[current] || '';
+  // table
+  const t = document.getElementById('ladder');
+  const head = `<thead><tr>
+    <th class="sticky">Queue</th><th>Cycle</th><th>Service</th><th class="num">MW</th><th>Cumulative MW<br><small style="font-weight:400;color:var(--muted)">all · NRIS</small></th><th>POI</th>
+    <th class="num">POI station NU</th><th class="num">Total allocated</th>
+    ${conts.map((c,i) => { const first = rows.find(r => { const k = contCode(c, r); return k && (k.k === 'C' || k.k === 'CX'); }); return `<th class="up cont${i===0?' firstcol':''}" title="${(c.note||'').replace(/"/g,'&quot;')}"><span class="uname">${c.label}</span><span class="ucost">contingent</span><span class="umeta">${c.isd||''}</span><span class="umeta">${first ? 'first C: ' + first.phase.replace(/ · .*/,'') : ''}</span></th>`; }).join('')}
+    ${ups.map(u => `<th class="up${u.cycle==='Serial'?' serial':''}" title="${((u.parts||[]).join('\n') || u.cost_note || '').replace(/"/g,'&quot;')}"><span class="uname">${u.label}</span><span class="ucost${u.cost_derived?' d':''}">${u.cost?fmtM(u.cost):'—'}</span>${u.cost_note?`<span class="umeta" title="${u.cost_note}">${u.cycle==='Serial'?'serial SIS total':''}</span>`:''}<span class="umeta">${u.n_sharing ?? Object.keys(u.alloc).length} proj · ${fmtMW(u.sharing_mw ?? Object.keys(u.alloc).reduce((s,q)=>s+((rows.find(r=>r.q===q)||{}).mw||0),0))} MW</span><span class="umeta">${(u.lead||'').replace(/to constru.*|to constr.*/,'').trim()}</span></th>`).join('')}
+  </tr></thead>`;
+  const rowHtml = r => {
+    if (r.isPrior) return `<tr class="prior${offTr(r.q)}"><td class="sticky qid">${r.q}${offBadge(r.q)}</td><td>—</td><td><span class="pill prior">${r.process === 'In service' ? 'IN SVC' : r.process === 'Surplus' ? 'SURPLUS' : 'SERIAL'}</span></td><td class="num">${fmtMW(r.mw)}</td>
+      <td>${cumCell(r)}</td><td class="poi" title="${r.poi}">${r.poi}</td><td class="num">—</td><td class="num">—</td>${conts.map(() => '<td class="cell"></td>').join('')}${ups.map(() => '<td class="cell"></td>').join('')}</tr>`;
+    if (r.isUnstudied) {
+      const pill = r.service === 'NRIS+ERIS' ? '<span class="pill nr">NRIS</span><span class="pill er">ERIS</span>' : r.service.startsWith('NR') ? '<span class="pill nr">NRIS</span>' : '<span class="pill er">ERIS</span>';
+      return `<tr class="unstudied${offTr(r.q)}"><td class="sticky qid" title="${r.status} · requested in-service ${r.requested_isd||'n/a'} · ${r.tech}">${r.q}${offBadge(r.q)}</td>
+        <td>2026</td><td>${pill}</td><td class="num">${r.mw ? fmtMW(r.mw) : '0<span class="z" title="0 MW in the 13 Oct 2026 queue posting (likely an uprate or add-on)">*</span>'}</td>
+        <td>${cumCell(r)}</td><td class="poi" title="${r.poi} · ${r.tech}">${r.poi}</td>
+        <td class="num" colspan="2"><span class="pill prior">UNSTUDIED</span></td>
+        ${conts.map(() => '<td class="cell"></td>').join('')}${ups.length ? `<td class="cell unst" colspan="${ups.length}">Phase 1 Cluster Study in progress · ${r.tech.replace('Combined Energy Source ','')} · requested ISD ${r.requested_isd||'n/a'}</td>` : ''}</tr>`;
+    }
+    const nrS = r.service.startsWith('NR');
+    return `<tr class="${nrS?'':'eris'}${offTr(r.q)}"><td class="sticky qid" title="${r.in_active_queue ? (r.status||'') : 'Not in the 13 Oct 2026 active queue (withdrawn)'}">${r.q}${r.in_active_queue ? '' : ' <span style="color:var(--warn)">w/d</span>'}${offBadge(r.q)}</td>
+      <td>${r.cycle}</td><td>${r.service==='NRIS+ERIS'?'<span class="pill nr">NRIS</span><span class="pill er">ERIS</span>':`<span class="pill ${nrS?'nr':'er'}">${nrS?'NRIS':'ERIS'}</span>`}</td><td class="num">${fmtMW(r.mw)}</td>
+      <td>${cumCell(r)}</td><td class="poi" title="${r.poi}">${r.poi}</td>
+      <td class="num" title="${r.station_status||''}">${r.station_nu ? fmtM(r.station_nu) : '—'}${r.station_status==='built'?' <span class=\"built\">built</span>':''}</td><td class="num" title="${r.latest?'Latest report: '+r.latest:''}${r.note?' · '+r.note:''}">${r.total ? fmtM(r.total) : '—'}</td>
+      ${conts.map(c => contCell(c, r)).join('')}${ups.map(u => cell(u, r)).join('')}</tr>`;
+  };
+  const contCell = (c, r) => { const k = contCode(c, r); if (!k) return '<td class="cell cc"></td>';
+    const tip = k.k === 'own' ? `${r.q} carries/builds this facility (${r.phase})` : `${r.phase}: ${CODE_TIP[k.k]}`;
+    return `<td class="cell cc" title="${c.label} · ${tip}"><span class="cchip ${k.k}">${k.k === 'own' ? k.t : CODE_TXT[k.k]}</span></td>`; };
+  const cumCell = r => `<div class="cum"><span class="num">${fmtMW(r._cum)}</span><div class="bar" title="NRIS ${fmtMW(r._cumN)} MW"><i class="all" style="width:${(r._cum/maxCum*100).toFixed(1)}%"></i><i style="width:${(r._cumN/maxCum*100).toFixed(1)}%"></i></div></div>`;
+  const cell = (u, r) => {
+    const a = u.alloc[r.q];
+    if (!a || !(a.pct > 0) || u.cycle !== r.cycle) return '<td class="cell"></td>';
+    const st = a.status || 'required';
+    if (st === 'removed') return `<td class="cell st-removed" title="${r.q} · ${u.label}: ${a.pct}%${a.usd?' · '+fmtM(a.usd):''} · removed in a later report"><div class="box"><span class="pct">${a.pct}%</span>${showUsd.checked && a.usd ? `<span class="usd">${fmtM(a.usd)}</span>`:''}</div></td>`;
+    const alpha = Math.min(0.92, 0.14 + a.pct / 100 * 1.3);
+    const isFirst = rows.find(x => u.alloc[x.q] && u.alloc[x.q].pct > 0 && x.cycle === u.cycle) === r;
+    const dark = alpha > 0.55;
+    return `<td class="cell${isFirst?' first':''}${st==='deferred'?' st-deferred':''}" title="${r.q} · ${u.label}: ${a.pct}%${a.usd?' · '+fmtM(a.usd):''}${st==='deferred'?' · DEFERRED':''}${isFirst?' · earliest-queued project on this upgrade (cumulative NRIS '+fmtMW(r._cumN)+' MW)':''}">
+      <div class="box" style="background:rgb(var(--cell) / ${alpha.toFixed(2)});color:${dark?'var(--panel)':'var(--ink)'}"><span class="pct">${a.pct}%</span>${showUsd.checked && a.usd ? `<span class="usd">${fmtM(a.usd)}</span>`:''}</div></td>`;
+  };
+  let body = '';
+  if (prior.length) body += `<tr class="section"><td colspan="${NC+ups.length}">Ahead in queue · pre-cluster serial, in-service and surplus (no cluster allocation)</td></tr>` + prior.map(rowHtml).join('');
+  if (prior.length) body += `<tr class="section"><td colspan="${NC+ups.length}">Cluster projects</td></tr>`;
+  const firstUn = rows.findIndex(r => r.isUnstudied);
+  body += rows.map((r,i) => (i === firstUn && view.phases.length ? `<tr class="section"><td colspan="${NC+ups.length}">2026 Cluster · requests in Phase 1 study, no results posted yet</td></tr>` : '') + rowHtml(r)).join('');
+  const foot = `<tfoot><tr><td class="sticky">Total</td><td></td><td></td><td class="num">${fmtMW(rows.reduce((s,r)=>s+r.mw,0))}</td><td></td><td></td>
+    <td class="num">${fmtM(totalStation)}</td><td class="num">${fmtM(rows.reduce((s,r)=>s+(r.total||0),0))}</td>${conts.map(() => '<td class="cell"></td>').join('')}
+    ${ups.map(u => `<td class="cell">${u.cost?fmtM(u.cost):''}</td>`).join('')}</tr></tfoot>`;
+  t.innerHTML = head + `<tbody>${body}</tbody>` + foot;
+  if (!ups.length) t.insertAdjacentHTML('afterend','');
+  drawMap(view, rows, prior, ups);
+  document.getElementById('foot').innerHTML = `
+    ${view.phases.some(p=>p.cycle==='Serial') ? `<div><strong>Serial block.</strong> ${D.serial.notes.join(' ')}</div>` : ''}
+    ${HAS_OFF ? `<div><strong>Offtake.</strong> Badges and the Offtake map colouring come from contracted.csv, curated from public evidence (APS RFP results, ACC filings, PPA and developer announcements). “Likely APS” is inferred, not confirmed; a dashed badge is low confidence. Requests not in the file have no known offtake, which does not mean uncontracted.${(OFFM.problems || []).length ? ' ' + OFFM.problems.length + ' row(s) of the file were skipped as invalid.' : ''}</div>` : ''}
+    ${conts.length ? `<div><strong>Contingent planned transmission.</strong> ${D.contingent.source} Purple columns are not cost allocations; they mark, per project, the planned facilities its cluster report assumed in service.</div>` : ''}
+    <div><strong>Sources.</strong> ${view.phases.map(p => `${p.file} (${p.date})`).join('; ')}. Queue status from the APS OASIS active queue posting of 13 Oct 2026.</div>
+    <div>Costs are nominal dollars as stated in each report’s cost-allocation tables. An asterisk marks an upgrade total that the report does not state directly and was back-calculated from a project’s share and percentage. POI station network upgrades (breakers, switchyard expansion at a project’s own POI) are shown per project, not as shared columns. Palo Verde/Hassayampa fault-duty mitigation is “TBD by SRP” in every report and is not included. Cluster cost allocation is by each project’s contribution to the constraint, not strictly by queue position; the outlined cell marks the earliest-queued participant, not a serial trigger.</div>`;
+}
+
+// ---------------------------------------------------------------- map ----
+// Queue POIs of the selected tab on the grid. Positions: D.geo (geo.py):
+// confirmed bus, written in the request, line tap, grid substation, workbook
+// bus, or (hollow) county centre. Display only: nothing here confirms a POI.
+const G = D.geo || {}, QD = D.queue || {};
+const PAL = ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#008300', '#6250d6', '#e34948', '#7d8a84'];
+const KV = [[500, '#c4453c', 2.6], [300, '#8a5bb5', 2.2], [200, '#3f7fc1', 1.8], [100, '#4f9a6b', 1.3], [0, '#9aa39e', 0.9]];
+const UPC = '#d1006f';   // upgrades: magenta, outside the kV and category palettes
+const kvStyle = kv => KV.find(k => kv >= k[0]);
+const HOW = { confirmed: 'Confirmed case bus', written: 'Location written in the request', line_tap: 'Line tap', grid: 'Grid substation (name and kV match)',
+  bus: 'Case bus (name and kV match)', county: 'Not located: county centre', planned: 'Documented or estimated location (planned_subs.csv)', project: 'Another project’s POI' };
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const yearOf = s => { const m = String(s || '').match(/\/(\d{2,4})\s*$/); return m ? (m[1].length === 2 ? 2000 + +m[1] : +m[1]) : null; };
+const THIS_YEAR = new Date().getFullYear();
+function info(r) {
+  const q = QD[r.q] || {};
+  return { q: r.q, mw: r.mw || 0, status: q.status || (r.status || '').replace(/&amp;/g, '&'), isd: q.isd || r.requested_isd || '', tech: r.tech || q.tech || '',
+    service: r.service || '', proc: q.process || r.process || '', prior: !!r.isPrior, unst: !!r.isUnstudied, cycle: r.cycle, county: q.county, state: q.state || 'AZ', active: r.in_active_queue !== false };
+}
+function stageOf(x) {
+  const s = x.status.toLowerCase();
+  if (x.proc === 'In service' || /in-service|cod -/.test(s)) return 'In service';
+  if (/suspension/.test(s)) return 'Suspended';
+  if (/construction|test energy|in design/.test(s)) return 'Design / construction';
+  if (/lgia|appendix e|project manager|milestone/.test(s)) return 'LGIA';
+  if (/facilit|\bfas\b/.test(s)) return 'Facilities study';
+  if (/surplus/.test(s)) return 'Surplus';
+  if (!x.active) return 'Withdrawn';
+  return 'Cluster study';
+}
+const MODES = {
+  stage: { order: ['Cluster study', 'Facilities study', 'LGIA', 'Design / construction', 'In service', 'Suspended', 'Surplus', 'Withdrawn'],
+    colors: ['#2a78d6', '#eda100', '#1baf7a', '#008300', '#4b5651', '#e34948', '#e87ba4', '#bfc6c2'], of: stageOf },
+  risk: { order: ['At risk: suspended', 'At risk: in-service date passed', 'Early: in cluster study', 'Advancing: facilities study / LGIA', 'Committed: design, construction, in service', 'Withdrawn'],
+    colors: ['#d7301f', '#f08c2b', '#6250d6', '#2a78d6', '#1b9e5a', '#bfc6c2'],
+    of: x => { const st = stageOf(x); if (st === 'Withdrawn') return 'Withdrawn'; if (st === 'Suspended') return 'At risk: suspended';
+      if (['Design / construction', 'In service'].includes(st)) return 'Committed: design, construction, in service';
+      const y = yearOf(x.isd); if (y && y < THIS_YEAR) return 'At risk: in-service date passed';
+      return st === 'Cluster study' ? 'Early: in cluster study' : 'Advancing: facilities study / LGIA'; } },
+  cycle: { order: ['Serial', 'Transition', '2024', '2025', '2026 (unstudied)', 'Pre-cluster', 'In service'],
+    of: x => x.prior ? (x.proc === 'In service' ? 'In service' : 'Pre-cluster') : x.unst ? '2026 (unstudied)' : String(x.cycle) },
+  tech: { order: ['Solar + storage', 'Storage', 'Solar', 'Wind (incl. hybrids)', 'Gas (incl. hybrids)', 'Other'],
+    of: x => { const t = x.tech.toLowerCase(); return /gas|diesel/.test(t) ? 'Gas (incl. hybrids)' : /wind/.test(t) ? 'Wind (incl. hybrids)' : /solar/.test(t) && /storage/.test(t) ? 'Solar + storage' : /storage/.test(t) ? 'Storage' : /solar/.test(t) ? 'Solar' : 'Other'; } },
+  offtake: { order: [...OFF_CLS.map(k => OFF_LBL[k]), OFF_NONE], colors: [...OFF_CLS.map(k => OFF_HEX[k]), OFF_HEX.none],
+    of: x => OFF[x.q] ? OFF_LBL[OFF[x.q].class] : OFF_NONE },
+  service: { order: ['NRIS', 'ERIS', 'NRIS+ERIS', 'Other'], of: x => x.service.startsWith('NRIS+') ? 'NRIS+ERIS' : x.service.startsWith('NR') ? 'NRIS' : x.service.startsWith('ER') ? 'ERIS' : 'Other' },
+};
+const colorOf = (mode, cat) => { const m = MODES[mode], c = m.colors || PAL, i = m.order.indexOf(cat); return c[i < 0 ? c.length - 1 : i % c.length]; };
+
+const M = { map: null, grid: null, subs: null, ups: null, pts: null, fitted: '', sel: null, hidden: {}, groups: [], upItems: [], ctx: null };
+const colorBy = document.getElementById('colorBy'), showGrid = document.getElementById('showGrid'), showUps = document.getElementById('showUps'),
+  showApprox = document.getElementById('showApprox'), showMap = document.getElementById('showMap'), mapcard = document.getElementById('mapcard');
+colorBy.value = load('ladder.mapColor') || 'stage';
+if (!HAS_OFF) { colorBy.querySelector('option[value="offtake"]').remove(); if (!MODES[colorBy.value] || colorBy.value === 'offtake' || !colorBy.value) colorBy.value = 'stage'; }
+showGrid.checked = load('ladder.mapGrid') !== '0'; showUps.checked = load('ladder.mapUps') !== '0';
+showApprox.checked = load('ladder.mapApprox') !== '0'; showMap.checked = load('ladder.mapShow') !== '0';
+mapcard.classList.toggle('off', !showMap.checked);
+[[colorBy, 'ladder.mapColor', () => colorBy.value], [showGrid, 'ladder.mapGrid', () => showGrid.checked ? '1' : '0'], [showUps, 'ladder.mapUps', () => showUps.checked ? '1' : '0'],
+ [showApprox, 'ladder.mapApprox', () => showApprox.checked ? '1' : '0']].forEach(([el, k, v]) => el.addEventListener('change', () => { store(k, v()); M.hidden = {}; redrawMap(); }));
+showMap.addEventListener('change', () => { store('ladder.mapShow', showMap.checked ? '1' : '0'); mapcard.classList.toggle('off', !showMap.checked); if (showMap.checked && initMap()) { M.map.invalidateSize(); redrawMap(); } });
+
+function initMap() {
+  if (M.map) return true;
+  if (!showMap.checked) return false;
+  if (typeof L === 'undefined') { document.getElementById('map').innerHTML = '<div class="mapmsg">The map needs the Leaflet library from cdnjs.cloudflare.com, which could not be loaded (offline?). The ladder below is unaffected.</div>'; return false; }
+  const map = L.map('map', { preferCanvas: true, zoomSnap: 0.5 });
+  const tiles = {
+    // Esri's public tile services: no API key (CARTO / OSM / OpenTopoMap refuse or ask for a key from a local page)
+    'Light': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16, attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors' }),
+    'Streets': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors' }),
+    'Terrain': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles &copy; Esri, HERE, Garmin, USGS, &copy; OpenStreetMap contributors' }),
+    'Satellite': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Imagery &copy; Esri, Maxar, Earthstar Geographics' }),
+    'No basemap': L.layerGroup(),
+  };
+  const pick = load('ladder.mapBase'); (tiles[pick] || tiles['Light']).addTo(map);
+  L.control.layers(tiles, null, { position: 'topright' }).addTo(map);
+  map.on('baselayerchange', e => store('ladder.mapBase', e.name));
+  L.control.scale({ imperial: true, metric: false }).addTo(map);
+  const b = G.box || [31, -115.6, 37.4, -107.9];
+  map.fitBounds([[b[0], b[1]], [b[2], b[3]]]);
+  // ONE canvas for grid, upgrades and markers: a canvas only hit-tests its own layers, so separate
+  // canvases stacked on top would swallow the hover over the grid lines. Draw order = add order.
+  const rend = L.canvas({ padding: 0.3, tolerance: 6 });
+  M.urend = rend;
+  M.grid = L.layerGroup(); M.subs = L.layerGroup();
+  const g = G.grid;
+  if (g) {
+    g.lines.slice().sort((a, b) => a.kv - b.kv).forEach(l => {
+      const [, col, w] = kvStyle(l.kv);
+      const base = { color: col, weight: w, opacity: 0.75 };
+      L.polyline(l.c, { renderer: rend, ...base, dashArray: l.p === 'Proposed' ? '5 5' : null })
+        .on('mouseover', e => e.target.setStyle({ weight: w + 3, opacity: 1 }))
+        .on('mouseout', e => e.target.setStyle(base))
+        .bindTooltip([`<b>${esc(l.n)}</b>`,
+          `${l.kv} kV ${l.dc ? 'DC' : 'AC'}${l.nl && l.nl !== '1' ? ' · ' + esc(l.nl) + ' circuits' : ''}${l.mi ? ' · ' + l.mi.toLocaleString() + ' mi' : ''}${l.ug ? ' · underground' : ''}`,
+          l.f || l.t ? `${esc(l.f || '?')} → ${esc(l.t || '?')}` : '',
+          `Owner: ${esc(l.o || 'not stated')}${l.o2 ? ' · also ' + esc(l.o2) : ''}`,
+          `${l.p === 'Proposed' ? '<b>Proposed</b> (as of 2018)' : esc(l.p || '')}${l.src ? ' · source: ' + esc(l.src) : ''}`].filter(Boolean).join('<br>'), { sticky: true })
+        .addTo(M.grid);
+    });
+    g.subs.forEach(s => {
+      const m = L.circleMarker(s.ll, { renderer: rend, radius: s.kv >= 230 ? 3 : 2, color: '#59625e', weight: 1, fillColor: '#ffffff', fillOpacity: 0.9, dashArray: s.p === 'Proposed' ? '2 2' : null })
+        .bindTooltip(`<b>${esc(s.n)}</b><br>${s.kvmin && s.kvmin !== s.kv ? s.kvmin + '–' : ''}${s.kv} kV · ${esc(s.o)}${s.p === 'Proposed' ? ' · proposed (2018)' : ''}`);
+      m._kv = s.kv; m.addTo(M.subs);
+    });
+  }
+  M.ups = L.layerGroup().addTo(map); M.pts = L.layerGroup().addTo(map);
+  const subZoom = () => { const z = map.getZoom(); M.subs.eachLayer(m => { const on = z >= 9 || (z >= 7.5 && m._kv >= 230); m.setStyle({ opacity: on ? 1 : 0, fillOpacity: on ? 0.9 : 0 }); }); };
+  map.on('zoomend', subZoom); subZoom();
+  // series-device diamonds are sized in pixels: re-shape them after every zoom
+  map.on('zoomend', () => (M.dia || []).forEach(([lyr, c, r]) => lyr.setLatLngs(diamond(c, r))));
+  map.on('click', () => { if (M.sel) mapSelect(null); });
+  M.map = map;
+  return true;
+}
+
+// a diamond of half-diagonal r pixels around a lat/lon, at the current zoom (polygon on the shared canvas)
+function diamond(c, r) {
+  const p = M.map.latLngToLayerPoint(c);
+  return [[0, -r], [r, 0], [0, r], [-r, 0]].map(([dx, dy]) => M.map.layerPointToLatLng([p.x + dx, p.y + dy]));
+}
+
+function drawMap(view, rows, prior, ups) { M.ctx = { view, rows, prior, ups }; M.sel = null; if (initMap()) redrawMap(); }
+
+function locOf(r) {
+  const P = G.pois || {};
+  const cands = [r.poi, r.poi_queue, (QD[r.q] || {}).poi].filter(Boolean).map(t => P[t]).filter(Boolean);
+  return cands.find(l => l.how !== 'county') || cands[0] || { how: 'county' };
+}
+const sumMW = g => g.items.reduce((s, i) => s + (i.x.mw || 0), 0);
+
+function redrawMap() {
+  if (!M.map || !M.ctx) return;
+  const { view, rows, prior, ups } = M.ctx, map = M.map, mode = colorBy.value;
+  if (showGrid.checked) { M.grid.addTo(map); M.subs.addTo(map); } else { M.grid.remove(); M.subs.remove(); }
+  M.pts.clearLayers(); M.ups.clearLayers();
+  // group the tab's requests by location
+  const groups = new Map(), perCounty = {};
+  [...prior, ...rows].forEach(r => {
+    const x = info(r), loc = locOf(r);
+    let lat = loc.lat, lon = loc.lon, key;
+    if (loc.how === 'county') {
+      const c = (G.counties || {})[`${x.county}|${x.state}`] || (G.counties || {})[`${x.county}|AZ`];
+      if (!c) return;
+      key = 'c|' + x.county + '|' + (r.poi || '');
+      if (!groups.has(key)) { const i = (perCounty[x.county] = (perCounty[x.county] || 0) + 1) - 1, a = i * 2.39996, rad = 0.05 * Math.sqrt(i);
+        lat = c[0] + rad * Math.sin(a); lon = c[1] + rad * Math.cos(a) / 0.83; }
+    } else key = lat.toFixed(3) + ',' + lon.toFixed(3);
+    if (!groups.has(key)) groups.set(key, { key, lat, lon, loc, poi: r.poi || r.poi_queue, items: [] });
+    groups.get(key).items.push({ r, x, cat: MODES[mode].of(x) });
+  });
+  M.groups = [...groups.values()];
+  M.upItems = ups.map(u => ({ u, g: (G.upgrades || {})[u.label] })).filter(o => o.g);
+  const selUp = M.sel && M.sel.type === 'up' ? M.sel.label : null;
+  const selG = M.sel && M.sel.type === 'poi' ? M.groups.find(g => g.key === M.sel.key) : null;
+  const selQ = selG ? new Set(selG.items.map(i => i.r.q)) : null;
+  const upQs = selUp ? new Set(Object.entries((ups.find(u => u.label === selUp) || {}).alloc || {}).filter(([, a]) => a.pct > 0).map(([q]) => q)) : null;
+  M.dia = [];
+  if (showUps.checked) M.upItems.forEach(({ u, g }) => {
+    const on = !selQ || Object.entries(u.alloc || {}).some(([q, a]) => a.pct > 0 && selQ.has(q));
+    const isSel = selUp === u.label, w = Math.min(11, 3 + Math.sqrt((u.cost || 0) / 1e6) / 4);
+    if (g.device) {   // series capacitor / reactor: a diamond at the middle of the line it sits in
+      const opa = on ? 0.9 : 0.15, col = isSel ? '#111' : UPC;
+      const where = g.how === 'series_at_sub' ? 'at ' + esc(g.of) + ' (line not identified)' : 'on ' + esc(g.of) + ' (midpoint)' + (g.how === 'series_straight' ? ', straight between its ends' : '');
+      const stip = `<b>${esc(g.device)}</b><br>${esc(u.label)}<br>${u.cost ? fmtM(u.cost) : 'cost not stated'} · ${Object.keys(u.alloc || {}).length} projects<br><span style="color:#777">${where}</span>`;
+      const pick = e => { L.DomEvent.stopPropagation(e); mapSelect({ type: 'up', label: u.label }); };
+      if (g.line) L.polyline(g.line, { renderer: M.urend, color: col, weight: isSel ? 5 : 3, opacity: on ? 0.55 : 0.12, dashArray: g.how === 'series_straight' ? '6 6' : null, lineCap: 'round' })
+        .bindTooltip(stip, { sticky: true }).on('click', pick).addTo(M.ups);
+      const r = isSel ? 10 : 8;
+      const outer = L.polygon(diamond(g.c[0], r), { renderer: M.urend, color: col, weight: 2, fillColor: col, fillOpacity: opa, opacity: opa })
+        .bindTooltip(stip, { sticky: true }).on('click', pick).addTo(M.ups);
+      const inner = L.polygon(diamond(g.c[0], r * 0.45), { renderer: M.urend, stroke: false, fillColor: '#fff', fillOpacity: on ? 1 : 0.3, interactive: false }).addTo(M.ups);
+      M.dia.push([outer, g.c[0], r], [inner, g.c[0], r * 0.45]);
+      return;
+    }
+    const tip = `<b>${esc(u.label)}</b><br>${u.cost ? fmtM(u.cost) : 'cost not stated'} · ${Object.keys(u.alloc || {}).length} projects${u.first_q ? ' · first ' + esc(u.first_q) : ''}<br><span style="color:#777">${g.how === 'grid' ? 'drawn on the existing line' : g.kind === 'line' ? 'straight between its ends (route not known)' : 'at ' + esc(g.of)}</span>`;
+    const st = { renderer: M.urend, color: isSel ? '#111' : UPC, weight: isSel ? w + 2 : w, opacity: on ? 0.9 : 0.15, dashArray: g.kind === 'line' && g.how !== 'grid' ? '8 6' : null, lineCap: 'round' };
+    const lyr = g.kind === 'line' ? L.polyline(g.c, st)
+      : L.circleMarker(g.c[0], { renderer: M.urend, radius: 7 + w / 2, color: st.color, weight: 3, fillColor: '#fff', fillOpacity: on ? 0.9 : 0.2, opacity: st.opacity });
+    lyr.bindTooltip(tip, { sticky: true }).on('click', e => { L.DomEvent.stopPropagation(e); mapSelect({ type: 'up', label: u.label }); }).addTo(M.ups);
+  });
+  // markers, largest first so small ones stay clickable on top
+  M.groups.slice().sort((a, b) => sumMW(b) - sumMW(a)).forEach(g => {
+    const vis = g.items.filter(i => !M.hidden[i.cat]);
+    if (!vis.length || (g.loc.how === 'county' && !showApprox.checked)) return;
+    const mw = sumMW({ items: vis }), byCat = {};
+    vis.forEach(i => byCat[i.cat] = (byCat[i.cat] || 0) + (i.x.mw || 1));
+    const cat = Object.entries(byCat).sort((a, b) => b[1] - a[1])[0][0], col = colorOf(mode, cat);
+    const dim = (selQ && !vis.some(i => selQ.has(i.r.q))) || (upQs && !vis.some(i => upQs.has(i.r.q)));
+    const isSel = selG === g, approx = g.loc.how === 'county' || (g.loc.unc || 0) > 3;   // county centre, or a rough estimate
+    // offtake: grey circle = all MW at the POI, coloured disc inside = MW with known / likely offtake (largest class),
+    // so a contracted request is not hidden by larger uncontracted ones; dashed = all low confidence, dotted = all announced
+    const offMode = mode === 'offtake', con = offMode ? vis.filter(i => OFF[i.r.q]) : [];
+    const outer = offMode ? OFF_HEX.none : col;
+    L.circleMarker([g.lat, g.lon], { renderer: M.urend, radius: 4 + Math.sqrt(mw) * 0.42, color: isSel ? '#111' : outer, weight: isSel ? 3 : approx ? 1.5 : 1.2,
+      dashArray: approx ? '3 3' : null, fillColor: outer, fillOpacity: dim ? 0.08 : approx ? 0.18 : offMode ? 0.35 : 0.6, opacity: dim ? 0.3 : 1 })
+      .bindTooltip(`<b>${esc(g.poi)}</b><br>${vis.length} request${vis.length > 1 ? 's' : ''} · ${fmtMW(mw)} MW${Object.keys(byCat).length > 1 ? '<br>' + Object.entries(byCat).map(([k, v]) => esc(k) + ' ' + fmtMW(v) + ' MW').join(' · ') : ''}${vis.some(i => OFF[i.r.q]) ? '<br>Offtake: ' + vis.filter(i => OFF[i.r.q]).map(i => esc(i.r.q) + ' ' + esc(OFF_SHORT[OFF[i.r.q].class]) + (OFF[i.r.q].announced ? ' (announced)' : OFF[i.r.q].confidence === 'low' ? ' (low)' : '')).join(', ') : ''}<br><span style="color:#777">${esc(HOW[g.loc.how] || g.loc.how)}</span>`)
+      .on('click', e => { L.DomEvent.stopPropagation(e); mapSelect({ type: 'poi', key: g.key }); })
+      .addTo(M.pts);
+    if (con.length) {
+      const by = {}; con.forEach(i => by[OFF[i.r.q].class] = (by[OFF[i.r.q].class] || 0) + (i.x.mw || 0.001));
+      const ck = Object.entries(by).sort((a, b) => b[1] - a[1])[0][0], mine = con.filter(i => OFF[i.r.q].class === ck);
+      const low = mine.every(i => OFF[i.r.q].confidence === 'low'), ann = mine.every(i => OFF[i.r.q].announced), c2 = OFF_HEX[ck];
+      L.circleMarker([g.lat, g.lon], { renderer: M.urend, interactive: false, radius: 4 + Math.sqrt(con.reduce((s2, i) => s2 + (i.x.mw || 0), 0)) * 0.42,
+        color: c2, weight: low || ann ? 2 : 1.2, dashArray: low ? '3 3' : ann ? '1 4' : null, fillColor: c2, fillOpacity: dim ? 0.08 : low || ann ? 0.3 : 0.85, opacity: dim ? 0.3 : 1 }).addTo(M.pts);
+    }
+  });
+  if (selG && selG.loc.unc) L.circle([selG.lat, selG.lon], { renderer: M.urend, radius: selG.loc.unc * 1609.34, color: '#111', weight: 1.5, dashArray: '6 6', fill: false, interactive: false }).addTo(M.pts);
+  // fit to the tab's located POIs and upgrades once per tab
+  if (M.fitted !== view.id) {
+    const ll = M.groups.filter(g => g.loc.how !== 'county').map(g => [g.lat, g.lon]);
+    M.upItems.forEach(o => o.g.c.forEach(c => ll.push(c)));
+    if (ll.length) map.fitBounds(ll, { padding: [30, 30], maxZoom: 10 });
+    M.fitted = view.id;
+  }
+  sidePanel(mode);
+  noteLine(ups);
+}
+
+function sidePanel(mode) {
+  const el = document.getElementById('mapside'), m = MODES[mode], modeName = colorBy.options[colorBy.selectedIndex].text;
+  const kv = `<div><h3>Grid (2018${(G.grid || {}).states && G.grid.states.length ? ', ' + G.grid.states.join(' + ') : ''})</h3><div class="kvl">${[['500 kV', KV[0][1]], ['345 kV', KV[1][1]], ['230 kV', KV[2][1]], ['115–161 kV', KV[3][1]], ['69–92 kV', KV[4][1]]].map(([l, c]) => `<span><b style="border-color:${c}"></b>${l}</span>`).join('')}<span><b style="border-color:#8c9590;border-top-style:dashed"></b>proposed in 2018</span></div>
+    <div class="kvl" style="margin-top:6px"><span><b style="border-color:${UPC};border-top-width:5px"></b>upgrade on an existing line</span><span><b style="border-color:${UPC};border-top-width:5px;border-top-style:dashed"></b>upgrade, straight between its ends</span><span><b style="border:3px solid ${UPC};width:9px;height:9px;border-radius:50%"></b>station upgrade</span><span><b style="border:3px solid ${UPC};width:7px;height:7px;transform:rotate(45deg);background:#fff"></b>series capacitor / reactor (at line midpoint)</span></div></div>`;
+  if (M.sel && M.sel.type === 'poi') {
+    const g = M.groups.find(x => x.key === M.sel.key);
+    if (g) {
+      const loc = g.loc, qs = new Set(g.items.map(i => i.r.q));
+      const myUps = M.ctx.ups.filter(u => Object.entries(u.alloc || {}).some(([q, a]) => a.pct > 0 && qs.has(q)));
+      el.innerHTML = `<div><h3>${esc(g.poi)}</h3>
+        <div class="how"><b>${esc(HOW[loc.how] || loc.how)}</b>${loc.label ? ': ' + esc(loc.label) : ''}${loc.score && loc.score < 1 ? ` (name score ${loc.score})` : ''}${loc.bus ? ` · bus ${loc.bus}` : ''}</div></div>
+        <table class="mt"><thead><tr><th>Queue</th><th class="r">MW</th><th>${esc(modeName)}</th><th>ISD</th></tr></thead><tbody>
+        ${g.items.map(i => `<tr><td><button class="linkb" data-q="${esc(i.r.q)}" title="Show in the ladder">${esc(i.r.q)}</button></td><td class="r">${fmtMW(i.x.mw)}</td><td><i style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${colorOf(mode, i.cat)};margin-right:4px"></i>${esc(i.cat)}<div class="sub">${esc(i.x.status)}</div>${offInfo(i.r.q)}</td><td>${esc(i.x.isd)}</td></tr>`).join('')}</tbody></table>
+        ${myUps.length ? `<div><h3>Upgrades allocated (${myUps.length})</h3><table class="mt"><tbody>${myUps.map(u => `<tr><td><button class="linkb" data-up="${esc(u.label)}">${esc(u.label)}</button>${(G.upgrades || {})[u.label] ? '' : ' <span class="sub">(not on the map)</span>'}</td><td class="r">${u.cost ? fmtM(u.cost) : '—'}</td></tr>`).join('')}</tbody></table></div>` : ''}
+        ${loc.how !== 'confirmed' ? `<div><h3>Confirm this POI</h3>${(loc.cands || []).length ? `<div class="sub">Case buses within 3 mi at this kV. Put the right one in <code>use_bus</code> of library/poi_review.csv, then run accept-poi.</div>
+          <table class="mt"><thead><tr><th>Bus</th><th>Name</th><th class="r">kV</th><th class="r">mi</th></tr></thead><tbody>${loc.cands.map(c => `<tr><td>${c.bus}</td><td>${esc(c.name)}${c.sub ? ' <span class="sub">' + esc(c.sub) + '</span>' : ''}</td><td class="r">${c.kv ?? ''}</td><td class="r">${c.mi}</td></tr>`).join('')}</tbody></table>`
+          : `<div class="sub">${loc.how === 'county' ? 'Not located, so there are no nearby buses to offer. A new substation can be placed in data/grid/planned_subs.csv.' : 'No case bus at this kV within 3 mi.'}</div>`}</div>` : ''}
+        <div><button class="linkb" data-clear="1">← Back to the legend</button></div>`;
+      return;
+    }
+  }
+  if (M.sel && M.sel.type === 'up') {
+    const u = M.ctx.ups.find(x => x.label === M.sel.label), g = (G.upgrades || {})[M.sel.label];
+    if (u) {
+      el.innerHTML = `<div><h3>${esc(u.label)}</h3><div class="how">${u.cost ? '<b>' + fmtM(u.cost) + '</b> · ' : ''}${esc(u.category || '')}${u.lead ? ' · ' + esc(u.lead) : ''}</div>
+        ${g && g.device ? `<div class="how">${esc(g.device[0].toUpperCase() + g.device.slice(1))} ${g.how === 'series_at_sub' ? 'at ' + esc(g.of) + ': ' + esc(g.note || 'line not identified') : 'on the line ' + esc(g.of) + ', drawn at its midpoint' + (g.how === 'series_straight' ? ' (no grid line: straight between its ends, route not known)' : '')}</div>`
+        : g ? `<div class="how">${g.how === 'grid' ? 'Drawn on the existing line ' + esc(g.of) : g.kind === 'line' ? 'Straight between ' + esc(g.of) + ' (route not known)' : 'At ' + esc(g.of)}</div>` : '<div class="how">Not on the map.</div>'}</div>
+        <table class="mt"><thead><tr><th>Project</th><th class="r">Share</th><th class="r">$</th></tr></thead><tbody>
+        ${Object.entries(u.alloc || {}).filter(([, a]) => a.pct > 0).sort((a, b) => qn(a[0]) - qn(b[0])).map(([q, a]) => `<tr><td><button class="linkb" data-q="${esc(q)}">${esc(q)}</button>${q === u.first_q ? ' <span class="sub">first</span>' : ''}</td><td class="r">${a.pct}%</td><td class="r">${a.usd ? fmtM(a.usd) : ''}</td></tr>`).join('')}</tbody></table>
+        <div><button class="linkb" data-clear="1">← Back to the legend</button></div>`;
+      return;
+    }
+  }
+  const cnt = {}, mws = {};
+  M.groups.forEach(g => g.items.forEach(i => { cnt[i.cat] = (cnt[i.cat] || 0) + 1; mws[i.cat] = (mws[i.cat] || 0) + (i.x.mw || 0); }));
+  const offNote = mode === 'offtake' ? `<div class="sub" style="margin-top:4px">${HAS_OFF ? 'From contracted.csv (curated). Grey circle: all MW at the POI; coloured disc inside: the MW with known / likely offtake, in the colour of its largest class (dashed: all low confidence; dotted, pale: all announced, not yet approved / executed). The legend counts each request by its own class. Grey: no known offtake (not proven uncontracted).' : 'No contracted.csv yet: every request shows as no known offtake.'}</div>` : '';
+  el.innerHTML = `<div><h3>${esc(modeName)}</h3>${offNote}<div class="sub">Circle area is MW; hollow dashed circles could not be located and sit at their county centre. Click a category to hide it; click a circle, an upgrade or a queue number in the ladder for details.</div></div>
+    <div class="lg">${m.order.filter(k => cnt[k]).map(k => `<button data-cat="${esc(k)}" class="${M.hidden[k] ? 'off' : ''}"><i style="background:${colorOf(mode, k)}"></i><span>${esc(k)}</span><span class="n">${cnt[k]} · ${fmtMW(mws[k])} MW</span></button>`).join('')}</div>
+    ${kv}`;
+}
+
+function noteLine(ups) {
+  const by = {}; M.groups.forEach(g => by[g.loc.how] = (by[g.loc.how] || 0) + g.items.length);
+  const placed = M.upItems.length, total = ups.length;
+  document.getElementById('mapsub').textContent = `${M.groups.reduce((s, g) => s + g.items.length, 0)} requests · ${placed} of ${total} upgrades drawn`;
+  document.getElementById('mapnote').innerHTML = `Requests by location: ${Object.entries(by).map(([k, n]) => `${n} ${esc((HOW[k] || k).toLowerCase())}`).join(' · ')}.
+    ${total > placed ? ` ${total - placed} upgrade${total - placed > 1 ? 's are' : ' is'} not drawn: an end is a new substation (add it to data/grid/planned_subs.csv) or the label names no place.` : ''}
+    Grid: ${esc((G.grid || {}).source || 'not cut yet (scripts/grid_layers.py)')}. Positions other than confirmed buses are approximate and never confirm a POI.${G.error ? ' Map data error: ' + esc(G.error) : ''}`;
+}
+
+function mapSelect(s) { M.sel = s; redrawMap(); highlightLadder(); }
+function highlightLadder() {
+  document.querySelectorAll('#ladder .hl').forEach(e => e.classList.remove('hl'));
+  if (!M.sel) return;
+  const t = document.getElementById('ladder');
+  if (M.sel.type === 'up') {
+    const ths = [...t.querySelectorAll('thead th')], i = ths.findIndex(th => th.classList.contains('up') && (th.querySelector('.uname') || {}).textContent === M.sel.label);
+    if (i >= 0) { ths[i].classList.add('hl'); t.querySelectorAll('tbody tr').forEach(tr => { const c = tr.children[i]; if (c && tr.children.length === ths.length) c.classList.add('hl'); }); }
+  } else if (M.sel.type === 'poi') {
+    const g = M.groups.find(x => x.key === M.sel.key);
+    if (g) g.items.forEach(i => { const row = qRow(i.r.q); if (row) row.classList.add('hl'); });
+  }
+}
+const qRow = q => [...document.querySelectorAll('#ladder td.qid')].find(td => td.textContent.trim().split(/\s/)[0] === q)?.parentElement;
+document.getElementById('mapside').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.dataset.cat) { M.hidden[b.dataset.cat] = !M.hidden[b.dataset.cat]; redrawMap(); return; }
+  if (b.dataset.clear) { mapSelect(null); return; }
+  if (b.dataset.up) { mapSelect({ type: 'up', label: b.dataset.up }); return; }
+  if (b.dataset.q) { const row = qRow(b.dataset.q); if (row) { document.querySelectorAll('#ladder tr.hl').forEach(r => r.classList.remove('hl')); row.classList.add('hl'); row.scrollIntoView({ block: 'center', behavior: 'smooth' }); } }
+});
+document.getElementById('ladder').addEventListener('click', e => {
+  const td = e.target.closest('td.qid'); if (!td || !M.map) return;
+  const q = td.textContent.trim().split(/\s/)[0], g = M.groups.find(x => x.items.some(i => i.r.q === q));
+  if (g) { mapSelect({ type: 'poi', key: g.key }); M.map.panTo([g.lat, g.lon]); mapcard.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
+});
+
+const start = location.hash.replace('#','');
+select(views.some(v => v.id === start) ? start : 'current');
+</script>

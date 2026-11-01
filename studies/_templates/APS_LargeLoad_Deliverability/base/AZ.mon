@@ -1,0 +1,3 @@
+MONITOR VOLTAGE LIMIT SUBSYSTEM AZ kvrange 50 800
+MONITOR BRANCHES IN SUBSYSTEM AZ kvrange 50 800
+monitor ties from subsystem AZ kvrange 50 800

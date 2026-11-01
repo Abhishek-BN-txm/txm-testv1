@@ -1,0 +1,86 @@
+[
+ {
+  "q": "Q626",
+  "mw": 111.5,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "Cholla 230kV",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/2/26",
+  "requested_isd": "7/1/28",
+  "confidence": "high"
+ },
+ {
+  "q": "Q627",
+  "mw": 279.0,
+  "service": "ERIS",
+  "service_raw": "Energy Resource Interconnection Service",
+  "poi": "Cholla 500kV",
+  "tech": "Natural Gas",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/2/26",
+  "requested_isd": "7/1/28",
+  "confidence": "high"
+ },
+ {
+  "q": "Q634",
+  "mw": 0.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Cholla 500kV",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/2/26",
+  "requested_isd": "2/1/29",
+  "confidence": "high"
+ },
+ {
+  "q": "Q635",
+  "mw": 400.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Cholla 500kV Substation",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/30/26",
+  "requested_isd": "6/1/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q637",
+  "mw": 750.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Sitigraves 500kV",
+  "tech": "Combined Energy Source (Solar + Energy Storage)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "4/27/26",
+  "requested_isd": "5/31/31",
+  "confidence": "high"
+ },
+ {
+  "q": "Q643",
+  "mw": 750.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Sitigraves 500kV",
+  "tech": "Combined Energy Source (Solar + Energy Storage + Geothermal)",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/4/26",
+  "requested_isd": "5/1/32",
+  "confidence": "high"
+ },
+ {
+  "q": "Q651",
+  "mw": 0.0,
+  "service": "NRIS",
+  "service_raw": "Network Resource Interconnection Service",
+  "poi": "Cholla 500 kV Substation",
+  "tech": "Energy Storage",
+  "status": "Phase 1 Cluster Study",
+  "queue_date": "5/12/26",
+  "requested_isd": "5/1/29",
+  "confidence": "high"
+ }
+]

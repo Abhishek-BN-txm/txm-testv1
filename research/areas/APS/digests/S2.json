@@ -1,0 +1,61 @@
+{
+  "title": "APS 2026 Annual Progress Report for Planning Coordination",
+  "publisher": "Arizona Public Service Company (to WECC Studies Subcommittee)",
+  "date": "2026-03-13",
+  "doc_type": "WECC Annual Progress Report",
+  "summary": "APS's 2026 report to WECC (2026-2035). Requests Significant Impact waivers for three new projects: Morgan-Outer Circle 230kV (2030), Panda-Freedom 230kV #1 Upgrade (2031), Desert Sun 230/500kV Interconnections (2031); lists 26 previously waived projects with current in-service dates under the new names (Diamond, Helios, Wafer, Independence), consistent with the 2026 ten-year plan - a quick cross-check of what is in WECC base cases.",
+  "relevance": "medium",
+  "findings": [
+    {
+      "topic": "transmission_plans",
+      "statement": "New waiver requests: Morgan-Outer Circle 230kV (~20 mi, 2030); Panda-Freedom 230kV #1 Upgrade (2031); Desert Sun 230kV and 500kV Interconnections (230kV energized 2030, 500kV 2031).",
+      "location": "pp. 1-2"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Previously waived project dates: Goodyear, Parkway, Broadway, Dromedary, Ironwood, West Camp 2025; Contrail and Hashknife 2026; Diamond, Sun Valley-Outer Circle, Helios-Milligan, Snowflake TPIF 2027; Bagdad, Bianco, Wafer, Q264 TPIF 2028; Cholla-Chevelon cut-in, North Gila-Orchard #2 2029; Pinnacle Peak-Ocotillo, Panda-Freedom #2, Runway-Stratus cut-in to TS21, Independence-Broadway, Agua Fria-Contrail, Saguaro Campus 2030; Jojoba-Rudd 2031; Four Corners-Cholla-Pinnacle Peak 345kV rebuilds 2038.",
+      "location": "p. 2 table"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Morgan-Outer Circle 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Morgan -> Outer Circle",
+      "status": "Waiver requested",
+      "date": "2030"
+    },
+    {
+      "name": "Panda-Freedom 230kV Line #1 Upgrade",
+      "type": "upgrade",
+      "kv": "230",
+      "mw": "",
+      "poi": "Panda -> Freedom",
+      "status": "Waiver requested",
+      "date": "2031"
+    },
+    {
+      "name": "Desert Sun 230kV and 500kV Interconnections",
+      "type": "line",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Desert Sun (west of Gila Bend) to APS system",
+      "status": "Waiver requested",
+      "date": "2031"
+    }
+  ],
+  "open_questions": [
+    "Desert Sun generator size not stated."
+  ],
+  "source_id": "S2",
+  "model": "external research session (ten-year plan)",
+  "digested_at": "2026-10-21T21:22:56",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

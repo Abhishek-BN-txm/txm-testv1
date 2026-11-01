@@ -1,0 +1,12 @@
+{
+  "_comment": "Copy this file to machine.json (same folder) and edit for this machine. machine.json is git-ignored.",
+  "tara_exe": "C:\\path\\to\\tara.exe",
+  "scratch_dir": "C:\\path\\to\\scratch",
+  "reference_root": "C:\\Projects\\TARA Automation",
+  "browse_roots": [
+    "C:\\Projects"
+  ],
+  "_browse_roots": "Folders the study desk (scripts/study_desk.py) may list when you pick cases and .sub/.con/.mon files. Default: the folder that holds this repo.",
+  "research_files_root": "",
+  "_research_files_root": "Where study-area research documents live (task 29). Empty = research/areas/<AREA>/files in the repo (git-ignored, this machine only). Set it to a synced folder, e.g. C:\\Users\\<you>\\OneDrive\\TARA Research, to have the same documents on every machine; summaries and digests travel with git."
+}

@@ -1,0 +1,216 @@
+{
+ "label": "Pre-cluster (serial)",
+ "cycle": "Serial",
+ "date": "latest per project (2018-2026)",
+ "file": "Q354,Q360,Q375,Q376,Q377,Q378,Q379,Q389_SIS_Report_v1-6_20230807.pdf; Q248_FaS_Final_20180801.pdf; Q248_MMA3_Report_v1-3_20260106.pdf; Q269_FaS_Final_20201223.pdf; Q334_FaS_Report_FINAL_20220316.pdf; Q354_FaS_FINAL_20230126.pdf; Q354_MMA2_Report_v1-1_20260211.pdf; Q360_FaS_FINAL_20221216.pdf; Q372_FaS_Final_20220915.pdf; Q372_MMA_Report_v1-2_20230614.pdf; Q375_FaS_20230125_FINAL.pdf; Q376_FaS_Final_20230118.pdf; Q377_FaS_20230125_FINAL.pdf; Q378_FaS_20230125_FINAL.pdf; Q379_FaS_20230125_FINAL.pdf; Q389_FaS_FINAL_20221216.pdf",
+ "projects": [
+  {
+   "q": "Q248",
+   "mw": 300,
+   "service": "NRIS",
+   "poi": "Delaney 500 kV",
+   "station_nu": 1263000,
+   "station_status": "built",
+   "total": 3456000,
+   "status": "Closed Out",
+   "latest": "FaS 2018-08-01; MMA3 2026-01-06",
+   "note": "New Delaney 500 kV breaker, switches and terminations. MMA3 is an inverter change only. No system reinforcements."
+  },
+  {
+   "q": "Q269",
+   "mw": 450,
+   "service": "NRIS",
+   "poi": "Delaney 500 kV",
+   "station_nu": 2500000,
+   "station_status": "in construction",
+   "total": 4700000,
+   "status": "In Construction",
+   "latest": "FaS 2020-12-17; MMA 2024-08-13",
+   "note": "500 kV switchyard additions only; no system reinforcements. Likely the Harquahala Flats storage project (NextEra), medium confidence."
+  },
+  {
+   "q": "Q334",
+   "mw": 500,
+   "service": "NRIS",
+   "poi": "Sun Valley 230 kV",
+   "station_nu": 700000,
+   "station_status": "still required",
+   "total": 1700000,
+   "status": "Project with APS Project Manager",
+   "latest": "FaS 2022-03-16",
+   "note": "New Sun Valley 230 kV breaker position. System reinforcements: none."
+  },
+  {
+   "q": "Q354",
+   "mw": 250,
+   "service": "NRIS",
+   "poi": "Sun Valley 230 kV",
+   "station_nu": 2200000,
+   "station_status": "still required",
+   "total": 3400000,
+   "status": "Pending LGIA Amended & Filed",
+   "latest": "FaS 2022-10-14; MMA2 2026-02-11",
+   "note": "Queue lists ER+NR service. Not allocated any of the Liberty–Hassayampa Tap rebuild. MMA2 (inverter and transformer change) did not change costs."
+  },
+  {
+   "q": "Q360",
+   "mw": 550,
+   "service": "NRIS",
+   "poi": "Delaney 500 kV",
+   "station_nu": 2900000,
+   "station_status": "built",
+   "total": 4600000,
+   "status": "Customer Test Energy",
+   "latest": "FaS 2022-12-13; MMA2 2025-05-28",
+   "note": "Queue lists ER+NR service. Not allocated any of the Liberty–Hassayampa Tap rebuild."
+  },
+  {
+   "q": "Q372",
+   "mw": 100,
+   "service": "NRIS",
+   "poi": "Trilby Wash 69 kV",
+   "station_nu": 1868000,
+   "station_status": "required (suspended)",
+   "total": 2795000,
+   "status": "Customer Initiated Suspension",
+   "latest": "FaS 2022-09-15; MMA 2023-06-14",
+   "note": "Studied in the 4th Phoenix Metro Area Cluster SIS (Q355–Q384, 2022-03-27); the POI is in this area. The jumper upgrade was reassigned 100% to Q372 when Q261 withdrew. Charging is limited to 50% at peak load."
+  },
+  {
+   "q": "Q375",
+   "mw": 300,
+   "service": "NRIS",
+   "poi": "Delaney 500 kV",
+   "station_nu": 3900000,
+   "station_status": "still required",
+   "total": 6100000,
+   "status": "In Design",
+   "latest": "FaS 2022-10-25; MMA 2023-05-17",
+   "note": "2021 Spring Cluster. The FaS shows $0.4M for a 3.21% share of the Liberty–Hassayampa rebuild (the SIS showed $0.2M)."
+  },
+  {
+   "q": "Q376",
+   "mw": 400,
+   "service": "NRIS",
+   "poi": "Redhawk 500 kV",
+   "station_nu": 0,
+   "station_status": "",
+   "total": 1445000,
+   "status": "In-Service",
+   "latest": "FaS 2023-01-18",
+   "note": "In service. The FaS calls the service ERIS; the queue lists NRIS. Its 0.71% share of the Liberty–Hassayampa rebuild is under $0.1M."
+  },
+  {
+   "q": "Q377",
+   "mw": 250,
+   "service": "NRIS",
+   "poi": "Sun Valley 230 kV",
+   "station_nu": 2900000,
+   "station_status": "required (suspended)",
+   "total": 7100000,
+   "status": "Customer Initiated Suspension",
+   "latest": "FaS 2022-10-25",
+   "note": "Grid charging of Q377+Q378 limited to 300 MW (summer) / 425 MW (winter) by the Sun Valley 500/230 kV transformer."
+  },
+  {
+   "q": "Q378",
+   "mw": 250,
+   "service": "NRIS",
+   "poi": "Sun Valley 230 kV",
+   "station_nu": 2300000,
+   "station_status": "required (suspended)",
+   "total": 6600000,
+   "status": "Customer Initiated Suspension",
+   "latest": "FaS 2022-10-25",
+   "note": "Grid charging limited together with Q377."
+  },
+  {
+   "q": "Q379",
+   "mw": 1000,
+   "service": "NRIS",
+   "poi": "Sun Valley 500 kV",
+   "station_nu": 4700000,
+   "station_status": "required (suspended)",
+   "total": 8800000,
+   "status": "Customer Initiated Suspension",
+   "latest": "FaS 2022-10-25",
+   "note": "1,000 MW solar plus 4,000 MWh storage."
+  },
+  {
+   "q": "Q389",
+   "mw": 300,
+   "service": "NRIS",
+   "poi": "Delaney 500 kV",
+   "station_nu": 0,
+   "station_status": "",
+   "total": 600000,
+   "status": "In-Service",
+   "latest": "FaS 2022-12-16; MMA (with Q276 MMA3) 2024-08-05",
+   "note": "Uses the Q276 gen-tie; metering only at the POI."
+  }
+ ],
+ "upgrades": [
+  {
+   "label": "Liberty–Hassayampa Tap 230 kV rebuild (~20 mi)",
+   "cost": 7750000,
+   "cost_derived": true,
+   "cost_note": "No total stated; back-calculated from Q377/Q378 $2.7M at 34.82%. Assigned only to the 2021 Spring Cluster (Q375–Q379, Q389), for P1 Sun Valley–Trilby Wash / P2 Sun Valley CB 11. Still rated 1,355 A in the 2025 cluster cases, so not yet rebuilt.",
+   "lead": "24 months",
+   "alloc": {
+    "Q375": {
+     "pct": 3.21,
+     "usd": 400000,
+     "status": "required"
+    },
+    "Q376": {
+     "pct": 0.71,
+     "usd": 55000,
+     "status": "required"
+    },
+    "Q377": {
+     "pct": 34.82,
+     "usd": 2700000,
+     "status": "required"
+    },
+    "Q378": {
+     "pct": 34.82,
+     "usd": 2700000,
+     "status": "required"
+    },
+    "Q379": {
+     "pct": 23.21,
+     "usd": 1800000,
+     "status": "required"
+    },
+    "Q389": {
+     "pct": 3.21,
+     "usd": 300000,
+     "status": "required"
+    }
+   }
+  },
+  {
+   "label": "McMicken–Farmer Tap–Trilby Wash 69 kV jumper upgrade (1,670 A)",
+   "cost": 100000,
+   "cost_derived": false,
+   "cost_note": "Q372 FaS 2022: switches, CTs and jumpers. First identified in the Q261 SIS, reassigned 100% to Q372 after Q261 withdrew.",
+   "lead": "12 months",
+   "alloc": {
+    "Q372": {
+     "pct": 100,
+     "usd": 100000,
+     "status": "required"
+    }
+   }
+  }
+ ],
+ "notes": [
+  "The Delaney–Sun Valley serial projects carry very little system network upgrade cost. The only shared upgrade is the ~$7.8M Liberty–Hassayampa Tap 230 kV rebuild, allocated within the 2021 Spring Cluster (Q375, Q376, Q377, Q378, Q379, Q389) by the 2023 SIS and 2022 Facilities Studies.",
+  "Q248, Q269, Q334, Q354 and Q360 carry only POI switchyard network upgrades. Palo Verde/Hassayampa 500 kV fault-duty mitigation is 'TBD by SRP' in every report.",
+  "The Liberty–Hassayampa total is back-calculated (Q377/Q378 $2.7M at 34.82%). The rounded small shares imply higher totals (Q375 FaS $0.4M at 3.21% implies $12.5M). The line is still rated 1,355 A in the 2025 Del-Svly-Red cluster cases (an inference that it has not been rebuilt).",
+  "MMAs (Q248 MMA3 2026, Q354 MMA2 2026, Q360 MMA2 2025, Q372 MMA 2023) assess equipment changes only and do not change cost allocations.",
+  "Q372 was studied with the 4th Phoenix Metro Area Cluster, but its Trilby Wash 69 kV POI places it here."
+ ],
+ "view_note": "Serial projects ahead of the clusters at Delaney, Sun Valley and Redhawk total 4.65 GW, but carry only one shared system upgrade: the ~$7.8M Liberty–Hassayampa Tap 230 kV rebuild. It is assigned to the 2021 Spring Cluster, and about 93% of it falls on suspended Q377, Q378 and Q379 at Sun Valley. Everything else is POI switchyard work of $0.7–4.7M per project.",
+ "full_note": "The serial queue (top) left the Delaney–Sun Valley 500/230 kV hub with almost no shared upgrades: just the ~$7.8M Liberty–Hassayampa Tap rebuild, still pending because Q377–Q379 are suspended. The cluster rows below show where new shared upgrades start once Transition and later cluster MW are added on top of this 4.65 GW serial block."
+}

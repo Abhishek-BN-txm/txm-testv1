@@ -1,0 +1,36 @@
+# Research log: APS
+
+- 2026-10-21T20:49:24 area created: Arizona Public Service (APS)
+- 2026-10-21T20:49:57 source S1 added by setup (web search) (proposed): APS 2025 Ten-Year Transmission System Plan (2025-2034)
+- 2026-10-21T20:49:57 source S2 added by setup (web search) (proposed): APS 2026 Annual Progress Report to WECC
+- 2026-10-21T20:49:57 source S3 added by setup (web search) (proposed): APS 2025 Annual Progress Report to WECC
+- 2026-10-21T20:49:57 source S4 added by setup (web search) (proposed): APS Strategic Transmission Expansion (STX)
+- 2026-10-21T20:49:57 source S5 added by setup (web search) (proposed): ACC Biennial Transmission Assessment (overview)
+- 2026-10-21T20:49:57 source S6 added by setup (web search) (proposed): ACC: 13th Biennial Transmission Assessment workshop (2025)
+- 2026-10-21T20:49:57 source S7 added by setup (web search) (proposed): Pinnacle West Capital Q2 2026 Form 10-Q
+- 2026-10-21T21:15:16 EIA data for AZPS updated: 16 findings (computed, $0)
+- 2026-10-21T21:16:06 EIA data for AZPS updated: 16 findings (computed, $0)
+- 2026-10-21T21:21:16 import by external research session (IRP): 6 new, 1 updated source(s)
+- 2026-10-21T21:21:16 not public (gap): APS 2026 IRP itself (due at ACC Oct 30, 2026) - not yet posted on aps.com as of 2026-10-21; resource planning page lists only the Oct 14, 2026 stakeholder meeting.
+- 2026-10-21T21:21:16 not public (gap): Pinnacle West Q2 2026 (Aug 4, 2026) and Q4 2025 earnings/investor slide decks - not found as a direct PDF; these slides are cited for 4.5 GW committed load, multi-year capex plan and record Aug 2026 peak.
+- 2026-10-21T21:21:16 not public (gap): ACC decision text acknowledging the 2023 IRP (Oct 8, 2024 open meeting; APS docket E-01345A-23-0110) - decision number/order PDF not located; only the ACC press release found.
+- 2026-10-21T21:21:16 not public (gap): 2025 ASRFP solicitation document and shortlist details - APS RFP page links no PDF.
+- 2026-10-21T21:21:16 not public (gap): 2023 IRP confidential appendices - redacted in the public version.
+- 2026-10-21T21:21:16 not public (gap): PLEXOS reference database / transmission candidate list / NDA-only RPAC materials - available only to RPAC members under NDA.
+- 2026-10-21T21:22:56 import by external research session (ten-year plan): 1 new, 4 updated source(s)
+- 2026-10-21T21:22:56 not public (gap): ACC Thirteenth BTA (2024-2033) final Staff report: not found on azcc.gov (page stops at the 11th BTA). Known: Decision No. 81541 (Oct 23, 2025); ~3%/yr demand growth 2024-2033; utilities must file confidential congestion/load-pocket reports. Try ACC eDocket.
+- 2026-10-21T21:22:56 not public (gap): ACC Fourteenth BTA (2026): workshop held July 2026; no report or decision found.
+- 2026-10-21T21:22:56 not public (gap): WestConnect 2024-25 Regional Transmission Plan and APS items in it: not obtained; try regplanning.westconnect.com.
+- 2026-10-21T21:22:56 not public (gap): APS 2026 Technical Study Report (Attachment A, incl. congestion and load-growth pockets), Extreme Contingency Study (Attachment D) and System Ratings (Attachment G): CEII, only under an APS protective agreement.
+- 2026-10-21T21:23:47 import by external research session (queue + computed from LBNL data): 2 new, 0 updated source(s)
+- 2026-10-21T21:23:47 not public (gap): APS OASIS 'Active/Exec Agrmt Queue Listing' (www.oasis.oati.com/azps): the primary APS queue list; the OASIS page loads through a protected endpoint that refuses automated requests. A person can open it in a browser without login and drop the file into the Sources tab.
+- 2026-10-21T21:23:47 not public (gap): APS Transitional Cluster / Phase 1-2 cluster study reports: on OASIS or the APS PowerClerk portal (login).
+- 2026-10-21T21:23:47 not public (gap): APS LGIP business practice and OATT Attachments O/P: on OASIS (same barrier).
+- 2026-10-21T21:23:47 not public (gap): FERC order 2023-09-29, Docket ER23-2398 (APS queue reform): on FERC eLibrary; a secondary summary exists (Troutman Pepper / Renewable Energy World, 2023-11-21).
+- 2026-10-21T21:23:47 not public (gap): GridTracker / interconnection.fyi APS export: paid dataset.
+- 2026-10-21T21:23:56 scan: 1 new file(s) registered: S17
+- 2026-10-21T21:25:17 summary written from 15 sources by the external research session
+- 2026-10-22T20:22:16 queue data (2026-10-13) updated: 13 findings, 198 pending requests (computed, $0)
+- 2026-10-22T20:22:58 summary: interconnection-queue pillar rewritten from source QUEUE (APS posting 2026-10-13 + cluster reports); external research session
+- 2026-10-23T04:30:45 queue data (2026-10-13) updated: 13 findings, 198 pending requests (computed, $0)
+- 2026-10-23T06:19:36 queue data (2026-10-13) updated: 15 findings, 198 pending requests (computed, $0)

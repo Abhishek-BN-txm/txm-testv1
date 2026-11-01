@@ -1,0 +1,82 @@
+{
+  "title": "APS RPAC Meeting 4/15/2026 - ASRFP update, 2026 IRP market prices, RA follow-up, 2026 IRP scenarios",
+  "publisher": "Arizona Public Service (APS) with E3",
+  "date": "2026-04-15",
+  "doc_type": "stakeholder presentation (RPAC)",
+  "summary": "Reports 2024 ASRFP results (two combined-cycle tolls retained: 600 MW and 575 MW rising to 600 MW in 2027) and the combined 2023+2024 ASRFP signed nameplate of 8,460 MW (3,606 MW storage, 2,649 MW solar, 1,705 MW gas, 500 MW wind) with CODs 2026-2030 versus a summer 2025 peak of ~8,600 MW. The 2025 ASRFP seeks >=1 GW (near-term 2028-2031 and 2031+) and received 244 proposals from 62 bidders (137 unique projects). Desert Sun Power Plant CT opportunity (700 MW) relocated from Gila Bend to the existing Saguaro site in Pinal County targeting COD 2031. Also covers E3 market-price methodology and the 2026 IRP scenario list.",
+  "relevance": "high",
+  "findings": [
+    {
+      "topic": "resource_planning",
+      "statement": "2024 ASRFP signed gas resources: combined-cycle toll 600 MW and combined-cycle toll 575 MW (600 MW in 2027); target CODs June 1, 2026 - June 1, 2030.",
+      "location": "slide 7"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "2023+2024 ASRFP signed nameplate: Storage 3,606 MW, Solar 2,649 MW, Gas 1,705 MW, Wind 500 MW = 8,460 MW total (37% renewable, 80% clean), CODs 2026-2030; summer 2025 peak demand ~8,600 MW.",
+      "location": "slide 8"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "2025 ASRFP seeks >=1 GW for summer peak, overnight energy, reserve margin and XHLF growth, near-term (2028-2031) and mid/long-term (2031+); received 244 proposals/structures (225 PPA, 18 BTA, 1 EPC), 137 unique projects from 62 bidders; shortlist May-Aug 2026, contracts expected Jul-Dec 2026.",
+      "location": "slides 9-10"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Desert Sun Power Plant CTs offered at the existing Saguaro Power Plant (Pinal County) instead of Gila Bend: 700 MW total installed capacity (relocated, not incremental), leveraging existing site infrastructure and transmission interconnections, targeted COD 2031.",
+      "location": "slide 12"
+    },
+    {
+      "topic": "resource_planning",
+      "statement": "Required 2026 IRP scenarios: technology neutral, Four Corners extension, day-ahead market participation, load growth (high/low, timing and shape), fuel pricing, resource capital costs.",
+      "location": "IRP Scenarios section"
+    },
+    {
+      "topic": "other",
+      "statement": "E3 core case models EDAM and Markets+ go-live in 2027; remaining Southwest coal phases out by the mid-2030s with multiple plants converting to gas; transmission is a bottleneck for New Mexico wind.",
+      "location": "slides 19-20"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Desert Sun Power Plant CTs at Saguaro",
+      "type": "gas CT",
+      "kv": "",
+      "mw": "700",
+      "poi": "Saguaro Power Plant, Pinal County AZ (existing interconnection)",
+      "status": "planned (in 2025 ASRFP)",
+      "date": "2031"
+    },
+    {
+      "name": "Combined-cycle toll (2024 ASRFP, unnamed)",
+      "type": "gas CC tolling",
+      "kv": "",
+      "mw": "600",
+      "poi": "",
+      "status": "procured",
+      "date": "2026-2030"
+    },
+    {
+      "name": "Combined-cycle toll (2024 ASRFP, unnamed)",
+      "type": "gas CC tolling",
+      "kv": "",
+      "mw": "575 (600 from 2027)",
+      "poi": "",
+      "status": "procured",
+      "date": "2026-2030"
+    }
+  ],
+  "open_questions": [
+    "Which existing CC plants are behind the two retained tolls (10-Q says through 2038 and 2046)?",
+    "Saguaro CT interconnection split across 230/500 kV buses?"
+  ],
+  "source_id": "S10",
+  "model": "external research session (IRP)",
+  "digested_at": "2026-10-21T21:21:16",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "title": "APS RPAC Meeting 2/13/2026 - Resource Adequacy Update, Resource Costs follow-up (E3), 2026 IRP Timeline",
+  "publisher": "Arizona Public Service (APS) with E3",
+  "date": "2026-02-13",
+  "doc_type": "stakeholder presentation (RPAC)",
+  "summary": "Describes the 2025-2026 APS Resource Adequacy study underpinning the 2026 IRP: 44 weather years with hourly chronology, stochastic forced outages, chronological tracking of batteries and fuel-limited gas, explicit daily gas pipeline limits, 0.1 LOLE target. APS moves to Perfect Capacity (PCAP) accreditation starting 2026; ELCC surfaces capture solar-storage interactions. Pipeline-limited fuel supply shifts reliability risk outside the summer peak. E3 reviewed APS capital cost assumptions. Few hard MW numbers.",
+  "relevance": "low",
+  "findings": [
+    {
+      "topic": "resource_planning",
+      "statement": "2025-2026 RA study: 44 weather years, stochastic outages, daily gas pipeline limits and interruptible transport rules, 0.1 LOLE target; current study year 2030; APS moves to PCAP-based planning reserve margin and ELCC accreditation starting with the 2026 IRP.",
+      "location": "RA Update section"
+    },
+    {
+      "topic": "load_and_dispatch",
+      "statement": "Under pipeline-limited fuel availability, expected unserved energy and LOLE spread beyond summer into other months and hours; gas fuel transport rights 'designed for yesterday's peak conditions' flagged as a reliability risk.",
+      "location": "RA Update heat maps"
+    }
+  ],
+  "projects": [],
+  "open_questions": [
+    "What PRM % and ELCC values resulted from the 2025 RA study?"
+  ],
+  "source_id": "S13",
+  "model": "external research session (IRP)",
+  "digested_at": "2026-10-21T21:21:16",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

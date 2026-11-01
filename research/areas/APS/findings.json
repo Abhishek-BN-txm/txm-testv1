@@ -1,0 +1,4564 @@
+{
+  "overview": "APS is a fast-growing summer-peaking system: EIA-930 shows AZPS energy up 7.1% in 2024 and 8.1% in 2025 and a new peak of 8,982 MW on 2 August 2026 [EIA], driven mainly by data centres and large industrial load [S11][S7]. The 2026 IRP (due at the ACC on 30 October 2026) answers with roughly 4 GW of new gas, 5.5 GW of solar and 3.1 GW of batteries by 2041, and now keeps Four Corners beyond 2031 [S8][S9]. The 2026-2035 ten-year plan more than doubles new 500 kV mileage to ~72 miles ($6.2B), centred on the Jojoba-Independence-Rudd and Panda-Freedom corridor, the Wafer and Independence 500/230 kV substations and Desert Sun [S14]. Against this, APS's Active Queue posted 13 October 2026 holds 198 requests not yet in service totalling 71.0 GW, about 7.9 times the 2026 peak, a third of it (24.8 GW) in the 2026 cluster that has not yet been studied; the latest cluster reports carry about $3.1B of network and station upgrades, led by the Sitgreaves\u2013Pinnacle Peak and Saguaro\u2013Bianco\u2013Independence 500 kV lines [QUEUE]. History shows two-thirds of older queued MW withdrawing [S15].",
+  "sections": [
+    {
+      "topic": "interconnection_queue",
+      "points": [
+        {
+          "text": "APS's Active Queue posted 13 Oct 2026 lists 239 requests (77.8 GW): 198 not yet in service (71.0 GW), 35 in service (6.3 GW) and 6 surplus requests.",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "Pending by cycle: 2026 cluster 54 requests / 24.8 GW (not yet studied); 2025 cluster 36 / 10.3 GW; 2024 cluster 21 / 5.0 GW; Transition cluster 42 / 16.5 GW; pre-2024 serial or transition 45 / 14.5 GW.",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "Pending technology: solar+storage hybrids 27.8 GW (39%), storage 14.8 GW (21%), natural gas 11.1 GW (16%), wind 6.7 GW (9%), solar+storage+gas hybrids 4.5 GW; standalone solar only 2.3 GW. Service: NRIS 46.3 GW, ERIS 22.1 GW.",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "Pending by APS study area: Four Corners\u2013Cholla 13.9 GW, Delaney\u2013Sun Valley\u2013Redhawk 13.6 GW, South of Phoenix 10.1 GW, Hoodoo Wash\u2013Yuma 9.4 GW, Phoenix Metro 8.4 GW, Gila Bend 7.9 GW, NSTS (Navajo South) 7.6 GW, Northern 69 kV 0.2 GW.",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "Largest pending POIs: Delaney 500 kV 4.3 GW (10 requests), Cholla 500 kV 3.8 GW (14), Four Corners 345 kV 3.5 GW (3), TS30 500 kV 3.0 GW (4, a new substation), Saguaro 500 kV 2.7 GW, Hoodoo Wash 500 kV 2.0 GW, Watermelon 500 kV 1.9 GW, Panda 230 kV 1.9 GW.",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "By status: 25.1 GW in Phase 1 cluster study, 8.9 GW with a draft Transition-cluster LGIA, 5.4 GW in the Transition Phase 4 facilities study, 1.9 GW in design and 1.9 GW in construction.",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "Attrition candidates: 10 requests (5.5 GW) are in customer-initiated suspension, led by 3.5 GW of wind at Four Corners 345 kV (Q318\u2013Q320); 56 pending requests (17.2 GW) show a projected in-service date before 2026 and are not in design or construction (e.g. Q274 1,000 MW on the Cedar Mountain\u2013Moenkopi 500 kV line, Q466 1,000 MW at North Gila 500 kV).",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "New entries are accelerating: requests still in the queue from 2026 submissions total 25.0 GW (55), against 9.2 GW from 2025 and 5.0 GW from 2024.",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "71 cluster system impact and facilities study reports (Jun 2024 to Oct 2026) cover the Transition, 2024 and 2025 clusters. Upgrade cost in the latest report of each cycle: South of Phoenix $1.34B, Four Corners\u2013Cholla $1.18B, Gila Bend $0.43B, Hoodoo Wash\u2013Yuma $0.10B; Phoenix Metro, Delaney\u2013Sun Valley\u2013Redhawk and NSTS under $0.06B each.",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "Largest upgrades: new Sitgreaves\u2013Pinnacle Peak 500 kV line $1.0B (Four Corners\u2013Cholla 2025 Ph1, first triggered by Q609 at 700 MW); Saguaro\u2013Bianco\u2013Independence 500 kV line with two 500/230 kV transformers $967M (South of Phoenix 2025 Ph1, Q578 at 300 MW); Saguaro\u2013Q618 230 kV rebuild $202M; second Jojoba\u2013Watermelon 500 kV line $180M (Gila Bend 2025 Ph2).",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "text": "Attrition history: of requests queued in 2020 or earlier, 65% of MW withdrew, 22% are still active, 7% reached operation and 6% are suspended (LBNL, data through 2025).",
+          "sources": [
+            "S15"
+          ]
+        },
+        {
+          "text": "Context: the non-ISO West holds 957 active requests and 567 GW, the largest region nationally; US active queue capacity fell 10% in 2025.",
+          "sources": [
+            "S16"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "load_and_dispatch",
+      "points": [
+        {
+          "text": "AZPS annual demand (EIA-930): 30.8 TWh in 2021, 32.0 in 2022, 33.5 in 2023, 35.9 in 2024 and 38.8 TWh in 2025; peaks 7.6 GW (2021) to 8.5 GW (2025), always on summer evenings (17:00-19:00).",
+          "sources": [
+            "EIA"
+          ]
+        },
+        {
+          "text": "2026 to date: peak 8,982 MW on 2 August 2026 at 19:00; APS's own figures give an all-time peak of 8,631 MW on 7 August 2025 and a 2026 forecast peak of 8,648 MW with a 1,326 MW reserve margin.",
+          "sources": [
+            "EIA",
+            "S11",
+            "S9"
+          ]
+        },
+        {
+          "text": "2025 generation in the AZPS balancing authority: gas 39%, coal 25%, solar 20%, batteries 8%, wind 7%. EIA-930 reports no nuclear for AZPS, although APS owns 1,146 MW of Palo Verde.",
+          "sources": [
+            "EIA",
+            "S12"
+          ]
+        },
+        {
+          "text": "AZPS is a large net importer (-14.8 TWh in 2025), almost all from SRP (-30.1 TWh), while exporting to WALC (+6.5 TWh) and CAISO (+6.4 TWh).",
+          "sources": [
+            "EIA"
+          ]
+        },
+        {
+          "text": "At the peak hour of the 10 highest-demand days of the last 12 months: gas 1.9 GW, solar 1.5 GW, batteries 1.1 GW, wind 1.0 GW, coal 0.8 GW.",
+          "sources": [
+            "EIA"
+          ]
+        },
+        {
+          "text": "2026 IRP load forecast: sales from 35.7 TWh (2026) to 59.8 TWh (2041), +67%; peak 11,700 MW in 2041 (2.0%/yr); data centres and large industrial are 76% of the growth.",
+          "sources": [
+            "S11"
+          ]
+        },
+        {
+          "text": "Near-term guidance: retail sales +4-6% in 2026 and +5-7% a year through 2030; about 19 GW of uncommitted large-load requests; a first 1.2 GW large-customer subscription ramping from 2028.",
+          "sources": [
+            "S7",
+            "S11"
+          ]
+        },
+        {
+          "text": "Phoenix load pocket (APS+SRP): peak 13,906 MW in 2024, forecast 17,726 MW in 2030 and 19,650 MW in 2035; import at peak ~11.4 GW in 2030 with ~6.4 GW of local (RMR) generation needed at peak.",
+          "sources": [
+            "S14"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "resource_planning",
+      "points": [
+        {
+          "text": "The 2026 IRP is due at the ACC on 30 October 2026 (deadline extended); the 2023 IRP was acknowledged on 8 October 2024.",
+          "sources": [
+            "S9",
+            "S7"
+          ]
+        },
+        {
+          "text": "Draft 2026 IRP base case, net nameplate additions 2026-2041: gas 4,020 MW, solar 5,494 MW, batteries 3,098 MW, customer-based 2,988 MW, wind 73 MW; coal -970 MW.",
+          "sources": [
+            "S8"
+          ]
+        },
+        {
+          "text": "Four Corners: an agreement with NTEC allows operation beyond 2031 and the Preferred Plan will include it; running to 2038 lowers the 2026-2041 revenue requirement by ~$1.0B.",
+          "sources": [
+            "S8",
+            "S7"
+          ]
+        },
+        {
+          "text": "Gas build-out: Cholla two-unit coal-to-gas conversion (380 MW, 2029); Desert Sun CTs (700 MW) moved to the existing Saguaro site, COD 2031, within an up-to-2,000 MW flexible gas programme; new gas pipeline by late 2029; two 600 MW combined-cycle tolls extended to 2038 and 2046.",
+          "sources": [
+            "S9",
+            "S10",
+            "S7"
+          ]
+        },
+        {
+          "text": "Already procured (2023 and 2024 RFPs): 8,460 MW (storage 3,606, solar 2,649, gas 1,705, wind 500) with CODs 2026-2030; summer 2026 additions included Agave, Beehive, Desert Bloom, Justice and Pluto batteries, Catclaw and Maricopa Energy Center solar+storage, Ironwood and Papago solar, West Camp wind (500 MW) and the Sundance CT expansion.",
+          "sources": [
+            "S10",
+            "S9"
+          ]
+        },
+        {
+          "text": "2025 all-source RFP: at least 1 GW for 2028-2031 and beyond; 244 proposals, 51 shortlisted.",
+          "sources": [
+            "S10",
+            "S8"
+          ]
+        },
+        {
+          "text": "The 2026 IRP co-optimises transmission with generation (PLEXOS, zonal); an early solution selected 8 new transmission projects ($1.7B), and all cases rely on substantial transmission expansion.",
+          "sources": [
+            "S9",
+            "S8"
+          ]
+        },
+        {
+          "text": "Resource adequacy moves to perfect-capacity accreditation with a 0.1 LOLE target; pipeline limits push reliability risk outside the summer peak. Palo Verde licence renewal is planned (operation into the 2060s).",
+          "sources": [
+            "S13",
+            "S7"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "transmission_plans",
+      "points": [
+        {
+          "text": "2026-2035 Ten-Year Plan (filed 30 January 2026): ~72 mi new 500 kV, ~190 mi new 230 kV, ~578 mi of 345 kV rebuilds, 34 new transformers, $6.2B; the 2025 plan had ~32 mi of new 500 kV.",
+          "sources": [
+            "S14",
+            "S1"
+          ]
+        },
+        {
+          "text": "Renames that affect case bus names: TS21 is now Independence, TS22 Wafer, TS33 Helios; Runway Additional is Diamond.",
+          "sources": [
+            "S14"
+          ]
+        },
+        {
+          "text": "Major dated projects: Wafer 500/230 kV (3 transformers, 2028); Bagdad 230 kV via Mead Phoenix Q01 500/230 kV (2028); Independence 500/230 kV substation (2030) and transformers (2031); Jojoba-Independence-Rudd 500 kV (2031, with SRP); Panda-Freedom 230 kV #2 (2030) and #1 upgrade (2031); Desert Sun 230 kV (2030) and 500 kV (2031) interconnections; Four Corners-Cholla-Pinnacle Peak 345 kV rebuilds, 500 kV-capable (2038).",
+          "sources": [
+            "S14",
+            "S2"
+          ]
+        },
+        {
+          "text": "Several 230 kV projects exist to serve large-load customers: Contrail (2026), Diamond (2027), Wafer (2028), Bagdad (2028).",
+          "sources": [
+            "S14"
+          ]
+        },
+        {
+          "text": "New undated 500 kV concepts with no CEC: Texas Hill, TS37, Morgan-Wafer #2, Jojoba-Independence #2, Watermelon-Jojoba #2 and #3, Independence-Saguaro. Removed: Quartzsite-Colorado River 500 kV and Komatke substation.",
+          "sources": [
+            "S14"
+          ]
+        },
+        {
+          "text": "Placed in service in 2025: Goodyear, Parkway, Broadway and Dromedary 230 kV; Ironwood 500 kV interconnection; West Camp gen-tie with the Sitgreaves 345 kV switchyard.",
+          "sources": [
+            "S14",
+            "S2"
+          ]
+        },
+        {
+          "text": "APS transmission capex: $550M (2026), $695M (2027), $860M (2028).",
+          "sources": [
+            "S7"
+          ]
+        },
+        {
+          "text": "Modelling caution: ratings for most new 500 kV projects are TBD, and the Technical Study Report (congestion and load-growth pockets) is CEII.",
+          "sources": [
+            "S14"
+          ]
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Queue size: LBNL counts 149 active requests / 48.4 GW at the end of 2025 [S15]; the APS posting of 13 Oct 2026 lists 198 requests / 71.0 GW not in service [QUEUE]. Most of the difference is the 2026 cluster (24.8 GW entered in 2026). Use the posting.",
+    "Cotton Transmission Corridor (Jojoba-Rudd + Panda-Freedom): the APS STX web page says 2032 [S4]; the 2026 ten-year plan says 2030-2031 [S14]. Use the plan.",
+    "2025 peak: APS reports 8,631 MW on 7 August 2025 [S11]; EIA-930 AZPS balancing-authority data shows 8,499 MW that day [EIA]. Utility vs balancing-authority accounting and EIA adjustments differ.",
+    "Long-term peak: the 2023 IRP forecast 13,119 MW in 2038 (2.4%/yr) [S12]; the 2026 IRP forecast is 11,700 MW in 2041 (2.0%/yr) [S11], although energy growth is higher.",
+    "Four Corners: exit in 2031 in the 2023 IRP [S12] and the 2026 IRP base case [S8]; operation beyond 2031 in the Preferred Plan direction [S8][S7].",
+    "Phoenix RMR study: 2035 import at peak is 11,432 MW in Table ES1 but 13,432 MW in Table 3 (likely a typo in ES1) [S14]."
+  ],
+  "gaps": [
+    "Queue POIs confirmed to case buses (0 of 123): needed before queue requests can be modelled.",
+    "The 2026 IRP filing itself (due 30 October 2026).",
+    "ACC 13th Biennial Transmission Assessment report (Decision 81541) and the WestConnect regional plan.",
+    "The CEII Technical Study Report and system ratings (protective agreement).",
+    "The EIA-860M generator list: set an EIA API key, then Update EIA data.",
+    "Where the committed data-centre loads connect (substations / buses)."
+  ],
+  "generated_at": "2026-10-22T20:22:58",
+  "model": "external research session (from the digests)",
+  "sources": [
+    "EIA",
+    "QUEUE",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16"
+  ],
+  "projects": [
+    {
+      "name": "Q246",
+      "type": "Solar",
+      "kv": "",
+      "mw": "20",
+      "poi": "Hoodoo Wash",
+      "status": "Draft LGIA (Pre-2024 (Transition or serial))",
+      "date": "9/23/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q274",
+      "type": "Solar",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "Cedar Mountain - Moonkopi 500 kV line",
+      "status": "Transitional Cluster: LGIA (Executed) (Transition Cluster)",
+      "date": "12/31/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q280",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Westwing 230kV Substation",
+      "status": "Draft LGIA (Pre-2024 (Transition or serial))",
+      "date": "12/1/22",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q310",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "450",
+      "poi": "Hoodoo Wash 500kV",
+      "status": "Draft LGIA (Pre-2024 (Transition or serial))",
+      "date": "5/31/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q312",
+      "type": "Solar",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Moonkopi 500kV Substation",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/31/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q317",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "750",
+      "poi": "Moonkopi 500kV Substation",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "6/30/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q333",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Cholla 230kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "9/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q337",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "450",
+      "poi": "Dugas 500kV Substation",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "10/31/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q347",
+      "type": "Wind",
+      "kv": "500",
+      "mw": "345",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q348",
+      "type": "Solar + Wind + storage hybrid",
+      "kv": "500",
+      "mw": "300",
+      "poi": "Moonkopi El Dorado 500kV Line",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q352",
+      "type": "Solar + storage hybrid",
+      "kv": "345",
+      "mw": "450",
+      "poi": "Stigreaves 345 kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "11/30/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q359",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "315",
+      "poi": "Milligan 230kV substation",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (2025 Cluster)",
+      "date": "12/1/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q362",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "275",
+      "poi": "Milligan - Casa Grande 230kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (2025 Cluster)",
+      "date": "10/1/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q368",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "500",
+      "poi": "HANGII 500kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/31/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q370",
+      "type": "Wind",
+      "kv": "500",
+      "mw": "309.7",
+      "poi": "Moonkopi-Cedar Mtn 500 kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/15/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q384",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "125",
+      "poi": "Westwing 69kV Substation",
+      "status": "Cost Table and Milestone Refesh (Pre-2024 (Transition or serial))",
+      "date": "10/1/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q393",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Cedar Mountain-Moonkopi 500 kV line",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/31/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q401",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "700",
+      "poi": "Moonkopi - El Dorado 500 kV line",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/31/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q402",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "750",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "1/8/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q409",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Trilly Wash 230kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/1/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q422",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/31/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q423",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "125",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/31/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q424",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/31/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q425",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Orchard 230kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q427",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Freedom 230kV Switchyard",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "5/1/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q442",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "200",
+      "poi": "HANGI 500kV line",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/31/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q443",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "300",
+      "poi": "HANGI 500kV line",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/31/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q444",
+      "type": "Solar + storage hybrid",
+      "kv": "60",
+      "mw": "60",
+      "poi": "New (to be constructed) 60kV switchyard South of Hwy 99 and 04 miles East of Hwy 87 Winslow, AZ",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "4/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q446",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Trilby Wash 230kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/1/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q458",
+      "type": "Wind",
+      "kv": "500",
+      "mw": "242.25",
+      "poi": "Cedar Mountain-Moonkopi 500 kV Line",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/31/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q463",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "150",
+      "poi": "Panda 230kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "11/20/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q465",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Trilby Wash 230kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/31/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q466",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "North Gila 500kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "12/31/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q467",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "300",
+      "poi": "Delancy 500kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "5/1/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q480",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "400",
+      "poi": "New 500/230kV Interconnection Substation",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/1/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q486",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "400",
+      "poi": "Line tap on the El Dava - Moonkopi 500 kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "6/30/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q488",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "600",
+      "poi": "APS PANDA SUBSTATION 230kV",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "6/1/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q493",
+      "type": "Solar + storage hybrid",
+      "kv": "",
+      "mw": "100",
+      "poi": "Milligan",
+      "status": "Transitional Cluster: LGIA (Executed) (2025 Cluster)",
+      "date": "1/15/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q497",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "300",
+      "poi": "Cholla-Pinnacle peak 345 kV line",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "10/31/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q507",
+      "type": "Solar + storage hybrid",
+      "kv": "",
+      "mw": "400",
+      "poi": "No existing substitution",
+      "status": "Transitional Cluster: LGIA (Draft) (Transition Cluster)",
+      "date": "6/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q517",
+      "type": "Storage",
+      "kv": "",
+      "mw": "0",
+      "poi": "Red Rock / Saguaro",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (2025 Cluster)",
+      "date": "4/1/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q519",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "350",
+      "poi": "Rethawk 500 kV Switchyard",
+      "status": "Transitional Cluster: LGIA (Executed) (Transition Cluster)",
+      "date": "4/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q528",
+      "type": "Solar + storage hybrid",
+      "kv": "345",
+      "mw": "500",
+      "poi": "Four Corners - Cha\ufffdla, 345 kV Line.",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "6/1/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q537",
+      "type": "Solar + storage hybrid",
+      "kv": "",
+      "mw": "400",
+      "poi": "New substation off the Milligan to Sigma Line approximately 3",
+      "status": "Transitional Cluster: LGIA (Draft) (2025 Cluster)",
+      "date": "6/1/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q538",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "499.5",
+      "poi": "APS Chevron 345 kV Substation",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/1/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q539",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "499.5",
+      "poi": "APS Chevron 345 kV Substation",
+      "status": "Transitional Cluster: Phase 4 Facilities Study (Transition Cluster)",
+      "date": "12/1/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q548",
+      "type": "Solar + storage hybrid",
+      "kv": "115",
+      "mw": "145",
+      "poi": "San Manuel 115 kV",
+      "status": "Phase 2 Cluster Study (2024 Cluster)",
+      "date": "5/31/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q549",
+      "type": "Diesel",
+      "kv": "",
+      "mw": "42.12",
+      "poi": "Avery Substation",
+      "status": "Validate FaS Requirements (2024 Cluster)",
+      "date": "6/1/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q550",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "43.04",
+      "poi": "Rethank 500kV Switchyard",
+      "status": "Upload Draft LGIA (2024 Cluster)",
+      "date": "4/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q553",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "340",
+      "poi": "Stigraves 345kV",
+      "status": "Facilities Study (2024 Cluster)",
+      "date": "12/31/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q554",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Bianco 230 kV",
+      "status": "Phase 2 Cluster Study (2024 Cluster)",
+      "date": "3/31/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q557",
+      "type": "Solar + storage hybrid",
+      "kv": "",
+      "mw": "72",
+      "poi": "Zeniff Substation",
+      "status": "Facilities Study (2024 Cluster)",
+      "date": "6/30/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q558",
+      "type": "Solar",
+      "kv": "230",
+      "mw": "250",
+      "poi": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+      "status": "Facilities Study (2024 Cluster)",
+      "date": "3/31/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q559",
+      "type": "Solar",
+      "kv": "230",
+      "mw": "80",
+      "poi": "230KV PANDA SUBSTATION (32.973169\u00b0, 112.690040\u00b0)",
+      "status": "Facilities Study (2024 Cluster)",
+      "date": "3/31/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q560",
+      "type": "Storage",
+      "kv": "",
+      "mw": "425",
+      "poi": "Stratus",
+      "status": "Final Analysis for Sub-Cluster Re-Study (2024 Cluster)",
+      "date": "4/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q561",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "600",
+      "poi": "Panda 230kV Substation",
+      "status": "Facilities Study (2024 Cluster)",
+      "date": "4/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q562",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "0",
+      "poi": "Milligan 230 kV",
+      "status": "Phase 2 Cluster Study (2024 Cluster)",
+      "date": "12/31/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q563",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Saguaro - Cholla 500kV",
+      "status": "Phase 2 Cluster Study (2024 Cluster)",
+      "date": "12/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q564",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Hassayampa - North Gila 500kV",
+      "status": "Finalize Facilities Study Report (2024 Cluster)",
+      "date": "12/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q565",
+      "type": "Wind",
+      "kv": "500",
+      "mw": "161",
+      "poi": "Cedar Mountain-Mossilogy 500 kV line",
+      "status": "Facilities Study (2024 Cluster)",
+      "date": "12/31/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q567",
+      "type": "Solar + storage + Natural Gas hybrid",
+      "kv": "500",
+      "mw": "450",
+      "poi": "Delaney 500 kV Substation",
+      "status": "Upload Draft LGIA (2024 Cluster)",
+      "date": "12/31/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q568",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "200",
+      "poi": "North Gila 230 kV",
+      "status": "Finalize Facilities Study Report (2024 Cluster)",
+      "date": "6/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q569",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Milligan 230 kV",
+      "status": "Phase 2 Cluster Study (2024 Cluster)",
+      "date": "6/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q570",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "300",
+      "poi": "500kV Hoodoo Wash Substation",
+      "status": "Finalize Facilities Study Report (2024 Cluster)",
+      "date": "6/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q573",
+      "type": "Solar + storage hybrid",
+      "kv": "",
+      "mw": "200",
+      "poi": "Milligan West (TS32)",
+      "status": "Phase 2 Cluster Study (2024 Cluster)",
+      "date": "6/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q574",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "220",
+      "poi": "Buckeye 69kV",
+      "status": "Facilities Study (2024 Cluster)",
+      "date": "12/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q575",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "0",
+      "poi": "Saguaro 230 kV",
+      "status": "Phase 2 Cluster Study (2024 Cluster)",
+      "date": "6/1/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q578",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Santa Rosa 230kV",
+      "status": "Phase 1 Cluster Study Report Meeting (2025 Cluster)",
+      "date": "5/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q579",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "100",
+      "poi": "Santa Rosa 230kV",
+      "status": "Phase 1 Cluster Study Report Meeting (2025 Cluster)",
+      "date": "5/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q580",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Delaney 500kV Substation",
+      "status": "Awaiting Updated Phase 2 Report (2025 Cluster)",
+      "date": "4/19/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q581",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "400",
+      "poi": "Hazen 230kV",
+      "status": "Continued Site Control & Updated Deposit (2025 Cluster)",
+      "date": "6/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q583",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "0",
+      "poi": "Cholla 500kV",
+      "status": "Phase 2 Cluster Study (2025 Cluster)",
+      "date": "6/1/27",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q584",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "350",
+      "poi": "230 kV Bianco Substation",
+      "status": "Phase 1 Cluster Study Report Meeting (2025 Cluster)",
+      "date": "6/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q585",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Freedom Valley 230kV Substation (33.417858, 115.499852)",
+      "status": "Analysis For Sub-Cluster Re-Study (2025 Cluster)",
+      "date": "6/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q586",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Westwing 230kV",
+      "status": "Analysis For Sub-Cluster Re-Study (2025 Cluster)",
+      "date": "6/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q587",
+      "type": "Solar + storage hybrid",
+      "kv": "",
+      "mw": "150",
+      "poi": "Milligan Substation",
+      "status": "Phase 1 Cluster Study (2025 Cluster)",
+      "date": "6/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q588",
+      "type": "Storage",
+      "kv": "",
+      "mw": "130",
+      "poi": "Bianco Substation",
+      "status": "Phase 1 Cluster Study Report Meeting (2025 Cluster)",
+      "date": "6/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q589",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "400",
+      "poi": "Planned Bianco 230 kV substation",
+      "status": "Phase 1 Cluster Study Report Meeting (2025 Cluster)",
+      "date": "3/6/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q590",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "180",
+      "poi": "Honeywell 69kV",
+      "status": "Analysis For Sub-Cluster Re-Study (2025 Cluster)",
+      "date": "4/30/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q591",
+      "type": "Natural Gas",
+      "kv": "230",
+      "mw": "535.05",
+      "poi": "Bacura 230kV Yard",
+      "status": "Analysis For Sub-Cluster Re-Study (2025 Cluster)",
+      "date": "1/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q592",
+      "type": "Solar + storage hybrid",
+      "kv": "69",
+      "mw": "50",
+      "poi": "Paloma 69 kV or Gila Bond - Paloma 69 kV line",
+      "status": "Continued Site Control & Updated Deposit (2025 Cluster)",
+      "date": "12/31/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q593",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Parkway Substation 230kV",
+      "status": "Validate Site Control & Updated Deposit (2025 Cluster)",
+      "date": "6/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q594",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Santa Rosa Substation 230kV",
+      "status": "Phase 1 Cluster Study Report Meeting (2025 Cluster)",
+      "date": "6/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q595",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Sun Valley Substation 230kV",
+      "status": "Awaiting Updated Phase 2 Report (2025 Cluster)",
+      "date": "6/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q596",
+      "type": "Solar + storage hybrid",
+      "kv": "",
+      "mw": "330",
+      "poi": "North Gila, Hassayampa",
+      "status": "Pending FaS Agreement & Additional Requirements (2025 Cluster)",
+      "date": "8/15/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q597",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "300",
+      "poi": "North Gila 500kV",
+      "status": "Pending FaS Agreement & Additional Requirements (2025 Cluster)",
+      "date": "8/15/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q598",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Parkway 230 kV Substation",
+      "status": "Validate Site Control & Updated Deposit (2025 Cluster)",
+      "date": "6/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q602",
+      "type": "Diesel",
+      "kv": "",
+      "mw": "10.8",
+      "poi": "Commerce Substation",
+      "status": "Analysis For Sub-Cluster Re-Study (2025 Cluster)",
+      "date": "",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q603",
+      "type": "Solar + storage hybrid",
+      "kv": "",
+      "mw": "500",
+      "poi": "Proposed Alisa 2 Project Substation",
+      "status": "Validate FaS Requirements (2025 Cluster)",
+      "date": "6/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q604",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "200",
+      "poi": "New substation on the Santa Rosa - Tar Monolith 230kV line",
+      "status": "Phase 1 Cluster Study (2025 Cluster)",
+      "date": "10/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q606",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "350",
+      "poi": "Freedom 230kV Substation, BUS ID: 14258",
+      "status": "Analysis For Sub-Cluster Re-Study (2025 Cluster)",
+      "date": "5/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q607",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Trilby Wash 230kV",
+      "status": "Analysis For Sub-Cluster Re-Study (2025 Cluster)",
+      "date": "12/31/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q609",
+      "type": "Solar + storage hybrid",
+      "kv": "345",
+      "mw": "500",
+      "poi": "New substation at genie's of the double circuit 345 kV lines at the point 1494 and 1503 with the request to move existing switchyard",
+      "status": "Phase 2 Cluster Study (2025 Cluster)",
+      "date": "12/31/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q610",
+      "type": "Solar + storage hybrid",
+      "kv": "",
+      "mw": "250",
+      "poi": "APS Four Corner Substation",
+      "status": "Phase 2 Cluster Study (2025 Cluster)",
+      "date": "11/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q612",
+      "type": "Storage",
+      "kv": "34.5",
+      "mw": "161",
+      "poi": "Babbitt Ranch Wind Farm Q196 34.5kV Collector",
+      "status": "Final Analysis for Sub-Cluster Ro-Study (2025 Cluster)",
+      "date": "12/31/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q616",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "500",
+      "poi": "Komalake 230kV Substation",
+      "status": "Continued Site Control & Updated Deposit (2025 Cluster)",
+      "date": "5/31/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q617",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "TS10 500kV Substation",
+      "status": "Awaiting Updated Phase 2 Report (2025 Cluster)",
+      "date": "5/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q618",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Tat Monoli - Sagaro 230 kV",
+      "status": "Phase 1 Cluster Study Report Meeting (2025 Cluster)",
+      "date": "5/15/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q619",
+      "type": "Solar + storage hybrid",
+      "kv": "115",
+      "mw": "100",
+      "poi": "San Manuel - Sagaro 115kV Line",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/31/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q620",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "500",
+      "poi": "HANG1 500kV Cut-In",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q621",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "500",
+      "poi": "HANG1 500kV Cut-In",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q622",
+      "type": "Solar + Wind + storage hybrid",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "Cedar Mountain 500kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/31/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q623",
+      "type": "Solar + Wind + storage hybrid",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "El Donado - Moonkopi 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/31/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q624",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "300",
+      "poi": "230kV Broadway Substation (bus number = 14266)",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/23/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q625",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "628.3",
+      "poi": "Saguaro 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "4/7/33",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q626",
+      "type": "Natural Gas",
+      "kv": "230",
+      "mw": "111.5",
+      "poi": "Cholla 230kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "7/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q627",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "279",
+      "poi": "Cholla 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "7/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q629",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "1255",
+      "poi": "Watermelon 500kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/31/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q630",
+      "type": "Diesel",
+      "kv": "69",
+      "mw": "21.6",
+      "poi": "Yuma 69kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "5/16/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q631",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "1266",
+      "poi": "County Line 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/31/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q632",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "695.4",
+      "poi": "Saguaro 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/31/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q633",
+      "type": "Natural Gas",
+      "kv": "",
+      "mw": "576.73",
+      "poi": "APS Saguaro Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "9/1/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q634",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "0",
+      "poi": "Cholla 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "2/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q635",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "400",
+      "poi": "Cholla 500kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "6/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q636",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "627",
+      "poi": "TS30 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/31/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q637",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "750",
+      "poi": "Sitigraves 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "5/31/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q638",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "628",
+      "poi": "Watermelon 500kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "4/7/33",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q639",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "150",
+      "poi": "El Sol 69kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/31/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q640",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "500",
+      "poi": "Watermelon 230kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/21/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q641",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "320",
+      "poi": "230kV Sagaro Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "5/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q642",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "80",
+      "poi": "Runway 69kV substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/1/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q643",
+      "type": "Solar + storage + Geothermal hybrid",
+      "kv": "500",
+      "mw": "750",
+      "poi": "Sitigraves 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "5/1/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q644",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "320",
+      "poi": "230kV switchyard cut into the Runway - Statuts",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "3/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q645",
+      "type": "Natural Gas",
+      "kv": "230",
+      "mw": "35",
+      "poi": "Bacana 230 kV substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "1/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q646",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Freedom Valley 230kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "6/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q647",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Haem 230kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "6/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q648",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Sun Valley 500kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q649",
+      "type": "Natural Gas",
+      "kv": "230",
+      "mw": "440",
+      "poi": "Future TS-25 230kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "5/1/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q650",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Reach 230kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/31/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q651",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "0",
+      "poi": "Cholla 500 kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "5/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q652",
+      "type": "Solar + storage + Natural Gas hybrid",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "TS30 500 kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/6/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q653",
+      "type": "Solar + storage + Natural Gas hybrid",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "TS30 500 kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/6/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q654",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "450",
+      "poi": "Texas Hill 500kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "4/30/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q655",
+      "type": "Solar + storage + Natural Gas hybrid",
+      "kv": "",
+      "mw": "1000",
+      "poi": "Proposed TS30",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/6/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q656",
+      "type": "Solar + storage hybrid",
+      "kv": "69",
+      "mw": "170",
+      "poi": "Egg Ranch 69 kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "4/30/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q657",
+      "type": "Storage",
+      "kv": "",
+      "mw": "450",
+      "poi": "Independence",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "4/30/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q658",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "400",
+      "poi": "TS30 500kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q660",
+      "type": "Diesel",
+      "kv": "",
+      "mw": "207.6",
+      "poi": "APS Raptor Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "9/1/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q661",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "703",
+      "poi": "Saguaro 500 kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "7/1/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q662",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "703",
+      "poi": "Saguaro 500 kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "7/1/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q663",
+      "type": "Natural Gas",
+      "kv": "230",
+      "mw": "576.15",
+      "poi": "Helios 230kV Switchyard",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "9/1/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q664",
+      "type": "Natural Gas",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Delaney 500kV Substation (Q580 Gen-Tie)",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "4/19/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q665",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Wafer 230kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "6/1/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q666",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "300",
+      "poi": "North Gila 230kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "6/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q667",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "500",
+      "poi": "Central 230kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "12/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q668",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "290",
+      "poi": "Hazon 230kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "6/1/32",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q669",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Independence 230kV Substation",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "5/1/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q670",
+      "type": "Solar",
+      "kv": "500",
+      "mw": "150",
+      "poi": "Delaney 500 kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "5/15/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q671",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "140",
+      "poi": "APS Helios Substation 230 kV",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "3/1/30",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q672",
+      "type": "Solar",
+      "kv": "69",
+      "mw": "100",
+      "poi": "N/A - line tap on 69 kV line between Toyota",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "5/30/31",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q673",
+      "type": "Natural Gas",
+      "kv": "",
+      "mw": "500",
+      "poi": "Orchard",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "10/10/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q674",
+      "type": "Natural Gas",
+      "kv": "",
+      "mw": "600",
+      "poi": "Orchard",
+      "status": "Phase 1 Cluster Study (2026 Cluster)",
+      "date": "10/10/29",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q225",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Hoodoo Wash 500kV Substation",
+      "status": "Pending LGIA Amended & Filed (Pre-2024 (Transition or serial))",
+      "date": "12/22/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q227",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Hoodoo Wash 500kV",
+      "status": "Pending LGIA Amended & Filed (Pre-2024 (Transition or serial))",
+      "date": "12/22/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q230",
+      "type": "Solar",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Cholla 500kV Substation",
+      "status": "In Construction (Pre-2024 (Transition or serial))",
+      "date": "12/24/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q239",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "213.75",
+      "poi": "Saguaro Substation 230kV",
+      "status": "Project with APS Project Manager (Legacy) (Pre-2024 (Transition or serial))",
+      "date": "3/23/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q252",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "250",
+      "poi": "Hoodoo Wash 500kV Substation",
+      "status": "Customer Test Energy (Pre-2024 (Transition or serial))",
+      "date": "12/31/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q256",
+      "type": "Solar + storage hybrid",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Milligan 69kV Substation",
+      "status": "Project with APS Project Manager (Pre-2024 (Transition or serial))",
+      "date": "1/30/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q268",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "75",
+      "poi": "Sarival 69kV Sub",
+      "status": "Pending LGIA Amended & Filed (Pre-2024 (Transition or serial))",
+      "date": "12/1/20",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q269",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "450",
+      "poi": "Delaney 500kV SY",
+      "status": "In Construction (Pre-2024 (Transition or serial))",
+      "date": "12/16/22",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q270",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Cholla 500 kV Substation",
+      "status": "In Construction (Pre-2024 (Transition or serial))",
+      "date": "12/23/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q271",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "75",
+      "poi": "Cholla 500kV Substation",
+      "status": "In Construction (Pre-2024 (Transition or serial))",
+      "date": "12/23/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q273",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "477",
+      "poi": "Preacher Canyon - Cholla 345kV",
+      "status": "Project with APS Project Manager (Legacy) (Pre-2024 (Transition or serial))",
+      "date": "12/21/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q275",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "Cholla 500kV Substation",
+      "status": "In Design (Pre-2024 (Transition or serial))",
+      "date": "12/31/20",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q288",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Panda 230kV",
+      "status": "In Construction (Pre-2024 (Transition or serial))",
+      "date": "12/31/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q289",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "50",
+      "poi": "El Sol 69kV",
+      "status": "In Construction (Pre-2024 (Transition or serial))",
+      "date": "6/1/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q291",
+      "type": "Storage",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Raceway 230kV",
+      "status": "In Design (Pre-2024 (Transition or serial))",
+      "date": "6/1/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q295",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Milligan 230kV Substation",
+      "status": "In Design (Pre-2024 (Transition or serial))",
+      "date": "12/1/22",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q297",
+      "type": "Storage",
+      "kv": "",
+      "mw": "90.1",
+      "poi": "Marine Air Base Substation",
+      "status": "In Design (Pre-2024 (Transition or serial))",
+      "date": "12/31/22",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q299",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "150",
+      "poi": "Westwing 69kV Substation",
+      "status": "Pending Appendix E (Pre-2024 (Transition or serial))",
+      "date": "10/31/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q311",
+      "type": "Wind + storage hybrid",
+      "kv": "",
+      "mw": "500",
+      "poi": "Sitigraves substation",
+      "status": "Project with APS Project Manager (Pre-2024 (Transition or serial))",
+      "date": "12/31/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q313",
+      "type": "Solar + storage hybrid",
+      "kv": "69",
+      "mw": "95",
+      "poi": "Lonecome Valley 69kV",
+      "status": "Project with APS Project Manager (Pre-2024 (Transition or serial))",
+      "date": "12/31/22",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q315",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "50",
+      "poi": "Woody Mountain 69kV",
+      "status": "In Construction (Pre-2024 (Transition or serial))",
+      "date": "10/31/22",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q332",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "350",
+      "poi": "Hoodoo Wash 500kV Switchyard (Q225 POI)",
+      "status": "In Construction (Pre-2024 (Transition or serial))",
+      "date": "1/12/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q334",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "500",
+      "poi": "Sun Valley 230kV",
+      "status": "Project with APS Project Manager (Pre-2024 (Transition or serial))",
+      "date": "11/30/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q350",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Orchard 230kV",
+      "status": "In Construction (Pre-2024 (Transition or serial))",
+      "date": "8/1/22",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q354",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Sun Valley 230kV",
+      "status": "Pending LGIA Amended & Filed (Pre-2024 (Transition or serial))",
+      "date": "12/1/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q358",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Colter 69kV",
+      "status": "In Design (Pre-2024 (Transition or serial))",
+      "date": "12/31/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q360",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "550",
+      "poi": "Delaney 500kV",
+      "status": "Customer Test Energy (Pre-2024 (Transition or serial))",
+      "date": "12/1/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q363",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Scatterwash 69kV",
+      "status": "Pending LGIA Amended & Filed (Pre-2024 (Transition or serial))",
+      "date": "12/16/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q375",
+      "type": "Storage",
+      "kv": "500",
+      "mw": "300",
+      "poi": "Delaney 500 kV",
+      "status": "In Design (Pre-2024 (Transition or serial))",
+      "date": "5/1/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q394",
+      "type": "/",
+      "kv": "",
+      "mw": "5",
+      "poi": "PHX WWTP",
+      "status": "Project with APS Project Manager (Legacy) (Pre-2024 (Transition or serial))",
+      "date": "10/21/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q437",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "300",
+      "poi": "Delaney 500kV Substation (Q276 POI 500kV)",
+      "status": "Project with APS Project Manager (Transition Cluster)",
+      "date": "5/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q474",
+      "type": "Solar + storage + Natural Gas hybrid",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "Delaney 500kV",
+      "status": "Project with APS Project Manager (Transition Cluster)",
+      "date": "12/31/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q475",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "250",
+      "poi": "Delaney 500kV (Q437 Gen Tic)",
+      "status": "Project with APS Project Manager (Transition Cluster)",
+      "date": "12/31/25",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q479",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "165",
+      "poi": "Perryville 69kV Substation",
+      "status": "Project with APS Project Manager (Transition Cluster)",
+      "date": "5/31/28",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q534",
+      "type": "Solar + storage hybrid",
+      "kv": "69",
+      "mw": "60",
+      "poi": "Twin Arows - Sunshine 69 kV Line",
+      "status": "Project with APS Project Manager (Transition Cluster)",
+      "date": "12/31/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q248",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "300",
+      "poi": "Delaney 500kV Substation",
+      "status": "Closed Out (Pre-2024 (Transition or serial))",
+      "date": "5/22/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q264",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "130",
+      "poi": "Milligan Substation 230kV",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "12/22/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q318",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "1000",
+      "poi": "Four Corners 345kV",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "9/30/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q319",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "1000",
+      "poi": "Four Corners 345kV",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "9/30/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q320",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "1500",
+      "poi": "Four Corners 345kV",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "9/30/26",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q346",
+      "type": "Solar",
+      "kv": "69",
+      "mw": "45",
+      "poi": "Komatke 69kV",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "6/22/21",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q355",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Palm Valley 230kV",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "12/1/23",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q372",
+      "type": "Storage",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Trilby Wash 69kV substation",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "3/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q377",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Sun Valley 230kV",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "6/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q378",
+      "type": "Solar + storage hybrid",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Sun Valley 230kV",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "6/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Q379",
+      "type": "Solar + storage hybrid",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "Sun Valley 500kV",
+      "status": "Customer Initiated Suspension (Pre-2024 (Transition or serial))",
+      "date": "6/1/24",
+      "source": "QUEUE"
+    },
+    {
+      "name": "Goodyear 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Cut of Rudd-Three Rivers 230kV into Goodyear; <1 mi",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025",
+      "source": "S1"
+    },
+    {
+      "name": "Parkway 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Palm Valley-Trilby Wash 230kV cut into Parkway",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025",
+      "source": "S1"
+    },
+    {
+      "name": "Broadway 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Runway-Rudd 230kV cut into Broadway",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025",
+      "source": "S1"
+    },
+    {
+      "name": "Dromedary 230kV Substation and Lines",
+      "type": "substation",
+      "kv": "230",
+      "mw": "",
+      "poi": "Palm Valley-Parkway 230kV cut into Dromedary (Glendale)",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025",
+      "source": "S1"
+    },
+    {
+      "name": "Ironwood Solar and Storage 500kV Interconnection",
+      "type": "line",
+      "kv": "500",
+      "mw": "",
+      "poi": "Wildcat GSU -> Hoodoo Wash switchyard (on Hassayampa-North Gila 500kV)",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025",
+      "source": "S1"
+    },
+    {
+      "name": "West Camp Wind Gen-Tie / Sitgreaves 345kV switchyard",
+      "type": "substation",
+      "kv": "345",
+      "mw": "",
+      "poi": "Sitgreaves cut into Cholla-Mazatzal 345kV",
+      "status": "In service 2025 (per 2026 plan)",
+      "date": "2025",
+      "source": "S1"
+    },
+    {
+      "name": "Morgan-Outer Circle 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Morgan -> Outer Circle",
+      "status": "Waiver requested",
+      "date": "2030",
+      "source": "S2"
+    },
+    {
+      "name": "Panda-Freedom 230kV Line #1 Upgrade",
+      "type": "upgrade",
+      "kv": "230",
+      "mw": "",
+      "poi": "Panda -> Freedom",
+      "status": "Waiver requested",
+      "date": "2031",
+      "source": "S2"
+    },
+    {
+      "name": "Desert Sun 230kV and 500kV Interconnections",
+      "type": "line",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Desert Sun (west of Gila Bend) to APS system",
+      "status": "Waiver requested",
+      "date": "2031",
+      "source": "S2"
+    },
+    {
+      "name": "Cotton Transmission Corridor",
+      "type": "line",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Jojoba-Rudd and Panda-Freedom, SW Maricopa County",
+      "status": "STX current project",
+      "date": "2032 (page) / 2030-2031 (2026 TYP)",
+      "source": "S4"
+    },
+    {
+      "name": "Pinal Electrical Improvement Project",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Coolidge to Eloy",
+      "status": "STX current project; CEC 247 issued 10/23/2025",
+      "date": "2027",
+      "source": "S4"
+    },
+    {
+      "name": "Cholla gas conversion",
+      "type": "coal-to-gas conversion",
+      "kv": "",
+      "mw": "380",
+      "poi": "Cholla",
+      "status": "planned",
+      "date": "2029",
+      "source": "S7"
+    },
+    {
+      "name": "Flexible natural gas generation (program)",
+      "type": "gas",
+      "kv": "",
+      "mw": "up to 2,000",
+      "poi": "",
+      "status": "planned",
+      "date": "",
+      "source": "S7"
+    },
+    {
+      "name": "Third-party gas pipeline expansion",
+      "type": "gas pipeline",
+      "kv": "",
+      "mw": "",
+      "poi": "",
+      "status": "planned",
+      "date": "2029",
+      "source": "S7"
+    },
+    {
+      "name": "Four Corners Power Plant (APS share)",
+      "type": "coal retirement/extension",
+      "kv": "",
+      "mw": "970",
+      "poi": "",
+      "status": "retiring (exit 2031 base; NTEC agreement enables operation to 2038)",
+      "date": "2031/2038",
+      "source": "S8"
+    },
+    {
+      "name": "Cholla gas conversion (2 units)",
+      "type": "coal-to-gas conversion",
+      "kv": "",
+      "mw": "380",
+      "poi": "Cholla, Joseph City AZ",
+      "status": "planned",
+      "date": "2029",
+      "source": "S9"
+    },
+    {
+      "name": "Agave",
+      "type": "battery",
+      "kv": "",
+      "mw": "150",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Beehive",
+      "type": "battery",
+      "kv": "",
+      "mw": "250",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Desert Bloom",
+      "type": "battery",
+      "kv": "",
+      "mw": "150",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Justice",
+      "type": "battery",
+      "kv": "",
+      "mw": "150",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Pluto",
+      "type": "battery",
+      "kv": "",
+      "mw": "75",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Catclaw",
+      "type": "solar+storage",
+      "kv": "",
+      "mw": "250",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Maricopa Energy Center",
+      "type": "solar+storage",
+      "kv": "",
+      "mw": "183",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Ironwood",
+      "type": "solar",
+      "kv": "",
+      "mw": "168",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Papago Solar",
+      "type": "solar",
+      "kv": "",
+      "mw": "150",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "West Camp",
+      "type": "wind",
+      "kv": "",
+      "mw": "500",
+      "poi": "",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Sundance CT expansion",
+      "type": "gas CT",
+      "kv": "",
+      "mw": "90",
+      "poi": "Sundance",
+      "status": "procured",
+      "date": "2026",
+      "source": "S9"
+    },
+    {
+      "name": "Desert Sun Power Plant CTs at Saguaro",
+      "type": "gas CT",
+      "kv": "",
+      "mw": "700",
+      "poi": "Saguaro Power Plant, Pinal County AZ (existing interconnection)",
+      "status": "planned (in 2025 ASRFP)",
+      "date": "2031",
+      "source": "S10"
+    },
+    {
+      "name": "Combined-cycle toll (2024 ASRFP, unnamed)",
+      "type": "gas CC tolling",
+      "kv": "",
+      "mw": "600",
+      "poi": "",
+      "status": "procured",
+      "date": "2026-2030",
+      "source": "S10"
+    },
+    {
+      "name": "Combined-cycle toll (2024 ASRFP, unnamed)",
+      "type": "gas CC tolling",
+      "kv": "",
+      "mw": "575 (600 from 2027)",
+      "poi": "",
+      "status": "procured",
+      "date": "2026-2030",
+      "source": "S10"
+    },
+    {
+      "name": "Desert Sun Power Plant",
+      "type": "gas (flexible generation)",
+      "kv": "",
+      "mw": "up to 2,000",
+      "poi": "west of Gila Bend, AZ (later partly relocated to Saguaro per Apr 2026 deck)",
+      "status": "planned",
+      "date": "2031",
+      "source": "S11"
+    },
+    {
+      "name": "Large Customer Subscription offering #1",
+      "type": "large load (data center)",
+      "kv": "",
+      "mw": "1,200",
+      "poi": "",
+      "status": "planned",
+      "date": "2028",
+      "source": "S11"
+    },
+    {
+      "name": "Cholla Power Plant (APS units)",
+      "type": "coal retirement",
+      "kv": "",
+      "mw": "387",
+      "poi": "Cholla",
+      "status": "retiring",
+      "date": "2025",
+      "source": "S12"
+    },
+    {
+      "name": "Four Corners Power Plant (APS share)",
+      "type": "coal retirement",
+      "kv": "",
+      "mw": "970",
+      "poi": "Four Corners",
+      "status": "retiring",
+      "date": "2031",
+      "source": "S12"
+    },
+    {
+      "name": "Panda-Freedom 230kV Line Rebuild",
+      "type": "transmission",
+      "kv": "230",
+      "mw": "",
+      "poi": "",
+      "status": "planned",
+      "date": "2027",
+      "source": "S12"
+    },
+    {
+      "name": "Jojoba-Rudd 500kV Line",
+      "type": "transmission",
+      "kv": "500",
+      "mw": "",
+      "poi": "",
+      "status": "planned",
+      "date": "2028",
+      "source": "S12"
+    },
+    {
+      "name": "Sun Valley-TS23 230kV Line",
+      "type": "transmission",
+      "kv": "230",
+      "mw": "",
+      "poi": "",
+      "status": "planned",
+      "date": "2027",
+      "source": "S12"
+    },
+    {
+      "name": "Hashknife Energy Center TPIF",
+      "type": "line",
+      "kv": "500",
+      "mw": "",
+      "poi": "POCO -> Cholla substation (<1 mi; ~0.3 mi APS portion)",
+      "status": "CEC 187 issued; construction started 2025",
+      "date": "2026",
+      "source": "S14"
+    },
+    {
+      "name": "Contrail 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "El Sol - Contrail - Raptor (2026) - TS39 (TBD) - Sabre (2026) - Parkway; ~9 mi; 3000 A",
+      "status": "CEC 198 issued and amended; large-load customers",
+      "date": "2026",
+      "source": "S14"
+    },
+    {
+      "name": "Diamond 230kV Lines (formerly Runway Additional)",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Cut-in of White Tanks-West Phoenix 230kV -> Diamond substation (Avondale); ~2.5 mi double circuit; 3000 A",
+      "status": "CEC 209 issued; high-load customer",
+      "date": "2027",
+      "source": "S14"
+    },
+    {
+      "name": "Snowflake Solar TPIF",
+      "type": "line",
+      "kv": "500",
+      "mw": "",
+      "poi": "POCO pole -> Cholla substation; ~1.5 mi",
+      "status": "CEC 240-A/B granted 2/19/2025",
+      "date": "2027",
+      "source": "S14"
+    },
+    {
+      "name": "Sun Valley to Outer Circle 230kV Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Sun Valley -> Outer Circle (new 230/69 substation, 2027); ~17 mi on open position of Sun Valley-Morgan 500kV structures; 3000 A",
+      "status": "CEC 138 issued",
+      "date": "2027",
+      "source": "S14"
+    },
+    {
+      "name": "Helios to Milligan 230kV Line (formerly Sundance-Milligan; Pinal Electrical Improvement Project)",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Helios (new, cut into Sundance-Faul 230kV; 2027) - TS25 (TBD) - Milligan; ~26 mi",
+      "status": "CEC 136 and CEC 247 (10/23/2025) issued",
+      "date": "2027",
+      "source": "S14"
+    },
+    {
+      "name": "Bagdad 230kV Transmission Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Mead Phoenix Project Q01 substation (taps Mead-Perkins 500kV; 500/230 xfmr 2028) -> TS31 near Bagdad; ~14 mi; 3000 A",
+      "status": "CEC 238 issued 12/31/2024; high-load customer",
+      "date": "2028",
+      "source": "S14"
+    },
+    {
+      "name": "Bianco 230kV Lines",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Cut-in of Santa Rosa-Desert Basin 230kV -> Bianco substation (Casa Grande); ~4 mi",
+      "status": "LSC approved CEC 257 on 1/28/2026; pending ACC",
+      "date": "2028",
+      "source": "S14"
+    },
+    {
+      "name": "Q264 TPIF",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "POCO -> Milligan; ~1 mi; Saguaro-Milligan rebuilt to double circuit",
+      "status": "CEC 44 amendment filed 12/9/2025",
+      "date": "2028",
+      "source": "S14"
+    },
+    {
+      "name": "Wafer 500kV and 230kV Lines (formerly TS22)",
+      "type": "substation",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Wafer substation cut into Morgan-Pinnacle Peak 500kV and Raceway-Avery 230kV (N Phoenix); 3 x 500/230 xfmrs in 2028",
+      "status": "CEC 131 amended; high-load customer",
+      "date": "2028",
+      "source": "S14"
+    },
+    {
+      "name": "Cholla-Chevelon 345kV Line Cut-In to Sitgreaves",
+      "type": "line",
+      "kv": "345",
+      "mw": "",
+      "poi": "Cholla-Chevelon 345kV in/out of Sitgreaves switchyard; <1 mi",
+      "status": "Need for CEC not determined",
+      "date": "2029",
+      "source": "S14"
+    },
+    {
+      "name": "North Gila-Orchard 230kV Line Circuit #2",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "North Gila -> Orchard (Yuma); ~13 mi; 3000 A; for new solar+storage at Orchard",
+      "status": "CEC 163 issued",
+      "date": "2029",
+      "source": "S14"
+    },
+    {
+      "name": "Pinnacle Peak to Ocotillo 230kV Line Rebuilds",
+      "type": "upgrade",
+      "kv": "230",
+      "mw": "",
+      "poi": "Pinnacle Peak - TS17 (TBD) - Cactus - Brandow (SRP) - Ward (SRP) - Ocotillo; ~25 mi per line, 4 lines",
+      "status": "No CEC (1960s lines)",
+      "date": "2030",
+      "source": "S14"
+    },
+    {
+      "name": "Morgan to Outer Circle 230kV Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Morgan -> Outer Circle; ~20 mi on Sun Valley-Morgan 500kV structures; 3000 A",
+      "status": "CEC 138 issued",
+      "date": "2030",
+      "source": "S14"
+    },
+    {
+      "name": "Agua Fria to Contrail 230kV Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Agua Fria (SRP) -> Contrail; ~10 mi; Agua Fria-El Sol 230kV also upgraded",
+      "status": "CEC application not filed",
+      "date": "2030",
+      "source": "S14"
+    },
+    {
+      "name": "Saguaro Power Campus Upgrades",
+      "type": "substation",
+      "kv": "230/115",
+      "mw": "",
+      "poi": "New Saguaro 230kV yard; Saguaro-Milligan re-routed; 500/115 xfmrs reconfigured to 500/230; Saguaro-San Manuel 115kV relocated",
+      "status": "CEC 44 amendment filed 12/9/2025",
+      "date": "2030",
+      "source": "S14"
+    },
+    {
+      "name": "Panda to Freedom 230kV New Line #2",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Panda - Watermelon (TBD) - Komatke (TBD) - Hazen (2030) - Freedom; ~40 mi; 3000 A; Cotton Transmission Corridor",
+      "status": "CEC application not filed",
+      "date": "2030",
+      "source": "S14"
+    },
+    {
+      "name": "Runway-Stratus 230kV Line Cut-In to Independence",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Runway-Stratus 230kV -> Independence substation (500/230, 2030); ~2 mi",
+      "status": "CEC application not filed",
+      "date": "2030",
+      "source": "S14"
+    },
+    {
+      "name": "Independence to Broadway 230kV Line",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Independence -> Broadway; ~8 mi; 3000 A",
+      "status": "CEC application not filed",
+      "date": "2030",
+      "source": "S14"
+    },
+    {
+      "name": "Independence 500/230kV Substation",
+      "type": "transformer",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Independence (formerly TS21), S/E of Freedom; 2 x 500/230 xfmrs",
+      "status": "Planned",
+      "date": "2031 (xfmrs); substation 2030",
+      "source": "S14"
+    },
+    {
+      "name": "Panda to Freedom 230kV Line #1 Upgrade",
+      "type": "upgrade",
+      "kv": "230",
+      "mw": "",
+      "poi": "Panda -> Freedom rebuild; ~40 mi; 3000 A; Panda-Hazen on future-500kV-capable structures",
+      "status": "CEC 26 amendment not filed",
+      "date": "2031",
+      "source": "S14"
+    },
+    {
+      "name": "Jojoba-Rudd 500kV Line",
+      "type": "line",
+      "kv": "500",
+      "mw": "",
+      "poi": "Jojoba - Independence (2030) - Rudd; ~29 mi; SRP participant; Cotton Transmission Corridor",
+      "status": "CEC application not filed; construction start 2028",
+      "date": "2031",
+      "source": "S14"
+    },
+    {
+      "name": "Desert Sun 230kV and 500kV Interconnections",
+      "type": "line",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Desert Sun (new, west of Gila Bend; 2030) -> Watermelon (new; cut into Panda-Freedom #2 and a Gila River-Jojoba 500kV line); ~20 mi per line, 2 x 500kV + 1 x 230kV",
+      "status": "CEC application not filed; 230kV 2030, 500kV 2031; for a potential new power plant",
+      "date": "2030/2031",
+      "source": "S14"
+    },
+    {
+      "name": "Four Corners to Cholla to Pinnacle Peak 345kV Line Rebuilds",
+      "type": "upgrade",
+      "kv": "345",
+      "mw": "",
+      "poi": "Four Corners - Cholla - Sitgreaves - Chevelon - Preacher Canyon - Mazatzal - Pinnacle Peak; ~289 mi x 2 lines; 3000 A; convertible to 500kV",
+      "status": "CEC application not filed; construction start 2033",
+      "date": "2038",
+      "source": "S14"
+    },
+    {
+      "name": "TBD lines with CEC issued",
+      "type": "line",
+      "kv": "230/500",
+      "mw": "",
+      "poi": "El Sol-Westwing 230; Palo Verde-Saguaro 500; Palm Valley-Dromedary-Parkway 230 #2; Sun Valley-Trilby Wash 230 #2; Trilby Wash-Parkway 230 #2; El Sol-Contrail-Raptor-TS39-Sabre-Parkway 230 #2; Orchard-Yucca 230; Obed Meadow TPIF; Diamond-Runway 230; Hassayampa-North Gila 500 #2 cut-in to Hoodoo Wash",
+      "status": "CEC issued",
+      "date": "TBD",
+      "source": "S14"
+    },
+    {
+      "name": "TBD lines with no CEC filed",
+      "type": "line",
+      "kv": "230/500",
+      "mw": "",
+      "poi": "TS35-TS11-Sun Valley 230; Sun Valley-TS10-TS11 230; Delaney-TS30-TS36-Quartzsite 500/230; TS14 230; TS17 230; TS30 500; TS32 230; TS35 500/230; TS37 500; Texas Hill 500 switchyard; Morgan-Wafer 500 #2 + 230 #2; Jojoba-Independence 500 #2; Watermelon-Jojoba 500 #2 and #3; Independence-Saguaro 500",
+      "status": "No CEC application filed",
+      "date": "TBD",
+      "source": "S14"
+    },
+    {
+      "name": "Q225",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Hoodoo Wash 500kV Substation",
+      "status": "Project with APS Project Manager (Legacy) [ERIS]",
+      "date": "COD 2021-12-22",
+      "source": "S15"
+    },
+    {
+      "name": "Q229",
+      "type": "Battery",
+      "kv": "69",
+      "mw": "50",
+      "poi": "El Sol 69kV Substation",
+      "status": "Customer Submited Commercial Operation Date [NRIS]",
+      "date": "COD 2021-01-21",
+      "source": "S15"
+    },
+    {
+      "name": "Q230",
+      "type": "Solar",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Cholla 500kV Substation",
+      "status": "In Construction [NRIS]",
+      "date": "COD 2021-12-24",
+      "source": "S15"
+    },
+    {
+      "name": "Q239",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "213.75",
+      "poi": "Saguaro Substation 230kV",
+      "status": "Project with APS Project Manager (Legacy) [NRIS]",
+      "date": "COD 2021-03-23",
+      "source": "S15"
+    },
+    {
+      "name": "Q246",
+      "type": "Solar",
+      "kv": "",
+      "mw": "20",
+      "poi": "Hoodoo Wash",
+      "status": "Draft LGIA [ERIS]",
+      "date": "COD 2021-09-23",
+      "source": "S15"
+    },
+    {
+      "name": "Q252",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "250",
+      "poi": "Hoodoo Wash 500kV Substation",
+      "status": "In Construction [NRIS]",
+      "date": "COD 2021-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q254",
+      "type": "Solar",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Thornton 69kV Substation",
+      "status": "In Design [NRIS]",
+      "date": "COD 2022-10-28",
+      "source": "S15"
+    },
+    {
+      "name": "Q255",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "2000",
+      "poi": "Navajo 500kV Substation",
+      "status": "Project with APS Project Manager [ERIS]",
+      "date": "COD 2021-12-24",
+      "source": "S15"
+    },
+    {
+      "name": "Q256",
+      "type": "Solar+Battery",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Milligan 69kV Substation",
+      "status": "Project with APS Project Manager [NRIS]",
+      "date": "COD 2023-01-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q264",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "130",
+      "poi": "Milligan Substation 230kV",
+      "status": "In Design [NRIS]",
+      "date": "COD 2021-12-22",
+      "source": "S15"
+    },
+    {
+      "name": "Q268",
+      "type": "Battery",
+      "kv": "69",
+      "mw": "75",
+      "poi": "Sarival 69kV Sub",
+      "status": "In Construction [NRIS]",
+      "date": "COD 2020-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q269",
+      "type": "Battery",
+      "kv": "500",
+      "mw": "450",
+      "poi": "Delaney 500kV SY",
+      "status": "In Construction [NRIS]",
+      "date": "COD 2022-12-16",
+      "source": "S15"
+    },
+    {
+      "name": "Q270",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Cholla 500 kV Substation",
+      "status": "In Construction [NRIS]",
+      "date": "COD 2021-12-23",
+      "source": "S15"
+    },
+    {
+      "name": "Q271",
+      "type": "Battery",
+      "kv": "500",
+      "mw": "75",
+      "poi": "Cholla 500kV Substation",
+      "status": "In Construction [NRIS]",
+      "date": "COD 2021-12-23",
+      "source": "S15"
+    },
+    {
+      "name": "Q273",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "477",
+      "poi": "Preacher Canyon - Cholla 345kV",
+      "status": "Project with APS Project Manager (Legacy) [NRIS]",
+      "date": "COD 2021-12-21",
+      "source": "S15"
+    },
+    {
+      "name": "Q274",
+      "type": "Solar",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "Cedar Mountain - Moenkopi 500 kV Line",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [ERIS]",
+      "date": "COD 2024-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q275",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "Cholla 500kV Substation",
+      "status": "In Design [NRIS]",
+      "date": "COD 2020-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q278",
+      "type": "Battery",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Raceway 230kV Substation",
+      "status": "Project with APS Project Manager [NRIS]",
+      "date": "COD 2021-01-23",
+      "source": "S15"
+    },
+    {
+      "name": "Q280",
+      "type": "Battery",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Westwing 230kV Substation",
+      "status": "Draft LGIA [NRIS]",
+      "date": "COD 2022-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q288",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Panda 230kV",
+      "status": "Cost Table and Milestone Refresh [NRIS]",
+      "date": "COD 2021-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q289",
+      "type": "Battery",
+      "kv": "69",
+      "mw": "50",
+      "poi": "El Sol 69kV",
+      "status": "Cost Table and Milestone Refresh [NRIS]",
+      "date": "COD 2023-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q291",
+      "type": "Battery",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Raceway 230kV",
+      "status": "Project with APS Project Manager [ERIS]",
+      "date": "COD 2023-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q295",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Milligan 230kV Substation",
+      "status": "In Design [NRIS]",
+      "date": "COD 2022-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q297",
+      "type": "Battery",
+      "kv": "",
+      "mw": "90.1",
+      "poi": "Marine Air Base Substation",
+      "status": "Cost Table and Milestone Refresh [NRIS]",
+      "date": "COD 2022-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q299",
+      "type": "Battery",
+      "kv": "69",
+      "mw": "150",
+      "poi": "Westwing 69kV Substation",
+      "status": "In Design [NRIS]",
+      "date": "COD 2023-10-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q310",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "450",
+      "poi": "Hoodoo Wash 500kV",
+      "status": "Draft LGIA [NRIS/ERIS]",
+      "date": "COD 2023-05-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q311",
+      "type": "Wind+Battery",
+      "kv": "",
+      "mw": "500",
+      "poi": "Sitgreaves substation",
+      "status": "Project with APS Project Manager [NRIS]",
+      "date": "COD 2021-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q312",
+      "type": "Solar",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Moenkopi 500kV Substation",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [ERIS]",
+      "date": "COD 2021-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q313",
+      "type": "Solar+Battery",
+      "kv": "69",
+      "mw": "95",
+      "poi": "Lonesome Valley 69kV",
+      "status": "Project with APS Project Manager [NRIS]",
+      "date": "COD 2022-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q314",
+      "type": "Battery",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Scatter Wash 230kV",
+      "status": "COD - Pending Refund [NRIS]",
+      "date": "COD 2022-12-16",
+      "source": "S15"
+    },
+    {
+      "name": "Q317",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "750",
+      "poi": "Moenkopi 500kV Substation",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [ERIS]",
+      "date": "COD 2023-06-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q332",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "350",
+      "poi": "Hoodoo Wash 500kV Switchyard (Q225 POI)",
+      "status": "In Construction [NRIS]",
+      "date": "COD 2024-01-12",
+      "source": "S15"
+    },
+    {
+      "name": "Q333",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Cholla 230kV",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [ERIS]",
+      "date": "COD 2024-09-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q334",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "500",
+      "poi": "Sun Valley 230kV",
+      "status": "Project with APS Project Manager [NRIS]",
+      "date": "COD 2023-11-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q337",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "450",
+      "poi": "Dugas 500kV Substation",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [NRIS]",
+      "date": "COD 2027-10-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q347",
+      "type": "Wind",
+      "kv": "500",
+      "mw": "345",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [NRIS]",
+      "date": "COD 2024-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q348",
+      "type": "Solar+Wind+Battery",
+      "kv": "500",
+      "mw": "300",
+      "poi": "Moenkopi El Dorado 500kV Line",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [NRIS/ERIS]",
+      "date": "COD 2024-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q350",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Orchard 230kV",
+      "status": "In Construction [NRIS/ERIS]",
+      "date": "COD 2022-08-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q352",
+      "type": "Solar+Battery",
+      "kv": "345",
+      "mw": "450",
+      "poi": "Sitgreaves 345 kV",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [ERIS]",
+      "date": "COD 2023-11-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q354",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Sun Valley 230kV",
+      "status": "Project with APS Project Manager [NRIS/ERIS]",
+      "date": "COD 2023-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q357",
+      "type": "Battery",
+      "kv": "69",
+      "mw": "150",
+      "poi": "Freedom 69kV",
+      "status": "In Construction [NRIS/ERIS]",
+      "date": "COD 2023-12-10",
+      "source": "S15"
+    },
+    {
+      "name": "Q358",
+      "type": "Battery",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Colter 69kV",
+      "status": "In Design [NRIS/ERIS]",
+      "date": "COD 2024-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q359",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "315",
+      "poi": "Milligan 230kV substation",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [NRIS/ERIS]",
+      "date": "COD 2023-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q360",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "550",
+      "poi": "Delaney 500kV",
+      "status": "In Design [NRIS/ERIS]",
+      "date": "COD 2023-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q362",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "275",
+      "poi": "Milligan - Casa Grande 230kV",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [NRIS/ERIS]",
+      "date": "COD 2023-10-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q363",
+      "type": "Battery",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Scatterwash 69kV",
+      "status": "COD - Pending Refund [NRIS/ERIS]",
+      "date": "COD 2023-12-16",
+      "source": "S15"
+    },
+    {
+      "name": "Q368",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "500",
+      "poi": "HANGII 500kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [NRIS]",
+      "date": "COD 2026-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q370",
+      "type": "Wind",
+      "kv": "500",
+      "mw": "309.7",
+      "poi": "Moenkopi-Cedar Mtn 500 kV",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [ERIS]",
+      "date": "COD 2024-12-15",
+      "source": "S15"
+    },
+    {
+      "name": "Q372",
+      "type": "Battery",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Trilby Wash 69kV substation",
+      "status": "Cost Table and Milestone Refresh [NRIS]",
+      "date": "COD 2024-03-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q375",
+      "type": "Battery",
+      "kv": "500",
+      "mw": "300",
+      "poi": "Delaney 500 kV",
+      "status": "In Design [NRIS]",
+      "date": "COD 2023-05-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q387",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "588",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [ERIS]",
+      "date": "COD 2025-01-12",
+      "source": "S15"
+    },
+    {
+      "name": "Q388",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "323",
+      "poi": "Tat Momoli- Saguaro 230kV Line",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [ERIS]",
+      "date": "COD 2025-01-12",
+      "source": "S15"
+    },
+    {
+      "name": "Q392",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "270",
+      "poi": "Tat Momoli- Saguaro 230kV Line",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [NRIS]",
+      "date": "COD 2024-09-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q393",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Cedar Mountain- Moenkopi 500 kV line",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [NRIS]",
+      "date": "COD 2024-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q394",
+      "type": "Other",
+      "kv": "",
+      "mw": "5",
+      "poi": "PHX WWTP",
+      "status": "Project with APS Project Manager (Legacy) []",
+      "date": "COD 2021-10-21",
+      "source": "S15"
+    },
+    {
+      "name": "Q401",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "700",
+      "poi": "Moenkopi - El Dorado 500 kV line",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [NRIS]",
+      "date": "COD 2026-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q402",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "750",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [ERIS]",
+      "date": "COD 2025-01-08",
+      "source": "S15"
+    },
+    {
+      "name": "Q409",
+      "type": "Battery",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Trilby Wash 230kV",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [NRIS]",
+      "date": "COD 2025-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q422",
+      "type": "Battery",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [NRIS]",
+      "date": "COD 2025-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q423",
+      "type": "Battery",
+      "kv": "500",
+      "mw": "125",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [NRIS]",
+      "date": "COD 2025-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q424",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "200",
+      "poi": "Cholla 500kV",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [NRIS]",
+      "date": "COD 2025-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q425",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Orchard 230kV",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [ERIS]",
+      "date": "COD 2024-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q427",
+      "type": "Battery",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Freedom 230KV Switchyard",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [NRIS]",
+      "date": "COD 2025-05-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q437",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "300",
+      "poi": "Delaney 500kV Substation (Q276 POI 500kV)",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [ERIS]",
+      "date": "COD 2024-05-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q442",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "200",
+      "poi": "HANGI 500kV line",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [ERIS]",
+      "date": "COD 2026-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q443",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "300",
+      "poi": "HANG2 500kV line",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [NRIS]",
+      "date": "COD 2027-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q444",
+      "type": "Solar+Battery",
+      "kv": "69",
+      "mw": "60",
+      "poi": "New (to be constructed) 69kV switchyard South of Hwy 99 and .04 miles East of Hwy 87 Winslow, AZ",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [NRIS/ERIS]",
+      "date": "COD 2024-04-15",
+      "source": "S15"
+    },
+    {
+      "name": "Q446",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Trilby Wash 230kV",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [NRIS]",
+      "date": "COD 2025-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q458",
+      "type": "Wind",
+      "kv": "500",
+      "mw": "242.25",
+      "poi": "Cedar Mountain- Moenkopi 500 kV Line",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [ERIS]",
+      "date": "COD 2026-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q463",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "150",
+      "poi": "Panda 230kV",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [ERIS]",
+      "date": "COD 2024-11-20",
+      "source": "S15"
+    },
+    {
+      "name": "Q465",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Trilby Wash 230kV",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [ERIS]",
+      "date": "COD 2025-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q466",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "North Gila 500kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [ERIS]",
+      "date": "COD 2025-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q467",
+      "type": "Battery",
+      "kv": "500",
+      "mw": "300",
+      "poi": "Delaney 500kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [NRIS]",
+      "date": "COD 2026-05-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q468",
+      "type": "Battery",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "Westwing 500kV Substation",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [ERIS]",
+      "date": "COD 2025-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q474",
+      "type": "Solar+Gas+Battery",
+      "kv": "500",
+      "mw": "1000",
+      "poi": "Delaney 500kV",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [ERIS]",
+      "date": "COD 2025-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q475",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "250",
+      "poi": "Delaney 500kV (Q437 Gen Tie)",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [ERIS]",
+      "date": "COD 2025-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q479",
+      "type": "Battery",
+      "kv": "69",
+      "mw": "165",
+      "poi": "Perryville 69kV Substation",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [ERIS]",
+      "date": "COD 2028-05-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q480",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "400",
+      "poi": "Four Corners - Moenkopi 500kV Line",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [NRIS]",
+      "date": "COD 2025-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q486",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "400",
+      "poi": "El Dorado- Moenkopi 500 kV Line",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [NRIS]",
+      "date": "COD 2027-06-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q488",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "600",
+      "poi": "Panda 230kV Substation",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [NRIS]",
+      "date": "COD 2026-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q493",
+      "type": "Solar+Battery",
+      "kv": "69",
+      "mw": "100",
+      "poi": "Milligan Switchyard 69 kV",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [NRIS]",
+      "date": "COD 2025-01-15",
+      "source": "S15"
+    },
+    {
+      "name": "Q497",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "300",
+      "poi": "Cholla-Pinnacle peak 345 kV line",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [NRIS]",
+      "date": "COD 2027-10-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q507",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "400",
+      "poi": "Panda-Freedom 230kV line",
+      "status": "Transitional Cluster: Cluster Study (Phase 2 - Results Meeting) [NRIS]",
+      "date": "COD 2028-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q518",
+      "type": "Battery",
+      "kv": "",
+      "mw": "70",
+      "poi": "Desert Sands Substation",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [NRIS]",
+      "date": "COD 2023-04-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q519",
+      "type": "Gas",
+      "kv": "500",
+      "mw": "350",
+      "poi": "Redhawk 500 kV Switchyard",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [NRIS]",
+      "date": "COD 2028-04-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q528",
+      "type": "Solar+Battery",
+      "kv": "345",
+      "mw": "500",
+      "poi": "Four Corners - Cholla 345 kV Line",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [ERIS]",
+      "date": "COD 2027-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q534",
+      "type": "Solar+Battery",
+      "kv": "69",
+      "mw": "60",
+      "poi": "Twin Arrows - Sunshine 69 kV Line",
+      "status": "Transitional Cluster: Phase 4 Facilities Study [NRIS]",
+      "date": "COD 2026-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q537",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "400",
+      "poi": "3 Miles South of the Milligan 230KV Substation",
+      "status": "Transitional Cluster: Cluster Study (Phase 2) [NRIS]",
+      "date": "COD 2027-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q538",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "499.5",
+      "poi": "APS Chevelon 345 kV Substation",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [NRIS]",
+      "date": "COD 2027-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q539",
+      "type": "Wind",
+      "kv": "345",
+      "mw": "499.5",
+      "poi": "APS Chevelon 345 kV Substation",
+      "status": "Transitional Cluster: Phase 3 (Re-Study) [NRIS]",
+      "date": "COD 2027-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q548",
+      "type": "Other",
+      "kv": "115",
+      "mw": "145",
+      "poi": "San Manuel 115kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2027-05-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q549",
+      "type": "Other",
+      "kv": "",
+      "mw": "42.12",
+      "poi": "TSMC Fab 2 switchgear to Avery substation",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2026-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q550",
+      "type": "Other",
+      "kv": "500",
+      "mw": "43.04",
+      "poi": "Redhawk 500kV Switchyard",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-04-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q553",
+      "type": "Other",
+      "kv": "",
+      "mw": "340",
+      "poi": "Sitgreaves substation",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q554",
+      "type": "Other",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Bianco 230 kV Substation East of Bianco Road, between Clayton Road and SR84 in Casa Grande",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-03-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q557",
+      "type": "Other",
+      "kv": "69",
+      "mw": "75",
+      "poi": "Zeniff 69kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2026-06-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q558",
+      "type": "Other",
+      "kv": "230",
+      "mw": "250",
+      "poi": "230KV PANDA SUBSTATION ( 32.973169\u00ac\u221e , - 112.690040\u00ac\u221e)",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-03-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q559",
+      "type": "Other",
+      "kv": "230",
+      "mw": "80",
+      "poi": "230KV PANDA SUBSTATION ( 32.973169\u00ac\u221e , - 112.690040\u00ac\u221e)",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-03-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q560",
+      "type": "Other",
+      "kv": "230",
+      "mw": "425",
+      "poi": "Stratus 230kV Substation",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-04-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q561",
+      "type": "Other",
+      "kv": "230",
+      "mw": "600",
+      "poi": "Panda 230kV Substation",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2029-04-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q563",
+      "type": "Solar+Battery",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Saguaro to Cholla 500kV Line",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q564",
+      "type": "Other",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Hassayampa- North Gila 500kV",
+      "status": "Awaiting Start of Cluster Study Phase 2 [NRIS]",
+      "date": "COD 2028-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q565",
+      "type": "Other",
+      "kv": "",
+      "mw": "161",
+      "poi": "Lat 35.373941, Long - 111.515288",
+      "status": "Schedule Phase 1 Report Meeting [NRIS]",
+      "date": "COD 2025-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q567",
+      "type": "Other",
+      "kv": "500",
+      "mw": "450",
+      "poi": "Delaney 500 kV Substation via Q360 Gen-Tie",
+      "status": "Phase 1 Cluster Study [ERIS]",
+      "date": "COD 2028-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q568",
+      "type": "Other",
+      "kv": "230",
+      "mw": "200",
+      "poi": "North Gila 230kV (32.745232, - 114.491760)",
+      "status": "Awaiting Start of Cluster Study Phase 2 [NRIS]",
+      "date": "COD 2028-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q569",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Milligan 230kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q570",
+      "type": "Other",
+      "kv": "500",
+      "mw": "300",
+      "poi": "500kV Hoodoo Wash Substation",
+      "status": "Awaiting Start of Cluster Study Phase 2 [NRIS]",
+      "date": "COD 2028-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q572",
+      "type": "Other",
+      "kv": "500",
+      "mw": "1300",
+      "poi": "Delaney 500kV Switchyard/TS30 500kV Switchyard",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2031-05-09",
+      "source": "S15"
+    },
+    {
+      "name": "Q573",
+      "type": "Other",
+      "kv": "230",
+      "mw": "200",
+      "poi": "tap on Milligan to Casa Grande 230 kV line",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q574",
+      "type": "Other",
+      "kv": "230",
+      "mw": "220",
+      "poi": "Lat: 33.4367050882, Long: - 112.592569119 (Buckeye 230KV Substation)",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-12-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q578",
+      "type": "Other",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Santa Rosa 230kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2029-05-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q579",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "100",
+      "poi": "Santa Rosa 230kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2029-05-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q580",
+      "type": "Other",
+      "kv": "500",
+      "mw": "500",
+      "poi": "Delaney 500kV Substation",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2032-04-19",
+      "source": "S15"
+    },
+    {
+      "name": "Q581",
+      "type": "Other",
+      "kv": "230",
+      "mw": "400",
+      "poi": "Hazen 230kV Substation (33.357342, - 112.601517)",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2031-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q582",
+      "type": "Other",
+      "kv": "500",
+      "mw": "275",
+      "poi": "New Switchyard on the Palo Verde - Delaney 500 kV Line",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q584",
+      "type": "Battery",
+      "kv": "230",
+      "mw": "350",
+      "poi": "230 kV Bianco Substation",
+      "status": "Phase 1 Cluster Study [ERIS]",
+      "date": "COD 2029-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q585",
+      "type": "Other",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Freedom Valley 230kV Substation (33.417858, - 112.499852)",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q586",
+      "type": "Other",
+      "kv": "230",
+      "mw": "300",
+      "poi": "Westwing 230kV Substation (33.706442, - 112.318347)",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q587",
+      "type": "Other",
+      "kv": "",
+      "mw": "150",
+      "poi": "Milligan Substation",
+      "status": "Phase 1 Cluster Study [ERIS]",
+      "date": "COD 2031-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q588",
+      "type": "Other",
+      "kv": "",
+      "mw": "130",
+      "poi": "Proposed project substation for Rylee BESS Q554",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2031-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q589",
+      "type": "Other",
+      "kv": "230",
+      "mw": "400",
+      "poi": "Biaco 230kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-03-06",
+      "source": "S15"
+    },
+    {
+      "name": "Q590",
+      "type": "Other",
+      "kv": "69",
+      "mw": "180",
+      "poi": "Honeywell 69kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-04-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q591",
+      "type": "Other",
+      "kv": "",
+      "mw": "535.05",
+      "poi": "New on site Sub",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-01-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q592",
+      "type": "Other",
+      "kv": "69",
+      "mw": "50",
+      "poi": "Paloma 69kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2031-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q593",
+      "type": "Other",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Parkway 230kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2029-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q594",
+      "type": "Other",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Santa Rosa 230kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2029-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q595",
+      "type": "Other",
+      "kv": "",
+      "mw": "250",
+      "poi": "29110 Sun Valley Pkwy Buckeye, AZ 85396",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2029-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q596",
+      "type": "Other",
+      "kv": "500",
+      "mw": "330",
+      "poi": "North Gila - Hassayampa 500kV TL (32.831681\u00ac\u221e, - 113.787946\u00ac\u221e)",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2029-08-15",
+      "source": "S15"
+    },
+    {
+      "name": "Q597",
+      "type": "Other",
+      "kv": "500",
+      "mw": "300",
+      "poi": "North Gila 500kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2029-08-15",
+      "source": "S15"
+    },
+    {
+      "name": "Q598",
+      "type": "Other",
+      "kv": "",
+      "mw": "250",
+      "poi": "Approximate Coordinates: 33.567, -112.42",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2029-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q599",
+      "type": "Other",
+      "kv": "500",
+      "mw": "500",
+      "poi": "HASS N Gila 500kV line",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2031-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q602",
+      "type": "Other",
+      "kv": "12",
+      "mw": "10.8",
+      "poi": "12 kV Commerce Substation",
+      "status": "Phase 1 Cluster Study []",
+      "date": "",
+      "source": "S15"
+    },
+    {
+      "name": "Q603",
+      "type": "Other",
+      "kv": "500",
+      "mw": "500",
+      "poi": "HANG 1 500kV line",
+      "status": "Phase 1 Cluster Study [ERIS]",
+      "date": "COD 2030-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q604",
+      "type": "Other",
+      "kv": "230",
+      "mw": "200",
+      "poi": "Santa Rosa Tot Momoli 230kV line",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-10-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q605",
+      "type": "Other",
+      "kv": "",
+      "mw": "200",
+      "poi": "Redhawk",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2031-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q606",
+      "type": "Other",
+      "kv": "",
+      "mw": "350",
+      "poi": "NW Corner of the Intersection of W Broadway and S Tuthil Rd in Maricopa County, AZ. Lat: 33.408564, Long: - 112.498040",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-05-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q607",
+      "type": "Other",
+      "kv": "",
+      "mw": "300",
+      "poi": "W Deer Valley Rd and Landfill",
+      "status": "Phase 1 Cluster Study [ERIS]",
+      "date": "COD 2029-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q608",
+      "type": "Other",
+      "kv": "230",
+      "mw": "55",
+      "poi": "8.6 miles from Milligan along the future Milligan - Sundance 230kV APS transmission line",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q609",
+      "type": "Other",
+      "kv": "",
+      "mw": "500",
+      "poi": "8.6 miles North East of North Porter Road, Joseph City, AZ 86032 and 9.0 miles North of 2000 Davis Road, Holbrook, AZ 86025",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2026-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q610",
+      "type": "Other",
+      "kv": "345",
+      "mw": "250",
+      "poi": "APS Four Corners Substation 345kV Bus",
+      "status": "Phase 1 Cluster Study [ERIS]",
+      "date": "COD 2029-11-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q611",
+      "type": "Battery",
+      "kv": "230",
+      "mw": "75",
+      "poi": "West Phoenix 230kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2027-06-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q612",
+      "type": "Other",
+      "kv": "",
+      "mw": "161",
+      "poi": "Q195 POI",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2028-12-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q614",
+      "type": "Other",
+      "kv": "230",
+      "mw": "125",
+      "poi": "Three Rivers 230kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2027-04-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q615",
+      "type": "Other",
+      "kv": "230",
+      "mw": "330",
+      "poi": "Dromedary 230kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2027-06-30",
+      "source": "S15"
+    },
+    {
+      "name": "Q616",
+      "type": "Other",
+      "kv": "",
+      "mw": "500",
+      "poi": "Komatke Road & Phoenix Bypass Route 85",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-05-31",
+      "source": "S15"
+    },
+    {
+      "name": "Q617",
+      "type": "Other",
+      "kv": "",
+      "mw": "1000",
+      "poi": "Approximate coordinates 33.541418, - 113.045095",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2031-05-01",
+      "source": "S15"
+    },
+    {
+      "name": "Q618",
+      "type": "Other",
+      "kv": "230",
+      "mw": "250",
+      "poi": "Tat Momoli - Saguaro 230 kV",
+      "status": "Phase 1 Cluster Study [NRIS]",
+      "date": "COD 2030-05-15",
+      "source": "S15"
+    },
+    {
+      "name": "SP106",
+      "type": "Solar+Battery",
+      "kv": "230",
+      "mw": "213.75",
+      "poi": "Saguaro 230kV substation",
+      "status": "Surplus Request: Complete [NRIS]",
+      "date": "COD 2025-06-01",
+      "source": "S15"
+    },
+    {
+      "name": "SP111",
+      "type": "Solar+Battery",
+      "kv": "69",
+      "mw": "192",
+      "poi": "Thornton 69 kV SS",
+      "status": "Surplus Request: In Review []",
+      "date": "COD 2026-12-31",
+      "source": "S15"
+    }
+  ],
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0,
+  "status": [
+    {
+      "topic": "interconnection_queue",
+      "status": "current",
+      "as_of": "2026-10-13 (APS Active Queue posting; cluster reports to 2026-10-21)",
+      "headline": [
+        {
+          "label": "Pending requests (not in service)",
+          "value": "198 / 71.0 GW",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "label": "2026 cluster, not yet studied",
+          "value": "54 / 24.8 GW",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "label": "Upgrades in the latest cluster reports",
+          "value": "\u2248 $3.1B",
+          "sources": [
+            "QUEUE"
+          ]
+        },
+        {
+          "label": "Withdrawn, requests queued by 2020",
+          "value": "65% of MW",
+          "sources": [
+            "S15"
+          ]
+        }
+      ],
+      "gaps": [
+        "Queue POIs are not yet confirmed to case buses (0 of 123), so no queue request can go into a TARA case yet",
+        "Withdrawals: the posting lists only live requests; withdrawal history comes from LBNL through 2025 [S15]",
+        "Contingent planned facilities are curated for Delaney\u2013Sun Valley\u2013Redhawk only"
+      ],
+      "next_action": "Confirm POIs in poi_review.csv, starting with the 27 exact name-and-kV matches, then run accept-poi so the queue requests reach the project library."
+    },
+    {
+      "topic": "load_and_dispatch",
+      "status": "current",
+      "as_of": "EIA-930 hourly through 2026-10",
+      "headline": [
+        {
+          "label": "Peak 2026 to date",
+          "value": "8,982 MW (2 Aug)",
+          "sources": [
+            "EIA"
+          ]
+        },
+        {
+          "label": "Energy 2025",
+          "value": "38,815 GWh, +8.1%",
+          "sources": [
+            "EIA"
+          ]
+        },
+        {
+          "label": "2025 mix",
+          "value": "gas 39%, coal 25%, solar 20%",
+          "sources": [
+            "EIA"
+          ]
+        },
+        {
+          "label": "2041 peak forecast",
+          "value": "11,700 MW",
+          "sources": [
+            "S11"
+          ]
+        }
+      ],
+      "gaps": [
+        "EIA-860M generator list (needs an EIA API key)",
+        "Where committed data-centre loads connect"
+      ],
+      "next_action": "Set EIA_API_KEY and Update EIA data to add the generator list."
+    },
+    {
+      "topic": "resource_planning",
+      "status": "partial",
+      "as_of": "RPAC deck 2026-09; 2026 IRP due 2026-10-30",
+      "headline": [
+        {
+          "label": "New gas by 2041",
+          "value": "4,020 MW",
+          "sources": [
+            "S8"
+          ]
+        },
+        {
+          "label": "New solar / batteries",
+          "value": "5,494 / 3,098 MW",
+          "sources": [
+            "S8"
+          ]
+        },
+        {
+          "label": "Procured 2023-24 RFPs",
+          "value": "8,460 MW",
+          "sources": [
+            "S10"
+          ]
+        },
+        {
+          "label": "Four Corners",
+          "value": "beyond 2031",
+          "sources": [
+            "S8",
+            "S7"
+          ]
+        }
+      ],
+      "gaps": [
+        "The 2026 IRP filing itself (due 30 Oct 2026)"
+      ],
+      "next_action": "After 30 Oct 2026, add the filed 2026 IRP from the ACC docket and refresh the summary."
+    },
+    {
+      "topic": "transmission_plans",
+      "status": "current",
+      "as_of": "2026-2035 Ten-Year Plan, filed 2026-01-30",
+      "headline": [
+        {
+          "label": "New 500 kV",
+          "value": "~72 mi",
+          "sources": [
+            "S14"
+          ]
+        },
+        {
+          "label": "New 230 kV",
+          "value": "~190 mi",
+          "sources": [
+            "S14"
+          ]
+        },
+        {
+          "label": "Plan cost",
+          "value": "$6.2B",
+          "sources": [
+            "S14"
+          ]
+        },
+        {
+          "label": "Key project",
+          "value": "Jojoba-Independence-Rudd 500 kV, 2031",
+          "sources": [
+            "S14"
+          ]
+        }
+      ],
+      "gaps": [
+        "CEII technical study and ratings",
+        "ACC 13th BTA report",
+        "WestConnect regional plan"
+      ],
+      "next_action": "Request the CEII Technical Study Report (ratings for the new 500 kV lines) before modelling them."
+    }
+  ]
+}

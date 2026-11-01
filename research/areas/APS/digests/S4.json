@@ -1,0 +1,52 @@
+{
+  "title": "Strategic Transmission Expansion (STX)",
+  "publisher": "Arizona Public Service Company",
+  "date": "accessed 2026-10-21",
+  "doc_type": "Web page",
+  "summary": "APS's public page for its Strategic Transmission Expansion portfolio. Names two current projects: the Cotton Transmission Corridor (Jojoba-Rudd 500kV + Panda-Freedom 230kV, ~53 mi, 2032; West Valley, Gila Bend/Buckeye/Goodyear/Avondale) and the Pinal Electrical Improvement Project (230kV, ~25 mi, Coolidge to Eloy, 2027 = Helios-Milligan, CEC 247). No investment figure; the 2032 date is older than the 2031 Jojoba-Rudd date in the 2026 plan.",
+  "relevance": "medium",
+  "findings": [
+    {
+      "topic": "transmission_plans",
+      "statement": "Cotton Transmission Corridor = Jojoba-Rudd 500kV + Panda-Freedom 230kV, ~53 mi, in-service 2032 per the web page; purpose West Valley reliability and growth.",
+      "location": "web page"
+    },
+    {
+      "topic": "transmission_plans",
+      "statement": "Pinal Electrical Improvement Project: 230kV, ~25 mi, Coolidge to Eloy, 2027; CEC 247 name for the Pinal Central-Milligan section of Helios-Milligan.",
+      "location": "web page; 2026 TYP p. 28"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cotton Transmission Corridor",
+      "type": "line",
+      "kv": "500/230",
+      "mw": "",
+      "poi": "Jojoba-Rudd and Panda-Freedom, SW Maricopa County",
+      "status": "STX current project",
+      "date": "2032 (page) / 2030-2031 (2026 TYP)"
+    },
+    {
+      "name": "Pinal Electrical Improvement Project",
+      "type": "line",
+      "kv": "230",
+      "mw": "",
+      "poi": "Coolidge to Eloy",
+      "status": "STX current project; CEC 247 issued 10/23/2025",
+      "date": "2027"
+    }
+  ],
+  "open_questions": [
+    "Web page date (2032) out of step with the 2026 TYP; use the TYP dates."
+  ],
+  "source_id": "S4",
+  "model": "external research session (ten-year plan)",
+  "digested_at": "2026-10-21T21:22:56",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+  },
+  "cost_usd": 0.0
+}

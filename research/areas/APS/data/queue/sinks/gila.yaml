@@ -1,0 +1,33 @@
+# APS Gila Bend -- generation SINK definitions stated in APS cluster study reports
+# Source: research/areas/APS/data/queue/sinks/sinks_by_study.csv (one row per report, verbatim quotes)
+# Selectors resolve against run 71 (30HS_22-G7_pre). The selector grammar cannot carry MW weights:
+# per-area participation % (from the report table) is in sink_participation.csv and in the comments below.
+# CURRENT cycle: 2025 -> ['GILA_2025_SINK']
+sinks:
+
+  # GILA_TC_SINK [older cycle]: latest Transition report = APS_GilaBend_Transition_Cluster_Report_v1-4_20251028.pdf (2025-10-28), Generation Dispatch Assumptions (p. 14)
+  # "all queue generation added to the case will be dispatched against the interchange of all areas away from APS, excluding any area located within the state of Arizona or East of APS territory."
+  # Method: dispatch cluster against interchange of areas away from APS (not AZ, not east of APS), shares by load, units scaled by MVA weight
+  # INTERPRETATION (confidence medium): report states the rule, not the area list. Areas below = WECC areas
+  # west/north of AZ; excluded 10/11 (east), 70/73 (Colorado, NE - ambiguous), 20 Mexico-CFE (ambiguous).
+  # Participation by area load (computed from run 71 LoadAct, not from the report).
+  GILA_TC_SINK:
+    areas: [18, 21, 22, 24, 26, 30, 40, 50, 52, 54, 60, 62, 63, 64, 65]
+
+  # GILA_2024_SINK [older cycle]: latest 2024 report = APS_GilaBend_2024_Cluster_Phase2C_Report_v1.1_20260624.pdf (2026-06-24), 3.1 Generation Dispatch Assumption (p. 10)
+  # "All queue generation added to the case was offset proportionally according to the load within AZ and bordering states. The AZ share of generation reduction was applied outside the study region."
+  # Method: scale generation pro rata by Pgen in each area, MW split across AZ + bordering-state areas by load ratio; AZ share taken outside the study region
+  # Report split (HS%/HW%): 10:4/5, 14:12/11, 15:13/11, 16:5/5, 17:1/1, 19:2/2, 21:1/1, 22:4/6, 24:29/27, 26:9/7, 65:14/15, 73:7/10
+  # AZ area(s) [14, 15, 16, 17, 19]: report takes the AZ share "outside the study region" -- add an exclude (e.g. near: {bus: <POI>, hops: N}) per study.
+  # Note: report table omits area(s) [18, 30].
+  GILA_2024_SINK:
+    areas: [10, 14, 15, 16, 17, 19, 21, 22, 24, 26, 65, 73]
+
+  # GILA_2025_SINK [CURRENT]: latest 2025 report = APS_GilaBend_2025_Cluster_Phase2_Report_v1.4_20260917.pdf (2026-09-17), 3.1 Generation Dispatch Assumption (p. 10)
+  # "All queue generation added to the case was offset proportionally according to the load within AZ and bordering states. The AZ share of generation reduction was applied outside the study region."
+  # Method: scale generation pro rata by Pgen in each area, MW split across AZ + bordering-state areas by load ratio; AZ share taken outside the study region
+  # Report split (HS%/HW%): 10:4/5, 14:12/11, 15:13/11, 16:5/5, 17:1/1, 19:2/2, 21:1/1, 22:4/6, 24:29/27, 26:9/7, 65:14/15, 73:7/10
+  # AZ area(s) [14, 15, 16, 17, 19]: report takes the AZ share "outside the study region" -- add an exclude (e.g. near: {bus: <POI>, hops: N}) per study.
+  # Note: report table omits area(s) [18, 30].
+  GILA_2025_SINK:
+    areas: [10, 14, 15, 16, 17, 19, 21, 22, 24, 26, 65, 73]
